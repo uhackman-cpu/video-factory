@@ -370,7 +370,7 @@ def render(title: str, script: str, language: str, duration: int, output: Path,
                 voice_label = f"eSpeak NG offline voice ({voice_name})"
 
         zoom_filter = (
-            "zoompan=z='min(zoom+0.00035,1.06)':"
+            "fps=30,zoompan=z='min(zoom+0.00035,1.06)':"
             "x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d=1:s={W}x{H}:fps={FPS},format=yuv420p"
         )
