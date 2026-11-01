@@ -21,6 +21,30 @@ on:
           - hi
           - en
         default: hi
+      template:
+        description: "Visual design template"
+        required: true
+        type: choice
+        options:
+          - educational
+          - cinematic
+          - news
+          - facts
+          - quote
+        default: educational
+      voice_gender:
+        description: "Neural narration voice"
+        required: true
+        type: choice
+        options:
+          - female
+          - male
+        default: female
+      visual_query:
+        description: "Optional Wikimedia Commons background search (leave empty for generated graphics)"
+        required: false
+        type: string
+        default: ""
       duration:
         description: "Video duration in seconds (15 to 60)"
         required: true
@@ -38,14 +62,14 @@ permissions:
   contents: read
 
 concurrency:
-  group: video-factory-${{ github.ref }}
+  group: video-factory-${ github.ref }
   cancel-in-progress: false
 
 jobs:
   render:
     name: Render vertical short
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -71,10 +95,13 @@ jobs:
 
       - name: Render MP4
         env:
-          VIDEO_TITLE: ${{ inputs.title }}
-          VIDEO_NARRATION: ${{ inputs.narration }}
-          VIDEO_LANGUAGE: ${{ inputs.language }}
-          VIDEO_DURATION: ${{ inputs.duration }}
+          VIDEO_TITLE: ${ inputs.title }
+          VIDEO_NARRATION: ${ inputs.narration }
+          VIDEO_LANGUAGE: ${ inputs.language }
+          VIDEO_DURATION: ${ inputs.duration }
+          VIDEO_TEMPLATE: ${ inputs.template }
+          VIDEO_VOICE_GENDER: ${ inputs.voice_gender }
+          VIDEO_VISUAL_QUERY: ${ inputs.visual_query }
         run: |
           mkdir -p output
           python - <<'PY'
@@ -86,20 +113,31 @@ jobs:
           narration = os.environ["VIDEO_NARRATION"].strip()
           language = os.environ["VIDEO_LANGUAGE"]
           duration = int(os.environ["VIDEO_DURATION"])
+          template = os.environ["VIDEO_TEMPLATE"]
+          voice_gender = os.environ["VIDEO_VOICE_GENDER"]
+          visual_query = os.environ.get("VIDEO_VISUAL_QUERY", "").strip()
           if not title or not narration:
               raise SystemExit("Title and narration cannot be empty")
-          render(title, narration, language, duration, Path("output/video-factory-short.mp4"))
+          render(
+              title, narration, language, duration,
+              Path("output/video-factory-short.mp4"),
+              template=template,
+              visual_query=visual_query,
+              voice_gender=voice_gender,
+          )
           PY
 
-      - name: Verify MP4
+      - name: Verify MP4 and captions
         run: |
           test -s output/video-factory-short.mp4
+          test -s output/video-factory-short.srt
+          test -s output/credits.txt
           ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 output/video-factory-short.mp4
 
-      - name: Upload finished video
+      - name: Upload finished video and companion files
         uses: actions/upload-artifact@v4
         with:
-          name: video-factory-mp4
-          path: output/video-factory-short.mp4
+          name: video-factory-output
+          path: output/*
           if-no-files-found: error
           retention-days: 7
