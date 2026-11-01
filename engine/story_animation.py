@@ -99,6 +99,36 @@ def validate_storyboard(project: dict[str, Any]) -> dict[str, Any]:
     return project
 
 
+def retime_storyboard_for_voice(project: dict[str, Any], voice_duration: float) -> dict[str, Any]:
+    """Stretch scene timings proportionally when narration needs more time."""
+    project = validate_storyboard(project)
+    if voice_duration <= project["duration"] + 0.2:
+        return project
+    if voice_duration > 60:
+        raise ValueError("Narration exceeds the 60-second storyboard limit")
+    scenes = [{**scene} for scene in project["scenes"]]
+    original = [float(scene.get("duration", 4)) for scene in scenes]
+    target = max(project["duration"], voice_duration)
+    factor = target / project["duration"]
+    durations = [min(20.0, value * factor) for value in original]
+    remaining = target - sum(durations)
+    while remaining > 0.001:
+        room = [index for index, value in enumerate(durations) if value < 19.999]
+        if not room:
+            raise ValueError("Storyboard cannot be stretched enough for the narration")
+        increment = remaining / len(room)
+        for index in room:
+            added = min(increment, 20.0 - durations[index])
+            durations[index] += added
+            remaining -= added
+            if remaining <= 0.001:
+                break
+    for scene, duration in zip(scenes, durations):
+        scene["duration"] = round(duration, 3)
+    adjusted = {**project, "scenes": scenes}
+    return validate_storyboard(adjusted)
+
+
 def storyboard_narration(project: dict[str, Any]) -> str:
     parts = [str(scene.get("narration", "")).strip()
              for scene in project.get("scenes", []) if str(scene.get("narration", "")).strip()]
@@ -525,17 +555,7 @@ def render_storyboard_video(project: dict[str, Any], output: Path,
     if not script:
         raise ValueError("Storyboard needs narration or captions for audio")
     output.parent.mkdir(parents=True, exist_ok=True)
-
     sample_rate = 22050
-    sample_count = int(duration * sample_rate)
-    samples = array.array("h")
-    for index in range(sample_count):
-        time = index / sample_rate
-        fade = min(1.0, time / 1.2, max(0.0, (duration - time) / 1.2))
-        value = (0.035 * math.sin(2 * math.pi * 110 * time)
-                 + 0.016 * math.sin(2 * math.pi * 164.81 * time)) * fade
-        samples.append(int(value * 32767))
-    ambient_data = samples.tobytes()
 
     with tempfile.TemporaryDirectory(prefix="video-factory-story-") as temp:
         work = Path(temp)
@@ -543,13 +563,6 @@ def render_storyboard_video(project: dict[str, Any], output: Path,
         ambient = work / "ambient.wav"
         voice = work / "voice.mp3"
         offline_voice = work / "voice.wav"
-        render_info = render_storyboard(project, silent_video)
-        with wave.open(str(ambient), "wb") as wav:
-            wav.setnchannels(1)
-            wav.setsampwidth(2)
-            wav.setframerate(sample_rate)
-            wav.writeframes(ambient_data)
-
         voice_created = False
         voice_label = "ambient only"
         language = project.get("language", "en")
@@ -580,6 +593,31 @@ def render_storyboard_video(project: dict[str, Any], output: Path,
             voice_created = result.returncode == 0 and offline_voice.exists()
             if voice_created:
                 voice_label = f"eSpeak NG offline voice ({voice_name})"
+
+        if voice_created:
+            voice_path = voice if voice.exists() else offline_voice
+            probe = subprocess.run(
+                ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                 "-of", "default=noprint_wrappers=1:nokey=1", str(voice_path)],
+                check=True, capture_output=True, text=True
+            )
+            project = retime_storyboard_for_voice(project, float(probe.stdout.strip()))
+            duration = float(project["duration"])
+
+        render_info = render_storyboard(project, silent_video)
+        sample_count = int(duration * sample_rate)
+        samples = array.array("h")
+        for index in range(sample_count):
+            time = index / sample_rate
+            fade = min(1.0, time / 1.2, max(0.0, (duration - time) / 1.2))
+            value = (0.035 * math.sin(2 * math.pi * 110 * time)
+                     + 0.016 * math.sin(2 * math.pi * 164.81 * time)) * fade
+            samples.append(int(value * 32767))
+        with wave.open(str(ambient), "wb") as wav:
+            wav.setnchannels(1)
+            wav.setsampwidth(2)
+            wav.setframerate(sample_rate)
+            wav.writeframes(samples.tobytes())
 
         common = [
             "-vf", "scale=1080:1920:flags=lanczos", "-t", f"{duration:.3f}",
