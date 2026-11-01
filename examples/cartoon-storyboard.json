@@ -1,0 +1,86 @@
+{
+  "title": "मिलो और खोया हुआ तारा",
+  "language": "hi",
+  "fps": 24,
+  "accent": "#ffe16b",
+  "characters": {
+    "milo": {
+      "shape": "box",
+      "color": "#f28a62",
+      "accent": "#fff0c9",
+      "scale": 1.0
+    },
+    "luna": {
+      "shape": "robot",
+      "color": "#80c8e8",
+      "accent": "#f5f2ff",
+      "scale": 0.78
+    }
+  },
+  "scenes": [
+    {
+      "duration": 4,
+      "background": "night_forest",
+      "camera": "push_in",
+      "caption": "जंगल में एक नन्हा तारा गिरा मिला।",
+      "narration": "एक शांत रात, मिलो को जंगल में एक नन्हा तारा गिरा हुआ मिला।",
+      "props": [
+        {"type": "tree", "x": 0.15, "y": 0.73},
+        {"type": "star", "x": 0.75, "y": 0.67},
+        {"type": "moon", "x": 0.86, "y": 0.22}
+      ],
+      "characters": [
+        {"id": "milo", "start_x": 0.18, "end_x": 0.28, "y": 0.77, "action": "walk", "emotion": "curious"},
+        {"id": "luna", "x": 0.87, "y": 0.77, "action": "think", "emotion": "curious"}
+      ]
+    },
+    {
+      "duration": 4,
+      "background": "forest",
+      "camera": "pan_right",
+      "caption": "मिलो तारे को वापस आसमान तक ले चला।",
+      "narration": "मिलो ने तारे की मदद करने का फैसला किया और वह पहाड़ी की ओर दौड़ पड़ा।",
+      "props": [
+        {"type": "tree", "x": 0.82, "y": 0.73},
+        {"type": "flower", "x": 0.12, "y": 0.79},
+        {"type": "star", "x": 0.60, "y": 0.64}
+      ],
+      "characters": [
+        {"id": "milo", "start_x": 0.28, "end_x": 0.62, "y": 0.77, "action": "run", "emotion": "happy"},
+        {"id": "luna", "start_x": 0.84, "end_x": 0.88, "y": 0.77, "action": "walk", "emotion": "happy"}
+      ]
+    },
+    {
+      "duration": 4,
+      "background": "sunset",
+      "camera": "push_in",
+      "caption": "एक ऊँची छलांग और तारा चमक उठा!",
+      "narration": "पहाड़ी पर पहुँचकर मिलो ने ऊँची छलांग लगाई और तारे को ऊपर उछाल दिया।",
+      "props": [
+        {"type": "hill", "x": 0.52, "y": 0.82},
+        {"type": "star", "x": 0.52, "y": 0.27},
+        {"type": "cloud", "x": 0.20, "y": 0.29}
+      ],
+      "characters": [
+        {"id": "milo", "x": 0.50, "y": 0.78, "action": "jump", "emotion": "surprised"},
+        {"id": "luna", "x": 0.77, "y": 0.78, "action": "cheer", "emotion": "happy"}
+      ]
+    },
+    {
+      "duration": 4,
+      "background": "night_forest",
+      "camera": "pull_out",
+      "caption": "तारा घर लौटा, पूरा जंगल जगमगा उठा।",
+      "narration": "तारा आसमान में लौट गया। उस रात पूरा जंगल पहले से कहीं ज्यादा रोशन था।",
+      "props": [
+        {"type": "tree", "x": 0.16, "y": 0.73},
+        {"type": "moon", "x": 0.80, "y": 0.22},
+        {"type": "star", "x": 0.51, "y": 0.17}
+      ],
+      "characters": [
+        {"id": "milo", "x": 0.42, "y": 0.77, "action": "wave", "emotion": "happy"},
+        {"id": "luna", "x": 0.68, "y": 0.77, "action": "cheer", "emotion": "happy"}
+      ]
+    }
+  ]
+}
