@@ -3,8 +3,16 @@ name: Generate Short Video
 on:
   workflow_dispatch:
     inputs:
+      render_mode:
+        description: "Scene-based cartoon story or the original graphics renderer"
+        required: true
+        type: choice
+        options:
+          - storyboard
+          - classic
+        default: storyboard
       title:
-        description: "Video title"
+        description: "Video title (used in Classic mode)"
         required: true
         type: string
         default: "भारतीय संविधान की प्रस्तावना"
@@ -114,6 +122,7 @@ jobs:
           rm -f output/storyboard-smoke.mp4 output/storyboard-smoke.srt
       - name: Render MP4
         env:
+          VIDEO_RENDER_MODE: ${{ inputs.render_mode }}
           VIDEO_TITLE: ${{ inputs.title }}
           VIDEO_NARRATION: ${{ inputs.narration }}
           VIDEO_LANGUAGE: ${{ inputs.language }}
@@ -139,14 +148,19 @@ jobs:
           voice_gender = os.environ["VIDEO_VOICE_GENDER"]
           visual_query = os.environ.get("VIDEO_VISUAL_QUERY", "").strip()
           storyboard_text = os.environ.get("VIDEO_STORYBOARD_JSON", "").strip()
-          if storyboard_text:
-              project = json.loads(storyboard_text)
+          render_mode = os.environ["VIDEO_RENDER_MODE"]
+          if render_mode == "storyboard":
+              if storyboard_text:
+                  project = json.loads(storyboard_text)
+              else:
+                  with open("examples/cartoon-storyboard.json", encoding="utf-8") as source:
+                      project = json.load(source)
               render_storyboard_video(
                   project,
                   Path("output/video-factory-short.mp4"),
                   voice_gender=voice_gender,
               )
-          else:
+          elif render_mode == "classic":
               if not title or not narration:
                   raise SystemExit("Title and narration cannot be empty")
               render(
@@ -156,6 +170,8 @@ jobs:
                   visual_query=visual_query,
                   voice_gender=voice_gender,
               )
+          else:
+              raise SystemExit("Unsupported render mode")
           PY
 
       - name: Verify MP4 and captions
