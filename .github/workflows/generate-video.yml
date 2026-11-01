@@ -1,0 +1,105 @@
+name: Generate Short Video
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: "Video title"
+        required: true
+        type: string
+        default: "भारतीय संविधान की प्रस्तावना"
+      narration:
+        description: "Narration script (a few short sentences)"
+        required: true
+        type: string
+        default: "भारतीय संविधान की प्रस्तावना हमारे लोकतंत्र की आत्मा है। यह भारत को लोकतंत्रात्मक गणराज्य घोषित करती है। प्रस्तावना न्याय, स्वतंत्रता, समानता और बंधुता के आदर्शों को स्थापित करती है।"
+      language:
+        description: "Narration language"
+        required: true
+        type: choice
+        options:
+          - hi
+          - en
+        default: hi
+      duration:
+        description: "Video duration in seconds (15 to 60)"
+        required: true
+        type: choice
+        options:
+          - "15"
+          - "20"
+          - "30"
+          - "40"
+          - "45"
+          - "60"
+        default: "30"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: video-factory-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  render:
+    name: Render vertical short
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install cloud rendering tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak-ng fonts-noto-core
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Render MP4
+        env:
+          VIDEO_TITLE: ${{ inputs.title }}
+          VIDEO_NARRATION: ${{ inputs.narration }}
+          VIDEO_LANGUAGE: ${{ inputs.language }}
+          VIDEO_DURATION: ${{ inputs.duration }}
+        run: |
+          mkdir -p output
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          from engine.render_video import render
+
+          title = os.environ["VIDEO_TITLE"].strip()
+          narration = os.environ["VIDEO_NARRATION"].strip()
+          language = os.environ["VIDEO_LANGUAGE"]
+          duration = int(os.environ["VIDEO_DURATION"])
+          if not title or not narration:
+              raise SystemExit("Title and narration cannot be empty")
+          render(title, narration, language, duration, Path("output/video-factory-short.mp4"))
+          PY
+
+      - name: Verify MP4
+        run: |
+          test -s output/video-factory-short.mp4
+          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 output/video-factory-short.mp4
+
+      - name: Upload finished video
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-factory-mp4
+          path: output/video-factory-short.mp4
+          if-no-files-found: error
+          retention-days: 7
