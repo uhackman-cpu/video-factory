@@ -430,11 +430,13 @@ def _draw_character(draw: ImageDraw.ImageDraw, definition: dict[str, Any],
 
 
 def _draw_speech_bubble(draw: ImageDraw.ImageDraw, actor: dict[str, Any],
-                       seconds: float, language: str = "en") -> None:
+                       progress: float, seconds: float, language: str = "en") -> None:
     text = str(actor.get("dialogue", "")).strip()
     if not text:
         return
-    x = int(float(actor.get("x", actor.get("start_x", .5))) * WIDTH)
+    start_x = float(actor.get("start_x", actor.get("x", .5)))
+    end_x = float(actor.get("end_x", actor.get("x", start_x)))
+    x = int((start_x + (end_x - start_x) * progress) * WIDTH)
     y = int(float(actor.get("y", .76)) * HEIGHT) - 255
     font = _font(21, True, language)
     lines = _wrap(draw, text, font, 250)[:3]
@@ -468,7 +470,7 @@ def draw_story_frame(project: dict[str, Any], scene_index: int, frame_index: int
     for actor in scene.get("characters", []):
         _draw_character(draw, definitions[actor["id"]], actor, progress, seconds)
         if actor.get("dialogue"):
-            _draw_speech_bubble(draw, actor, seconds, project.get("language", "en"))
+            _draw_speech_bubble(draw, actor, progress, seconds, project.get("language", "en"))
 
     # Kinetic type stays inside the scene and animates independently of the character rig.
     for graphic in scene.get("kinetic_text", []):
