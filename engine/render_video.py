@@ -18,7 +18,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageEnhance, ImageFont, ImageOps
 
 W, H, FPS = 1080, 1920, 30
-TEMPLATES = ("educational", "cinematic", "news", "facts", "quote")
+TEMPLATES = ("animated", "cinematic", "cartoon")
 
 
 def split_sentences(text: str) -> list[str]:
@@ -149,108 +149,106 @@ def download_commons_background(query: str, destination: Path) -> dict[str, str]
 
 
 def draw_scene(title: str, caption: str, index: int, total: int,
-               language: str, destination: Path, template: str = "educational",
+               language: str, destination: Path, template: str = "animated",
                background_image: Path | None = None,
                image_credit: str = "") -> None:
     if template not in TEMPLATES:
         raise ValueError(f"Unsupported template: {template}")
 
+    palettes = {
+        "animated": ((13, 25, 75), (88, 30, 130)),
+        "cinematic": ((3, 8, 20), (38, 18, 32)),
+        "cartoon": ((25, 105, 150), (80, 38, 125)),
+    }
+    top, bottom = palettes[template]
     if background_image and background_image.exists():
         with Image.open(background_image) as source:
             image = ImageOps.fit(source.convert("RGB"), (W, H), method=Image.Resampling.LANCZOS)
-        image = ImageEnhance.Brightness(image).enhance(0.34)
+        image = ImageEnhance.Brightness(image).enhance(0.42 if template == "cinematic" else 0.62)
     else:
         image = Image.new("RGB", (W, H))
-        draw_bg = ImageDraw.Draw(image)
-        palettes = {
-            "educational": ((10, 28, 55), (24, 76, 91)),
-            "cinematic": ((8, 10, 22), (45, 24, 54)),
-            "news": ((30, 12, 23), (75, 30, 26)),
-            "facts": ((34, 23, 8), (95, 50, 15)),
-            "quote": ((18, 20, 44), (48, 42, 85)),
-        }
-        top, bottom = palettes[template]
+        bg = ImageDraw.Draw(image)
         for y in range(0, H, 8):
             t = y / H
-            color = tuple(int(a * (1 - t) + b * t) for a, b in zip(top, bottom))
-            draw_bg.rectangle((0, y, W, min(H, y + 8)), fill=color)
+            color = tuple(int(a * (1-t) + b*t) for a,b in zip(top,bottom))
+            bg.rectangle((0,y,W,min(H,y+8)),fill=color)
 
     draw = ImageDraw.Draw(image, "RGBA")
-    accents = {
-        "educational": (78, 220, 205, 255),
-        "cinematic": (220, 190, 120, 255),
-        "news": (255, 78, 72, 255),
-        "facts": (255, 177, 55, 255),
-        "quote": (180, 155, 255, 255),
-    }
-    accent = accents[template]
-    if template == "news":
-        draw.rectangle((0, 0, W, 185), fill=(175, 28, 36, 235))
-        draw.rectangle((0, 185, W, 198), fill=accent)
+    accents = {"animated":(70,235,255,255),"cinematic":(239,196,112,255),"cartoon":(255,221,70,255)}
+    accent=accents[template]
+
+    if template == "animated":
+        # Layered motion-graphic orbs and a glowing central stage.
+        for x,y,r,color in [(150,330,150,(40,210,255,42)),(900,560,230,(255,70,190,38)),
+                            (820,1450,190,(100,255,180,35)),(180,1530,120,(255,190,50,40))]:
+            draw.ellipse((x-r,y-r,x+r,y+r),fill=color,outline=(*accent[:3],100),width=5)
+        draw.rounded_rectangle((62,90,1018,1825),radius=65,outline=(*accent[:3],180),width=5)
+        draw.text((100,145),"MOTION STORY",font=load_font("en",28,True),fill=accent)
+        title_y=270
+
     elif template == "cinematic":
-        draw.rectangle((0, 0, W, H), fill=(0, 0, 0, 48))
-        draw.ellipse((680, -220, 1330, 430), outline=(*accent[:3], 110), width=5)
-    elif template == "facts":
-        draw.rounded_rectangle((70, 105, 1010, 1815), radius=54,
-                               outline=(*accent[:3], 130), width=4)
-    elif template == "quote":
-        draw.rounded_rectangle((75, 100, 1005, 1820), radius=70,
-                               outline=(*accent[:3], 125), width=3)
+        # Film-frame composition, letterbox bars and dramatic title treatment.
+        draw.rectangle((0,0,W,190),fill=(0,0,0,220))
+        draw.rectangle((0,H-210,W,H),fill=(0,0,0,225))
+        draw.rectangle((0,0,W,H),outline=(*accent[:3],65),width=7)
+        draw.text((90,245),"A CINEMATIC STORY",font=load_font("en",28,True),fill=accent)
+        title_y=370
+
     else:
-        draw.rounded_rectangle((70, 100, 1010, 1815), radius=48,
-                               outline=(255, 255, 255, 48), width=3)
+        # Original simple cartoon mascot, drawn from shapes (not a stock character).
+        draw.ellipse((650,180,1000,530),fill=(255,205,80,255),outline=(30,20,50,255),width=12)
+        draw.ellipse((735,300,790,365),fill=(255,255,255,255),outline=(25,20,40,255),width=7)
+        draw.ellipse((855,300,910,365),fill=(255,255,255,255),outline=(25,20,40,255),width=7)
+        draw.ellipse((755,320,780,355),fill=(20,20,35,255))
+        draw.ellipse((875,320,900,355),fill=(20,20,35,255))
+        draw.arc((760,340,900,455),start=10,end=170,fill=(100,25,35,255),width=12)
+        draw.rounded_rectangle((690,500,960,850),radius=105,fill=(255,95,105,255),outline=(30,20,50,255),width=12)
+        draw.line((710,590,570,760),fill=(255,205,80,255),width=42)
+        draw.line((935,590,1040,745),fill=(255,205,80,255),width=42)
+        draw.rounded_rectangle((55,95,1025,1825),radius=70,fill=(255,255,255,24),outline=(255,255,255,170),width=7)
+        draw.text((100,145),"CARTOON TALE",font=load_font("en",28,True),fill=accent)
+        title_y=900
 
-    title_font = load_font(language, 54, True)
-    body_font = load_font(language, 61 if template in ("cinematic", "quote") else 55)
-    small_font = load_font("en", 27, True)
-
-    if template == "news":
-        draw.text((85, 65), "NEWS  /  EXPLAINER", font=small_font, fill=(255, 255, 255, 255))
-        title_y = 250
-    elif template == "facts":
-        draw.text((100, 150), f"FACT {index + 1:02d}", font=small_font, fill=accent)
-        title_y = 245
-    elif template == "quote":
-        draw.text((120, 280), "“", font=load_font(language, 150, True), fill=accent)
-        title_y = 470
-    elif template == "cinematic":
-        draw.text((95, 180), "A SHORT STORY", font=small_font, fill=accent)
-        title_y = 250
-    else:
-        title_y = 210
-
-    title_lines = wrap_text(draw, title[:110], title_font, 850)
+    title_font=load_font(language,58,True)
+    body_font=load_font(language,58 if template!="cartoon" else 52,True)
+    title_lines=wrap_text(draw,title[:100],title_font,850)
     for line in title_lines[:3]:
-        draw.text((105, title_y), line, font=title_font, fill=(255, 255, 255, 255))
-        title_y += 76
+        draw.text((95,title_y),line,font=title_font,fill=(255,255,255,255),
+                  stroke_width=2,stroke_fill=(0,0,0,190))
+        title_y+=78
+    title_y+=42
 
-    if template == "news":
-        draw.rectangle((95, title_y + 28, 985, title_y + 36), fill=accent)
-        title_y += 85
+    lines=wrap_text(draw,caption,body_font,850)
+    line_height=88
+    if template=="cartoon":
+        panel=(80,1120,1000,1595)
+        draw.rounded_rectangle(panel,radius=55,fill=(15,25,50,210),outline=accent,width=6)
+        text_x=125
+        y=1180
+    elif template=="cinematic":
+        panel=(80,900,1000,1510)
+        draw.rounded_rectangle(panel,radius=20,fill=(0,0,0,150),outline=(*accent[:3],170),width=3)
+        text_x=125
+        y=970
     else:
-        title_y += 65
+        panel=(80,900,1000,1585)
+        draw.rounded_rectangle(panel,radius=55,fill=(8,12,42,145),outline=(*accent[:3],150),width=4)
+        text_x=125
+        y=980
+    for line in lines[:6]:
+        draw.text((text_x,y),line,font=body_font,fill=(255,255,255,255),
+                  stroke_width=1,stroke_fill=(0,0,0,180))
+        y+=line_height
 
-    lines = wrap_text(draw, caption, body_font, 850)
-    line_height = 96 if template in ("cinematic", "quote") else 88
-    block_height = len(lines[:10]) * line_height
-    y = max(title_y + 35, (H - block_height) // 2 + 50)
-    if template == "quote":
-        y = max(760, y)
-    for line in lines[:10]:
-        draw.text((105, y), line, font=body_font, fill=(250, 251, 255, 255),
-                  stroke_width=1, stroke_fill=(0, 0, 0, 190))
-        y += line_height
-
-    draw.rounded_rectangle((100, 1640, 980, 1650), radius=5, fill=(255, 255, 255, 75))
-    draw.rounded_rectangle((100, 1640, 100 + int(880 * (index + 1) / total), 1650),
-                           radius=5, fill=accent)
-    footer = f"VIDEO FACTORY  •  {template.upper()}"
-    draw.text((105, 1710), footer, font=small_font, fill=(235, 238, 245, 235))
+    draw.rounded_rectangle((100,1690,980,1704),radius=7,fill=(255,255,255,80))
+    draw.rounded_rectangle((100,1690,100+int(880*(index+1)/total),1704),
+                           radius=7,fill=accent)
+    draw.text((105,1750),f"VIDEO FACTORY  /  {template.upper()}",
+              font=load_font("en",25,True),fill=(255,255,255,235))
     if image_credit:
-        credit_line = f"Image: {image_credit[:100]}"
-        draw.text((105, 1760), credit_line, font=load_font("en", 19), fill=(255, 255, 255, 220))
-    image.save(destination, quality=94)
-
+        draw.text((105,1790),f"Image: {image_credit[:90]}",
+                  font=load_font("en",18),fill=(255,255,255,220))
+    image.save(destination,quality=95)
 
 def make_ambient_audio(path: Path, duration: float, sample_rate: int = 22050) -> None:
     frames = int(duration * sample_rate)
@@ -296,7 +294,7 @@ def run(command: list[str]) -> None:
 
 
 def render(title: str, script: str, language: str, duration: int, output: Path,
-           template: str = "educational", visual_query: str = "",
+           template: str = "animated", visual_query: str = "",
            voice_gender: str = "female") -> None:
     if not 15 <= duration <= 60:
         raise ValueError("duration must be between 15 and 60 seconds")
@@ -370,7 +368,7 @@ def render(title: str, script: str, language: str, duration: int, output: Path,
                 voice_label = f"eSpeak NG offline voice ({voice_name})"
 
         zoom_filter = (
-            "fps=30,zoompan=z='min(zoom+0.00035,1.06)':"
+            ("fps=30,zoompan=z='min(zoom+0.0012,1.12)':x='iw/2-(iw/zoom/2)+sin(on/24)*18:y='ih/2-(ih/zoom/2)+cos(on/31)*18:d=1:s=1080x1920:fps=30,format=yuv420p" if template == "animated" else "fps=30,zoompan=z='min(zoom+0.00035,1.06)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,format=yuv420p")
             "x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d=1:s={W}x{H}:fps={FPS},format=yuv420p"
         )
