@@ -84,7 +84,7 @@ def license_is_commercially_usable(label: str) -> bool:
     normalized = label.lower()
     if any(term in normalized for term in ("noncommercial", "non-commercial", "non commercial", "no derivatives", "no-derivatives", "sampling")):
         return False
-    if re.search(r"(^|[\\s-])(nc|nd)(?=[\\s-]|$)", normalized):
+    if re.search(r"(^|[\s-])(nc|nd)(?=[\s-]|$)", normalized):
         return False
     return (
         normalized.startswith("cc0")
