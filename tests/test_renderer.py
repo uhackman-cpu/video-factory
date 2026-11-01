@@ -38,7 +38,7 @@ class RendererTests(unittest.TestCase):
     def test_supported_templates(self):
         self.assertEqual(
             set(TEMPLATES),
-            {"educational", "cinematic", "news", "facts", "quote"},
+            {"animated", "cinematic", "cartoon"},
         )
 
     def test_commons_license_filter(self):
