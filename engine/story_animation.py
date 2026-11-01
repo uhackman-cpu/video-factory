@@ -21,6 +21,7 @@ ALLOWED_BACKGROUNDS = {"meadow", "forest", "night_forest", "sunset", "room", "ci
 ALLOWED_CAMERAS = {"static", "push_in", "pull_out", "pan_left", "pan_right"}
 ALLOWED_PROPS = {"tree", "house", "door", "star", "rock", "flower", "table", "moon", "lamp", "cloud", "chest", "hill"}
 ALLOWED_TEXT_MOTIONS = {"rise", "pop", "pulse", "slide_left", "slide_right"}
+ALLOWED_PROP_MOTIONS = {"static", "float", "pulse", "spin"}
 
 
 def _color(value: str, field: str) -> tuple[int, int, int]:
@@ -72,6 +73,8 @@ def validate_storyboard(project: dict[str, Any]) -> dict[str, Any]:
                 raise ValueError(f"Unsupported character action: {item.get('action')}")
             if item.get("emotion", "happy") not in ALLOWED_EMOTIONS:
                 raise ValueError(f"Unsupported character emotion: {item.get('emotion')}")
+            if "dialogue" in item and (not isinstance(item["dialogue"], str) or len(item["dialogue"]) > 120):
+                raise ValueError("Character dialogue must be a string of at most 120 characters")
             for key in ("x", "start_x", "end_x", "y"):
                 if key in item and not 0 <= float(item[key]) <= 1:
                     raise ValueError(f"Scene {index + 1} character {key} must be between 0 and 1")
@@ -81,6 +84,8 @@ def validate_storyboard(project: dict[str, Any]) -> dict[str, Any]:
             for key in ("x", "y"):
                 if key in prop and not 0 <= float(prop[key]) <= 1:
                     raise ValueError(f"Scene {index + 1} prop {key} must be between 0 and 1")
+            if prop.get("motion", "static") not in ALLOWED_PROP_MOTIONS:
+                raise ValueError(f"Unsupported prop motion: {prop.get('motion')}")
         for graphic in scene.get("kinetic_text", []):
             if not isinstance(graphic, dict) or not str(graphic.get("text", "")).strip():
                 raise ValueError(f"Scene {index + 1} kinetic_text items need text")
@@ -241,6 +246,12 @@ def _background(scene: dict[str, Any], t: float) -> Image.Image:
 def _draw_prop(draw: ImageDraw.ImageDraw, prop: dict[str, Any], t: float) -> None:
     x = int(float(prop.get("x", .5)) * WIDTH)
     y = int(float(prop.get("y", .72)) * HEIGHT)
+    motion = prop.get("motion", "static")
+    scale = 1.0
+    if motion == "float":
+        y += int(math.sin(t * 2.8 + x * .013) * 15)
+    elif motion == "pulse":
+        scale = 1 + .13 * math.sin(t * 5)
     kind = prop["type"]
     if kind == "tree":
         draw.rectangle((x - 12, y - 125, x + 12, y), fill=(105, 68, 43))
@@ -260,8 +271,8 @@ def _draw_prop(draw: ImageDraw.ImageDraw, prop: dict[str, Any], t: float) -> Non
         points = []
         for i in range(10):
             angle = -math.pi / 2 + i * math.pi / 5
-            radius = 35 if i % 2 == 0 else 15
-            points.append((x + math.cos(angle) * radius, y + math.sin(angle) * radius - 30))
+            radius = (35 if i % 2 == 0 else 15) * scale
+            points.append((x + math.cos(angle) * radius, y + math.sin(angle) * radius - 30 * scale))
         draw.polygon(points, fill=(255, 230, 98), outline=(255, 255, 225))
     elif kind == "rock":
         draw.ellipse((x - 48, y - 48, x + 48, y + 4), fill=(111, 119, 124),
@@ -338,21 +349,54 @@ def _draw_character(draw: ImageDraw.ImageDraw, definition: dict[str, Any],
     eye_dx = 18 * scale
     eye_color = (255, 255, 255)
     pupil = (35, 34, 43)
+    blink_phase = seconds % 3.6
+    blinking = blink_phase < .13
+    eye_height = 2.0 if blinking else 11.0
     for side in (-1, 1):
         ex = x + side * eye_dx
-        draw.ellipse((ex - 9 * scale, eye_y - 10 * scale, ex + 9 * scale, eye_y + 11 * scale), fill=eye_color)
-        px = ex + (3 if direction > 0 else -3) * scale
-        draw.ellipse((px - 4 * scale, eye_y - 3 * scale, px + 4 * scale, eye_y + 5 * scale), fill=pupil)
+        draw.ellipse((ex - 9 * scale, eye_y - eye_height * scale,
+                      ex + 9 * scale, eye_y + eye_height * scale), fill=eye_color)
+        if not blinking:
+            px = ex + (3 if direction > 0 else -3) * scale
+            draw.ellipse((px - 4 * scale, eye_y - 3 * scale, px + 4 * scale, eye_y + 5 * scale), fill=pupil)
+
+    brow_color = (61, 39, 47)
+    brow_y = eye_y - 17 * scale
+    if emotion in ("worried", "sad"):
+        draw.line((x - 29 * scale, brow_y + 5 * scale, x - 12 * scale, brow_y - 1 * scale),
+                  fill=brow_color, width=max(2, int(4 * scale)))
+        draw.line((x + 12 * scale, brow_y - 1 * scale, x + 29 * scale, brow_y + 5 * scale),
+                  fill=brow_color, width=max(2, int(4 * scale)))
+    elif emotion == "surprised":
+        draw.arc((x - 31 * scale, brow_y - 8 * scale, x - 8 * scale, brow_y + 8 * scale),
+                 180, 350, fill=brow_color, width=max(2, int(4 * scale)))
+        draw.arc((x + 8 * scale, brow_y - 8 * scale, x + 31 * scale, brow_y + 8 * scale),
+                 190, 360, fill=brow_color, width=max(2, int(4 * scale)))
+    elif emotion == "curious":
+        draw.line((x - 29 * scale, brow_y, x - 12 * scale, brow_y - 3 * scale),
+                  fill=brow_color, width=max(2, int(4 * scale)))
+        draw.line((x + 12 * scale, brow_y - 3 * scale, x + 29 * scale, brow_y),
+                  fill=brow_color, width=max(2, int(4 * scale)))
+
     mouth_y = head_y + 22 * scale
-    if action == "talk" and math.sin(seconds * 10) > .05:
-        draw.ellipse((x - 10 * scale, mouth_y - 2 * scale, x + 10 * scale, mouth_y + 13 * scale),
-                     fill=(89, 37, 48))
-    elif emotion == "sad" or action == "sad":
+    mouth_open = action == "talk" and math.sin(seconds * 13.5) > -.15
+    if mouth_open:
+        mouth_h = (8 + 7 * abs(math.sin(seconds * 8))) * scale
+        draw.ellipse((x - 9 * scale, mouth_y - 2 * scale,
+                      x + 9 * scale, mouth_y + mouth_h), fill=(89, 37, 48))
+    elif emotion in ("sad", "worried") or action == "sad":
         draw.arc((x - 18 * scale, mouth_y - 1 * scale, x + 18 * scale, mouth_y + 22 * scale),
                  205, 335, fill=(75, 38, 47), width=max(2, int(4 * scale)))
+    elif emotion == "surprised":
+        draw.ellipse((x - 7 * scale, mouth_y - 2 * scale, x + 7 * scale, mouth_y + 13 * scale),
+                     outline=(75, 38, 47), width=max(2, int(3 * scale)))
     else:
         draw.arc((x - 18 * scale, mouth_y - 12 * scale, x + 18 * scale, mouth_y + 18 * scale),
                  15, 165, fill=(75, 38, 47), width=max(2, int(4 * scale)))
+    if emotion == "happy" and shape in ("round", "cat"):
+        for cheek_x in (x - 31 * scale, x + 31 * scale):
+            draw.ellipse((cheek_x - 5 * scale, mouth_y + 2 * scale,
+                          cheek_x + 5 * scale, mouth_y + 8 * scale), fill=(246, 133, 139))
 
     draw.rounded_rectangle((x - 37 * scale, torso_top, x + 37 * scale, torso_bottom),
                            radius=int(18 * scale), fill=accent, outline=(38, 32, 42),
@@ -385,6 +429,30 @@ def _draw_character(draw: ImageDraw.ImageDraw, definition: dict[str, Any],
                      fill=(45, 42, 54))
 
 
+def _draw_speech_bubble(draw: ImageDraw.ImageDraw, actor: dict[str, Any],
+                       seconds: float, language: str = "en") -> None:
+    text = str(actor.get("dialogue", "")).strip()
+    if not text:
+        return
+    x = int(float(actor.get("x", actor.get("start_x", .5))) * WIDTH)
+    y = int(float(actor.get("y", .76)) * HEIGHT) - 255
+    font = _font(21, True, language)
+    lines = _wrap(draw, text, font, 250)[:3]
+    line_height = 28
+    box_width = max(116, min(280, max(draw.textbbox((0, 0), line, font=font)[2] for line in lines) + 34))
+    box_height = len(lines) * line_height + 24
+    left = max(12, min(WIDTH - box_width - 12, x - box_width // 2))
+    top = max(18, y - box_height - int(4 * abs(math.sin(seconds * 7))))
+    draw.rounded_rectangle((left, top, left + box_width, top + box_height),
+                           radius=18, fill=(255, 252, 235, 245),
+                           outline=(39, 43, 57, 255), width=3)
+    draw.polygon(((x - 8, top + box_height - 2), (x + 12, top + box_height - 2),
+                  (x + 2, top + box_height + 14)), fill=(255, 252, 235, 245))
+    for i, line in enumerate(lines):
+        draw.text((left + 16, top + 12 + i * line_height), line,
+                  font=font, fill=(35, 39, 51, 255))
+
+
 def draw_story_frame(project: dict[str, Any], scene_index: int, frame_index: int) -> Image.Image:
     """Draw one deterministic frame; exposed for tests and preview tooling."""
     scene = project["scenes"][scene_index]
@@ -399,6 +467,8 @@ def draw_story_frame(project: dict[str, Any], scene_index: int, frame_index: int
     definitions = project.get("characters", {})
     for actor in scene.get("characters", []):
         _draw_character(draw, definitions[actor["id"]], actor, progress, seconds)
+        if actor.get("dialogue"):
+            _draw_speech_bubble(draw, actor, seconds, project.get("language", "en"))
 
     # Kinetic type stays inside the scene and animates independently of the character rig.
     for graphic in scene.get("kinetic_text", []):
