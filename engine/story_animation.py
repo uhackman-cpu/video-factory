@@ -19,7 +19,7 @@ ALLOWED_ACTIONS = {"idle", "walk", "run", "jump", "wave", "talk", "think", "chee
 ALLOWED_EMOTIONS = {"happy", "curious", "worried", "sad", "surprised", "neutral"}
 ALLOWED_BACKGROUNDS = {"meadow", "forest", "night_forest", "sunset", "room", "city", "beach", "space"}
 ALLOWED_CAMERAS = {"static", "push_in", "pull_out", "pan_left", "pan_right"}
-ALLOWED_PROPS = {"tree", "house", "door", "star", "rock", "flower", "table", "moon", "lamp", "cloud", "chest", "hill"}
+ALLOWED_PROPS = {"tree", "house", "door", "star", "kite", "rock", "flower", "table", "moon", "lamp", "cloud", "chest", "hill"}
 ALLOWED_TEXT_MOTIONS = {"rise", "pop", "pulse", "slide_left", "slide_right"}
 ALLOWED_PROP_MOTIONS = {"static", "float", "pulse", "spin"}
 
@@ -269,11 +269,37 @@ def _draw_prop(draw: ImageDraw.ImageDraw, prop: dict[str, Any], t: float) -> Non
         draw.ellipse((x + 27, y - 88, x + 35, y - 80), fill=(255, 221, 106))
     elif kind == "star":
         points = []
+        rotation = t * 1.8 if motion == "spin" else 0.0
         for i in range(10):
-            angle = -math.pi / 2 + i * math.pi / 5
+            angle = -math.pi / 2 + i * math.pi / 5 + rotation
             radius = (35 if i % 2 == 0 else 15) * scale
             points.append((x + math.cos(angle) * radius, y + math.sin(angle) * radius - 30 * scale))
+        draw.ellipse((x - 49 * scale, y - 79 * scale, x + 49 * scale, y + 19 * scale),
+                     outline=(255, 238, 151, 110), width=3)
         draw.polygon(points, fill=(255, 230, 98), outline=(255, 255, 225))
+    elif kind == "kite":
+        rotation = math.sin(t * 2.1) * 0.12
+        center_y = y - 45 * scale
+        half_w, half_h = 48 * scale, 66 * scale
+        raw = [(0, -half_h), (half_w, 0), (0, half_h), (-half_w, 0)]
+        points = [
+            (x + px * math.cos(rotation) - py * math.sin(rotation),
+             center_y + px * math.sin(rotation) + py * math.cos(rotation))
+            for px, py in raw
+        ]
+        draw.polygon(points, fill=(244, 91, 105), outline=(55, 42, 63), width=5)
+        draw.line((x, center_y - half_h, x, center_y + half_h),
+                  fill=(255, 225, 176), width=3)
+        draw.line((x - half_w, center_y, x + half_w, center_y),
+                  fill=(255, 225, 176), width=3)
+        string_end = (x + int(math.sin(t * 2.4) * 14), center_y + 170 * scale)
+        draw.line((x, center_y + half_h, *string_end), fill=(53, 54, 68), width=2)
+        for index in range(3):
+            tail_y = center_y + half_h + (index + 1) * 27 * scale
+            tail_x = x + math.sin(t * 3.2 + index) * 15 * scale
+            draw.polygon(((tail_x, tail_y), (tail_x - 12 * scale, tail_y + 17 * scale),
+                          (tail_x + 12 * scale, tail_y + 17 * scale)),
+                         fill=(255, 214 - index * 28, 103 + index * 22))
     elif kind == "rock":
         draw.ellipse((x - 48, y - 48, x + 48, y + 4), fill=(111, 119, 124),
                      outline=(57, 67, 73), width=4)
