@@ -368,9 +368,14 @@ def render(title: str, script: str, language: str, duration: int, output: Path,
                 voice_label = f"eSpeak NG offline voice ({voice_name})"
 
         zoom_filter = (
-            ("fps=30,zoompan=z='min(zoom+0.0012,1.12)':x='iw/2-(iw/zoom/2)+sin(on/24)*18:y='ih/2-(ih/zoom/2)+cos(on/31)*18:d=1:s=1080x1920:fps=30,format=yuv420p" if template == "animated" else "fps=30,zoompan=z='min(zoom+0.00035,1.06)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,format=yuv420p")
+            "fps=30,zoompan=z='min(zoom+0.0012,1.12)':"
+            "x='iw/2-(iw/zoom/2)+sin(on/24)*18':"
+            "y='ih/2-(ih/zoom/2)+cos(on/31)*18':"
+            "d=1:s=1080x1920:fps=30,format=yuv420p"
+            if template == "animated" else
+            "fps=30,zoompan=z='min(zoom+0.00035,1.06)':"
             "x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
-            f"d=1:s={W}x{H}:fps={FPS},format=yuv420p"
+            "d=1:s=1080x1920:fps=30,format=yuv420p"
         )
         common = [
             "-vf", zoom_filter, "-t", str(duration), "-c:v", "libx264",
@@ -420,7 +425,7 @@ def main() -> None:
     parser.add_argument("--script", required=True)
     parser.add_argument("--language", choices=["hi", "en"], default="hi")
     parser.add_argument("--duration", type=int, default=30)
-    parser.add_argument("--template", choices=TEMPLATES, default="educational")
+    parser.add_argument("--template", choices=TEMPLATES, default="animated")
     parser.add_argument("--visual-query", default="")
     parser.add_argument("--voice-gender", choices=["female", "male"], default="female")
     parser.add_argument("--output", type=Path, default=Path("output/video.mp4"))
