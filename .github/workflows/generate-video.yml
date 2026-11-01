@@ -62,7 +62,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: video-factory-${ github.ref }
+  group: video-factory-${{github.ref }
   cancel-in-progress: false
 
 jobs:
@@ -95,13 +95,13 @@ jobs:
 
       - name: Render MP4
         env:
-          VIDEO_TITLE: ${ inputs.title }
-          VIDEO_NARRATION: ${ inputs.narration }
-          VIDEO_LANGUAGE: ${ inputs.language }
-          VIDEO_DURATION: ${ inputs.duration }
-          VIDEO_TEMPLATE: ${ inputs.template }
-          VIDEO_VOICE_GENDER: ${ inputs.voice_gender }
-          VIDEO_VISUAL_QUERY: ${ inputs.visual_query }
+          VIDEO_TITLE: ${{inputs.title }
+          VIDEO_NARRATION: ${{inputs.narration }
+          VIDEO_LANGUAGE: ${{inputs.language }
+          VIDEO_DURATION: ${{inputs.duration }
+          VIDEO_TEMPLATE: ${{inputs.template }
+          VIDEO_VOICE_GENDER: ${{inputs.voice_gender }
+          VIDEO_VISUAL_QUERY: ${{inputs.visual_query }
         run: |
           mkdir -p output
           python - <<'PY'
