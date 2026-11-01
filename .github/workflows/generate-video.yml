@@ -111,7 +111,7 @@ jobs:
           from pathlib import Path
           from engine.story_animation import render_storyboard_video
 
-          with open("examples/cartoon-storyboard.json", encoding="utf-8") as source:
+          with open("examples/kite-storyboard.json", encoding="utf-8") as source:
               project = json.load(source)
           render_storyboard_video(
               project, Path("output/storyboard-smoke.mp4"), voice_gender="female"
@@ -153,7 +153,7 @@ jobs:
               if storyboard_text:
                   project = json.loads(storyboard_text)
               else:
-                  with open("examples/cartoon-storyboard.json", encoding="utf-8") as source:
+                  with open("examples/kite-storyboard.json", encoding="utf-8") as source:
                       project = json.load(source)
               render_storyboard_video(
                   project,
