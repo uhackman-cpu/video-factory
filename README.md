@@ -6,7 +6,7 @@ A cloud-only, free-first vertical video generator. It runs on GitHub Actions; no
 
 ### 1. Scene-based Cartoon Story (new)
 
-The storyboard renderer creates a continuous 2D cartoon world with original procedural characters, animated actions, moving props, camera motion, scene cross-fades, captions, narration and an MP4 export. Characters can persist across scenes so the result plays as a story rather than a stack of title cards.
+The storyboard renderer creates a continuous 2D cartoon world with original procedural characters, animated actions, moving props, camera motion, scene cross-fades, kinetic typography, captions, narration and an MP4 export. Characters can persist across scenes so the result plays as a story rather than a stack of title cards.
 
 Supported character actions: `idle`, `walk`, `run`, `jump`, `wave`, `talk`, `think`, `cheer`, `sad`.
 
@@ -27,7 +27,7 @@ When `storyboard_json` is provided, scene durations and narration/captions come 
 
 ### Storyboard format
 
-A project contains a `characters` dictionary and an ordered `scenes` array. A scene defines its duration, background, camera move, caption/narration, props and the characters visible in it. Character IDs are reused across scenes to preserve identity.
+A project contains a `characters` dictionary and an ordered `scenes` array. A scene defines its duration, background, camera move, caption/narration, props, optional animated text overlays and the characters visible in it. Character IDs are reused across scenes to preserve identity.
 
 ```json
 {
@@ -49,6 +49,9 @@ A project contains a `characters` dictionary and an ordered `scenes` array. A sc
       "camera": "push_in",
       "caption": "A tiny star has fallen.",
       "narration": "One quiet night, Milo finds a fallen star.",
+      "kinetic_text": [
+        {"text": "A NEW ADVENTURE", "x": 0.5, "y": 0.28, "size": 42, "motion": "rise"}
+      ],
       "props": [{"type": "star", "x": 0.72, "y": 0.65}],
       "characters": [
         {
