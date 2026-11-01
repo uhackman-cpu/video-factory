@@ -2,5 +2,8 @@
   "title": "The Solar System",
   "language": "en",
   "duration": 30,
+  "template": "cinematic",
+  "voice_gender": "female",
+  "visual_query": "Solar System planets",
   "narration": "Our solar system has eight planets orbiting the Sun. Earth is the only known world with life. Gravity keeps planets and moons moving in their paths."
 }
