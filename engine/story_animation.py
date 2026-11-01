@@ -20,6 +20,7 @@ ALLOWED_EMOTIONS = {"happy", "curious", "worried", "sad", "surprised", "neutral"
 ALLOWED_BACKGROUNDS = {"meadow", "forest", "night_forest", "sunset", "room", "city", "beach", "space"}
 ALLOWED_CAMERAS = {"static", "push_in", "pull_out", "pan_left", "pan_right"}
 ALLOWED_PROPS = {"tree", "house", "door", "star", "rock", "flower", "table", "moon", "lamp", "cloud", "chest", "hill"}
+ALLOWED_TEXT_MOTIONS = {"rise", "pop", "pulse", "slide_left", "slide_right"}
 
 
 def _color(value: str, field: str) -> tuple[int, int, int]:
@@ -80,6 +81,16 @@ def validate_storyboard(project: dict[str, Any]) -> dict[str, Any]:
             for key in ("x", "y"):
                 if key in prop and not 0 <= float(prop[key]) <= 1:
                     raise ValueError(f"Scene {index + 1} prop {key} must be between 0 and 1")
+        for graphic in scene.get("kinetic_text", []):
+            if not isinstance(graphic, dict) or not str(graphic.get("text", "")).strip():
+                raise ValueError(f"Scene {index + 1} kinetic_text items need text")
+            if graphic.get("motion", "rise") not in ALLOWED_TEXT_MOTIONS:
+                raise ValueError(f"Unsupported kinetic text motion: {graphic.get('motion')}")
+            for key in ("x", "y"):
+                if key in graphic and not 0 <= float(graphic[key]) <= 1:
+                    raise ValueError(f"Scene {index + 1} kinetic text {key} must be between 0 and 1")
+            if "color" in graphic:
+                _color(graphic["color"], f"scene {index + 1} kinetic_text color")
     if total_duration > 60:
         raise ValueError("Total storyboard duration cannot exceed 60 seconds")
     project = dict(project)
@@ -358,6 +369,38 @@ def draw_story_frame(project: dict[str, Any], scene_index: int, frame_index: int
     definitions = project.get("characters", {})
     for actor in scene.get("characters", []):
         _draw_character(draw, definitions[actor["id"]], actor, progress, seconds)
+
+    # Kinetic type stays inside the scene and animates independently of the character rig.
+    for graphic in scene.get("kinetic_text", []):
+        text_value = str(graphic.get("text", ""))
+        motion = graphic.get("motion", "rise")
+        entrance = min(1.0, max(0.0, seconds / .55))
+        eased = 1 - (1 - entrance) ** 3
+        size = max(18, min(100, int(graphic.get("size", 42))))
+        x = float(graphic.get("x", .5)) * WIDTH
+        y = float(graphic.get("y", .25)) * HEIGHT
+        if motion == "rise":
+            y += (1 - eased) * 90
+        elif motion == "slide_left":
+            x -= (1 - eased) * WIDTH * .35
+        elif motion == "slide_right":
+            x += (1 - eased) * WIDTH * .35
+        elif motion == "pop":
+            size = max(18, int(size * (.65 + .35 * eased)))
+        elif motion == "pulse":
+            size = max(18, int(size * (1 + .08 * math.sin(seconds * 5))))
+        color = _color(graphic.get("color", "#fff1a8"), "kinetic_text color")
+        font = _font(size, bold=True, language=project.get("language", "en"))
+        lines = _wrap(draw, text_value, font, WIDTH - 80)
+        line_height = size + 10
+        for line_index, line in enumerate(lines[:3]):
+            box = draw.textbbox((0, 0), line, font=font, stroke_width=2)
+            text_width = box[2] - box[0]
+            text_x = int(x - text_width / 2)
+            text_y = int(y + line_index * line_height)
+            alpha = int(255 * eased)
+            draw.text((text_x, text_y), line, font=font, fill=(*color, alpha),
+                      stroke_width=3, stroke_fill=(12, 17, 37, alpha))
 
     # Kinetic lower-third is integrated with the cartoon world, not a full-screen slide.
     caption = str(scene.get("caption", "")).strip()
