@@ -31,7 +31,8 @@ class StoryAnimationTests(unittest.TestCase):
                     "id": "milo", "start_x": 0.2, "end_x": 0.7,
                     "y": 0.76, "action": "walk", "emotion": "curious"
                 }],
-                "props": [{"type": "star", "x": 0.75, "y": 0.55}]
+                "props": [{"type": "star", "x": 0.75, "y": 0.55}],
+                "kinetic_text": [{"text": "LOOK UP!", "x": 0.5, "y": 0.25, "motion": "pop"}]
             }]
         }
 
@@ -61,6 +62,14 @@ class StoryAnimationTests(unittest.TestCase):
     def test_unsupported_action_is_rejected(self):
         broken = json.loads(json.dumps(self.project))
         broken["scenes"][0]["characters"][0]["action"] = "teleport"
+        with self.assertRaises(ValueError):
+            validate_storyboard(broken)
+
+    def test_unknown_kinetic_text_motion_is_rejected(self):
+        broken = json.loads(json.dumps(self.project))
+        broken["scenes"][0]["kinetic_text"] = [
+            {"text": "Hello", "motion": "spin_forever"}
+        ]
         with self.assertRaises(ValueError):
             validate_storyboard(broken)
 
