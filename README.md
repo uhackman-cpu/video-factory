@@ -19,11 +19,12 @@ Camera moves: `static`, `push_in`, `pull_out`, `pan_left`, `pan_right`.
 The complete Hindi example is `examples/cartoon-storyboard.json`. To render it:
 
 1. Open Actions → **Generate Short Video** → **Run workflow**.
-2. Paste the complete contents of `examples/cartoon-storyboard.json` into **storyboard_json**.
-3. Choose a narration voice and run the workflow.
-4. Download the `video-factory-output` artifact. It contains MP4, SRT and credits.
+2. Keep **render_mode = storyboard** (this is the default). If **storyboard_json** is empty, the built-in Hindi story is used automatically.
+3. To make a different story, paste a complete project JSON into **storyboard_json**.
+4. Choose a narration voice and run the workflow.
+5. Download the `video-factory-output` artifact. It contains MP4, SRT and credits.
 
-When `storyboard_json` is provided, scene durations and narration/captions come from the storyboard. The title, language and actions are defined in that JSON. Leave this field empty to use the original short-video renderer.
+When `storyboard_json` is provided, scene durations and narration/captions come from that JSON. To use the original graphics renderer instead, choose **render_mode = classic** and select Animated, Cinematic or Cartoon.
 
 ### Storyboard format
 
