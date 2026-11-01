@@ -79,6 +79,25 @@ class StoryAnimationTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_storyboard(broken)
 
+    def test_new_kite_storyboard_is_valid_and_has_dialogue(self):
+        sample_path = Path(__file__).resolve().parents[1] / "examples" / "kite-storyboard.json"
+        project = json.loads(sample_path.read_text(encoding="utf-8"))
+        validated = validate_storyboard(project)
+        self.assertEqual(validated["title"], "चिंटू और शरारती पतंग")
+        self.assertEqual(len(validated["scenes"]), 5)
+        self.assertTrue(any(
+            actor.get("dialogue")
+            for scene in validated["scenes"]
+            for actor in scene.get("characters", [])
+        ))
+        self.assertTrue(any(
+            prop.get("type") == "kite"
+            for scene in validated["scenes"]
+            for prop in scene.get("props", [])
+        ))
+        frame = draw_story_frame(validated, 0, 12)
+        self.assertEqual(frame.size, (720, 1280))
+
     def test_srt_uses_scene_timing(self):
         project = validate_storyboard(self.project)
         path = Path("test-story.srt")
