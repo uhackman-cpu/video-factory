@@ -463,3 +463,115 @@ def render_storyboard(project: dict[str, Any], output: Path) -> dict[str, Any]:
         raise
     return {"width": WIDTH, "height": HEIGHT, "fps": fps,
             "duration": project["duration"], "scenes": len(project["scenes"])}
+
+
+
+def render_storyboard_video(project: dict[str, Any], output: Path,
+                            voice_gender: str = "female") -> dict[str, Any]:
+    """Render a complete narrated cartoon MP4 plus SRT and credits."""
+    import array
+    import shutil
+    import tempfile
+    import wave
+
+    project = validate_storyboard(project)
+    if voice_gender not in ("female", "male"):
+        raise ValueError("voice_gender must be female or male")
+    duration = float(project["duration"])
+    script = storyboard_narration(project)
+    if not script:
+        raise ValueError("Storyboard needs narration or captions for audio")
+    output.parent.mkdir(parents=True, exist_ok=True)
+
+    sample_rate = 22050
+    sample_count = int(duration * sample_rate)
+    samples = array.array("h")
+    for index in range(sample_count):
+        time = index / sample_rate
+        fade = min(1.0, time / 1.2, max(0.0, (duration - time) / 1.2))
+        value = (0.035 * math.sin(2 * math.pi * 110 * time)
+                 + 0.016 * math.sin(2 * math.pi * 164.81 * time)) * fade
+        samples.append(int(value * 32767))
+    ambient_data = samples.tobytes()
+
+    with tempfile.TemporaryDirectory(prefix="video-factory-story-") as temp:
+        work = Path(temp)
+        silent_video = work / "story-silent.mp4"
+        ambient = work / "ambient.wav"
+        voice = work / "voice.mp3"
+        offline_voice = work / "voice.wav"
+        render_info = render_storyboard(project, silent_video)
+        with wave.open(str(ambient), "wb") as wav:
+            wav.setnchannels(1)
+            wav.setsampwidth(2)
+            wav.setframerate(sample_rate)
+            wav.writeframes(ambient_data)
+
+        voice_created = False
+        voice_label = "ambient only"
+        language = project.get("language", "en")
+        if language not in ("hi", "en"):
+            raise ValueError("Storyboard language must be hi or en")
+        if shutil.which("edge-tts"):
+            if language == "hi":
+                voice_name = "hi-IN-SwaraNeural" if voice_gender == "female" else "hi-IN-MadhurNeural"
+            else:
+                voice_name = "en-US-AriaNeural" if voice_gender == "female" else "en-US-GuyNeural"
+            try:
+                subprocess.run(
+                    ["edge-tts", "--voice", voice_name, "--text", script, "--write-media", str(voice)],
+                    check=True, capture_output=True, text=True, timeout=180
+                )
+                voice_created = voice.exists() and voice.stat().st_size > 1000
+                if voice_created:
+                    voice_label = f"Edge online neural voice ({voice_name})"
+            except (subprocess.CalledProcessError, subprocess.TimeoutExpired, OSError) as error:
+                print(f"Neural TTS unavailable; trying offline voice: {error}")
+
+        if not voice_created and shutil.which("espeak-ng"):
+            voice_name = "hi" if language == "hi" else "en"
+            result = subprocess.run(
+                ["espeak-ng", "-v", voice_name, "-s", "145", "-w", str(offline_voice), script],
+                capture_output=True, text=True
+            )
+            voice_created = result.returncode == 0 and offline_voice.exists()
+            if voice_created:
+                voice_label = f"eSpeak NG offline voice ({voice_name})"
+
+        common = [
+            "-vf", "scale=1080:1920:flags=lanczos", "-t", f"{duration:.3f}",
+            "-c:v", "libx264", "-preset", "veryfast", "-crf", "22",
+            "-pix_fmt", "yuv420p", "-movflags", "+faststart",
+        ]
+        if voice_created:
+            voice_path = voice if voice.exists() else offline_voice
+            filter_complex = (
+                f"[1:a]aresample=48000,apad,atrim=0:{duration:.3f},volume=1.0[v];"
+                f"[2:a]volume=0.13[m];[v][m]amix=inputs=2:duration=first:normalize=0[a]"
+            )
+            command = [
+                "ffmpeg", "-y", "-loglevel", "error", "-i", str(silent_video),
+                "-i", str(voice_path), "-i", str(ambient), "-filter_complex", filter_complex,
+                "-map", "0:v:0", "-map", "[a]", *common, "-c:a", "aac", "-b:a", "128k",
+                str(output)
+            ]
+        else:
+            command = [
+                "ffmpeg", "-y", "-loglevel", "error", "-i", str(silent_video),
+                "-i", str(ambient), "-map", "0:v:0", "-map", "1:a:0",
+                *common, "-c:a", "aac", "-b:a", "96k", str(output)
+            ]
+        subprocess.run(command, check=True)
+    write_storyboard_srt(project, output.with_suffix(".srt"))
+    credits = [
+        "Video Factory — scene-based cartoon animation",
+        "Renderer: original procedural 2D character rig and scene renderer",
+        f"Title: {project.get('title', 'Untitled story')}",
+        f"Scenes: {render_info['scenes']}",
+        f"Narration: {voice_label}",
+        f"Frame rate: {render_info['fps']} fps",
+        "Output: 1080x1920 H.264 MP4",
+        "No third-party character artwork was copied.",
+    ]
+    output.with_name("credits.txt").write_text("\n".join(credits) + "\n", encoding="utf-8")
+    return render_info
