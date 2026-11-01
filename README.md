@@ -6,17 +6,17 @@ A cloud-only, free-first vertical video generator. It runs on GitHub Actions; no
 
 ### 1. Scene-based Cartoon Story (new)
 
-The storyboard renderer creates a continuous 2D cartoon world with original procedural characters, animated actions, moving props, camera motion, scene cross-fades, kinetic typography, captions, narration and an MP4 export. Characters can persist across scenes so the result plays as a story rather than a stack of title cards.
+The storyboard renderer creates a continuous 2D cartoon world with original procedural characters, facial expressions, blinking eyes, animated mouths, dialogue bubbles, moving props, camera motion, scene cross-fades, kinetic typography, captions and narration. Characters can persist across scenes so the result plays as a story rather than a stack of title cards.
 
-Supported character actions: `idle`, `walk`, `run`, `jump`, `wave`, `talk`, `think`, `cheer`, `sad`.
+Supported character actions: `idle`, `walk`, `run`, `jump`, `wave`, `talk`, `think`, `cheer`, `sad`. Add a `dialogue` string to a character in a scene to display a speech bubble.
 
 Supported emotions: `happy`, `curious`, `worried`, `sad`, `surprised`, `neutral`.
 
 Backgrounds: `meadow`, `forest`, `night_forest`, `sunset`, `room`, `city`, `beach`, `space`.
 
-Camera moves: `static`, `push_in`, `pull_out`, `pan_left`, `pan_right`.
+Camera moves: `static`, `push_in`, `pull_out`, `pan_left`, `pan_right`. Props support `static`, `float`, `pulse` and `spin` motion.
 
-The complete Hindi example is `examples/cartoon-storyboard.json`. To render it:
+The default Hindi demo is **चिंटू और शरारती पतंग** in `examples/kite-storyboard.json`. It is a new five-scene story (not the earlier lost-star example) designed to exercise character acting, dialogue and a moving kite prop. To render it:
 
 1. Open Actions → **Generate Short Video** → **Run workflow**.
 2. Keep **render_mode = storyboard** (this is the default). If **storyboard_json** is empty, the built-in Hindi story is used automatically.
@@ -91,7 +91,7 @@ Every Actions run executes unit tests and a smoke render of the included cartoon
 
 ## Honest capability limits
 
-The cartoon engine is an original **procedural 2D animation system**: it draws its own character rigs and props, animates their basic actions, and applies camera movement and scene transitions. It is not a diffusion video model, not a full 3D character-animation studio, and it does not yet offer AI-generated character art or complex facial motion capture. The original Animated/Cinematic/Cartoon modes remain graphics-based.
+The cartoon engine is an original **procedural 2D animation system**: it draws its own character rigs and props, animates actions, blinks, eyebrows, emotional mouths, speech bubbles, moving objects, camera movement and scene transitions. It is not a diffusion video model, not a full 3D character-animation studio, and it does not offer AI-generated character artwork or performance-captured lip sync. The original Animated/Cinematic/Cartoon modes remain graphics-based.
 
 Bang Motion and the Cartoon Animation Kit are architectural inspiration only; their third-party source code and artwork are not copied into this repository. The optional Qwen 3D Coder shown in the reference post is a separate model for generating Three.js scenes, not a runtime dependency of this cloud renderer.
 
