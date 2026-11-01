@@ -1,0 +1,278 @@
+{
+  "title": "चिंटू और शरारती पतंग",
+  "language": "hi",
+  "fps": 24,
+  "accent": "#ffdf75",
+  "characters": {
+    "chintu": {
+      "shape": "cat",
+      "color": "#f28c55",
+      "accent": "#fff0d0",
+      "scale": 1
+    },
+    "gudiya": {
+      "shape": "round",
+      "color": "#a66de0",
+      "accent": "#ffe0f0",
+      "scale": 0.92
+    }
+  },
+  "scenes": [
+    {
+      "duration": 4,
+      "background": "meadow",
+      "camera": "push_in",
+      "caption": "चिंटू की रंग-बिरंगी पतंग पेड़ में फँस गई।",
+      "narration": "एक सुबह चिंटू अपनी नई पतंग उड़ा रहा था। तभी तेज़ हवा आई और उसकी पतंग पेड़ में अटक गई।",
+      "props": [
+        {
+          "type": "tree",
+          "x": 0.78,
+          "y": 0.77
+        },
+        {
+          "type": "kite",
+          "x": 0.76,
+          "y": 0.36,
+          "motion": "float"
+        }
+      ],
+      "characters": [
+        {
+          "id": "chintu",
+          "x": 0.22,
+          "y": 0.78,
+          "action": "talk",
+          "emotion": "surprised",
+          "dialogue": "अरे! मेरी प्यारी पतंग!"
+        },
+        {
+          "id": "gudiya",
+          "x": 0.43,
+          "y": 0.78,
+          "action": "think",
+          "emotion": "curious",
+          "dialogue": "वह तो पेड़ में फँस गई!"
+        }
+      ],
+      "kinetic_text": [
+        {
+          "text": "अरे, मेरी पतंग!",
+          "x": 0.5,
+          "y": 0.2,
+          "size": 42,
+          "color": "#fff29b",
+          "motion": "pop"
+        }
+      ]
+    },
+    {
+      "duration": 4,
+      "background": "forest",
+      "camera": "pan_right",
+      "caption": "दोनों दोस्तों ने मिलकर एक तरकीब सोची।",
+      "narration": "गुड़िया ने मुस्कुराकर कहा कि घबराने की जरूरत नहीं। दोनों दोस्त मिलकर पतंग को नीचे लाने की योजना बनाने लगे।",
+      "props": [
+        {
+          "type": "tree",
+          "x": 0.14,
+          "y": 0.76
+        },
+        {
+          "type": "kite",
+          "x": 0.77,
+          "y": 0.32,
+          "motion": "float"
+        },
+        {
+          "type": "flower",
+          "x": 0.62,
+          "y": 0.82
+        }
+      ],
+      "characters": [
+        {
+          "id": "chintu",
+          "x": 0.31,
+          "y": 0.78,
+          "action": "think",
+          "emotion": "worried",
+          "dialogue": "अब इसे नीचे कैसे लाएँ?"
+        },
+        {
+          "id": "gudiya",
+          "x": 0.61,
+          "y": 0.78,
+          "action": "wave",
+          "emotion": "happy",
+          "dialogue": "मेरे पास एक तरकीब है!"
+        }
+      ],
+      "kinetic_text": [
+        {
+          "text": "दोस्ती की ताकत!",
+          "x": 0.5,
+          "y": 0.2,
+          "size": 40,
+          "color": "#ffffff",
+          "motion": "rise"
+        }
+      ]
+    },
+    {
+      "duration": 4,
+      "background": "sunset",
+      "camera": "push_in",
+      "caption": "हवा चली और पतंग झूमती हुई नीचे आई।",
+      "narration": "तभी हवा फिर से चली। गुड़िया ने डोर संभाली और चिंटू पतंग के पीछे दौड़ा।",
+      "props": [
+        {
+          "type": "kite",
+          "x": 0.58,
+          "y": 0.38,
+          "motion": "spin"
+        },
+        {
+          "type": "cloud",
+          "x": 0.18,
+          "y": 0.22
+        },
+        {
+          "type": "hill",
+          "x": 0.8,
+          "y": 0.87
+        }
+      ],
+      "characters": [
+        {
+          "id": "chintu",
+          "start_x": 0.18,
+          "end_x": 0.52,
+          "y": 0.78,
+          "action": "run",
+          "emotion": "happy",
+          "dialogue": "मैं पकड़ लूँगा!"
+        },
+        {
+          "id": "gudiya",
+          "x": 0.78,
+          "y": 0.78,
+          "action": "cheer",
+          "emotion": "worried",
+          "dialogue": "सावधान, चिंटू!"
+        }
+      ],
+      "kinetic_text": [
+        {
+          "text": "भागो, भागो!",
+          "x": 0.5,
+          "y": 0.18,
+          "size": 52,
+          "color": "#fff5cb",
+          "motion": "slide_left"
+        }
+      ]
+    },
+    {
+      "duration": 4,
+      "background": "beach",
+      "camera": "pan_left",
+      "caption": "एक छलाँग में चिंटू ने डोर पकड़ ली।",
+      "narration": "चिंटू ने एक ऊँची छलाँग लगाई और पतंग की डोर पकड़ ली। गुड़िया ने तुरंत उसकी मदद की।",
+      "props": [
+        {
+          "type": "kite",
+          "x": 0.53,
+          "y": 0.28,
+          "motion": "float"
+        },
+        {
+          "type": "rock",
+          "x": 0.14,
+          "y": 0.83
+        }
+      ],
+      "characters": [
+        {
+          "id": "chintu",
+          "x": 0.49,
+          "y": 0.78,
+          "action": "jump",
+          "emotion": "surprised",
+          "dialogue": "पकड़ ली!"
+        },
+        {
+          "id": "gudiya",
+          "x": 0.72,
+          "y": 0.78,
+          "action": "cheer",
+          "emotion": "happy",
+          "dialogue": "शाबाश, चिंटू!"
+        }
+      ],
+      "kinetic_text": [
+        {
+          "text": "वाह! मिल गई!",
+          "x": 0.5,
+          "y": 0.18,
+          "size": 48,
+          "color": "#fff09b",
+          "motion": "pop"
+        }
+      ]
+    },
+    {
+      "duration": 4,
+      "background": "meadow",
+      "camera": "pull_out",
+      "caption": "अब दोनों दोस्त साथ में पतंग उड़ाने लगे।",
+      "narration": "पतंग वापस मिल गई। दोनों दोस्तों ने तय किया कि अब वे हर खेल साथ खेलेंगे। उनकी हँसी से पूरा मैदान गूँज उठा।",
+      "props": [
+        {
+          "type": "kite",
+          "x": 0.51,
+          "y": 0.31,
+          "motion": "float"
+        },
+        {
+          "type": "flower",
+          "x": 0.16,
+          "y": 0.83
+        },
+        {
+          "type": "flower",
+          "x": 0.85,
+          "y": 0.83
+        }
+      ],
+      "characters": [
+        {
+          "id": "chintu",
+          "x": 0.36,
+          "y": 0.78,
+          "action": "wave",
+          "emotion": "happy",
+          "dialogue": "अब साथ में उड़ाएँगे!"
+        },
+        {
+          "id": "gudiya",
+          "x": 0.65,
+          "y": 0.78,
+          "action": "cheer",
+          "emotion": "happy",
+          "dialogue": "हाँ! सबसे ऊँची पतंग!"
+        }
+      ],
+      "kinetic_text": [
+        {
+          "text": "दोस्ती सबसे प्यारी!",
+          "x": 0.5,
+          "y": 0.18,
+          "size": 42,
+          "color": "#fff3b0",
+          "motion": "pulse"
+        }
+      ]
+    }
+  ]
+}
