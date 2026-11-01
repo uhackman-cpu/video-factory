@@ -43,6 +43,11 @@ on:
         required: false
         type: string
         default: ""
+      storyboard_json:
+        description: "Optional scene-based cartoon storyboard JSON (paste a complete project)"
+        required: false
+        type: string
+        default: ""
       duration:
         description: "Video duration in seconds (15 to 60)"
         required: true
@@ -91,6 +96,22 @@ jobs:
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
 
+      - name: Smoke test scene-based cartoon renderer
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from engine.story_animation import render_storyboard_video
+
+          with open("examples/cartoon-storyboard.json", encoding="utf-8") as source:
+              project = json.load(source)
+          render_storyboard_video(
+              project, Path("output/storyboard-smoke.mp4"), voice_gender="female"
+          )
+          PY
+          test -s output/storyboard-smoke.mp4
+          test -s output/storyboard-smoke.srt
+          rm -f output/storyboard-smoke.mp4 output/storyboard-smoke.srt
       - name: Render MP4
         env:
           VIDEO_TITLE: ${{ inputs.title }}
@@ -100,12 +121,15 @@ jobs:
           VIDEO_TEMPLATE: ${{ inputs.template }}
           VIDEO_VOICE_GENDER: ${{ inputs.voice_gender }}
           VIDEO_VISUAL_QUERY: ${{ inputs.visual_query }}
+          VIDEO_STORYBOARD_JSON: ${{ inputs.storyboard_json }}
         run: |
           mkdir -p output
           python - <<'PY'
+          import json
           import os
           from pathlib import Path
           from engine.render_video import render
+          from engine.story_animation import render_storyboard_video
 
           title = os.environ["VIDEO_TITLE"].strip()
           narration = os.environ["VIDEO_NARRATION"].strip()
@@ -114,15 +138,24 @@ jobs:
           template = os.environ["VIDEO_TEMPLATE"]
           voice_gender = os.environ["VIDEO_VOICE_GENDER"]
           visual_query = os.environ.get("VIDEO_VISUAL_QUERY", "").strip()
-          if not title or not narration:
-              raise SystemExit("Title and narration cannot be empty")
-          render(
-              title, narration, language, duration,
-              Path("output/video-factory-short.mp4"),
-              template=template,
-              visual_query=visual_query,
-              voice_gender=voice_gender,
-          )
+          storyboard_text = os.environ.get("VIDEO_STORYBOARD_JSON", "").strip()
+          if storyboard_text:
+              project = json.loads(storyboard_text)
+              render_storyboard_video(
+                  project,
+                  Path("output/video-factory-short.mp4"),
+                  voice_gender=voice_gender,
+              )
+          else:
+              if not title or not narration:
+                  raise SystemExit("Title and narration cannot be empty")
+              render(
+                  title, narration, language, duration,
+                  Path("output/video-factory-short.mp4"),
+                  template=template,
+                  visual_query=visual_query,
+                  voice_gender=voice_gender,
+              )
           PY
 
       - name: Verify MP4 and captions
@@ -132,7 +165,9 @@ jobs:
           test -s output/credits.txt
           ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 output/video-factory-short.mp4
           frames="$(ffprobe -v error -select_streams v:0 -count_frames -show_entries stream=nb_read_frames -of default=noprint_wrappers=1:nokey=1 output/video-factory-short.mp4)"
-          test "$frames" -ge 450
+          duration="$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 output/video-factory-short.mp4)"
+          minimum_frames="$(python -c 'import sys; print(max(1, int(float(sys.argv[1]) * 10)))' "$duration")"
+          test "$frames" -ge "$minimum_frames"
 
       - name: Upload finished video and companion files
         uses: actions/upload-artifact@v4
