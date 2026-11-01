@@ -26,12 +26,10 @@ on:
         required: true
         type: choice
         options:
-          - educational
+          - animated
           - cinematic
-          - news
-          - facts
-          - quote
-        default: educational
+          - cartoon
+        default: animated
       voice_gender:
         description: "Neural narration voice"
         required: true
