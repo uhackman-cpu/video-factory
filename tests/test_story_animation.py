@@ -9,6 +9,7 @@ from engine.story_animation import (
     storyboard_narration,
     validate_storyboard,
     write_storyboard_srt,
+    retime_storyboard_for_voice,
 )
 
 
@@ -40,6 +41,11 @@ class StoryAnimationTests(unittest.TestCase):
         project = validate_storyboard(self.project)
         self.assertEqual(project["duration"], 2.0)
         self.assertEqual(project["fps"], 24)
+
+    def test_scene_timing_expands_to_fit_longer_voice(self):
+        adjusted = retime_storyboard_for_voice(self.project, 4.5)
+        self.assertAlmostEqual(adjusted["duration"], 4.5, places=2)
+        self.assertGreater(adjusted["scenes"][0]["duration"], 2)
 
     def test_narration_uses_scene_order(self):
         self.assertEqual(
