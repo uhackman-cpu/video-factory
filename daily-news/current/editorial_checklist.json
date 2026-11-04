@@ -101,5 +101,23 @@
     "status": "PENDING_RENDER",
     "details": "12 scenes, 600 seconds, 16:9 target; GitHub Actions test/render/ffprobe validation pending."
   },
-  "final_approval_status": "HOLD"
+  "final_approval_status": "HOLD",
+  "qc_review": {
+    "checked_at": "2026-11-05T02:36:04+05:30",
+    "status": "HOLD",
+    "findings": [
+      "Corrected a Hindi narration numeric pronunciation error: official rural food inflation is 8.06%, not 8.6%; project.json now says 'आठ दशमलव शून्य छह'. Correction commit: 07e40c83779f4ad23c7db109e15d6ea552c2362f.",
+      "The active render run 41911840929 remains in progress at the dependency-install step; the newer run 41912717975 is pending and has no job yet. Neither run has produced an artifact.",
+      "Test Hybrid Renderer run 41912764834 completed successfully; the unit-test job passed.",
+      "The two render runs were created before the narration correction and therefore are not proof that the corrected script has been rendered.",
+      "Human review remains mandatory for Amroha representative highway imagery, Diwali fireworks safety framing, and full Hindi voice pronunciation/pacing/audio."
+    ],
+    "workflow_runs": {
+      "active_render": "https://github.com/uhackman-cpu/video-factory/actions/runs/41911840929",
+      "queued_render": "https://github.com/uhackman-cpu/video-factory/actions/runs/41912717975",
+      "test_success": "https://github.com/uhackman-cpu/video-factory/actions/runs/41912764834"
+    },
+    "artifact_verified": false,
+    "youtube_publish_authorized": false
+  }
 }
