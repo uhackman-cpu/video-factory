@@ -1,0 +1,26 @@
+Hindi Facts — 5 November 2026
+Project licence: CC BY-SA 4.0 (commercial use allowed with attribution and ShareAlike)
+Licence: https://creativecommons.org/licenses/by-sa/4.0/
+
+Visual assets:
+1. Wheat Field in India.jpg — Rstv.devesh — CC0 1.0 Universal — https://commons.wikimedia.org/wiki/File:Wheat_Field_in_India.jpg
+2. Bike Ride On the NH 48.jpg — Mallikarjuna Sarvala — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bike_Ride_On_the_NH_48.jpg
+   Representative highway image only; not the Amroha accident.
+3. Indian Sweet.jpg — Mrsagar105 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Indian_Sweet.jpg
+   Representative sweets only; not inspected/seized food.
+4. Namo Bharat train.jpg — The social view — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Namo_Bharat_train.jpg
+   Interior photograph taken inside a Namo Bharat train.
+5. Red Bell Energy Drink 250ml can.jpg — JonathanAaronBridgemohan — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Red_Bell_Energy_Drink_250ml_can.jpg
+   Representative can only; not a product in the legal dispute.
+6. Laptop Keyboard.jpg — Kokul Jose — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Laptop_Keyboard.jpg
+7. Diwali Fireworks.jpg — Wind Hashira — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Diwali_Fireworks.jpg
+8. Dark clouds, Monsoon, India (2018).jpg — Patilharshit — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Dark_clouds,_Monsoon,_India_(2018).jpg
+   2018 representative image; not today's weather.
+
+Narration:
+Kokoro-82M Hindi voice hm_omega — Apache License 2.0
+Model: https://huggingface.co/hexgrad/Kokoro-82M
+Voice catalogue: https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md
+Locally synthesized; no external TTS API.
+
+No music, TV/news clips, publisher photos, screenshots, social-media footage or logos used.
