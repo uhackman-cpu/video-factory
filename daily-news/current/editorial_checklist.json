@@ -1,118 +1,149 @@
 {
   "edition_date": "2026-11-05",
-  "checked_at": "2026-11-05T04:20:13+05:30",
-  "render_status": "PENDING_DISPATCH",
+  "checked_at": "2026-11-05T05:15:13+05:30",
+  "render_status": "READY_FOR_DRAFT_DISPATCH",
   "publication_status": "HOLD_FOR_HUMAN_REVIEW",
   "overall_status": "HOLD",
   "editorial": {
     "audience_mix": "PASS",
-    "spoken_word_count": 1218,
+    "spoken_word_count": 1277,
     "target_duration_seconds": 600,
     "scene_count": 15,
     "western_up_seconds": 210,
     "western_up_percent": 35,
-    "india_wider_up_weather_open_close_seconds": 390,
-    "india_wider_up_percent": 65,
+    "other_seconds": 390,
+    "other_percent": 65,
     "jobs_exams": "No routine recruitment, job or exam notices included",
-    "script_originality": "Original Hindi narration; not copied or translated from source articles",
-    "sensationalism": "No rumour, communal/caste bait, misleading claim or graphic detail",
-    "selected_story_count": 9,
-    "story_mix": "Western UP road safety and farmer procurement occupy 35%; national stories focus on food inflation, disaster recovery, fuel/food trade-off, consumer labelling, cyber safety, minerals and localised cracker restrictions."
+    "script_originality": "PASS — original Hindi narration written from sourced facts; not copied or mechanically paraphrased",
+    "sensationalism": "PASS — no rumour, communal/caste bait, misleading claim or graphic detail",
+    "selected_story_count": 12,
+    "story_mix": "Four Western UP stories occupy 210 seconds; eight wider India/UP stories plus weather, opening and closing occupy 390 seconds."
   },
   "research_verification": [
     {
       "story_id": "W1",
       "status": "PASS_WITH_SCOPE_LIMIT",
-      "note": "PTI/ThePrint and multiple local reports confirm two deaths and police case. Vehicle count and injured count differ; script omits exact disputed count and excludes alleged intoxication/BSF identity."
+      "note": "Three local reports corroborate two child deaths; injured count varies, so no exact injured count is stated. No victim imagery or graphic detail."
     },
     {
       "story_id": "W2",
+      "status": "PASS_WITH_SCOPE_LIMIT",
+      "note": "High Court four-week direction is corroborated by multiple outlets; Moradabad 25,000+ count remains single-source and is attributed."
+    },
+    {
+      "story_id": "W3",
       "status": "PASS_WITH_ATTRIBUTION",
-      "note": "Amrit Vichar and Live Hindustan corroborate protest and demands. ₹600/quintal is clearly a demand, not an announced rate; no administration decision claimed."
+      "note": "FSDA figures reported by multiple outlets; lab outcomes are not claimed for every seized item."
+    },
+    {
+      "story_id": "W4",
+      "status": "PASS_WITH_ATTRIBUTION",
+      "note": "Allegations are attributed; a follow-up outlet reports DM regret, but no final inquiry result was found."
     },
     {
       "story_id": "N1",
-      "status": "PASS_WITH_ATTRIBUTION",
-      "note": "CPI figures from PIB/MoSPI; soil moisture and price risk attributed to Reuters and described as forward-looking."
+      "status": "PASS_WITH_SCOPE_LIMIT",
+      "note": "Early-season area comparison based on Agriculture Ministry figures reported by Business Standard and Daijiworld; not final crop loss."
     },
     {
       "story_id": "N2",
-      "status": "PASS_PRELIMINARY",
-      "note": "Three reports corroborate cyclone recovery; all damage estimates are labelled preliminary."
+      "status": "PASS",
+      "note": "September CPI figures supported by official PIB/MoSPI release; Reuters outlook is framed as risk, not certainty."
     },
     {
       "story_id": "N3",
-      "status": "PASS_AS_INDUSTRY_ESTIMATE",
-      "note": "15–17% blending is an industry estimate, not a final government target."
+      "status": "PASS_PRELIMINARY",
+      "note": "Two deaths and property/crop damage reported; crop estimates vary and remain preliminary."
     },
     {
       "story_id": "N4",
-      "status": "PASS_WITH_ATTRIBUTION",
-      "note": "Regulator's court argument and company dispute are both attributed; no final hearing outcome or toxicity claim."
+      "status": "PASS",
+      "note": "Match result and key figures corroborated by Reuters, Hindustan Times and AP."
     },
     {
       "story_id": "N5",
-      "status": "PASS",
-      "note": "I4C warning is correctly framed as directed to financial institutions; practical customer advice is separated."
+      "status": "PASS_WITH_SCOPE_LIMIT",
+      "note": "I4C warning is for financial institutions; script does not imply every bank customer is compromised."
     },
     {
       "story_id": "N6",
       "status": "PASS",
-      "note": "Cabinet parameters supported by official PIB/PM India and Reuters."
+      "note": "Cabinet scheme supported by PM India, PIB/Ministry of Mines and Reuters; no immediate consumer price claim."
     },
     {
       "story_id": "N7",
       "status": "PASS_WITH_SCOPE_LIMIT",
-      "note": "Restrictions are explicitly limited to Delhi-NCR and stated dates/times; local district orders should also be checked."
+      "note": "Polling-station count change is attributed to reports; no claim that voter registrations were cancelled."
+    },
+    {
+      "story_id": "N8",
+      "status": "PASS_WITH_ATTRIBUTION",
+      "note": "FSSAI allegation and company challenge are both attributed; 6 October court relief is interim, not final; 5 November hearing outcome must be refreshed before publication."
     },
     {
       "story_id": "WEATHER",
       "status": "PASS_WITH_SCOPE_LIMIT",
-      "note": "IMD warning map checked at 04:20 IST. West UP no-warning statement is subdivision-level; stale city temperatures are not presented as current."
+      "note": "IMD 5 November subdivision page shows no West UP warning 5–11 November; no town temperature is invented and issue time was not exposed."
     }
   ],
   "script_originality_review": {
     "status": "PASS",
-    "details": "1218-word original Hindi narration written from source facts with distinct structure and explanatory context."
+    "details": "1277-word original Hindi narration with distinct explanatory structure; source facts are attributed and uncertainty retained."
   },
   "sensitive_content_review": {
     "status": "PASS_WITH_HUMAN_REVIEW",
-    "details": "Road accident handled without gore, victim imagery or unverified personal detail; no communal/caste angle."
+    "details": "Moradabad child-fatality story is handled without names/faces, graphic description or accident footage. Bijnor dispute is allegation-based. Human review remains mandatory."
   },
   "rights_review": {
     "visual_assets": "PASS_METADATA",
-    "visual_asset_count": 8,
+    "visual_asset_count": 9,
+    "asset_ids": [
+      "IMG-WHEAT-UP",
+      "IMG-BIKE-HIGHWAY",
+      "IMG-ERICKSHAW-MEERUT",
+      "IMG-INDIAN-SWEET",
+      "IMG-LAPTOP-KEYBOARD",
+      "IMG-MONSOON-CLOUDS",
+      "IMG-CRICKET-STADIUM",
+      "IMG-LITHIUM-OPERATION",
+      "IMG-ENERGY-CAN"
+    ],
     "license_types": [
       "CC0 1.0",
       "CC BY-SA 4.0",
-      "CC BY 2.0"
+      "CC BY 2.0",
+      "CC BY 4.0"
     ],
     "commercial_use_allowed": true,
     "adaptation_allowed": true,
-    "project_license": "CC BY-SA 4.0",
+    "project_license": "CC BY-SA 4.0; individual third-party asset licences remain separately applicable",
     "music": "None",
     "sound_effects": "None",
     "third_party_news_footage": "None",
-    "narration": "Kokoro-82M hm_omega, Apache-2.0; local synthesis only",
+    "narration": "Kokoro-82M Hindi voice hm_omega, Apache-2.0; local synthesis only",
     "phonemizer": "espeak-ng"
   },
   "visual_audio_clearance": {
     "status": "PASS_WITH_HUMAN_REVIEW_PENDING",
-    "details": "All still photographs have source page, creator, rights holder, licence version, commercial/adaptation permission and attribution. Every scene includes matching asset ID and licence URL. On-screen illustrative label is enabled for every scene. Human review of framing and attribution remains required."
+    "details": "All nine used still-image assets have exact source pages, creator/rights-holder, licence version, commercial/adaptation permissions, attribution and evidence URLs. Every scene maps to a matching asset_licenses record and includes its licence URL. Every still carries the visible illustrative label."
   },
   "technical_checks": {
     "status": "PENDING_RENDER",
-    "details": "Workflow must verify 1920x1080, 540–660 seconds, audio stream, SRT and uploaded provenance artifact. Do not claim technical success until run and artifact are checked."
+    "details": "Workflow must verify MP4 exists, duration 540–660 seconds, resolution 1920x1080, audio stream, SRT, credits and provenance artifact. No technical success is claimed before checking the new run."
   },
   "required_human_review": [
-    "Listen to the full Kokoro hm_omega Hindi narration for pronunciation, natural pacing, intelligibility, clipping and abrupt cuts.",
-    "Check that the on-screen 'प्रतीकात्मक तस्वीर' label is visible and legible in every scene; all stills are generic and not actual event footage.",
-    "Review the Amroha road-safety segment for sensitivity; no real accident imagery is used.",
-    "Review the lithium facility scene label that explicitly says Nevada, not an Indian plant.",
-    "Confirm the Delhi-NCR cracker restrictions remain current and the district scope is clear.",
-    "Confirm the supplied SRT is attached during any later YouTube upload; subtitles are a sidecar, not burned into the MP4."
+    "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, natural pacing, clipping and abrupt cuts.",
+    "Check that the on-screen 'प्रतीकात्मक तस्वीर' label is visible and legible in every scene.",
+    "Review the Moradabad road-safety segment for sensitivity; no real accident imagery is used.",
+    "Confirm the e-rickshaw image is clearly representative and identified as a Meerut photograph, not Moradabad footage.",
+    "Review Bijnor allegations and the reported DM regret before publication.",
+    "Review the cricket stadium label: Hyderabad stadium, not Eden Park or match footage.",
+    "Review lithium scene label: Nevada operation, not an Indian plant.",
+    "Refresh the 5 November energy-drink hearing status before public release.",
+    "Confirm IMD warnings are still current at upload time.",
+    "Confirm the SRT sidecar is included in any later upload."
   ],
-  "final_gate": "HOLD — draft render is allowed for review, but do not publish or schedule until human listening, visual-label review and final editorial approval are complete.",
+  "final_gate": "HOLD — draft rendering is permitted, but do not publish or schedule until human listening, visual-label review, current legal/weather updates and final editorial approval are complete.",
   "final_approval_status": "HOLD",
   "youtube_publish_authorized": false,
   "artifact_verified": false
