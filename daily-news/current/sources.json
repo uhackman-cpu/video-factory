@@ -280,7 +280,7 @@
       "url": "https://theprint.in/india/two-youths-killed-as-speeding-suv-rams-motorcycle-in-ups-amroha/3089902/",
       "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T02:18:12+05:30",
-      "source_type": "news_agency",
+      "source_type": "news",
       "claims_supported": [
         "W1-C1"
       ],
@@ -378,7 +378,7 @@
       "url": "https://ncrtc.in/page/181/",
       "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T02:18:12+05:30",
-      "source_type": "primary_official",
+      "source_type": "official",
       "claims_supported": [
         "W3-C1"
       ],
@@ -428,7 +428,7 @@
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3",
       "published_at": "2026-10-12T16:00:00+05:30",
       "accessed_at": "2026-11-05T02:04:13+05:30",
-      "source_type": "primary_official",
+      "source_type": "official",
       "claims_supported": [
         "N1-C1"
       ],
@@ -494,7 +494,7 @@
       "url": "https://www.livelawbiz.com/news-updates/delhi-high-court-stays-fssai-orders-forcing-pepsico-monster-energy-to-drop-energy-drink-label-553479",
       "published_at": "2026-10-07",
       "accessed_at": "2026-11-05T02:18:12+05:30",
-      "source_type": "legal_reporting",
+      "source_type": "news",
       "claims_supported": [
         "N2-C2"
       ],
@@ -510,7 +510,7 @@
       "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02",
       "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T02:18:12+05:30",
-      "source_type": "primary_official",
+      "source_type": "official",
       "claims_supported": [
         "N3-C1",
         "N3-C2"
@@ -544,7 +544,7 @@
       "url": "https://www.livemint.com/technology/central-cyber-security-agency-warns-banks-fintech-firms-of-frauds-through-ai-agents-11793805354383.html",
       "published_at": "2026-11-04T20:45:00+05:30",
       "accessed_at": "2026-11-05T02:18:12+05:30",
-      "source_type": "news_agency",
+      "source_type": "news",
       "claims_supported": [
         "N3-C1"
       ],
@@ -577,7 +577,7 @@
       "url": "https://www.gazettetracker.com/g/CG-DL-E-04112026-277656",
       "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T02:04:13+05:30",
-      "source_type": "gazette_transcript_mirror",
+      "source_type": "other",
       "claims_supported": [
         "N4-C1",
         "N4-C2"
@@ -594,7 +594,7 @@
       "url": "https://theprint.in/india/sc-allows-bursting-of-green-firecrackers-in-delhi-ncr-from-6-7-am-8-10-pm-on-nov-7-8/3088152/",
       "published_at": "2026-11-02T15:47:00+05:30",
       "accessed_at": "2026-11-05T02:04:13+05:30",
-      "source_type": "news_agency",
+      "source_type": "news",
       "claims_supported": [
         "N5-C1",
         "N5-C2"
@@ -628,7 +628,7 @@
       "url": "https://government.economictimes.indiatimes.com/news/governance/sc-allows-bursting-of-green-firecrackers-in-delhi-ncr-from-6-7-am-8-10-pm-on-nov-7-8/135454412",
       "published_at": "2026-11-02T21:08:00+05:30",
       "accessed_at": "2026-11-05T02:04:13+05:30",
-      "source_type": "news_agency",
+      "source_type": "news",
       "claims_supported": [
         "N5-C1",
         "N5-C2"
@@ -645,7 +645,7 @@
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=5",
       "published_at": "2026-11-05",
       "accessed_at": "2026-11-05T02:18:12+05:30",
-      "source_type": "primary_official",
+      "source_type": "official",
       "claims_supported": [
         "West Uttar Pradesh no warning for 5–11 Nov; East Uttar Pradesh no warning for 5–11 Nov"
       ],
@@ -661,7 +661,7 @@
       "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42189",
       "published_at": "2026-11-03",
       "accessed_at": "2026-11-05T02:04:13+05:30",
-      "source_type": "primary_official",
+      "source_type": "official",
       "claims_supported": [
         "Bareilly 5 Nov forecast: clear sky, minimum 17°C, maximum 29°C"
       ],
@@ -677,7 +677,7 @@
       "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42138",
       "published_at": "2026-10-30",
       "accessed_at": "2026-11-05T02:04:13+05:30",
-      "source_type": "primary_official",
+      "source_type": "official",
       "claims_supported": [
         "Muzaffarnagar 5 Nov forecast listed mainly clear, 16–29°C"
       ],
@@ -693,7 +693,7 @@
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=4",
       "published_at": "2026-11-05",
       "accessed_at": "2026-11-05T02:18:12+05:30",
-      "source_type": "primary_official",
+      "source_type": "official",
       "claims_supported": [
         "Kerala thunderstorm/lightning/squall warning 5 Nov; heavy rain and thunderstorm warnings 6–8 Nov"
       ],
@@ -709,7 +709,7 @@
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2",
       "published_at": "2026-11-05",
       "accessed_at": "2026-11-05T02:18:12+05:30",
-      "source_type": "primary_official",
+      "source_type": "official",
       "claims_supported": [
         "Coastal Andhra Pradesh and Rayalaseema thunderstorm/lightning/squall and strong surface wind warnings 5–8 Nov"
       ],
@@ -725,7 +725,7 @@
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=10",
       "published_at": "2026-11-05",
       "accessed_at": "2026-11-05T02:18:12+05:30",
-      "source_type": "primary_official",
+      "source_type": "official",
       "claims_supported": [
         "Odisha thunderstorm/lightning/squall warning 5 Nov"
       ],
@@ -741,7 +741,7 @@
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13",
       "published_at": "2026-11-05",
       "accessed_at": "2026-11-05T02:18:12+05:30",
-      "source_type": "primary_official",
+      "source_type": "official",
       "claims_supported": [
         "South Interior Karnataka heavy rain and thunderstorm warning 5–6 Nov; Coastal Karnataka thunderstorm warning 5 Nov"
       ],
@@ -757,7 +757,7 @@
       "url": "https://cybercrime.gov.in/",
       "published_at": null,
       "accessed_at": "2026-11-05T02:04:13+05:30",
-      "source_type": "primary_official",
+      "source_type": "official",
       "claims_supported": [
         "Financial cyber fraud can be reported through 1930 and cybercrime.gov.in"
       ],
