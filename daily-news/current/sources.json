@@ -206,6 +206,14 @@
             "S17"
           ],
           "confidence": "official advisory for technical threat; Reuters reports customer-facing safeguards"
+        },
+        {
+          "id": "N4-C3",
+          "claim": "I4C provides the 1930 helpline and cybercrime.gov.in portal for reporting financial cyber fraud.",
+          "source_ids": [
+            "S31"
+          ],
+          "confidence": "official I4C reporting portal"
         }
       ],
       "editorial_caution": "Advisory is directed at financial institutions; do not imply all bank accounts are compromised."
@@ -511,8 +519,7 @@
       "accessed_at": "2026-11-05T03:00:57+05:30",
       "source_type": "news",
       "claims_supported": [
-        "N1-C2",
-        "N1-C3"
+        "N2-C1"
       ],
       "verification_notes": "15–17% ethanol blend is an estimate from industry sources, not an official final target; crop-price movements are reported estimates."
     },
@@ -528,8 +535,8 @@
       "accessed_at": "2026-11-05T03:00:57+05:30",
       "source_type": "news",
       "claims_supported": [
-        "N2-C1",
-        "N2-C2"
+        "N3-C1",
+        "N3-C2"
       ],
       "verification_notes": "Reuters reviewed FSSAI court filings; companies dispute the regulator's action; case hearing due 5 Nov at cut-off."
     },
@@ -545,7 +552,8 @@
       "accessed_at": "2026-11-05T03:00:57+05:30",
       "source_type": "news",
       "claims_supported": [
-        "N2-C2"
+        "N3-C1",
+        "N3-C2"
       ],
       "verification_notes": "Reports interim court order and stock-only relief; does not establish final merits of the labelling dispute."
     },
@@ -561,8 +569,8 @@
       "accessed_at": "2026-11-05T03:00:57+05:30",
       "source_type": "official",
       "claims_supported": [
-        "N3-C1",
-        "N3-C2"
+        "N4-C1",
+        "N4-C2"
       ],
       "verification_notes": "Critical advisory; describes active campaign targeting financial institutions, not individual consumer account compromise."
     },
@@ -578,8 +586,8 @@
       "accessed_at": "2026-11-05T03:00:57+05:30",
       "source_type": "news",
       "claims_supported": [
-        "N3-C1",
-        "N3-C2"
+        "N4-C1",
+        "N4-C2"
       ],
       "verification_notes": "Reports I4C advice on daily/per-transaction limits, beneficiary verification and unusual transaction speeds."
     },
@@ -595,7 +603,7 @@
       "accessed_at": "2026-11-05T03:00:57+05:30",
       "source_type": "news",
       "claims_supported": [
-        "N3-C1"
+        "N4-C1"
       ],
       "verification_notes": "PTI cross-check; reports I4C warning to financial institutions."
     },
@@ -611,8 +619,8 @@
       "accessed_at": "2026-11-05T03:00:57+05:30",
       "source_type": "news",
       "claims_supported": [
-        "N4-C1",
-        "N4-C2"
+        "N6-C1",
+        "N6-C2"
       ],
       "verification_notes": "Reuters explains the proposal and 30-day public-comment period; not yet in force until final Gazette publication."
     },
@@ -628,8 +636,8 @@
       "accessed_at": "2026-11-05T03:00:57+05:30",
       "source_type": "other",
       "claims_supported": [
-        "N4-C1",
-        "N4-C2"
+        "N6-C1",
+        "N6-C2"
       ],
       "verification_notes": "Secondary transcript of draft G.S.R. 956(E), dated 28 Oct 2026. Official CDSCO Gazette list did not display this exact item in the checked page; verify final Gazette before stating legal status."
     },
@@ -645,8 +653,8 @@
       "accessed_at": "2026-11-05T03:00:57+05:30",
       "source_type": "news",
       "claims_supported": [
-        "N5-C1",
-        "N5-C2"
+        "N7-C1",
+        "N7-C2"
       ],
       "verification_notes": "PTI summary of Supreme Court order dated 29 Oct 2026."
     },
@@ -662,8 +670,8 @@
       "accessed_at": "2026-11-05T03:00:57+05:30",
       "source_type": "news",
       "claims_supported": [
-        "N5-C1",
-        "N5-C2"
+        "N7-C1",
+        "N7-C2"
       ],
       "verification_notes": "Independent legal desk report; includes educational institutions in no-cracker zones."
     },
@@ -679,8 +687,8 @@
       "accessed_at": "2026-11-05T03:00:57+05:30",
       "source_type": "news",
       "claims_supported": [
-        "N5-C1",
-        "N5-C2"
+        "N7-C1",
+        "N7-C2"
       ],
       "verification_notes": "PTI cross-check of dates, time windows, certification and 300-metre exclusion zones."
     },
@@ -808,7 +816,7 @@
       "accessed_at": "2026-11-05T03:00:57+05:30",
       "source_type": "official",
       "claims_supported": [
-        "Financial cyber fraud can be reported through 1930 and cybercrime.gov.in"
+        "N4-C3"
       ],
       "verification_notes": "Use only as public-help information; verify portal guidance before broadcast."
     },
