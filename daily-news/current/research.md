@@ -27,7 +27,7 @@ Reports quoting UP FSDA say the 26 October–3 November campaign inspected 1,133
 ### W3 — Namo Bharat: 20 extra trips on Delhi–Meerut corridor
 **Allocation:** 36 seconds.  
 NCRTC announced 20 additional trips from 4 November across the corridor from Sarai Kale Khan to Modipuram. These are additional trips, not 20 new trains. Do not quote departure times without checking the live app or station board.  
-**Sources:** NCRTC notice: https://ncrtc.in/page/181/ ; Moneycontrol (3 Nov): https://www.moneycontrol.com/city/ncrtc-to-add-20-additional-namo-bharat-trains-as-delhi-s-air-quality-slips-into-very-poor-category-article-14067938.html ; Times of India (4 Nov): https://timesofindia.indiatimes.com/city/delhi/ncrtc-adds-20-extra-namo-bharat-trips-on-delhi-meerut-corridor/articleshow/135508047.cms
+**Sources:** Moneycontrol (3 Nov): https://www.moneycontrol.com/city/ncrtc-to-add-20-additional-namo-bharat-trains-as-delhi-s-air-quality-slips-into-very-poor-category-article-14067938.html ; Times of India (4 Nov): https://timesofindia.indiatimes.com/city/delhi/ncrtc-adds-20-extra-namo-bharat-trips-on-delhi-meerut-corridor/articleshow/135508047.cms. The NCRTC general page no longer displayed the specific 4 November notice at the 03:00 IST check, so the two news reports are the current claim support.
 
 ## India-wide and wider-UP stories — 300 seconds
 
