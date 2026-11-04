@@ -80,5 +80,26 @@
     "Confirm every visual is clearly representative and not mistaken for the actual event."
   ],
   "final_gate": "HOLD — draft may be rendered, but do not publish or schedule until all required human review items are completed.",
-  "youtube_publish_authorized": false
+  "youtube_publish_authorized": false,
+  "research_verification": {
+    "status": "PASS_WITH_SCOPE_LIMIT",
+    "details": "All selected stories have claim-to-source mapping; Amroha conflicting details are omitted; drug-rule draft held; IMD warnings refreshed from official 5 Nov pages."
+  },
+  "script_originality_review": {
+    "status": "PASS",
+    "details": "Original 1,200-word Hindi narration; no article or broadcaster script copied or translated."
+  },
+  "sensitive_content_review": {
+    "status": "HOLD",
+    "details": "Human review required for Amroha road-safety/crime context and fireworks safety visual; no graphic or actual accident imagery used."
+  },
+  "visual_audio_clearance": {
+    "status": "PASS_WITH_HUMAN_REVIEW_PENDING",
+    "details": "Asset pages, creators, licences, commercial-use permissions, adaptation permissions and attribution text recorded. Kokoro-82M Apache-2.0 local TTS selected; final voice quality still needs listening review."
+  },
+  "technical_checks": {
+    "status": "PENDING_RENDER",
+    "details": "12 scenes, 600 seconds, 16:9 target; GitHub Actions test/render/ffprobe validation pending."
+  },
+  "final_approval_status": "HOLD"
 }
