@@ -20,7 +20,7 @@ def commercially_usable_license(value: str) -> bool:
     label = re.sub(r"\s+", " ", value.strip().lower())
     if any(term in label for term in ("noncommercial", "non-commercial", "no derivatives", "no-derivatives", "sampling")):
         return False
-    if re.search(r"(^|[\\s-])(nc|nd)(?=[\\s-]|$)", label):
+    if re.search(r"(^|[\s-])(nc|nd)(?=[\s-]|$)", label):
         return False
     return any(label.startswith(item) for item in ALLOWED_LICENSES) or label.startswith(("cc by-sa", "cc-by-sa"))
 
