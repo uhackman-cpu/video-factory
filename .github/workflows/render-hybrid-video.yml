@@ -120,6 +120,11 @@ jobs:
           height="$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=s=x:p=0 "output/$OUTPUT_NAME")"
           test "$width" = "1920"
           test "$height" = "1080"
+          duration="$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "output/$OUTPUT_NAME")"
+          python -c 'import sys; d=float(sys.argv[1]); assert 540 <= d <= 660, f"Expected 9–11 min video, got {d:.1f}s"' "$duration"
+          audio="$(ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of csv=s=x:p=0 "output/$OUTPUT_NAME")"
+          test -n "$audio"
+          test -s "output/${OUTPUT_NAME%.mp4}.srt"
 
       - name: Upload video and production records
         uses: actions/upload-artifact@v4
