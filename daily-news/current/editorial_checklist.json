@@ -1,154 +1,119 @@
 {
   "edition_date": "2026-11-05",
-  "checked_at": "2026-11-05T03:44:00+05:30",
-  "render_status": "RENDERED_TECHNICAL_PASS",
+  "checked_at": "2026-11-05T04:20:13+05:30",
+  "render_status": "PENDING_DISPATCH",
   "publication_status": "HOLD_FOR_HUMAN_REVIEW",
   "overall_status": "HOLD",
   "editorial": {
-    "audience_mix": "PASS_WITH_IMPROVEMENT",
-    "spoken_word_count": 1203,
+    "audience_mix": "PASS",
+    "spoken_word_count": 1218,
     "target_duration_seconds": 600,
-    "scene_count": 13,
-    "western_up_seconds": 213,
-    "western_up_percent": 35.5,
-    "india_wider_up_weather_open_close_seconds": 387,
-    "jobs_exams": "No routine jobs/exam stories included",
-    "script_originality": "Original narration; facts paraphrased in fresh language",
-    "sensationalism": "No rumours, communal/caste bait, misleading claims or graphic detail",
-    "india_story_seconds": 266,
-    "weather_seconds": 86,
-    "opening_seconds": 28,
-    "closing_seconds": 7,
+    "scene_count": 15,
+    "western_up_seconds": 210,
+    "western_up_percent": 35,
+    "india_wider_up_weather_open_close_seconds": 390,
+    "india_wider_up_percent": 65,
+    "jobs_exams": "No routine recruitment, job or exam notices included",
+    "script_originality": "Original Hindi narration; not copied or translated from source articles",
+    "sensationalism": "No rumour, communal/caste bait, misleading claim or graphic detail",
     "selected_story_count": 9,
-    "story_mix": "Western UP 35.5% and no routine jobs/exams; rural angle is present through food inflation, rabi sowing and ethanol/feedstock, but direct mandi, livestock, irrigation and village-service stories are thin and should be strengthened next edition."
+    "story_mix": "Western UP road safety and farmer procurement occupy 35%; national stories focus on food inflation, disaster recovery, fuel/food trade-off, consumer labelling, cyber safety, minerals and localised cracker restrictions."
   },
-  "factual_review": [
+  "research_verification": [
     {
       "story_id": "W1",
       "status": "PASS_WITH_SCOPE_LIMIT",
-      "note": "ThePrint/PTI confirms the crash occurred Tuesday 3 Nov between 8–9 pm; report was published 4 Nov. Two deaths and the basic collision facts are corroborated. Conflicting reports differ on motorcycles/injuries; script correctly omits disputed details and does not claim an arrest."
+      "note": "PTI/ThePrint and multiple local reports confirm two deaths and police case. Vehicle count and injured count differ; script omits exact disputed count and excludes alleged intoxication/BSF identity."
     },
     {
       "story_id": "W2",
-      "status": "PASS_WITH_SCOPE_LIMIT",
-      "note": "HT, TOI and Statesman report 1,133 inspections, 935 samples, about 54 quintals seized, estimated value ₹1.32 crore and 27 licence suspensions. Keep inspection/seizure/licence action distinct from lab-confirmed adulteration. Muzaffarnagar 220 kg sweets item is supported by Jagran and TOI; generic wording is appropriate."
-    },
-    {
-      "story_id": "W3",
-      "status": "PASS",
-      "note": "TOI and Moneycontrol corroborate 20 additional Namo Bharat trips from 4 Nov. Script correctly says extra trips, not 20 new trains; live timings are not stated."
-    },
-    {
-      "story_id": "W4",
       "status": "PASS_WITH_ATTRIBUTION",
-      "note": "Three reports describe CAQM's 30 Oct direction for up to 50% physical office attendance and dust-generating construction curbs, 5–20 Nov, including Ghaziabad and Gautam Buddha Nagar. Direct CAQM order PDF was not retrieved; retain attribution and exact exemptions."
+      "note": "Amrit Vichar and Live Hindustan corroborate protest and demands. ₹600/quintal is clearly a demand, not an announced rate; no administration decision claimed."
     },
     {
       "story_id": "N1",
       "status": "PASS_WITH_ATTRIBUTION",
-      "note": "September CPI values are supported by official PIB/MoSPI data; weak soil moisture, rabi sowing and price risks are attributed to Reuters and presented as outlook, not guaranteed local price rises."
+      "note": "CPI figures from PIB/MoSPI; soil moisture and price risk attributed to Reuters and described as forward-looking."
     },
     {
       "story_id": "N2",
-      "status": "PASS_AS_INDUSTRY_ESTIMATE",
-      "note": "Reuters reports the 15–17% ethanol blending possibility as an industry estimate due to feedstock constraints; script correctly does not call it a final government target or say E20 was scrapped."
+      "status": "PASS_PRELIMINARY",
+      "note": "Three reports corroborate cyclone recovery; all damage estimates are labelled preliminary."
     },
     {
       "story_id": "N3",
-      "status": "PASS_WITH_SCOPE_LIMIT",
-      "note": "Reuters court-filing report and earlier Delhi High Court order coverage support the labelling dispute and old-stock/new-manufacture distinction. It is not a toxicity finding or final ruling; no outcome of the 5 Nov hearing is claimed."
+      "status": "PASS_AS_INDUSTRY_ESTIMATE",
+      "note": "15–17% blending is an industry estimate, not a final government target."
     },
     {
       "story_id": "N4",
+      "status": "PASS_WITH_ATTRIBUTION",
+      "note": "Regulator's court argument and company dispute are both attributed; no final hearing outcome or toxicity claim."
+    },
+    {
+      "story_id": "N5",
       "status": "PASS",
-      "note": "Official CERT-In advisory CIAD-2026-0058 dated 4 Nov and Reuters corroborate the AI-assisted campaign against BFSI entities. Script correctly says the warning is directed at institutions and does not imply every customer account is compromised."
+      "note": "I4C warning is correctly framed as directed to financial institutions; practical customer advice is separated."
+    },
+    {
+      "story_id": "N6",
+      "status": "PASS",
+      "note": "Cabinet parameters supported by official PIB/PM India and Reuters."
     },
     {
       "story_id": "N7",
       "status": "PASS_WITH_SCOPE_LIMIT",
-      "note": "PTI/ThePrint, Indian Express and other reports of the Supreme Court directions support certified green crackers only on 7–8 Nov in stated windows, 300 m no-cracker zones and full ban from 9 Nov. Keep Delhi-NCR scope explicit."
+      "note": "Restrictions are explicitly limited to Delhi-NCR and stated dates/times; local district orders should also be checked."
     },
     {
       "story_id": "WEATHER",
-      "status": "PASS",
-      "note": "IMD subdivision warning page issued 5 Nov shows no warning for West Uttar Pradesh 5–11 Nov. City temperature figures from older 3 Nov pages are not presented as fresh current observations."
+      "status": "PASS_WITH_SCOPE_LIMIT",
+      "note": "IMD warning map checked at 04:20 IST. West UP no-warning statement is subdivision-level; stale city temperatures are not presented as current."
     }
   ],
-  "rights_review": {
-    "visual_assets": "PASS_LICENSE_METADATA",
-    "visual_license_count": 9,
-    "project_license": "CC BY-SA 4.0",
-    "commercial_use_allowed": true,
-    "attribution_file": "daily-news/current/credits.txt",
-    "music": "None used",
-    "third_party_news_footage": "None used",
-    "narration": "Kokoro-82M hm_omega, Apache-2.0; replaces edge-tts due unclear Microsoft commercial rights"
-  },
-  "required_human_review": [
-    "Listen to the complete Hindi narration for hm_omega pronunciation, natural pacing, intelligibility, clipping and abrupt cuts. Automated checks confirm an audio stream and non-silent levels, not human-perceived speech quality.",
-    "Add or confirm a visible 'प्रतीकात्मक तस्वीर' label on generic still images used alongside the Amroha crash, food-safety action, fireworks and other real-world news; do not let viewers mistake stock visuals for actual event footage.",
-    "Confirm the fireworks visual is accompanied by the precise date/time/no-cracker-zone restrictions and does not imply unrestricted permission.",
-    "Confirm the external SRT is attached during YouTube upload; subtitles are supplied as a sidecar file and are not burned into the MP4.",
-    "Review the modest visual variety: 13 still-image scenes use 8 distinct licensed visual assets, with some repeated images. Consider original maps, headline cards, data graphics and district labels in the next build."
-  ],
-  "final_gate": "HOLD — the MP4, SRT and provenance passed automated technical checks, but do not publish or schedule until a human listens to the full Hindi narration, checks the illustrative-image labelling and confirms the fireworks framing. Attach the supplied SRT when uploading.",
-  "youtube_publish_authorized": false,
-  "research_verification": {
-    "status": "PASS_WITH_SCOPE_LIMIT",
-    "details": "Fresh checks on 5 Nov corroborate the Amroha accident, UP FSDA campaign, Namo Bharat extra trips, food-inflation CPI/Reuters outlook, ethanol estimate, FSSAI label litigation, CERT-In advisory, Supreme Court green-cracker directions and IMD West UP no-warning status. CAQM WFH/construction restrictions are supported by three reports, but direct official order PDF was not retrieved."
-  },
   "script_originality_review": {
     "status": "PASS",
-    "details": "Original 1,203-word Hindi narration; no article or broadcaster script copied or translated."
+    "details": "1218-word original Hindi narration written from source facts with distinct structure and explanatory context."
   },
   "sensitive_content_review": {
     "status": "PASS_WITH_HUMAN_REVIEW",
-    "details": "No gore, victim close-ups, communal/caste bait or graphic detail. Highway and fireworks are generic illustrative stills; visible representative-image labelling should be confirmed before publication."
+    "details": "Road accident handled without gore, victim imagery or unverified personal detail; no communal/caste angle."
+  },
+  "rights_review": {
+    "visual_assets": "PASS_METADATA",
+    "visual_asset_count": 8,
+    "license_types": [
+      "CC0 1.0",
+      "CC BY-SA 4.0",
+      "CC BY 2.0"
+    ],
+    "commercial_use_allowed": true,
+    "adaptation_allowed": true,
+    "project_license": "CC BY-SA 4.0",
+    "music": "None",
+    "sound_effects": "None",
+    "third_party_news_footage": "None",
+    "narration": "Kokoro-82M hm_omega, Apache-2.0; local synthesis only",
+    "phonemizer": "espeak-ng"
   },
   "visual_audio_clearance": {
     "status": "PASS_WITH_HUMAN_REVIEW_PENDING",
-    "details": "Eight still-image assets and one Kokoro-82M narration asset have licence records; CC0/CC BY-SA 4.0/Apache-2.0 attribution is present in credits. Automated audio measurement: AAC mono 48 kHz, mean -20.4 dB, peak -1.8 dB; full listening review remains outstanding. MP4 has a separate SRT sidecar, not burned-in captions."
+    "details": "All still photographs have source page, creator, rights holder, licence version, commercial/adaptation permission and attribution. Every scene includes matching asset ID and licence URL. On-screen illustrative label is enabled for every scene. Human review of framing and attribution remains required."
   },
   "technical_checks": {
-    "status": "PASS",
-    "details": "Latest render run 41921052229 completed successfully; all render job steps succeeded. Independently checked MP4 with ffprobe: H.264, 1920x1080, 30 fps, 600.000 s; AAC mono 48 kHz, 600.000 s. SRT has 85 cues spanning 0–600 s with no timing gaps/overlaps. Artifact includes MP4, SRT, project.json, sources.json, asset_licenses.json, editorial_checklist.json and credits.txt. Artifact ZIP size 29,463,317 bytes; MP4 size 31,359,498 bytes."
+    "status": "PENDING_RENDER",
+    "details": "Workflow must verify 1920x1080, 540–660 seconds, audio stream, SRT and uploaded provenance artifact. Do not claim technical success until run and artifact are checked."
   },
+  "required_human_review": [
+    "Listen to the full Kokoro hm_omega Hindi narration for pronunciation, natural pacing, intelligibility, clipping and abrupt cuts.",
+    "Check that the on-screen 'प्रतीकात्मक तस्वीर' label is visible and legible in every scene; all stills are generic and not actual event footage.",
+    "Review the Amroha road-safety segment for sensitivity; no real accident imagery is used.",
+    "Review the lithium facility scene label that explicitly says Nevada, not an Indian plant.",
+    "Confirm the Delhi-NCR cracker restrictions remain current and the district scope is clear.",
+    "Confirm the supplied SRT is attached during any later YouTube upload; subtitles are a sidecar, not burned into the MP4."
+  ],
+  "final_gate": "HOLD — draft render is allowed for review, but do not publish or schedule until human listening, visual-label review and final editorial approval are complete.",
   "final_approval_status": "HOLD",
-  "qc_review": {
-    "checked_at": "2026-11-05T03:44:00+05:30",
-    "status": "HOLD_FOR_HUMAN_REVIEW",
-    "findings": [
-      "Latest Render Hybrid Facts Video run 41921052229 completed with conclusion success; the render job and all 12 substantive steps (install, tests, manifest, provenance gate, render, output verification, artifact upload) succeeded.",
-      "Artifact hybrid-facts-video (ID 13367902210; 29,463,317 bytes) exists and is not expired. Run head SHA: 68975eaef5117dc310978829941ba0ca188813ff.",
-      "Independent ffprobe verification: MP4 is H.264 1920x1080 at 30 fps, exactly 600.000 seconds, with AAC mono audio at 48 kHz for 600.000 seconds.",
-      "Audio level check: mean -20.4 dB and peak -1.8 dB; no evidence of silence. This does not replace a human listen for Hindi pronunciation, intelligibility and natural pacing.",
-      "SRT contains 85 subtitle cues, begins at 0 seconds, ends at 600 seconds, and has no timing gaps or overlaps. It is a separate sidecar file, not burned into the MP4.",
-      "Artifact contains all seven expected files: MP4, SRT, project.json, sources.json, asset_licenses.json, editorial_checklist.json and credits.txt.",
-      "Rights metadata covers eight visual stills plus Kokoro-82M hm_omega narration. CC0, CC BY-SA 4.0 and Apache-2.0 terms, commercial/adaptation permissions and required attribution text are recorded; credits file is present.",
-      "Editorial mix: 213/600 seconds Western UP (35.5%); 387/600 seconds wider India/UP, weather, opening and closing (64.5%). No routine jobs/exam notices. Rural angle exists but direct mandi/livestock/irrigation/village-service coverage is thin.",
-      "Visual review of representative frames found generic highway/bike, sweets, train interior, keyboard and weather/fireworks stills; no accident gore or victim imagery. Some assets repeat; no burned-in headlines/captions. Use a visible 'प्रतीकात्मक तस्वीर' label where generic imagery accompanies specific incidents.",
-      "Fresh source checks support the main story claims. CAQM WFH/construction order is described by three reports, but the direct official order PDF was not retrieved.",
-      "Publication remains HOLD until full narration listening, representative-image labelling and fireworks-framing checks are completed. Do not publish or schedule."
-    ],
-    "workflow_runs": {
-      "latest_render": "https://github.com/uhackman-cpu/video-factory/actions/runs/41921052229",
-      "latest_render_run_id": 41921052229,
-      "latest_render_head_sha": "68975eaef5117dc310978829941ba0ca188813ff",
-      "latest_render_status": "completed_success",
-      "latest_artifact_id": 13367902210,
-      "latest_artifact_name": "hybrid-facts-video",
-      "latest_artifact_size_bytes": 29463317,
-      "latest_artifact_digest": "sha256:1dd754db61a88dfd623a16adede84754c52063699307598d2edfa78ff3aae6ae",
-      "test_success": "https://github.com/uhackman-cpu/video-factory/actions/runs/41912764834"
-    },
-    "artifact_verified": true,
-    "technical_checks_passed": true,
-    "youtube_publish_authorized": false,
-    "hashes": {
-      "mp4_sha256": "29ceb974027eac4f4eb7a1ed3c3956e40acd9fa3acca0c63c2f6c02a211c18e7",
-      "srt_sha256": "58f41dc920e3e2a4f9f05d5a95fb0d78e15c77b37d9fc78bc7ffd5b9e4270915",
-      "artifact_zip_sha256": "1dd754db61a88dfd623a16adede84754c52063699307598d2edfa78ff3aae6ae"
-    }
-  },
-  "artifact_verified": true
+  "youtube_publish_authorized": false,
+  "artifact_verified": false
 }
