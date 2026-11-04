@@ -1,7 +1,7 @@
 {
   "research_date": "2026-11-05",
-  "accessed_at": "2026-11-05T02:04:13+05:30",
-  "cut_off": "2026-11-05T02:04:13+05:30",
+  "accessed_at": "2026-11-05T02:18:12+05:30",
+  "cut_off": "2026-11-05T02:18:12+05:30",
   "audience_and_mix": {
     "audience": [
       "rural and village Hindi-speaking viewers",
@@ -10,40 +10,40 @@
     "story_style": "engaging, surprising and relatable, without exaggeration",
     "western_up_share_percent": 35,
     "india_and_wider_up_share_percent": 65,
-    "routine_jobs_exams": "excluded from today's main eight-story shortlist"
+    "routine_jobs_exams": "excluded from this bulletin"
   },
   "stories": [
     {
       "id": "W1",
-      "title": "Amroha SUV crash: two killed, three injured",
+      "title": "Amroha SUV crash: two young men killed; reports differ on other details",
       "region": "Western UP",
-      "duration_seconds": 60,
+      "duration_seconds": 62,
       "claims": [
         {
           "id": "W1-C1",
-          "claim": "On the night of 3 November a black Thar reportedly hit three motorcycles in succession on the Naugawan Sadat–Amroha road; two young men died and three people were injured.",
+          "claim": "A speeding Thar/SUV hit a motorcycle on the Naugawan Sadat–Amroha road on the night of 3 November; two young men died. Reports differ on the number of motorcycles and the injury count, so the script states only the overlap.",
           "source_ids": [
             "S01",
             "S02"
           ],
-          "confidence": "reported by two outlets; reconfirm with police before narration"
+          "confidence": "two independent reports support the deaths; conflicting details deliberately omitted"
         },
         {
           "id": "W1-C2",
-          "claim": "Police reportedly seized the damaged vehicle, registered an FIR and were searching for the driver; arrest not confirmed in this snapshot.",
+          "claim": "A case was registered and police investigation/search for the driver was reported; arrest was not confirmed in the 02:18 IST refresh.",
           "source_ids": [
             "S01"
           ],
-          "confidence": "single local report; refresh police status"
+          "confidence": "single local report; no arrest claim used"
         }
       ],
-      "editorial_caution": "No gore or victim close-ups; no arrest claim without updated police confirmation."
+      "editorial_caution": "No crash footage, gore, victim close-ups or identifying details. The visual is a generic highway photo, explicitly labelled representative; human review required before publication."
     },
     {
       "id": "W2",
       "title": "UP FSDA pre-Diwali crackdown with Bareilly, Moradabad and Muzaffarnagar examples",
       "region": "Western UP",
-      "duration_seconds": 105,
+      "duration_seconds": 115,
       "claims": [
         {
           "id": "W2-C1",
@@ -74,13 +74,13 @@
           "confidence": "two local reports; Jagran identifies rasgullas, use general wording because descriptions vary"
         }
       ],
-      "editorial_caution": "Do not say all samples failed or all seized food was poisonous; avoid naming a shop absent official/legal review."
+      "editorial_caution": "Do not say all samples failed or all seized food was poisonous; distinguish inspections, seizures, licence action and lab findings. Use a generic sweets photo, not an actual shop or seized product."
     },
     {
       "id": "W3",
       "title": "NCRTC adds 20 Namo Bharat trips on Delhi–Meerut corridor",
       "region": "Western UP",
-      "duration_seconds": 45,
+      "duration_seconds": 36,
       "claims": [
         {
           "id": "W3-C1",
@@ -108,7 +108,7 @@
       "id": "N1",
       "title": "Weak monsoon, food-price risk and ethanol blending trade-off",
       "region": "India",
-      "duration_seconds": 80,
+      "duration_seconds": 94,
       "claims": [
         {
           "id": "N1-C1",
@@ -142,7 +142,7 @@
       "id": "N2",
       "title": "FSSAI energy-drink labelling dispute",
       "region": "India",
-      "duration_seconds": 55,
+      "duration_seconds": 60,
       "claims": [
         {
           "id": "N2-C1",
@@ -169,7 +169,7 @@
       "id": "N3",
       "title": "CERT-In critical warning on AI-assisted financial cyberattacks",
       "region": "India",
-      "duration_seconds": 60,
+      "duration_seconds": 70,
       "claims": [
         {
           "id": "N3-C1",
@@ -197,7 +197,7 @@
       "id": "N4",
       "title": "Draft drug rules propose immediate suspension after specified quality failures",
       "region": "India",
-      "duration_seconds": 55,
+      "duration_seconds": 0,
       "claims": [
         {
           "id": "N4-C1",
@@ -218,13 +218,15 @@
           "confidence": "Reuters and draft transcript"
         }
       ],
-      "editorial_caution": "Draft proposal only; do not present as a rule already in force."
+      "editorial_caution": "Draft proposal only; do not present as a rule already in force.",
+      "editorial_status": "HOLD_NOT_USED",
+      "hold_reason": "Draft G.S.R. 956(E) is not included because the official Gazette item was not independently confirmed; do not narrate until official primary text is verified."
     },
     {
       "id": "N5",
       "title": "Supreme Court green-cracker timings for Delhi-NCR",
       "region": "India/NCR",
-      "duration_seconds": 55,
+      "duration_seconds": 42,
       "claims": [
         {
           "id": "N5-C1",
@@ -260,7 +262,7 @@
       "title": "काले रंग की थार ने पांच को कुचला: यूपी में बड़ा हादसा, दो भाइयों की गई जान; तीन लोग मौत से लड़ रहे जंग",
       "url": "https://www.amarujala.com/uttar-pradesh/amroha/thar-collided-with-three-motorcycles-and-one-after-another-on-the-naugawan-sadat-amroha-road-2026-11-04",
       "published_at": "2026-11-04T17:32:00+05:30",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "news",
       "claims_supported": [
         "W1-C1",
@@ -277,7 +279,7 @@
       "title": "Two youths killed as speeding SUV rams motorcycle in UP's Amroha",
       "url": "https://theprint.in/india/two-youths-killed-as-speeding-suv-rams-motorcycle-in-ups-amroha/3089902/",
       "published_at": "2026-11-04",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "news_agency",
       "claims_supported": [
         "W1-C1"
@@ -293,7 +295,7 @@
       "title": "Pre-Diwali crackdown: UP FSDA seizes 54 quintals of food worth ₹1.32-cr, suspends 27 licences",
       "url": "https://www.hindustantimes.com/cities/lucknow-news/prediwali-crackdown-up-fsda-seizes-54-quintals-of-food-worth-1-32-cr-suspends-27-licences-101793715946643.html",
       "published_at": "2026-11-03T19:55:46+05:30",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "news",
       "claims_supported": [
         "W2-C1",
@@ -310,7 +312,7 @@
       "title": "FSDA suspends 27 licences in statewide sweet shop crackdown",
       "url": "https://timesofindia.indiatimes.com/city/lucknow/fsda-suspends-27-licences-in-statewide-sweet-shop-crackdown/articleshow/135512276.cms",
       "published_at": "2026-11-04T01:06:00+05:30",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "news",
       "claims_supported": [
         "W2-C1",
@@ -327,7 +329,7 @@
       "title": "UP FSDA strikes hard at adulterators: 54 quintals of food items seized ahead of Diwali",
       "url": "https://www.thestatesman.com/cities/lucknow/up-fsda-strikes-hard-at-adulterators-54-quintals-of-food-items-seized-ahead-of-diwali-1503658470.html",
       "published_at": "2026-11-03T19:01:00+05:30",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "news",
       "claims_supported": [
         "W2-C1"
@@ -343,7 +345,7 @@
       "title": "दिवाली से पहले बड़ी कार्रवाई, रसगुल्लों में मक्खियां मिलीं तो खाद्य विभाग ने 220 किलोग्राम नष्ट कराए",
       "url": "https://www.jagran.com/uttar-pradesh/muzaffarnagar-muzaffarnagar-food-safety-220kg-flyinfested-rasgullas-destroyed-40427033.html",
       "published_at": "2026-11-04T13:22:00+05:30",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "news",
       "claims_supported": [
         "W2-C3"
@@ -359,7 +361,7 @@
       "title": "Diwali crackdown: 220kg sweets destroyed in Muzaffarnagar after insects found; contaminated milk, cheese seized in Mathura",
       "url": "https://timesofindia.indiatimes.com/city/agra/diwali-crackdown-220kg-sweets-destroyed-in-muzaffarnagar-after-insects-found-contaminated-milk-cheese-seized-in-mathura/articleshow/135547438.cms",
       "published_at": "2026-11-05",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "news",
       "claims_supported": [
         "W2-C3"
@@ -375,7 +377,7 @@
       "title": "Official public notice: 20 additional Namo Bharat trips on Delhi–Meerut corridor from 4 November",
       "url": "https://ncrtc.in/page/181/",
       "published_at": "2026-11-04",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "primary_official",
       "claims_supported": [
         "W3-C1"
@@ -391,7 +393,7 @@
       "title": "NCRTC to add 20 additional Namo Bharat trains as Delhi’s air quality slips into ‘very poor’ category",
       "url": "https://www.moneycontrol.com/city/ncrtc-to-add-20-additional-namo-bharat-trains-as-delhi-s-air-quality-slips-into-very-poor-category-article-14067938.html",
       "published_at": "2026-11-03T18:15:00+05:30",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "news",
       "claims_supported": [
         "W3-C1",
@@ -408,7 +410,7 @@
       "title": "NCRTC adds 20 extra Namo Bharat trips on Delhi-Meerut corridor",
       "url": "https://timesofindia.indiatimes.com/city/delhi/ncrtc-adds-20-extra-namo-bharat-trips-on-delhi-meerut-corridor/articleshow/135508047.cms",
       "published_at": "2026-11-04",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "news",
       "claims_supported": [
         "W3-C1",
@@ -474,7 +476,7 @@
       "title": "India says PepsiCo, Monster marketed with 'energy drink' label to dupe consumers",
       "url": "https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/",
       "published_at": "2026-11-04T17:10:00+05:30",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "news",
       "claims_supported": [
         "N2-C1",
@@ -491,7 +493,7 @@
       "title": "Delhi High Court stays FSSAI orders forcing PepsiCo, Monster Energy to drop 'Energy Drink' label",
       "url": "https://www.livelawbiz.com/news-updates/delhi-high-court-stays-fssai-orders-forcing-pepsico-monster-energy-to-drop-energy-drink-label-553479",
       "published_at": "2026-10-07",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "legal_reporting",
       "claims_supported": [
         "N2-C2"
@@ -507,7 +509,7 @@
       "title": "Advisory CIAD-2026-0058: Escalation of AI-Driven Attacks on BFSI Entities by Threat Actor CRAFTY FALCON",
       "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02",
       "published_at": "2026-11-04",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "primary_official",
       "claims_supported": [
         "N3-C1",
@@ -524,7 +526,7 @@
       "title": "India cybercrime agency warns financial firms of AI-driven cyberattacks",
       "url": "https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/",
       "published_at": "2026-11-04T19:04:00+05:30",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "news",
       "claims_supported": [
         "N3-C1",
@@ -541,7 +543,7 @@
       "title": "Central cyber security agency warns banks, fintech firms of frauds through AI agents",
       "url": "https://www.livemint.com/technology/central-cyber-security-agency-warns-banks-fintech-firms-of-frauds-through-ai-agents-11793805354383.html",
       "published_at": "2026-11-04T20:45:00+05:30",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "news_agency",
       "claims_supported": [
         "N3-C1"
@@ -642,7 +644,7 @@
       "title": "Sub-division-wise warnings: East and West Uttar Pradesh",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=5",
       "published_at": "2026-11-05",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "primary_official",
       "claims_supported": [
         "West Uttar Pradesh no warning for 5–11 Nov; East Uttar Pradesh no warning for 5–11 Nov"
@@ -690,7 +692,7 @@
       "title": "Sub-division-wise warnings: Kerala",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=4",
       "published_at": "2026-11-05",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "primary_official",
       "claims_supported": [
         "Kerala thunderstorm/lightning/squall warning 5 Nov; heavy rain and thunderstorm warnings 6–8 Nov"
@@ -706,7 +708,7 @@
       "title": "Sub-division-wise warnings: Coastal Andhra Pradesh and Rayalaseema",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2",
       "published_at": "2026-11-05",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "primary_official",
       "claims_supported": [
         "Coastal Andhra Pradesh and Rayalaseema thunderstorm/lightning/squall and strong surface wind warnings 5–8 Nov"
@@ -722,7 +724,7 @@
       "title": "Sub-division-wise warnings: Odisha",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=10",
       "published_at": "2026-11-05",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "primary_official",
       "claims_supported": [
         "Odisha thunderstorm/lightning/squall warning 5 Nov"
@@ -738,7 +740,7 @@
       "title": "Sub-division-wise warnings: Karnataka",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13",
       "published_at": "2026-11-05",
-      "accessed_at": "2026-11-05T02:04:13+05:30",
+      "accessed_at": "2026-11-05T02:18:12+05:30",
       "source_type": "primary_official",
       "claims_supported": [
         "South Interior Karnataka heavy rain and thunderstorm warning 5–6 Nov; Coastal Karnataka thunderstorm warning 5 Nov"
@@ -760,17 +762,75 @@
         "Financial cyber fraud can be reported through 1930 and cybercrime.gov.in"
       ],
       "verification_notes": "Use only as public-help information; verify portal guidance before broadcast."
+    },
+    {
+      "id": "S32",
+      "story_ids": [
+        "TTS"
+      ],
+      "publisher": "hexgrad / Hugging Face",
+      "title": "Kokoro-82M model card",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "published_at": null,
+      "accessed_at": "2026-11-05T02:18:12+05:30",
+      "source_type": "open_model_license",
+      "claims_supported": [
+        "Kokoro-82M weights are Apache-2.0; model supports production deployment"
+      ],
+      "verification_notes": "Official model card declares Apache-2.0 and describes commercial production use."
+    },
+    {
+      "id": "S33",
+      "story_ids": [
+        "TTS"
+      ],
+      "publisher": "hexgrad / Hugging Face",
+      "title": "Kokoro Hindi voice catalogue",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md",
+      "published_at": null,
+      "accessed_at": "2026-11-05T02:18:12+05:30",
+      "source_type": "open_model_voice_documentation",
+      "claims_supported": [
+        "Hindi lang_code h and male hm_omega/female hf_alpha voices are listed"
+      ],
+      "verification_notes": "Official VOICES.md lists Hindi voices; Hindi voice grades are modest, so final audio needs human listening review."
     }
   ],
   "production_checks": [
-    "All eight stories are selected for public interest, household relevance and novelty; routine job/exam items excluded.",
-    "Western UP stories total 210 seconds of 600 seconds (35%).",
-    "Do not overstate accident arrest status.",
-    "Separate FSDA inspections, seizures, notices, suspensions and laboratory findings.",
-    "Refresh Namo Bharat live timetable.",
-    "Refresh Delhi High Court hearing after 5 Nov hearing.",
-    "Treat G.S.R. 956(E) as draft pending final Gazette publication.",
-    "Refresh IMD warnings and forecast issue times before render.",
-    "Only original or commercially licensed visual/audio assets; no publisher photographs, TV footage, screenshots, social clips or logos."
-  ]
+    "Final script contains 1,200 spoken Hindi words; 12 scenes total exactly 600 seconds.",
+    "Western UP scenes total 213/600 seconds (35.5%); national/wider-UP, weather, opening and close total 64.5%.",
+    "No routine job, recruitment or exam items are used.",
+    "Amroha narration uses only facts common to two reports; no injury count, arrest claim or actual crash footage.",
+    "FSDA inspection, seizure, licence suspension and laboratory results are clearly distinguished.",
+    "Namo Bharat is described as 20 additional trips, not 20 new trains; live timetable is not stated.",
+    "Ethanol blend range is labelled an industry estimate, not a government target.",
+    "Energy-drink hearing result was unknown at 02:18 IST; the script says so.",
+    "N4 draft drug-rule story is held and not narrated pending official Gazette verification.",
+    "Fresh IMD West UP warning table issued 5 Nov shows no warning 5–11 Nov; no stale district temperature claim is used.",
+    "Visual assets are Commons CC0/CC BY-SA with creator, source page, exact licence and commercial-use terms recorded; project release licence is CC BY-SA 4.0.",
+    "Kokoro-82M local TTS replaces Edge Read Aloud because Edge TTS commercial redistribution rights are not explicitly confirmed by Microsoft.",
+    "No music, news footage, screenshots, publisher photographs, social-media clips or logos are used.",
+    "Human review remains required for the road-safety/crime and fireworks visuals and for final Hindi TTS pronunciation/pacing; no YouTube publication is authorised."
+  ],
+  "weather_summary": {
+    "checked_at": "2026-11-05T02:18:12+05:30",
+    "western_up": {
+      "source_id": "S24",
+      "valid_dates": "2026-11-05 to 2026-11-11",
+      "warning": "No warning for West Uttar Pradesh on all seven days"
+    },
+    "all_india": {
+      "sources": [
+        "S27",
+        "S28",
+        "S29",
+        "S30"
+      ],
+      "summary": "IMD alerts for Kerala, Coastal Andhra Pradesh/Rayalaseema, Odisha and South Interior Karnataka; use district-level bulletins for local decisions."
+    },
+    "stale_forecasts_excluded": [
+      "S25",
+      "S26"
+    ]
+  }
 }
