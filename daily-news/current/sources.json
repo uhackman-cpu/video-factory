@@ -1,6 +1,6 @@
 {
   "edition_date": "2026-11-05",
-  "research_cutoff_ist": "2026-11-05T04:01:26+05:30",
+  "research_cutoff_ist": "2026-11-05T04:20:13+05:30",
   "channel": "Hindi Facts",
   "audience": {
     "target": "Rural/village Hindi viewers and urban lower-/middle-class households",
@@ -13,80 +13,39 @@
     {
       "id": "W1",
       "region": "Western UP",
-      "district": "Moradabad",
-      "title": "Bolero crash kills two children in Mudia Bhaypur",
+      "district": "Amroha",
+      "title": "Speeding Thar crash kills two young relatives",
       "claims": [
-        "Two children died",
-        "Driver detained and vehicle seized",
-        "Reports differ on number of children hit/injured; exact injury count requires police confirmation"
+        "Two young relatives Rajiv and Prashant died after a Thar struck a motorcycle on 3 Nov",
+        "Police registered a case; driver reportedly fled",
+        "Local reports differ on number of bikes and injured; do not state exact count"
       ],
-      "confidence": "High on deaths/custody; medium on injury count",
-      "sources": [
-        {
-          "publisher": "Amar Ujala",
-          "date": "2026-11-04T02:35:00+05:30",
-          "url": "https://www.amarujala.com/uttar-pradesh/moradabad/a-speeding-bolero-ran-over-five-children-playing-outside-a-house-two-including-the-birthday-boy-died-while-three-others-are-in-critical-condition-moradabad-news-c-15-1-mbd1027-1031395-2026-11-04?src=story-related-auto-amp"
-        },
-        {
-          "publisher": "Live Hindustan",
-          "date": "2026-11-04T05:49:00+05:30",
-          "url": "https://www.livehindustan.com/uttar-pradesh/uncontrolled-bolero-ran-over-five-children-two-died-on-the-spot-201793727610682.html"
-        },
-        {
-          "publisher": "Dainik Jagran",
-          "date": "2026-11-03T21:15:00+05:30",
-          "url": "https://www.jagran.com/uttar-pradesh/moradabad-city-moradabad-bolero-accident-mundhapande-2-killed-4-injured-40426474.html"
-        },
-        {
-          "publisher": "Amrit Vichar",
-          "date": "2026-11-04T16:47:00+05:30",
-          "url": "https://www.amritvichar.com/uttar-pradesh/bareilly/amidst-birthday-preparations-mourning-spread-in-the-house-bolero-crushed/article-598240"
-        }
-      ]
+      "confidence": "High on two deaths and police case; scope-limited on vehicles/injuries",
+      "source_ids": [
+        "SRC-W1-PTI",
+        "SRC-W1-LH",
+        "SRC-W1-AU",
+        "SRC-W1-JAGRAN"
+      ],
+      "editorial_note": "Road-safety angle; no graphic detail, no claim of intoxication or BSF identity without police confirmation."
     },
     {
       "id": "W2",
       "region": "Western UP",
       "district": "Bareilly",
-      "title": "Farmers protest paddy procurement requirements and demand ₹600/quintal cane price",
+      "title": "Farmers protest paddy procurement conditions and demand ₹600/quintal cane price",
       "claims": [
-        "Memorandum/protest reported",
-        "Demands include removing Farmer Registry, satellite survey and weighment thumbprint conditions",
-        "₹600 cane price is a demand, not an approved rate"
+        "Kisan Ekta Sangh submitted a memorandum on 3 Nov",
+        "Demands include simplifying Farmer Registry/satellite survey/thumbprint requirements and opening a local purchase centre",
+        "₹600 is a demand, not an approved rate"
       ],
-      "confidence": "Medium-high for protest; government response not verified",
-      "sources": [
-        {
-          "publisher": "Amrit Vichar",
-          "date": "2026-11-03T16:40:00+05:30",
-          "url": "https://www.amritvichar.com/uttar-pradesh/bareilly/farmers-angry-over-the-conditions-of-paddy-purchase-demand-to/article-598128"
-        },
-        {
-          "publisher": "Live Hindustan",
-          "date": "2026-11-03",
-          "url": "https://www.livehindustan.com/uttar-pradesh/bareily/story-bareilly-farmers-protest-paddy-procurement-rules-demand-sugarcane-price-hike-201793648714197.html"
-        },
-        {
-          "publisher": "BareillyLive",
-          "date": "2026-11-02",
-          "url": "https://bareillylive.in/bareilly-news/farmers-ekta-sangh-paddy-procurement-sugarcane-price-demand-bareilly/"
-        }
-      ]
-    },
-    {
-      "id": "W3",
-      "region": "Western UP",
-      "district": "Moradabad",
-      "place": "Kundarki",
-      "title": "Reported wedding-hall scuffle over dried-date distribution",
-      "confidence": "Low; single-source hold; confirm with police or second outlet",
-      "sources": [
-        {
-          "publisher": "Live Hindustan",
-          "date": "2026-11-04T22:11:00+05:30",
-          "url": "https://www.livehindustan.com/uttar-pradesh/moradabad/story-wedding-clash-in-kundarki-leaves-four-injured-after-dispute-over-sweets-201793810461152.html"
-        }
-      ]
+      "confidence": "Medium-high on protest and demands; administration response not verified",
+      "source_ids": [
+        "SRC-W2-AMRIT",
+        "SRC-W2-LH",
+        "SRC-W2-BL"
+      ],
+      "editorial_note": "Attribute all demands to the organisation; explain practical implications for small farmers."
     }
   ],
   "national_stories": [
@@ -94,323 +53,642 @@
       "id": "N1",
       "title": "Food inflation and weak soil moisture",
       "claims": [
-        "September combined food inflation 7.74%; rural 8.06%, urban 7.18%",
-        "Oct-Dec near 10% is economist forecast only"
+        "September 2026 combined food inflation 7.74%; rural 8.06%; urban 7.18%",
+        "Weak soil moisture after weak monsoon may affect winter sowing/yields and future food prices"
       ],
-      "sources": [
-        {
-          "publisher": "PIB/MoSPI",
-          "date": "2026-10-12T16:00:00+05:30",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3"
-        },
-        {
-          "publisher": "Reuters",
-          "date": "2026-11-03T06:33:00Z",
-          "url": "https://www.reuters.com/world/india/grains-chicken-milk-india-faces-prolonged-food-inflation-2026-11-03/"
-        }
-      ]
+      "source_ids": [
+        "SRC-N1-PIB",
+        "SRC-N1-REUTERS"
+      ],
+      "confidence": "Official CPI values plus Reuters forward-looking risk"
     },
     {
       "id": "N2",
-      "title": "Cyclone Murasu crop/power recovery",
+      "title": "Cyclone Murasu crop and housing recovery",
       "claims": [
-        "Two deaths reported",
-        "Preliminary crop damage 52,459 hectares, 312 houses affected, ₹344 crore estimate and 12,230 people in relief centres",
-        "Storm weakened inland by 4 Nov"
+        "Cyclone Murasu aftermath in Andhra Pradesh",
+        "Preliminary estimate: 52,459 hectares crops affected, 312 houses, about ₹344 crore initial loss; two deaths reported",
+        "Figures are preliminary and may be revised"
       ],
-      "sources": [
-        {
-          "publisher": "India Today/PTI",
-          "date": "2026-11-03T23:18:00+05:30",
-          "url": "https://www.indiatoday.in/amp/india/story/cyclone-murasu-andhra-pradesh-two-killed-crops-homes-damaged-ptag-3031687-2026-11-03"
-        },
-        {
-          "publisher": "The Tribune/PTI",
-          "date": "2026-11-04T01:34:00+05:30",
-          "url": "https://www.tribuneindia.com/news/india/cyclone-hits-andhra-coast-2-killed/amp"
-        },
-        {
-          "publisher": "The News Minute",
-          "date": "2026-11-04T03:39:00+05:30",
-          "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-leaves-2-dead-damages-312-houses-in-andhra-pradesh"
-        }
-      ]
+      "source_ids": [
+        "SRC-N2-IT",
+        "SRC-N2-TRIBUNE",
+        "SRC-N2-TNM"
+      ],
+      "confidence": "Multiple reports; damage figures preliminary"
     },
     {
       "id": "N3",
-      "title": "Ethanol blending may dip to 15–17%",
+      "title": "Ethanol blending may be 15–17%",
       "claims": [
-        "Industry forecast, not official E20 reversal",
-        "Zero sugar diversion order is separate confirmed measure"
+        "Industry estimate says ethanol blending may be around 15–17% in current supply year due to feedstock pressure",
+        "Not a final government announcement withdrawing E20"
       ],
-      "sources": [
-        {
-          "publisher": "Reuters",
-          "date": "2026-11-04T03:02:00Z",
-          "url": "https://www.reuters.com/business/energy/india-puts-food-before-fuel-el-nio-dents-ethanol-ambitions-2026-11-04/"
-        },
-        {
-          "publisher": "Aaj Tak",
-          "date": "2026-11-04T17:09:00+05:30",
-          "url": "https://www.aajtak.in/science/story/ethanol-blending-disturbed-el-nino-put-monsoon-rainfall-lowest-dskc-2688321-2026-11-04"
-        },
-        {
-          "publisher": "S&P Global",
-          "date": "2026-10-22",
-          "url": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/102226-india-orders-states-to-enforce-zero-sugar-diversion-for-ethanol-supply"
-        }
-      ]
+      "source_ids": [
+        "SRC-N3-REUTERS",
+        "SRC-N3-AAJTAK",
+        "SRC-N3-SP"
+      ],
+      "confidence": "Industry estimate; not final government target"
     },
     {
       "id": "N4",
       "title": "FSSAI energy-drink labelling dispute",
       "claims": [
-        "FSSAI allegation in 28 Oct court filings",
-        "Companies dispute regulator action",
-        "Interim stock relief is not final merits ruling"
+        "FSSAI argued that 'energy drink' labelling on certain high-caffeine beverages may mislead consumers",
+        "Companies dispute regulatory action; interim directions are not a final merits ruling",
+        "No 5 Nov hearing outcome verified by 04:20 IST"
       ],
-      "sources": [
-        {
-          "publisher": "Reuters",
-          "date": "2026-11-04",
-          "url": "https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/"
-        },
-        {
-          "publisher": "Economic Times/Reuters",
-          "date": "2026-11-04T17:10:00+05:30",
-          "url": "https://economictimes.indiatimes.com/industry/cons-products/food/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers/articleshow/135537991.cms"
-        },
-        {
-          "publisher": "IndiaKanoon Delhi HC order",
-          "date": "2026-10-12",
-          "url": "https://indiankanoon.org/doc/108682359/"
-        },
-        {
-          "publisher": "Economic Times",
-          "date": "2026-10-07T00:31:00+05:30",
-          "url": "https://economictimes.indiatimes.com/industry/cons-products/food/relief-for-monster-energy-pepsico-in-fssai-energy-drink-case/articleshow/134744705.cms"
-        }
-      ]
+      "source_ids": [
+        "SRC-N4-REUTERS",
+        "SRC-N4-ET",
+        "SRC-N4-HC"
+      ],
+      "confidence": "Court filings and interim order; no final decision"
     },
     {
       "id": "N5",
-      "title": "I4C AI-assisted cyberattack warning",
+      "title": "I4C warning on AI-assisted attacks against financial institutions",
       "claims": [
-        "Advisory is directed to financial institutions",
-        "Attackers target unpatched systems and payment APIs",
-        "Do not imply every bank customer is compromised"
+        "I4C warned banks, NBFCs and fintech/payment firms about AI-assisted attacks exploiting unpatched systems and payment APIs",
+        "Advisory is aimed at institutions; does not mean all customers are compromised"
       ],
-      "sources": [
-        {
-          "publisher": "Reuters",
-          "date": "2026-11-04T13:34:00Z",
-          "url": "https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/"
-        },
-        {
-          "publisher": "Mint/PTI",
-          "date": "2026-11-04T20:45:00+05:30",
-          "url": "https://www.livemint.com/technology/central-cyber-security-agency-warns-banks-fintech-firms-of-frauds-through-ai-agents-11793805354383.html"
-        }
-      ]
+      "source_ids": [
+        "SRC-N5-REUTERS",
+        "SRC-N5-MINT"
+      ],
+      "confidence": "Reuters and PTI/Mint; institutional scope"
     },
     {
       "id": "N6",
       "title": "₹2,814-crore critical-mineral processing scheme",
       "claims": [
-        "Cabinet approved 4 Nov",
-        "Five-year FY2026-27 to FY2030-31 scheme",
-        "30% capex subsidy for two lithium and two nickel plants; cobalt by-product"
+        "Cabinet approved ₹2,814-crore five-year capex-support scheme on 4 Nov",
+        "Up to 30% capex support for two lithium and two nickel processing units; cobalt may be a by-product",
+        "Long-term industrial capacity measure, not immediate household price relief"
       ],
-      "sources": [
-        {
-          "publisher": "PIB/Ministry of Mines",
-          "date": "2026-11-04T15:41:00+05:30",
-          "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2332490&lang=1&reg=3"
-        },
-        {
-          "publisher": "PM India",
-          "date": "2026-11-04",
-          "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/"
-        },
-        {
-          "publisher": "Reuters",
-          "date": "2026-11-04",
-          "url": "https://www.reuters.com/business/india-approves-297-million-incentive-policy-lithium-nickel-processing-2026-11-04/"
-        },
-        {
-          "publisher": "India Today",
-          "date": "2026-11-04T16:48:00+05:30",
-          "url": "https://www.indiatoday.in/business/story/cabinet-approves-rs-2814-crore-critical-minerals-processing-scheme-lithium-nickel-plants-3032151-2026-11-04"
-        }
-      ]
+      "source_ids": [
+        "SRC-N6-PIB",
+        "SRC-N6-PMI",
+        "SRC-N6-REUTERS"
+      ],
+      "confidence": "Official cabinet release and Reuters"
     },
     {
       "id": "N7",
       "title": "Delhi-NCR green-cracker restrictions for 7–8 Nov",
       "claims": [
-        "Certified green crackers only",
-        "Allowed windows 06:00–07:00 and 20:00–22:00 on 7 and 8 Nov",
-        "300m no-cracker zone around specified facilities",
-        "Complete ban resumes 9 Nov"
+        "Certified green crackers only on 7–8 Nov in specified time windows in Delhi-NCR",
+        "300-metre no-cracker zone around specified sensitive facilities; full ban resumes 9 Nov",
+        "Keep Delhi-NCR scope explicit and check local district orders"
       ],
-      "sources": [
-        {
-          "publisher": "Economic Times",
-          "date": "2026-11-02T15:52:00+05:30",
-          "url": "https://economictimes.indiatimes.com/news/india/diwali-firecracker-curbs-sc-sets-two-time-periods-for-fireworks-bans-bursting-near-hospitals/articleshow/135453944.cms"
-        },
-        {
-          "publisher": "NDTV Profit",
-          "date": "2026-11-02T15:21:00+05:30",
-          "url": "https://www.ndtvprofit.com/india/diwali-2026-supreme-court-allows-certified-green-crackers-in-delhi-12270711"
-        },
-        {
-          "publisher": "Indian Express",
-          "date": "2026-11-03T09:13:00+05:30",
-          "url": "https://indianexpress.com/article/legal-news/supreme-court-green-crackers-delhi-ncr-diwali-timings-sale-rules-10948099/lite/"
-        }
-      ]
+      "source_ids": [
+        "SRC-N7-ET",
+        "SRC-N7-NDTV",
+        "SRC-N7-IE"
+      ],
+      "confidence": "Multiple reports; geographic scope must remain Delhi-NCR"
+    }
+  ],
+  "held_stories": [
+    {
+      "id": "HOLD-W3",
+      "district": "Kundarki, Moradabad",
+      "title": "Reported wedding-hall scuffle",
+      "reason": "Single-source report only; no second outlet or police confirmation. Excluded from script."
     }
   ],
   "weather": {
     "western_up": {
       "issue_date": "2026-11-05",
-      "issue_time": "Not displayed by IMD",
+      "checked_at": "2026-11-05T04:20:13+05:30",
       "valid_period": "2026-11-05 to 2026-11-11",
-      "warning": "No warning",
-      "bareilly": {
-        "forecast_source_date": "2026-11-03",
+      "warning": "No warning displayed for West Uttar Pradesh on IMD subdivision-wise warning map",
+      "warning_source_ids": [
+        "SRC-WX-IMD-SUB",
+        "SRC-WX-IMD-DIST"
+      ],
+      "bareilly_forecast": {
+        "page_date": "2026-11-03",
         "valid_date": "2026-11-05",
+        "condition": "Clear",
         "min_c": 17,
         "max_c": 29,
-        "condition": "Mainly clear",
-        "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42189"
+        "source_id": "SRC-WX-BAREILLY",
+        "caveat": "Older forecast page; not a fresh 5 Nov observation"
       },
-      "sambhal_apmc": {
-        "forecast_source_date": "2026-11-03",
-        "valid_date": "2026-11-05",
-        "min_c": 18.5,
-        "max_c": 30,
-        "condition": "Sunny day",
-        "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=100200"
-      },
-      "moradabad": "No current city-level IMD temperature forecast retrieved",
-      "warning_url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25"
+      "moradabad": "No current city-level temperature retrieved",
+      "sambhal": "Available city page is stale; no current temperature stated"
     },
-    "india_warnings": [
+    "other_india_warnings": [
       {
-        "area": "Coastal Andhra Pradesh",
-        "issue_date": "2026-11-05",
+        "area": "Coastal Andhra Pradesh and Rayalaseema",
         "valid": "Nov 5–8",
-        "warning": "Thunderstorm/lightning/squall and strong surface winds",
-        "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2"
-      },
-      {
-        "area": "Rayalaseema",
-        "issue_date": "2026-11-05",
-        "valid": "Nov 5–8",
-        "warning": "Thunderstorm/lightning/squall and strong surface winds",
-        "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2"
-      },
-      {
-        "area": "Coastal Karnataka",
-        "issue_date": "2026-11-05",
-        "valid": "Nov 5",
-        "warning": "Thunderstorm/lightning/squall",
-        "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13"
-      },
-      {
-        "area": "South Interior Karnataka",
-        "issue_date": "2026-11-05",
-        "valid": "Nov 5–6",
-        "warning": "Heavy rain and thunderstorm/lightning/squall",
-        "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13"
+        "warning": "Thunderstorm/lightning/squall and strong surface winds"
       },
       {
         "area": "Odisha",
-        "issue_date": "2026-11-05",
         "valid": "Nov 5",
-        "warning": "Thunderstorm/lightning/squall",
-        "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=10"
+        "warning": "Thunderstorm/lightning/squall"
+      },
+      {
+        "area": "South Interior Karnataka",
+        "valid": "Nov 5–6",
+        "warning": "Heavy rain and thunderstorm/lightning/squall"
       }
     ]
   },
   "running_order_seconds": [
     {
-      "id": "intro",
+      "id": "OPEN",
       "start": 0,
-      "duration": 20
+      "duration": 25
     },
     {
       "id": "W1",
-      "start": 20,
-      "duration": 100
+      "start": 25,
+      "duration": 95
     },
     {
       "id": "W2",
       "start": 120,
-      "duration": 75
-    },
-    {
-      "id": "W3",
-      "start": 195,
-      "duration": 35,
-      "conditional": true
+      "duration": 115
     },
     {
       "id": "N1",
-      "start": 230,
-      "duration": 55
+      "start": 235,
+      "duration": 60
     },
     {
       "id": "N2",
-      "start": 285,
+      "start": 295,
       "duration": 50
     },
     {
       "id": "N3",
-      "start": 335,
-      "duration": 45
+      "start": 345,
+      "duration": 40
     },
     {
       "id": "N4",
-      "start": 380,
-      "duration": 45
+      "start": 385,
+      "duration": 50
     },
     {
       "id": "N5",
-      "start": 425,
-      "duration": 45
+      "start": 435,
+      "duration": 50
     },
     {
       "id": "N6",
-      "start": 470,
-      "duration": 45
+      "start": 485,
+      "duration": 40
     },
     {
       "id": "N7",
-      "start": 515,
-      "duration": 30
+      "start": 525,
+      "duration": 35
     },
     {
-      "id": "weather",
-      "start": 545,
-      "duration": 45
+      "id": "WEATHER",
+      "start": 560,
+      "duration": 35
     },
     {
-      "id": "close",
-      "start": 590,
-      "duration": 10
+      "id": "CLOSE",
+      "start": 595,
+      "duration": 5
     }
   ],
   "pre_script_checks": [
-    "Confirm Moradabad injured-child count/FIR/driver custody",
-    "Get Bareilly procurement administration response",
-    "Verify Kundarki story with police or second outlet; else drop",
-    "Recheck FSSAI/Delhi HC case",
-    "Refresh Andhra crop-loss/restoration numbers",
-    "Refresh IMD warnings before narration",
-    "Original or rights-cleared visuals only"
+    "15-scene manifest totals exactly 600 seconds",
+    "Western UP accounts for 210/600 seconds (35%)",
+    "No routine jobs/exam notices",
+    "No single-source Kundarki item included",
+    "All allegations and estimates attributed",
+    "IMD warning map rechecked at 04:20 IST",
+    "Illustrative visuals labelled on-screen"
   ],
-  "retrieved_at_ist": "2026-11-05T04:01:26+05:30"
+  "sources": [
+    {
+      "id": "SRC-W1-PTI",
+      "publisher": "ThePrint / PTI",
+      "title": "Two youths killed as speeding SUV rams motorcycle in UP’s Amroha",
+      "url": "https://theprint.in/india/two-youths-killed-as-speeding-suv-rams-motorcycle-in-ups-amroha/3089902/",
+      "published_at": "2026-11-04T08:46:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Two young relatives Rajiv and Prashant died after a speeding Thar struck a motorcycle in Amroha on 3 Nov",
+        "Police registered a case and began an investigation; driver reportedly fled",
+        "Exact number of motorcycles and injured people differs between reports; alleged intoxication/BSF detail not independently confirmed"
+      ],
+      "source_type": "news",
+      "verification_notes": "PTI report quotes police; strongest common facts used. Does not confirm the three-bike/injury count in local reports."
+    },
+    {
+      "id": "SRC-W1-LH",
+      "publisher": "Live Hindustan",
+      "title": "Amroha News: अमरोहा में नशे में अंधाधुंध थार दौड़ाकर तीन बाइकें उड़ाईं, दो भाइयों की मौत",
+      "url": "https://www.livehindustan.com/uttar-pradesh/amroha/story-amroha-thar-crash-two-cousins-killed-three-injured-bsf-jawan-suspected-201793822883412.html",
+      "published_at": "2026-11-05T01:38:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Two young relatives Rajiv and Prashant died after a speeding Thar struck a motorcycle in Amroha on 3 Nov",
+        "Police registered a case and began an investigation; driver reportedly fled",
+        "Exact number of motorcycles and injured people differs between reports; alleged intoxication/BSF detail not independently confirmed"
+      ],
+      "source_type": "news",
+      "verification_notes": "Local follow-up; three-bike/three-injured details are not stated as settled fact because PTI account differs. Alleged intoxication/BSF detail excluded from narration."
+    },
+    {
+      "id": "SRC-W1-AU",
+      "publisher": "Amar Ujala",
+      "title": "काले रंग की थार ने पांच को कुचला: यूपी में बड़ा हादसा, दो भाइयों की गई जान; तीन लोग मौत से लड़ रहे जंग",
+      "url": "https://www.amarujala.com/uttar-pradesh/amroha/thar-collided-with-three-motorcycles-and-one-after-another-on-the-naugawan-sadat-amroha-road-2026-11-04",
+      "published_at": "2026-11-04T17:32:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Two young relatives Rajiv and Prashant died after a speeding Thar struck a motorcycle in Amroha on 3 Nov",
+        "Police registered a case and began an investigation; driver reportedly fled",
+        "Exact number of motorcycles and injured people differs between reports; alleged intoxication/BSF detail not independently confirmed"
+      ],
+      "source_type": "news",
+      "verification_notes": "Local report; supports family protest and local account of three motorcycles/three injured, with details scoped."
+    },
+    {
+      "id": "SRC-W1-JAGRAN",
+      "publisher": "Dainik Jagran",
+      "title": "अमरोहा में काली थार का कहर: दो भाइयों की मौत, तीन घायल; चालक फरार",
+      "url": "https://www.jagran.com/uttar-pradesh/amroha-city-high-speed-thar-killed-two-cousins-three-others-injured-amroha-accident-40426809.html",
+      "published_at": "2026-11-04T09:08:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Two young relatives Rajiv and Prashant died after a speeding Thar struck a motorcycle in Amroha on 3 Nov",
+        "Police registered a case and began an investigation; driver reportedly fled",
+        "Exact number of motorcycles and injured people differs between reports; alleged intoxication/BSF detail not independently confirmed"
+      ],
+      "source_type": "news",
+      "verification_notes": "Independent local report; same limits on vehicle/injury count."
+    },
+    {
+      "id": "SRC-W2-AMRIT",
+      "publisher": "Amrit Vichar",
+      "title": "धान खरीद की शर्तों पर भड़के किसान, गन्ने का भाव 600 रुपये करने की मांग",
+      "url": "https://www.amritvichar.com/uttar-pradesh/bareilly/farmers-angry-over-the-conditions-of-paddy-purchase-demand-to/article-598128",
+      "published_at": "2026-11-03T16:40:40+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Kisan Ekta Sangh demonstrated at Bareilly Collectorate on 3 Nov and submitted a memorandum",
+        "Demands included removing Farmer Registry/satellite survey/thumbprint requirements, ₹600/quintal cane price and a new purchase centre",
+        "₹600 is a demand, not an approved government rate; no final administration response verified"
+      ],
+      "source_type": "news",
+      "verification_notes": "Local report of protest and memorandum; claims are attributed to the farmers' organisation."
+    },
+    {
+      "id": "SRC-W2-LH",
+      "publisher": "Live Hindustan",
+      "title": "Bareily News: किसान एकता संघ ने उठाई किसानों से जुड़ी मांगें, सौंपा ज्ञापन",
+      "url": "https://www.livehindustan.com/uttar-pradesh/bareily/story-bareilly-farmers-protest-paddy-procurement-rules-demand-sugarcane-price-hike-201793648714197.html",
+      "published_at": "2026-11-03T01:15:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Kisan Ekta Sangh demonstrated at Bareilly Collectorate on 3 Nov and submitted a memorandum",
+        "Demands included removing Farmer Registry/satellite survey/thumbprint requirements, ₹600/quintal cane price and a new purchase centre",
+        "₹600 is a demand, not an approved government rate; no final administration response verified"
+      ],
+      "source_type": "news",
+      "verification_notes": "Independent local report; ₹600 remains a demand, not a government decision."
+    },
+    {
+      "id": "SRC-W2-BL",
+      "publisher": "BareillyLive",
+      "title": "धान खरीद की जटिल शर्तें खत्म हों, गन्ने का मूल्य 600 रुपये प्रति क्विंटल किया जाए: किसान एकता संघ",
+      "url": "https://bareillylive.in/bareilly-news/farmers-ekta-sangh-paddy-procurement-sugarcane-price-demand-bareilly/",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Kisan Ekta Sangh demonstrated at Bareilly Collectorate on 3 Nov and submitted a memorandum",
+        "Demands included removing Farmer Registry/satellite survey/thumbprint requirements, ₹600/quintal cane price and a new purchase centre",
+        "₹600 is a demand, not an approved government rate; no final administration response verified"
+      ],
+      "source_type": "news",
+      "verification_notes": "Additional local report; organisation's demands are attributed."
+    },
+    {
+      "id": "SRC-N1-PIB",
+      "publisher": "PIB / MoSPI",
+      "title": "Consumer Price Index numbers for September 2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3",
+      "published_at": "2026-10-12T16:00:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "September 2026 combined food inflation 7.74%; rural 8.06%; urban 7.18%",
+        "Weak soil moisture after weak monsoon may affect winter sowing/yields and future food prices"
+      ],
+      "source_type": "official",
+      "verification_notes": "Official CPI source for recorded September inflation figures."
+    },
+    {
+      "id": "SRC-N1-REUTERS",
+      "publisher": "Reuters",
+      "title": "From grains to chicken and milk, India faces prolonged food inflation",
+      "url": "https://www.reuters.com/world/india/grains-chicken-milk-india-faces-prolonged-food-inflation-2026-11-03/",
+      "published_at": "2026-11-03T06:33:00Z",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "September 2026 combined food inflation 7.74%; rural 8.06%; urban 7.18%",
+        "Weak soil moisture after weak monsoon may affect winter sowing/yields and future food prices"
+      ],
+      "source_type": "news",
+      "verification_notes": "Forward-looking crop and price risks are attributed to Reuters; not presented as certain local price changes."
+    },
+    {
+      "id": "SRC-N2-IT",
+      "publisher": "India Today / PTI",
+      "title": "Cyclone Murasu: Two killed, crops and homes damaged in Andhra Pradesh",
+      "url": "https://www.indiatoday.in/amp/india/story/cyclone-murasu-andhra-pradesh-two-killed-crops-homes-damaged-ptag-3031687-2026-11-03",
+      "published_at": "2026-11-03T23:18:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Cyclone Murasu aftermath in Andhra Pradesh",
+        "Preliminary estimate: 52,459 hectares crops affected, 312 houses, about ₹344 crore initial loss; two deaths reported",
+        "Figures are preliminary and may be revised"
+      ],
+      "source_type": "news",
+      "verification_notes": "PTI-sourced preliminary damage and relief figures."
+    },
+    {
+      "id": "SRC-N2-TRIBUNE",
+      "publisher": "The Tribune / PTI",
+      "title": "Cyclone hits Andhra coast, 2 killed",
+      "url": "https://www.tribuneindia.com/news/india/cyclone-hits-andhra-coast-2-killed/amp",
+      "published_at": "2026-11-04T01:34:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Cyclone Murasu aftermath in Andhra Pradesh",
+        "Preliminary estimate: 52,459 hectares crops affected, 312 houses, about ₹344 crore initial loss; two deaths reported",
+        "Figures are preliminary and may be revised"
+      ],
+      "source_type": "news",
+      "verification_notes": "Independent PTI syndication; figures remain preliminary."
+    },
+    {
+      "id": "SRC-N2-TNM",
+      "publisher": "The News Minute",
+      "title": "Cyclone Murasu leaves 2 dead, damages 312 houses in Andhra Pradesh",
+      "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-leaves-2-dead-damages-312-houses-in-andhra-pradesh",
+      "published_at": "2026-11-04T03:39:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Cyclone Murasu aftermath in Andhra Pradesh",
+        "Preliminary estimate: 52,459 hectares crops affected, 312 houses, about ₹344 crore initial loss; two deaths reported",
+        "Figures are preliminary and may be revised"
+      ],
+      "source_type": "news",
+      "verification_notes": "Independent regional report corroborates recovery context; state estimates remain provisional."
+    },
+    {
+      "id": "SRC-N3-REUTERS",
+      "publisher": "Reuters",
+      "title": "India puts food before fuel as El Niño dents ethanol ambitions",
+      "url": "https://www.reuters.com/business/energy/india-puts-food-before-fuel-el-nio-dents-ethanol-ambitions-2026-11-04/",
+      "published_at": "2026-11-04T03:02:00Z",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Industry estimate says ethanol blending may be around 15–17% in current supply year due to feedstock pressure",
+        "Not a final government announcement withdrawing E20"
+      ],
+      "source_type": "news",
+      "verification_notes": "15–17% is an industry estimate; not described as an official target."
+    },
+    {
+      "id": "SRC-N3-AAJTAK",
+      "publisher": "Aaj Tak",
+      "title": "एथेनॉल ब्लेंडिंग पर असर: अल नीनो से फसल और सप्लाई पर दबाव",
+      "url": "https://www.aajtak.in/science/story/ethanol-blending-disturbed-el-nino-put-monsoon-rainfall-lowest-dskc-2688321-2026-11-04",
+      "published_at": "2026-11-04T17:09:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Industry estimate says ethanol blending may be around 15–17% in current supply year due to feedstock pressure",
+        "Not a final government announcement withdrawing E20"
+      ],
+      "source_type": "news",
+      "verification_notes": "Secondary coverage; same caveat that estimate is not final policy."
+    },
+    {
+      "id": "SRC-N3-SP",
+      "publisher": "S&P Global",
+      "title": "India orders states to enforce zero sugar diversion for ethanol supply",
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/102226-india-orders-states-to-enforce-zero-sugar-diversion-for-ethanol-supply",
+      "published_at": "2026-10-22",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Separate government restriction on sugar diversion for ethanol feedstock"
+      ],
+      "source_type": "news",
+      "verification_notes": "Background on separate feedstock policy; not evidence that E20 has been withdrawn."
+    },
+    {
+      "id": "SRC-N4-REUTERS",
+      "publisher": "Reuters",
+      "title": "India says PepsiCo, Monster marketed with 'energy drink' label to dupe consumers",
+      "url": "https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "FSSAI argued that 'energy drink' labelling on certain high-caffeine beverages may mislead consumers",
+        "Companies dispute regulatory action; interim directions are not a final merits ruling",
+        "No 5 Nov hearing outcome verified by 04:20 IST"
+      ],
+      "source_type": "news",
+      "verification_notes": "Court-filing account; allegation attributed to regulator, company position noted."
+    },
+    {
+      "id": "SRC-N4-ET",
+      "publisher": "Economic Times / Reuters",
+      "title": "India says PepsiCo, Monster marketed with 'energy drink' label to dupe consumers",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/food/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers/articleshow/135537991.cms",
+      "published_at": "2026-11-04T17:10:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "FSSAI argued that 'energy drink' labelling on certain high-caffeine beverages may mislead consumers",
+        "Companies dispute regulatory action; interim directions are not a final merits ruling",
+        "No 5 Nov hearing outcome verified by 04:20 IST"
+      ],
+      "source_type": "news",
+      "verification_notes": "Syndicated coverage of court dispute; not a final judicial finding."
+    },
+    {
+      "id": "SRC-N4-HC",
+      "publisher": "IndiaKanoon",
+      "title": "Delhi High Court interim order in FSSAI energy-drink labelling dispute",
+      "url": "https://indiankanoon.org/doc/108682359/",
+      "published_at": "2026-10-12",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Interim directions concerning existing stock and future manufacture under disputed label"
+      ],
+      "source_type": "other",
+      "verification_notes": "Court order copy; read narrowly as interim relief, not a final decision."
+    },
+    {
+      "id": "SRC-N5-REUTERS",
+      "publisher": "Reuters",
+      "title": "India cybercrime agency warns financial firms of AI attacks",
+      "url": "https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/",
+      "published_at": "2026-11-04T13:34:00Z",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "I4C warned banks, NBFCs and fintech/payment firms about AI-assisted attacks exploiting unpatched systems and payment APIs",
+        "Advisory is aimed at institutions; does not mean all customers are compromised"
+      ],
+      "source_type": "news",
+      "verification_notes": "Institutional advisory scope preserved; consumer safety steps are practical guidance."
+    },
+    {
+      "id": "SRC-N5-MINT",
+      "publisher": "Mint / PTI",
+      "title": "Central cyber security agency warns banks, fintech firms of frauds through AI agents",
+      "url": "https://www.livemint.com/technology/central-cyber-security-agency-warns-banks-fintech-firms-of-frauds-through-ai-agents-11793805354383.html",
+      "published_at": "2026-11-04T20:45:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "I4C warned banks, NBFCs and fintech/payment firms about AI-assisted attacks exploiting unpatched systems and payment APIs",
+        "Advisory is aimed at institutions; does not mean all customers are compromised"
+      ],
+      "source_type": "news",
+      "verification_notes": "PTI coverage corroborates advisory details."
+    },
+    {
+      "id": "SRC-N6-PIB",
+      "publisher": "PIB / Ministry of Mines",
+      "title": "Cabinet approves capex support scheme for critical mineral processing with ₹2,814 crore outlay",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2332490&lang=1&reg=3",
+      "published_at": "2026-11-04T15:41:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Cabinet approved ₹2,814-crore five-year capex-support scheme on 4 Nov",
+        "Up to 30% capex support for two lithium and two nickel processing units; cobalt may be a by-product",
+        "Long-term industrial capacity measure, not immediate household price relief"
+      ],
+      "source_type": "official",
+      "verification_notes": "Official cabinet/ministry release for scheme parameters."
+    },
+    {
+      "id": "SRC-N6-PMI",
+      "publisher": "Prime Minister of India",
+      "title": "Cabinet approves capex support scheme to promote critical mineral processing",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Cabinet approved ₹2,814-crore five-year capex-support scheme on 4 Nov",
+        "Up to 30% capex support for two lithium and two nickel processing units; cobalt may be a by-product",
+        "Long-term industrial capacity measure, not immediate household price relief"
+      ],
+      "source_type": "official",
+      "verification_notes": "Official government summary; cross-checks outlay and plant support."
+    },
+    {
+      "id": "SRC-N6-REUTERS",
+      "publisher": "Reuters",
+      "title": "India approves $297 million incentive policy for lithium, nickel processing",
+      "url": "https://www.reuters.com/business/india-approves-297-million-incentive-policy-lithium-nickel-processing-2026-11-04/",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Cabinet approved ₹2,814-crore five-year capex-support scheme on 4 Nov",
+        "Up to 30% capex support for two lithium and two nickel processing units; cobalt may be a by-product",
+        "Long-term industrial capacity measure, not immediate household price relief"
+      ],
+      "source_type": "news",
+      "verification_notes": "Independent report corroborates cabinet approval and outlay."
+    },
+    {
+      "id": "SRC-N7-ET",
+      "publisher": "Economic Times",
+      "title": "Diwali firecracker curbs: SC sets two time periods for fireworks, bans bursting near hospitals",
+      "url": "https://economictimes.indiatimes.com/news/india/diwali-firecracker-curbs-sc-sets-two-time-periods-for-fireworks-bans-bursting-near-hospitals/articleshow/135453944.cms",
+      "published_at": "2026-11-02T15:52:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Certified green crackers only on 7–8 Nov in specified time windows in Delhi-NCR",
+        "300-metre no-cracker zone around specified sensitive facilities; full ban resumes 9 Nov",
+        "Keep Delhi-NCR scope explicit and check local district orders"
+      ],
+      "source_type": "news",
+      "verification_notes": "Secondary coverage of Supreme Court directions; scope limited to Delhi-NCR."
+    },
+    {
+      "id": "SRC-N7-NDTV",
+      "publisher": "NDTV Profit",
+      "title": "Diwali 2026: Supreme Court allows certified green crackers in Delhi-NCR",
+      "url": "https://www.ndtvprofit.com/india/diwali-2026-supreme-court-allows-certified-green-crackers-in-delhi-12270711",
+      "published_at": "2026-11-02T15:21:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Certified green crackers only on 7–8 Nov in specified time windows in Delhi-NCR",
+        "300-metre no-cracker zone around specified sensitive facilities; full ban resumes 9 Nov",
+        "Keep Delhi-NCR scope explicit and check local district orders"
+      ],
+      "source_type": "news",
+      "verification_notes": "Independent coverage; viewers are advised to check local orders."
+    },
+    {
+      "id": "SRC-N7-IE",
+      "publisher": "The Indian Express",
+      "title": "Supreme Court green crackers: Delhi-NCR timings and restrictions for Diwali",
+      "url": "https://indianexpress.com/article/legal-news/supreme-court-green-crackers-delhi-ncr-diwali-timings-sale-rules-10948099/lite/",
+      "published_at": "2026-11-03T09:13:00+05:30",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Certified green crackers only on 7–8 Nov in specified time windows in Delhi-NCR",
+        "300-metre no-cracker zone around specified sensitive facilities; full ban resumes 9 Nov",
+        "Keep Delhi-NCR scope explicit and check local district orders"
+      ],
+      "source_type": "news",
+      "verification_notes": "Independent coverage; no extension beyond stated dates is implied."
+    },
+    {
+      "id": "SRC-WX-IMD-SUB",
+      "publisher": "India Meteorological Department",
+      "title": "Subdivision-wise weather warnings — 5 November 2026",
+      "url": "https://mausam.imd.gov.in/responsive/subDivisionWiseWarningGIS.php",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "No warning displayed for West Uttar Pradesh for 5–11 Nov 2026"
+      ],
+      "source_type": "official",
+      "verification_notes": "Official IMD warning map checked at 04:20 IST; warning map is date- and subdivision-specific."
+    },
+    {
+      "id": "SRC-WX-IMD-DIST",
+      "publisher": "India Meteorological Department",
+      "title": "District-wise weather warnings — 5 November 2026",
+      "url": "https://mausam.imd.gov.in/responsive/districtWiseWarningGIS.php",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Current district-wise warning map checked for 5 Nov 2026"
+      ],
+      "source_type": "official",
+      "verification_notes": "Dynamic official map checked at 04:20 IST; no unsupported district temperature is inferred."
+    },
+    {
+      "id": "SRC-WX-BAREILLY",
+      "publisher": "India Meteorological Department",
+      "title": "Local weather report and forecast for Bareilly",
+      "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42189",
+      "published_at": "2026-11-03",
+      "accessed_at": "2026-11-05T04:20:13+05:30",
+      "claims_supported": [
+        "Available Bareilly page dated 3 Nov; 5 Nov listed as clear, 17–29°C"
+      ],
+      "source_type": "official",
+      "verification_notes": "Forecast page is dated 3 Nov and is not treated as a fresh 5 Nov observation."
+    }
+  ],
+  "retrieved_at_ist": "2026-11-05T04:20:13+05:30"
 }
