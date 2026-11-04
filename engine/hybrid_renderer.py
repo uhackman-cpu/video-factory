@@ -124,18 +124,24 @@ def render_segment(scene: dict, source: Path, destination: Path, width: int, hei
     duration = float(scene["duration"])
     scale_crop = (
         f"scale={width}:{height}:force_original_aspect_ratio=increase,"
-        f"crop={width}:{height},setsar=1,fps={FPS},format=yuv420p"
+        f"crop={width}:{height},setsar=1"
     )
     if scene["kind"] == "image":
+        motion_filter = (
+            f"{scale_crop},zoompan=z='min(zoom+0.00005,1.12)':"
+            f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
+            f"d=1:s={width}x{height}:fps={FPS},format=yuv420p"
+        )
         command = [
             "ffmpeg", "-y", "-loop", "1", "-framerate", str(FPS), "-i", str(source),
-            "-t", str(duration), "-vf", scale_crop, "-an", "-c:v", "libx264",
+            "-t", str(duration), "-vf", motion_filter, "-an", "-c:v", "libx264",
             "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p", str(destination),
         ]
     else:
+        video_filter = f"{scale_crop},fps={FPS},format=yuv420p"
         command = [
             "ffmpeg", "-y", "-stream_loop", "-1", "-i", str(source),
-            "-t", str(duration), "-vf", scale_crop, "-an", "-c:v", "libx264",
+            "-t", str(duration), "-vf", video_filter, "-an", "-c:v", "libx264",
             "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p", str(destination),
         ]
     run(command, timeout=180)
