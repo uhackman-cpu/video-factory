@@ -28,7 +28,9 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Wheat_Field_in_India.jpg",
       "credit": "Rstv.devesh",
       "visual_note": "उत्तर प्रदेश के गेहूँ खेत का प्रतीकात्मक दृश्य",
-      "story_id": "WIDE-OPEN"
+      "story_id": "WIDE-OPEN",
+      "asset_id": "IMG-WHEAT-UP",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "kind": "image",
@@ -40,7 +42,9 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Bike_Ride_On_the_NH_48.jpg",
       "credit": "Mallikarjuna Sarvala",
       "visual_note": "प्रतीकात्मक हाईवे दृश्य; अमरोहा हादसे की वास्तविक तस्वीर नहीं",
-      "story_id": "W1"
+      "story_id": "W1",
+      "asset_id": "IMG-BIKE-HIGHWAY",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "kind": "image",
@@ -52,7 +56,9 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Indian_Sweet.jpg",
       "credit": "Mrsagar105",
       "visual_note": "प्रतीकात्मक मिठाई; जब्त मिठाई या निरीक्षण की तस्वीर नहीं",
-      "story_id": "W2"
+      "story_id": "W2",
+      "asset_id": "IMG-INDIAN-SWEET",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "kind": "image",
@@ -64,7 +70,9 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Indian_Sweet.jpg",
       "credit": "Mrsagar105",
       "visual_note": "प्रतीकात्मक मिठाई; जब्त मिठाई या निरीक्षण की तस्वीर नहीं",
-      "story_id": "W2"
+      "story_id": "W2",
+      "asset_id": "IMG-INDIAN-SWEET",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "kind": "image",
@@ -76,7 +84,9 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Namo_Bharat_train.jpg",
       "credit": "The social view",
       "visual_note": "नमो भारत ट्रेन के अंदर का दृश्य; अतिरिक्त फेरों का वास्तविक समय-चित्र नहीं",
-      "story_id": "W3"
+      "story_id": "W3",
+      "asset_id": "IMG-NAMO-TRAIN",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "kind": "image",
@@ -88,7 +98,9 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Wheat_Field_in_India.jpg",
       "credit": "Rstv.devesh",
       "visual_note": "उत्तर प्रदेश के गेहूँ खेत का प्रतीकात्मक दृश्य",
-      "story_id": "N1"
+      "story_id": "N1",
+      "asset_id": "IMG-WHEAT-UP",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "kind": "image",
@@ -100,7 +112,9 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Wheat_Field_in_India.jpg",
       "credit": "Rstv.devesh",
       "visual_note": "उत्तर प्रदेश के गेहूँ खेत का प्रतीकात्मक दृश्य",
-      "story_id": "N1"
+      "story_id": "N1",
+      "asset_id": "IMG-WHEAT-UP",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "kind": "image",
@@ -112,7 +126,9 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Red_Bell_Energy_Drink_250ml_can.jpg",
       "credit": "JonathanAaronBridgemohan",
       "visual_note": "प्रतीकात्मक ऊर्जा पेय कैन; विवाद में उल्लिखित कंपनियों का उत्पाद नहीं",
-      "story_id": "N2"
+      "story_id": "N2",
+      "asset_id": "IMG-ENERGY-CAN",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "kind": "image",
@@ -124,7 +140,9 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Laptop_Keyboard.jpg",
       "credit": "Kokul Jose",
       "visual_note": "साइबर सुरक्षा के लिए प्रतीकात्मक लैपटॉप दृश्य",
-      "story_id": "N3"
+      "story_id": "N3",
+      "asset_id": "IMG-LAPTOP-KEYBOARD",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "kind": "image",
@@ -136,7 +154,9 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Diwali_Fireworks.jpg",
       "credit": "Wind Hashira",
       "visual_note": "भारत में दीपावली आतिशबाजी का दृश्य; मानव समीक्षा आवश्यक",
-      "story_id": "N5"
+      "story_id": "N5",
+      "asset_id": "IMG-DIWALI-FIREWORKS",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "kind": "image",
@@ -148,7 +168,9 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Dark_clouds,_Monsoon,_India_(2018).jpg",
       "credit": "Patilharshit",
       "visual_note": "2018 का मॉनसून बादल दृश्य; आज के मौसम की वास्तविक तस्वीर नहीं",
-      "story_id": "WEATHER"
+      "story_id": "WEATHER",
+      "asset_id": "IMG-MONSOON-CLOUDS",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "kind": "image",
@@ -160,7 +182,9 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Wheat_Field_in_India.jpg",
       "credit": "Rstv.devesh",
       "visual_note": "उत्तर प्रदेश के गेहूँ खेत का प्रतीकात्मक दृश्य",
-      "story_id": "CLOSE"
+      "story_id": "CLOSE",
+      "asset_id": "IMG-WHEAT-UP",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     }
   ]
 }
