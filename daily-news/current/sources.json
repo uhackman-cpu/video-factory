@@ -232,7 +232,8 @@
       "date": "2026-11-04",
       "url": "https://www.amarujala.com/uttar-pradesh/moradabad/more-than-25000-e-rickshaws-are-operating-in-the-city-moradabad-news-c-15-1-mbd1027-1031670-2026-11-04",
       "supports": "Moradabad e-rickshaw count and congestion",
-      "confidence": "Medium; single local report"
+      "confidence": "Medium; single local report",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S02",
@@ -240,7 +241,8 @@
       "date": "2026-11-03",
       "url": "https://www.hindustantimes.com/cities/lucknow-news/allahabad-hc-asks-up-govt-to-consider-halting-fresh-e-rickshaw-registrations-in-lucknow-101793683309547.html",
       "supports": "HC asked UP government to decide/consider registration curbs within four weeks",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S03",
@@ -248,7 +250,8 @@
       "date": "2026-11-02",
       "url": "https://www.theweek.in/wire-updates/national/2026/11/02/hc-asks-up-govt-to-decide-on-curbing-fresh-e-rickshaw-registrations-in-4-weeks.amp.html",
       "supports": "HC direction and four-week timeframe",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S04",
@@ -256,7 +259,8 @@
       "date": "2026-11-02",
       "url": "https://www.indiatoday.in/amp/india/law-news/story/lucknow-e-rickshaw-registration-curbs-allahabad-high-court-up-government-ptag-3031033-2026-11-02",
       "supports": "HC direction and statewide applicability caveat",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S05",
@@ -264,7 +268,8 @@
       "date": "2026-11-03",
       "url": "https://www.hindustantimes.com/cities/lucknow-news/prediwali-crackdown-up-fsda-seizes-54-quintals-of-food-worth-1-32-cr-suspends-27-licences-101793715946643.html",
       "supports": "FSDA statewide figures and Bareilly/Moradabad findings",
-      "confidence": "High; official department spokesperson cited"
+      "confidence": "High; official department spokesperson cited",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S06",
@@ -272,7 +277,8 @@
       "date": "2026-11-04",
       "url": "https://timesofindia.indiatimes.com/city/lucknow/fsda-suspends-27-licences-in-statewide-sweet-shop-crackdown/articleshow/135512276.cms",
       "supports": "Statewide inspection figures and local hygiene violations",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S07",
@@ -280,7 +286,8 @@
       "date": "2026-11-03",
       "url": "https://www.amarujala.com/uttar-pradesh/bareilly/bareilly-food-safety-raid-27-shops-two-sweet-shop-licenses-suspended-2026-11-03",
       "supports": "Bareilly mouldy ghevar and two licence suspensions",
-      "confidence": "Medium-high"
+      "confidence": "Medium-high",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S08",
@@ -288,7 +295,8 @@
       "date": "2026-11-04",
       "url": "https://www.amritvichar.com/uttar-pradesh/bareilly/raid-on-sweet-shops-in-bareilly-license-of-ghevar-mixed/article-598216",
       "supports": "Bareilly inspections, samples and two suspensions",
-      "confidence": "Medium-high"
+      "confidence": "Medium-high",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S09",
@@ -296,7 +304,8 @@
       "date": "2026-11-04",
       "url": "https://www.jagran.com/uttar-pradesh/muzaffarnagar-muzaffarnagar-food-safety-220kg-flyinfested-rasgullas-destroyed-40427033.html",
       "supports": "Muzaffarnagar about 220 kg rasgullas destroyed after flies found",
-      "confidence": "Medium"
+      "confidence": "Medium",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S10",
@@ -304,7 +313,8 @@
       "date": "2026-11-05",
       "url": "https://timesofindia.indiatimes.com/city/agra/diwali-crackdown-220kg-sweets-destroyed-in-muzaffarnagar-after-insects-found-contaminated-milk-cheese-seized-in-mathura/articleshow/135547438.cms",
       "supports": "Muzaffarnagar 220 kg sweets destroyed after insects found",
-      "confidence": "Medium"
+      "confidence": "Medium",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S11",
@@ -312,7 +322,8 @@
       "date": "2026-11-05",
       "url": "https://timesofindia.indiatimes.com/city/meerut/lawyers-should-not-come-to-my-office-bijnor-dm-faces-massive-protest-over-misbehaviour/articleshow/135543747.cms",
       "supports": "Bijnor DM-lawyer dispute and lawyers' protest",
-      "confidence": "Medium; allegation-based"
+      "confidence": "Medium; allegation-based",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S12",
@@ -320,7 +331,8 @@
       "date": "2026-11-04",
       "url": "https://english.bhaskardigital.com/bijnor-dm-w-lawyers-clash-escalates-after-senior-advocate-is-asked-to-leave-chamber-glass-gate-broken/",
       "supports": "Bijnor dispute, protest and lawyers' demands",
-      "confidence": "Medium; official response not obtained"
+      "confidence": "Medium; official response not obtained",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S13",
@@ -328,7 +340,8 @@
       "date": "2026-11-04",
       "url": "https://www.thejusticehindi.com/bijnor-dm-lawyers-dispute-collectorate-protest-2026/",
       "supports": "Bijnor collectorate protest and Bar Association account",
-      "confidence": "Medium"
+      "confidence": "Medium",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S14",
@@ -336,7 +349,8 @@
       "date": "2026-11-03",
       "url": "https://www.reuters.com/world/india/grains-chicken-milk-india-faces-prolonged-food-inflation-2026-11-03/",
       "supports": "Weak soil moisture, winter sowing and future food-price risks",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S15",
@@ -344,7 +358,8 @@
       "date": "2026-10-12T16:00:00+05:30",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3",
       "supports": "September 2026 CPI 5.54%; food inflation 7.74%; rural 8.06%, urban 7.18%",
-      "confidence": "Very high; official primary data"
+      "confidence": "Very high; official primary data",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S16",
@@ -352,7 +367,8 @@
       "date": "2026-11-03 to 2026-11-04",
       "url": "https://apsdmagis.ap.gov.in/weather-watch/cyclone",
       "supports": "Murasu cyclone event log, landfall and weakening status",
-      "confidence": "Very high; official disaster authority"
+      "confidence": "Very high; official disaster authority",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S17",
@@ -360,7 +376,8 @@
       "date": "2026-11-03",
       "url": "https://www.indiatoday.in/amp/india/story/cyclone-murasu-andhra-pradesh-two-killed-crops-homes-damaged-ptag-3031687-2026-11-03",
       "supports": "Two deaths and preliminary damage estimates",
-      "confidence": "High; preliminary figures"
+      "confidence": "High; preliminary figures",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S18",
@@ -368,7 +385,8 @@
       "date": "2026-11-04",
       "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-leaves-2-dead-damages-312-houses-in-andhra-pradesh",
       "supports": "Two deaths, 312 houses affected and recovery context",
-      "confidence": "High; regional reporting"
+      "confidence": "High; regional reporting",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S19",
@@ -376,7 +394,8 @@
       "date": "2026-11-04",
       "url": "https://apnews.com/article/c8d1899f4344625f63d6d456dc3805fb",
       "supports": "Landfall, wind speed, evacuation and disruption",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S20",
@@ -384,7 +403,8 @@
       "date": "2026-11-04",
       "url": "https://www.reuters.com/sports/cricket/kohli-runs-india-thrash-new-zealand-first-odi-2026-11-04/",
       "supports": "India five-wicket win, score, Kohli 74, bowling figures",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S21",
@@ -392,7 +412,8 @@
       "date": "2026-11-04",
       "url": "https://www.hindustantimes.com/cricket/ind-vs-nz-live-score-1st-odi-india-vs-new-zealand-updates-eden-park-november-4-101793752602645.html",
       "supports": "Match result and DLS target",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S22",
@@ -400,7 +421,8 @@
       "date": "2026-11-04",
       "url": "https://www.sfgate.com/sports/article/india-wins-the-toss-and-chooses-to-bowl-in-the-22510468.php",
       "supports": "Independent match score report",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S23",
@@ -408,7 +430,8 @@
       "date": "2026-11-04",
       "url": "https://www.theweek.in/wire-updates/national/2026/11/04/karnataka-hikes-bus-fares-not-to-make-profit-but-to-save-corporations-says-minister.html",
       "supports": "Karnataka bus fare changes and minister's explanation",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S24",
@@ -416,7 +439,8 @@
       "date": "2026-11-04",
       "url": "https://www.hindustantimes.com/cities/bengaluru-news/karnataka-hikes-bus-fares-not-to-make-profit-but-to-save-corporations-says-minister-101793783575975-amp.html",
       "supports": "BMTC/KSRTC fare percentages and implementation",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S25",
@@ -424,7 +448,8 @@
       "date": "2026-11-04",
       "url": "https://www.newindianexpress.com/states/karnataka/2026/Nov/04/karnataka-hikes-bus-fares-by-up-to-35-for-bmtc-23-for-rtcs-amid-mounting-losses",
       "supports": "Fare changes and financial context",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S26",
@@ -432,7 +457,8 @@
       "date": "2026-11-04",
       "url": "https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/",
       "supports": "I4C warning on AI-assisted attacks against financial firms and payment APIs",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S27",
@@ -440,7 +466,8 @@
       "date": "2026-11-04",
       "url": "https://www.newindianexpress.com/india/2026/Nov/04/mhas-i4c-warns-banks-fintech-firms-of-ai-powered-cyberattacks-and-machine-speed-fraud",
       "supports": "I4C/CERT-In advisory details",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S28",
@@ -448,7 +475,8 @@
       "date": "2026-11-04",
       "url": "https://www.livemint.com/technology/central-cyber-security-agency-warns-banks-fintech-firms-of-frauds-through-ai-agents-11793805354383.html",
       "supports": "AI-assisted financial attack pattern and institutional response",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S29",
@@ -456,7 +484,8 @@
       "date": "2026-11-04",
       "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/",
       "supports": "Cabinet approval, ₹2,814 crore outlay, four plants and 30% eligible capex support",
-      "confidence": "Very high; official primary source"
+      "confidence": "Very high; official primary source",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S30",
@@ -464,7 +493,8 @@
       "date": "2026-11-04",
       "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2332490&lang=1&reg=3",
       "supports": "Scheme terms and implementation conditions",
-      "confidence": "Very high; official primary source"
+      "confidence": "Very high; official primary source",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S31",
@@ -472,7 +502,8 @@
       "date": "2026-11-04",
       "url": "https://www.reuters.com/business/india-approves-297-million-incentive-policy-lithium-nickel-processing-2026-11-04/",
       "supports": "Independent reporting on scheme and import-dependence rationale",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S32",
@@ -480,7 +511,8 @@
       "date": "2026-11-04",
       "url": "https://theprint.in/india/ec-approves-rationalisation-of-polling-stations-in-up-reduces-number-by-3786-ceo/3090827/",
       "supports": "UP polling stations reduced from 177,516 to 173,730",
-      "confidence": "High; CEO quoted"
+      "confidence": "High; CEO quoted",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S33",
@@ -488,7 +520,8 @@
       "date": "2026-11-04",
       "url": "https://www.indiatoday.in/amp/elections/assembly/story/uttar-pradesh-polling-stations-reduced-election-commission-rationalisation-ssr-exercise-3032545-2026-11-04",
       "supports": "EC approval and statewide rationalisation",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S34",
@@ -496,7 +529,8 @@
       "date": "2026-11-04",
       "url": "https://www.thestatesman.com/cities/lucknow/polling-booths-in-up-decreased-by-3786-to-173730-after-reorganisation-1503658921.html",
       "supports": "BLO instructions to inform voters about changed polling stations",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S35",
@@ -504,7 +538,8 @@
       "date": "2026-11-03",
       "url": "https://indianexpress.com/article/cities/bangalore/bengaluru-indiranagar-hostage-drama-chain-snatching-public-overpower-robber-10948518/",
       "supports": "Bengaluru robbery, adhesive used, public/traffic police catch suspect",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S36",
@@ -512,7 +547,8 @@
       "date": "2026-11-03",
       "url": "https://www.indiatoday.in/cities/bengaluru/story/bengaluru-chain-snatching-attempt-man-storms-into-shop-grabs-womans-neck-threatens-to-kill-her-3031200-2026-11-03",
       "supports": "Robbery details and victim safety",
-      "confidence": "High"
+      "confidence": "High",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S37",
@@ -520,7 +556,8 @@
       "date": "2026-11-03",
       "url": "https://www.hindustantimes.com/cities/bengaluru-news/bengaluru-man-held-for-attempting-to-rob-woman-of-gold-mangalsutra-at-knifepoint-101793694714750.html",
       "supports": "Police confirmation of arrest and victim unharmed",
-      "confidence": "High; PTI/police"
+      "confidence": "High; PTI/police",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S38",
@@ -528,7 +565,8 @@
       "date": "2026-11-04",
       "url": "https://timesofindia.indiatimes.com/city/bengaluru/robber-superglues-womans-hands-snatches-4-5l-golden-chain/articleshow/135512452.cms",
       "supports": "₹4.5 lakh chain value and incident details",
-      "confidence": "High; police account"
+      "confidence": "High; police account",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S39",
@@ -536,7 +574,8 @@
       "date": "2026-11-05",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25",
       "supports": "West UP no warning 5–11 November",
-      "confidence": "Very high; official IMD"
+      "confidence": "Very high; official IMD",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S40",
@@ -544,7 +583,8 @@
       "date": "2026-11-05",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2",
       "supports": "Coastal Andhra and Rayalaseema thunderstorm/squall and strong surface winds through 8 Nov",
-      "confidence": "Very high; official IMD"
+      "confidence": "Very high; official IMD",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S41",
@@ -552,7 +592,8 @@
       "date": "2026-11-05",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=24",
       "supports": "Tamil Nadu and Puducherry heavy rain/thunderstorm 5–8 Nov",
-      "confidence": "Very high; official IMD"
+      "confidence": "Very high; official IMD",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S42",
@@ -560,7 +601,8 @@
       "date": "2026-11-05",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=4",
       "supports": "Kerala thunderstorm 5 Nov and heavy rain/thunderstorm 6–8 Nov",
-      "confidence": "Very high; official IMD"
+      "confidence": "Very high; official IMD",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S43",
@@ -568,7 +610,8 @@
       "date": "2026-11-05",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13",
       "supports": "Coastal Karnataka thunderstorm 5 Nov; South Interior Karnataka heavy rain/thunderstorm 5–6 Nov",
-      "confidence": "Very high; official IMD"
+      "confidence": "Very high; official IMD",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S44",
@@ -576,7 +619,8 @@
       "date": "2026-11-05",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=10",
       "supports": "Odisha thunderstorm/lightning/squall 5 Nov",
-      "confidence": "Very high; official IMD"
+      "confidence": "Very high; official IMD",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
       "id": "S45",
@@ -584,7 +628,8 @@
       "date": "2026-11-04",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=1",
       "supports": "Telangana page issued 4 Nov shows no warning for 5 Nov",
-      "confidence": "Very high; official IMD"
+      "confidence": "Very high; official IMD",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     }
   ],
   "held_items": [
