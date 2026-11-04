@@ -773,7 +773,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "published_at": null,
       "accessed_at": "2026-11-05T02:18:12+05:30",
-      "source_type": "open_model_license",
+      "source_type": "other",
       "claims_supported": [
         "Kokoro-82M weights are Apache-2.0; model supports production deployment"
       ],
@@ -789,7 +789,7 @@
       "url": "https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md",
       "published_at": null,
       "accessed_at": "2026-11-05T02:18:12+05:30",
-      "source_type": "open_model_voice_documentation",
+      "source_type": "other",
       "claims_supported": [
         "Hindi lang_code h and male hm_omega/female hf_alpha voices are listed"
       ],
