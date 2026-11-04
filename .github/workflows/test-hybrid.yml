@@ -1,0 +1,36 @@
+name: Test Hybrid Renderer
+
+on:
+  push:
+    paths:
+      - "engine/hybrid_renderer.py"
+      - "tests/test_hybrid_renderer.py"
+      - "requirements.txt"
+      - ".github/workflows/test-hybrid.yml"
+  pull_request:
+    paths:
+      - "engine/hybrid_renderer.py"
+      - "tests/test_hybrid_renderer.py"
+      - "requirements.txt"
+      - ".github/workflows/test-hybrid.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
