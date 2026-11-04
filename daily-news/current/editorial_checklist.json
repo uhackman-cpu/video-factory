@@ -1,20 +1,26 @@
 {
   "edition_date": "2026-11-05",
-  "checked_at": "2026-11-05T02:18:12+05:30",
+  "checked_at": "2026-11-05T03:20:11+05:30",
   "render_status": "DRAFT_RENDER_ALLOWED",
   "publication_status": "HOLD_FOR_HUMAN_REVIEW",
   "overall_status": "HOLD",
   "editorial": {
     "audience_mix": "PASS",
-    "spoken_word_count": 1200,
+    "spoken_word_count": 1203,
     "target_duration_seconds": 600,
-    "scene_count": 12,
+    "scene_count": 13,
     "western_up_seconds": 213,
     "western_up_percent": 35.5,
     "india_wider_up_weather_open_close_seconds": 387,
     "jobs_exams": "No routine jobs/exam stories included",
     "script_originality": "Original narration; facts paraphrased in fresh language",
-    "sensationalism": "No rumours, communal/caste bait, misleading claims or graphic detail"
+    "sensationalism": "No rumours, communal/caste bait, misleading claims or graphic detail",
+    "india_story_seconds": 266,
+    "weather_seconds": 86,
+    "opening_seconds": 28,
+    "closing_seconds": 7,
+    "selected_story_count": 9,
+    "story_mix": "Four Western UP story blocks including Ghaziabad/Noida CAQM measures, plus five India-wide stories; no routine jobs/exams."
   },
   "factual_review": [
     {
@@ -45,7 +51,7 @@
     {
       "story_id": "N3",
       "status": "PASS",
-      "note": "CERT-In primary advisory confirms institutional campaign; script does not imply every consumer account is compromised."
+      "note": "FSSAI/companies labelling dispute; 5 Nov hearing was listed, but no outcome was available at 03:20 IST."
     },
     {
       "story_id": "N4",
@@ -61,6 +67,11 @@
       "story_id": "WEATHER",
       "status": "PASS",
       "note": "IMD page issued 5 Nov shows no West UP warning 5–11 Nov; stale Bareilly temperature forecast excluded."
+    },
+    {
+      "story_id": "W4",
+      "status": "PASS_WITH_ATTRIBUTION",
+      "note": "Three independent reports describe the CAQM 30 Oct order effective 5–20 Nov; it covers Ghaziabad and Gautam Buddha Nagar among named NCR locations. Direct official order PDF was not retrieved in this refresh, so narration attributes the measure to CAQM and does not broaden its scope."
     }
   ],
   "rights_review": {
@@ -77,13 +88,14 @@
     "Review generic Amroha highway visual for sensitive road-safety/crime context; it is not accident footage.",
     "Review Diwali fireworks visual and the safety/legal framing.",
     "Listen to complete Hindi narration for hm_omega pronunciation, natural pacing, truncation and audio quality.",
-    "Confirm every visual is clearly representative and not mistaken for the actual event."
+    "Confirm every visual is clearly representative and not mistaken for the actual event.",
+    "Check the generic laptop visual is clearly representative for the Ghaziabad/Noida WFH policy and not presented as actual office or enforcement footage."
   ],
-  "final_gate": "HOLD — draft may be rendered, but do not publish or schedule until all required human review items are completed.",
+  "final_gate": "HOLD — draft rendering may proceed, but do not publish or schedule until human review of road-safety imagery, fireworks framing, representative WFH visual and complete Hindi voice quality is complete.",
   "youtube_publish_authorized": false,
   "research_verification": {
     "status": "PASS_WITH_SCOPE_LIMIT",
-    "details": "All selected stories have claim-to-source mapping; Amroha conflicting details are omitted; drug-rule draft held; IMD warnings refreshed from official 5 Nov pages."
+    "details": "All selected claims have source mapping. CAQM WFH/construction measures are corroborated by three reports; exact official order PDF was not retrieved. Amroha conflicting details are omitted; drug-rule draft and critical-minerals backup are not in this cut. IMD West UP warning page rechecked at 03:20 IST."
   },
   "script_originality_review": {
     "status": "PASS",
@@ -91,33 +103,36 @@
   },
   "sensitive_content_review": {
     "status": "HOLD",
-    "details": "Human review required for Amroha road-safety/crime context and fireworks safety visual; no graphic or actual accident imagery used."
+    "details": "Human review required for Amroha road-safety/crime context and Diwali fireworks safety visual; WFH laptop image is generic and must not imply actual enforcement. No graphic or actual accident imagery used."
   },
   "visual_audio_clearance": {
     "status": "PASS_WITH_HUMAN_REVIEW_PENDING",
-    "details": "Asset pages, creators, licences, commercial-use permissions, adaptation permissions and attribution text recorded. Kokoro-82M Apache-2.0 local TTS selected; final voice quality still needs listening review."
+    "details": "All asset records retain source pages, creators, rights holders, licence versions, commercial/adaptation permissions and attribution. Existing licensed laptop image is reused for the WFH illustration; no new external asset added. Kokoro-82M Apache-2.0 hm_omega local TTS selected; final voice quality still needs listening review."
   },
   "technical_checks": {
-    "status": "PENDING_RENDER",
-    "details": "12 scenes, 600 seconds, 16:9 target; GitHub Actions test/render/ffprobe validation pending."
+    "status": "PENDING_NEW_RENDER",
+    "details": "13 scenes, 600 seconds, 16:9 and 1203 spoken words. Previous successful render run 41912717975 used older head SHA ac1d27aa0c4121f2241835333949d94fccccffd4 and does not include this new WFH scene; updated manifest requires its own render and ffprobe validation."
   },
   "final_approval_status": "HOLD",
   "qc_review": {
-    "checked_at": "2026-11-05T02:36:04+05:30",
+    "checked_at": "2026-11-05T03:20:11+05:30",
     "status": "HOLD",
     "findings": [
-      "Corrected a Hindi narration numeric pronunciation error: official rural food inflation is 8.06%, not 8.6%; project.json now says 'आठ दशमलव शून्य छह'. Correction commit: 07e40c83779f4ad23c7db109e15d6ea552c2362f.",
-      "The active render run 41911840929 remains in progress at the dependency-install step; the newer run 41912717975 is pending and has no job yet. Neither run has produced an artifact.",
-      "Test Hybrid Renderer run 41912764834 completed successfully; the unit-test job passed.",
-      "The two render runs were created before the narration correction and therefore are not proof that the corrected script has been rendered.",
-      "Human review remains mandatory for Amroha representative highway imagery, Diwali fireworks safety framing, and full Hindi voice pronunciation/pacing/audio."
+      "Previous render run 41912717975 completed successfully and produced artifact 13365484915, but it used the older 12-scene manifest at head SHA ac1d27aa0c4121f2241835333949d94fccccffd4; it does not contain the new CAQM WFH story.",
+      "The earlier render run 41911840929 also completed successfully with artifact 13366330890; it is an older edition.",
+      "The updated main-branch manifest now has 13 scenes, 600 seconds, 1203 words and 213 seconds (35.5%) of Western UP editorial time.",
+      "Human review remains mandatory for Amroha representative highway imagery, Diwali fireworks safety framing, the WFH illustrative visual and complete Hindi voice pronunciation/pacing/audio."
     ],
     "workflow_runs": {
-      "active_render": "https://github.com/uhackman-cpu/video-factory/actions/runs/41911840929",
-      "queued_render": "https://github.com/uhackman-cpu/video-factory/actions/runs/41912717975",
+      "previous_render": "https://github.com/uhackman-cpu/video-factory/actions/runs/41912717975",
+      "previous_render_head_sha": "ac1d27aa0c4121f2241835333949d94fccccffd4",
+      "previous_artifact_id": 13365484915,
+      "earlier_render": "https://github.com/uhackman-cpu/video-factory/actions/runs/41911840929",
+      "earlier_artifact_id": 13366330890,
       "test_success": "https://github.com/uhackman-cpu/video-factory/actions/runs/41912764834"
     },
     "artifact_verified": false,
-    "youtube_publish_authorized": false
+    "youtube_publish_authorized": false,
+    "previous_artifact_technical_checks_passed": true
   }
 }
