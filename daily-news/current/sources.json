@@ -1,0 +1,261 @@
+{
+  "research_date": "2026-11-05",
+  "accessed_at": "2026-11-05T01:35:00+05:30",
+  "sources": [
+    {
+      "publisher": "Press Information Bureau / Ministry of Defence",
+      "title": "Cabinet creates a pathway for all Agniveers to be absorbed in Defence Forces",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2332524&lang=1&reg=3",
+      "published_at": "2026-11-04",
+      "source_type": "primary_official",
+      "claims_supported": [
+        "25% regular enrolment on merit",
+        "remaining 75% offered a second two-year engagement period",
+        "future enrolment subject to willingness and selection criteria",
+        "remuneration, Seva Nidhi and seniority benefits"
+      ]
+    },
+    {
+      "publisher": "The Tribune",
+      "title": "Govt tweaks Agnipath scheme; Agniveers exiting in December get two-year service extension",
+      "url": "https://www.tribuneindia.com/news/india/breaking-two-year-extension-of-service-for-agniveers-on-the-anvil-cds-announcement-shortly/amp",
+      "published_at": "2026-11-04",
+      "source_type": "news",
+      "claims_supported": [
+        "independent reporting and context on second engagement period",
+        "first batch expected to exit in December"
+      ]
+    },
+    {
+      "publisher": "The Economic Times",
+      "title": "Agniveers to get two-year service extension; CDS announces new pathway for regular enrolment",
+      "url": "https://economictimes.indiatimes.com/news/defence/agniveers-to-get-two-year-service-extension-indian-army-cds-announces-new-pathway-for-regular-enrolment/articleshow/135532853.cms",
+      "published_at": "2026-11-04",
+      "source_type": "news",
+      "claims_supported": [
+        "cross-check of Cabinet announcement and 75% cohort"
+      ]
+    },
+    {
+      "publisher": "Press Information Bureau / Ministry of Mines",
+      "title": "Cabinet approves Capex Support Scheme for critical mineral processing",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2332490&lang=1&reg=3",
+      "published_at": "2026-11-04",
+      "source_type": "primary_official",
+      "claims_supported": [
+        "₹2,814 crore five-year scheme",
+        "30% capital subsidy",
+        "two lithium and two nickel plants",
+        "capacity and support caps"
+      ]
+    },
+    {
+      "publisher": "Reuters",
+      "title": "India approves $297 million incentive policy for lithium, nickel processing",
+      "url": "https://www.reuters.com/business/india-approves-297-million-incentive-policy-lithium-nickel-processing-2026-11-04/",
+      "published_at": "2026-11-04",
+      "source_type": "news",
+      "claims_supported": [
+        "independent cross-check of critical minerals scheme"
+      ]
+    },
+    {
+      "publisher": "Prime Minister of India",
+      "title": "Cabinet approves critical-mineral processing capex scheme",
+      "url": "https://www.narendramodi.in/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing",
+      "published_at": "2026-11-04",
+      "source_type": "primary_official",
+      "claims_supported": [
+        "scheme aims to reduce import dependence and build domestic processing capacity"
+      ]
+    },
+    {
+      "publisher": "ISRO",
+      "title": "Aditya-L1 reveals the hidden third dimension of a solar eruption",
+      "url": "https://www.isro.gov.in/ISRO_EN/Aditya_L1_Reveals_the_Hidden_Third_Dimension_of_Solar_Eruption.html",
+      "published_at": "2026-11-03",
+      "source_type": "primary_official",
+      "claims_supported": [
+        "asymmetric expansion of the 5 August 2024 solar eruption",
+        "Aditya-L1 VELC, NASA SDO and 3-D modelling",
+        "implications for CME modelling"
+      ]
+    },
+    {
+      "publisher": "Press Information Bureau / Ministry of Science & Technology",
+      "title": "VELC on Aditya-L1 reveals asymmetric expansion of solar eruption",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2331935&lang=1&reg=3",
+      "published_at": "2026-11-03",
+      "source_type": "primary_official",
+      "claims_supported": [
+        "cross-check of Aditya-L1 research finding"
+      ]
+    },
+    {
+      "publisher": "The Astrophysical Journal Letters",
+      "title": "Spectroscopic Signatures of Nonuniform Lateral Expansion of a Coronal Mass Ejection in the Low Corona with ADITYA-L1/VELC",
+      "url": "https://doi.org/10.3847/2041-8213/aea295",
+      "published_at": "2026-11-03",
+      "source_type": "research_paper",
+      "claims_supported": [
+        "peer-reviewed research reference for Aditya-L1 CME finding"
+      ]
+    },
+    {
+      "publisher": "Reuters / Investing.com",
+      "title": "India services growth hits four-month high as domestic demand improves PMI shows",
+      "url": "https://www.investing.com/news/economic-indicators/india-services-growth-hits-4month-high-as-domestic-demand-improves-pmi-shows-4997330",
+      "published_at": "2026-11-04",
+      "source_type": "news",
+      "claims_supported": [
+        "HSBC India services PMI 55.8 in October vs 55.2 in September",
+        "export growth and hiring moderation",
+        "input-cost inflation at multi-year low"
+      ]
+    },
+    {
+      "publisher": "The Economic Times",
+      "title": "India's services growth accelerates to 55.8 in October",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-services-growth-accelerates-to-55-8-in-october-cost-pressures-ease-to-six-year-low/articleshow/135526472.cms",
+      "published_at": "2026-11-04",
+      "source_type": "news",
+      "claims_supported": [
+        "cross-check of services PMI and cost pressures"
+      ]
+    },
+    {
+      "publisher": "Moneycontrol",
+      "title": "India services activity rises to four-month high of 55.8 in October",
+      "url": "https://www.moneycontrol.com/news/business/india-s-services-activity-rises-to-four-month-high-of-55-8-in-october-cost-pressures-ease-14069005.html",
+      "published_at": "2026-11-04",
+      "source_type": "news",
+      "claims_supported": [
+        "cross-check of October services PMI"
+      ]
+    },
+    {
+      "publisher": "Board of Control for Cricket in India",
+      "title": "New Zealand vs India, 1st ODI, 4 Nov 2026 — match details",
+      "url": "https://www.bcci.tv/matches/cc8cbfea-e555-420c-8180-c55c3aab89e9/More/match-details",
+      "published_at": "2026-11-04",
+      "source_type": "primary_official",
+      "claims_supported": [
+        "India won by five wickets under DLS",
+        "match result and Player of the Match"
+      ]
+    },
+    {
+      "publisher": "Hindustan Times",
+      "title": "New Zealand vs India 1st ODI scorecard",
+      "url": "https://www.hindustantimes.com/cricket/match-result-nz-vs-ind-ind-in-nz-5-odis-2026-1st-odi-new-zealand-vs-india-odi-nzin11042026271651",
+      "published_at": "2026-11-04",
+      "source_type": "news",
+      "claims_supported": [
+        "score details and key batting figures"
+      ]
+    },
+    {
+      "publisher": "New Zealand Cricket archive",
+      "title": "New Zealand v India 1st ODI scorecard",
+      "url": "https://archive.blackcaps.co.nz/Scorecards/1455/1455466.html",
+      "published_at": "2026-11-04",
+      "source_type": "primary_official",
+      "claims_supported": [
+        "independent official scorecard cross-check"
+      ]
+    },
+    {
+      "publisher": "NDTV",
+      "title": "CAT 2026 admit card date postponed, mock tests from November 6",
+      "url": "https://www.ndtv.com/education/cat-2026-admit-card-date-postponed-mock-tests-from-november-6-12281453",
+      "published_at": "2026-11-04",
+      "source_type": "news",
+      "claims_supported": [
+        "CAT 2026 admit card download from 6 November",
+        "exam date 29 November",
+        "mock test availability"
+      ]
+    },
+    {
+      "publisher": "India Today",
+      "title": "CAT 2026 admit card release postponed to November 6",
+      "url": "https://www.indiatoday.in/amp/education-today/news/story/cat-2026-admit-card-postponed-to-november-6-check-the-direct-link-to-download-here-3032048-2026-11-04",
+      "published_at": "2026-11-04",
+      "source_type": "news",
+      "claims_supported": [
+        "cross-check of revised CAT 2026 admit-card date"
+      ]
+    },
+    {
+      "publisher": "India Meteorological Department",
+      "title": "IMD press release list; 4 November 2026 bulletin on Murasu remnant",
+      "url": "https://internal.imd.gov.in/pages/press_release_mausam.php?_bhlid=0a93996b937fd4b0d51202de34ada712bd7f8a76",
+      "published_at": "2026-11-04",
+      "source_type": "primary_official",
+      "claims_supported": [
+        "Murasu remnant as well-marked low-pressure area over east Telangana and adjoining Coastal Andhra Pradesh"
+      ]
+    },
+    {
+      "publisher": "India Meteorological Department",
+      "title": "All India Cyclone Bulletin Archive",
+      "url": "https://mausam.imd.gov.in/responsive/cyclone_bulletin_archive.php",
+      "published_at": "2026-11-04",
+      "source_type": "primary_official",
+      "claims_supported": [
+        "dated IMD cyclone bulletin status and updates"
+      ]
+    },
+    {
+      "publisher": "The Economic Times",
+      "title": "IMD weather forecast for 5 November 2026",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/weather-today-november-5-imd-issues-heavy-rainfall-alert-for-these-states-check-state-wise-forecast-rain-warnings-and-weather-conditions/articleshow/135539378.cms",
+      "published_at": "2026-11-04",
+      "source_type": "news",
+      "claims_supported": [
+        "IMD forecast for rain in parts of southern and eastern India",
+        "no significant weather activity over northwest, west and northeast India as summarized"
+      ]
+    },
+    {
+      "publisher": "India Today",
+      "title": "IMD weather forecast for 5 November 2026",
+      "url": "https://www.indiatoday.in/amp/science/story/imd-weather-forecast-november-5-southern-india-rain-3032125-2026-11-04",
+      "published_at": "2026-11-04",
+      "source_type": "news",
+      "claims_supported": [
+        "cross-check of south and east India rain outlook and north-west India forecast"
+      ]
+    },
+    {
+      "publisher": "India Meteorological Department",
+      "title": "Local weather forecast for Muzaffarnagar",
+      "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42138",
+      "published_at": "2026-11-04",
+      "source_type": "primary_official",
+      "claims_supported": [
+        "Muzaffarnagar forecast for 5 November: 16–28°C, clear sky"
+      ]
+    },
+    {
+      "publisher": "India Meteorological Department",
+      "title": "Local weather forecast for Bareilly",
+      "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42189",
+      "published_at": "2026-11-03",
+      "source_type": "primary_official",
+      "claims_supported": [
+        "Bareilly forecast for 5 November: 17–29°C, clear sky"
+      ]
+    },
+    {
+      "publisher": "Times of India weather",
+      "title": "Moradabad weather forecast for 5 November 2026",
+      "url": "https://timesofindia.indiatimes.com/weather/tomorrow/moradabad-weather-forecast-tomorrow/3245",
+      "published_at": "2026-11-04",
+      "source_type": "secondary_weather",
+      "claims_supported": [
+        "Moradabad secondary forecast around 17–29.3°C and sunny; not an official IMD reading"
+      ]
+    }
+  ]
+}
