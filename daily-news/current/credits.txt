@@ -24,3 +24,5 @@ Voice catalogue: https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md
 Locally synthesized; no external TTS API.
 
 No music, TV/news clips, publisher photos, screenshots, social-media footage or logos used.
+
+Adaptations: All CC BY-SA 4.0 photographs are cropped/resized to 16:9; the final compilation is released under CC BY-SA 4.0. CC0 wheat-field image is also used.
