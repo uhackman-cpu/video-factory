@@ -4,9 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       project_json:
-        description: "Complete hybrid video project JSON manifest"
-        required: true
+        description: "Optional complete project JSON; leave empty to read daily-news/current/project.json"
+        required: false
         type: string
+        default: ""
       voice_gender:
         description: "Hindi narration voice"
         required: true
@@ -19,7 +20,7 @@ on:
         description: "Output MP4 filename"
         required: true
         type: string
-        default: hybrid-facts.mp4
+        default: hindi-news-bulletin.mp4
 
 permissions:
   contents: read
@@ -63,11 +64,31 @@ jobs:
           python - <<'PY'
           import json, os
           from pathlib import Path
-          project = json.loads(os.environ["PROJECT_JSON"])
+
+          raw = os.environ.get("PROJECT_JSON", "").strip()
+          if raw:
+              project = json.loads(raw)
+          else:
+              manifest_path = Path("daily-news/current/project.json")
+              if not manifest_path.is_file():
+                  raise SystemExit(
+                      "No project_json input and daily-news/current/project.json is missing"
+                  )
+              project = json.loads(manifest_path.read_text(encoding="utf-8"))
+
           Path("output/project.json").write_text(
               json.dumps(project, ensure_ascii=False, indent=2), encoding="utf-8"
           )
           PY
+
+      - name: Copy editorial provenance records
+        run: |
+          for file in sources.json asset_licenses.json editorial_checklist.json; do
+            source="daily-news/current/$file"
+            if [ -f "$source" ]; then
+              cp "$source" "output/$file"
+            fi
+          done
 
       - name: Render hybrid video
         env:
@@ -95,6 +116,10 @@ jobs:
           test -s "output/${OUTPUT_NAME%.mp4}.srt"
           ffprobe -v error -show_entries format=duration,size \
             -of default=noprint_wrappers=1 "output/$OUTPUT_NAME"
+          width="$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=s=x:p=0 "output/$OUTPUT_NAME")"
+          height="$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=s=x:p=0 "output/$OUTPUT_NAME")"
+          test "$width" = "1920"
+          test "$height" = "1080"
 
       - name: Upload video and production records
         uses: actions/upload-artifact@v4
@@ -105,5 +130,8 @@ jobs:
             output/*.srt
             output/credits.txt
             output/project.json
+            output/sources.json
+            output/asset_licenses.json
+            output/editorial_checklist.json
           if-no-files-found: error
           retention-days: 7
