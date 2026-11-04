@@ -1,0 +1,35 @@
+{
+  "title": "समुद्र की गहराइयों के पाँच रहस्य",
+  "language": "hi",
+  "format": "short",
+  "narration": "यह है समुद्र की गहराइयों की अनदेखी दुनिया। यहाँ सूरज की रोशनी नहीं पहुँचती, फिर भी जीवन मौजूद है। कुछ जीव अत्यधिक दबाव में जीवित रहते हैं। समुद्र तल पर हाइड्रोथर्मल वेंट्स से गर्म, खनिजों से भरपूर पानी निकलता है। वैज्ञानिक आज भी इस विशाल दुनिया के बहुत छोटे हिस्से को ही समझ पाए हैं।",
+  "scenes": [
+    {
+      "kind": "video",
+      "url": "https://REPLACE-WITH-LICENSED-HTTPS-VIDEO-URL",
+      "duration": 12,
+      "caption": "समुद्र की गहराइयों की अनदेखी दुनिया",
+      "license": "CC BY 4.0",
+      "credit": "Creator name",
+      "source_page": "https://REPLACE-WITH-SOURCE-PAGE"
+    },
+    {
+      "kind": "image",
+      "url": "https://REPLACE-WITH-LICENSED-HTTPS-IMAGE-URL",
+      "duration": 10,
+      "caption": "अत्यधिक दबाव में जीवित रहने वाले जीव",
+      "license": "CC BY-SA 4.0",
+      "credit": "Creator name",
+      "source_page": "https://REPLACE-WITH-SOURCE-PAGE"
+    },
+    {
+      "kind": "video",
+      "url": "https://REPLACE-WITH-LICENSED-HTTPS-VIDEO-URL",
+      "duration": 8,
+      "caption": "हाइड्रोथर्मल वेंट्स से निकलता गर्म पानी",
+      "license": "CC0",
+      "credit": "Creator name",
+      "source_page": "https://REPLACE-WITH-SOURCE-PAGE"
+    }
+  ]
+}
