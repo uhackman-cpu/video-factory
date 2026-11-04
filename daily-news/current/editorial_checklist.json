@@ -1,0 +1,84 @@
+{
+  "edition_date": "2026-11-05",
+  "checked_at": "2026-11-05T02:18:12+05:30",
+  "render_status": "DRAFT_RENDER_ALLOWED",
+  "publication_status": "HOLD_FOR_HUMAN_REVIEW",
+  "overall_status": "HOLD",
+  "editorial": {
+    "audience_mix": "PASS",
+    "spoken_word_count": 1200,
+    "target_duration_seconds": 600,
+    "scene_count": 12,
+    "western_up_seconds": 213,
+    "western_up_percent": 35.5,
+    "india_wider_up_weather_open_close_seconds": 387,
+    "jobs_exams": "No routine jobs/exam stories included",
+    "script_originality": "Original narration; facts paraphrased in fresh language",
+    "sensationalism": "No rumours, communal/caste bait, misleading claims or graphic detail"
+  },
+  "factual_review": [
+    {
+      "story_id": "W1",
+      "status": "PASS_WITH_SCOPE_LIMIT",
+      "note": "Only common facts from two reports used; conflicting motorcycle/injury details omitted; no arrest claim."
+    },
+    {
+      "story_id": "W2",
+      "status": "PASS_WITH_SCOPE_LIMIT",
+      "note": "Campaign totals attributed to reports quoting FSDA; inspections/seizures/licence action kept distinct from lab-confirmed adulteration; no shop named."
+    },
+    {
+      "story_id": "W3",
+      "status": "PASS",
+      "note": "20 additional trips, not 20 new trains; no exact timetable stated."
+    },
+    {
+      "story_id": "N1",
+      "status": "PASS_WITH_ATTRIBUTION",
+      "note": "CPI values from PIB; sowing/price risk and ethanol range attributed to Reuters/industry estimate."
+    },
+    {
+      "story_id": "N2",
+      "status": "PASS_AS_OF_CUTOFF",
+      "note": "Hearing listed for 5 Nov; no outcome claimed as of 02:18 IST."
+    },
+    {
+      "story_id": "N3",
+      "status": "PASS",
+      "note": "CERT-In primary advisory confirms institutional campaign; script does not imply every consumer account is compromised."
+    },
+    {
+      "story_id": "N4",
+      "status": "HOLD_NOT_USED",
+      "note": "Draft drug-rule claim excluded pending official Gazette primary-source verification."
+    },
+    {
+      "story_id": "N5",
+      "status": "PASS_WITH_HUMAN_REVIEW",
+      "note": "Supreme Court timing and no-cracker zones reported; local enforcement details may vary."
+    },
+    {
+      "story_id": "WEATHER",
+      "status": "PASS",
+      "note": "IMD page issued 5 Nov shows no West UP warning 5–11 Nov; stale Bareilly temperature forecast excluded."
+    }
+  ],
+  "rights_review": {
+    "visual_assets": "PASS_LICENSE_METADATA",
+    "visual_license_count": 9,
+    "project_license": "CC BY-SA 4.0",
+    "commercial_use_allowed": true,
+    "attribution_file": "daily-news/current/credits.txt",
+    "music": "None used",
+    "third_party_news_footage": "None used",
+    "narration": "Kokoro-82M hm_omega, Apache-2.0; replaces edge-tts due unclear Microsoft commercial rights"
+  },
+  "required_human_review": [
+    "Review generic Amroha highway visual for sensitive road-safety/crime context; it is not accident footage.",
+    "Review Diwali fireworks visual and the safety/legal framing.",
+    "Listen to complete Hindi narration for hm_omega pronunciation, natural pacing, truncation and audio quality.",
+    "Confirm every visual is clearly representative and not mistaken for the actual event."
+  ],
+  "final_gate": "HOLD — draft may be rendered, but do not publish or schedule until all required human review items are completed.",
+  "youtube_publish_authorized": false
+}
