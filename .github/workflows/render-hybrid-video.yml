@@ -94,6 +94,60 @@ jobs:
           test -s output/asset_licenses.json
           test -s output/editorial_checklist.json
 
+      - name: Validate provenance and editorial gate
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          sources = json.loads(Path("output/sources.json").read_text(encoding="utf-8"))
+          assets = json.loads(Path("output/asset_licenses.json").read_text(encoding="utf-8"))
+          checklist = json.loads(Path("output/editorial_checklist.json").read_text(encoding="utf-8"))
+          source_fields = {"publisher", "title", "url", "published_at", "accessed_at", "claims_supported", "source_type", "verification_notes"}
+          source_types = {"primary", "official", "news", "research", "other"}
+          if not isinstance(sources.get("sources"), list) or not sources["sources"]:
+              raise SystemExit("BLOCKED: sources.json has no source records")
+          for item in sources["sources"]:
+              missing = source_fields - set(item)
+              if missing:
+                  raise SystemExit(f"BLOCKED: source {item.get('id')} missing {sorted(missing)}")
+              if item["source_type"] not in source_types:
+                  raise SystemExit(f"BLOCKED: source {item.get('id')} has invalid source_type")
+              if not str(item["url"]).startswith("https://"):
+                  raise SystemExit(f"BLOCKED: source {item.get('id')} URL is not HTTPS")
+          asset_fields = {"asset_id", "asset_type", "asset_page_url", "download_url", "creator", "rights_holder", "license_name_and_version", "commercial_use_allowed", "adaptation_allowed", "attribution_required", "required_attribution_text", "evidence_location", "checked_at"}
+          if not isinstance(assets.get("assets"), list) or not assets["assets"]:
+              raise SystemExit("BLOCKED: asset_licenses.json has no asset records")
+          for item in assets["assets"]:
+              missing = asset_fields - set(item)
+              if missing:
+                  raise SystemExit(f"BLOCKED: asset {item.get('asset_id')} missing {sorted(missing)}")
+              if item["commercial_use_allowed"] is not True or item["adaptation_allowed"] is not True:
+                  raise SystemExit(f"BLOCKED: asset {item.get('asset_id')} lacks commercial/adaptation permission")
+              if not str(item["asset_page_url"]).startswith("https://") or not str(item["evidence_location"]).startswith("https://"):
+                  raise SystemExit(f"BLOCKED: asset {item.get('asset_id')} lacks HTTPS evidence")
+              licence = str(item["license_name_and_version"]).lower()
+              if any(x in licence for x in ("noncommercial", "non-commercial", "no derivatives", "no-derivatives")):
+                  raise SystemExit(f"BLOCKED: prohibited licence on {item.get('asset_id')}")
+              if not str(item["required_attribution_text"]).strip():
+                  raise SystemExit(f"BLOCKED: asset {item.get('asset_id')} has no attribution text")
+          project = json.loads(Path("output/project.json").read_text(encoding="utf-8"))
+          asset_ids = {x["asset_id"] for x in assets["assets"]}
+          for index, scene in enumerate(project.get("scenes", []), 1):
+              if scene.get("asset_id") not in asset_ids:
+                  raise SystemExit(f"BLOCKED: scene {index} has no matching asset licence record")
+              if not scene.get("license_url"):
+                  raise SystemExit(f"BLOCKED: scene {index} has no licence URL")
+          approval = checklist.get("final_approval_status")
+          if approval not in {"PASS", "HOLD", "BLOCKED"}:
+              raise SystemExit("BLOCKED: editorial checklist has no valid final approval status")
+          if approval == "BLOCKED":
+              raise SystemExit("BLOCKED: editorial checklist explicitly blocks this video")
+          if approval == "HOLD":
+              print("HOLD: draft rendering allowed for review only; publication remains blocked.")
+          print("Provenance validation passed.")
+          PY
+
       - name: Render hybrid video
         env:
           OUTPUT_NAME: ${{ inputs.output_name }}
