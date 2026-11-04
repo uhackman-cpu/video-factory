@@ -38,6 +38,17 @@ class HybridRendererTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_project(project)
 
+    def test_rejects_noncommercial_license(self):
+        project = sample_project()
+        project["scenes"][0]["license"] = "CC BY-NC 4.0"
+        with self.assertRaises(ValueError):
+            validate_project(project)
+
+    def test_accepts_attribution_sharealike_license(self):
+        project = sample_project()
+        project["scenes"][0]["license"] = "CC BY-SA 4.0"
+        validate_project(project)
+
     def test_rejects_short_over_90_seconds(self):
         project = sample_project()
         project["scenes"][0]["duration"] = 91
