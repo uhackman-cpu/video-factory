@@ -176,7 +176,7 @@
     },
     {
       "asset_id": "TTS-KOKORO-82M-HM-OMEGA",
-      "asset_type": "voice_model",
+      "asset_type": "audio",
       "title": "Kokoro-82M Hindi voice hm_omega",
       "asset_page_url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "creator": "hexgrad and Kokoro contributors",
