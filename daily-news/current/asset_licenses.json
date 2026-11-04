@@ -217,6 +217,42 @@
       "evidence_location": "https://commons.wikimedia.org/wiki/File:Chemetall_Foote_Lithium_Operation.jpg",
       "checked_at": "2026-11-05T04:20:13+05:30",
       "modifications": "Cropped/resized to 1920x1080; illustrative Nevada lithium operation, not an Indian facility."
+    },
+    {
+      "asset_id": "IMG-ERICKSHAW-MEERUT",
+      "asset_type": "image",
+      "title": "Electric rickshaw in Meerut, Uttar Pradesh, India.jpg",
+      "asset_page_url": "https://commons.wikimedia.org/wiki/File:Electric_rickshaw_in_Meerut,_Uttar_Pradesh,_India.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Electric_rickshaw_in_Meerut%2C_Uttar_Pradesh%2C_India.jpg",
+      "creator": "Libreravi",
+      "rights_holder": "Libreravi (photographer and copyright holder)",
+      "license_name_and_version": "CC BY-SA 4.0 International",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use_allowed": true,
+      "adaptation_allowed": true,
+      "attribution_required": true,
+      "required_attribution_text": "Electric rickshaw in Meerut, Uttar Pradesh, India.jpg — Libreravi — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Electric_rickshaw_in_Meerut,_Uttar_Pradesh,_India.jpg — https://creativecommons.org/licenses/by-sa/4.0/",
+      "evidence_location": "https://commons.wikimedia.org/wiki/File:Electric_rickshaw_in_Meerut,_Uttar_Pradesh,_India.jpg",
+      "checked_at": "2026-11-05T05:15:13+05:30",
+      "modifications": "Cropped/resized to 1920x1080; representative e-rickshaw photograph from Meerut, not Moradabad or the reported traffic count."
+    },
+    {
+      "asset_id": "IMG-CRICKET-STADIUM",
+      "asset_type": "image",
+      "title": "Rajiv Gandhi International Cricket Stadium.jpg",
+      "asset_page_url": "https://commons.wikimedia.org/wiki/File:Rajiv_Gandhi_International_Cricket_Stadium.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Rajiv_Gandhi_International_Cricket_Stadium.jpg",
+      "creator": "Naren.Ayinala",
+      "rights_holder": "Naren.Ayinala (photographer and copyright holder)",
+      "license_name_and_version": "CC BY 4.0 International",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "commercial_use_allowed": true,
+      "adaptation_allowed": true,
+      "attribution_required": true,
+      "required_attribution_text": "Rajiv Gandhi International Cricket Stadium.jpg — Naren.Ayinala — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Rajiv_Gandhi_International_Cricket_Stadium.jpg — https://creativecommons.org/licenses/by/4.0/",
+      "evidence_location": "https://commons.wikimedia.org/wiki/File:Rajiv_Gandhi_International_Cricket_Stadium.jpg",
+      "checked_at": "2026-11-05T05:15:13+05:30",
+      "modifications": "Cropped/resized to 1920x1080; generic cricket-stadium illustration, not Eden Park or footage of the India–New Zealand match."
     }
   ],
   "excluded_assets": [
