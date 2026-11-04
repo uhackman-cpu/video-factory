@@ -124,13 +124,18 @@
       "commercial_use_allowed": true,
       "attribution_required": true,
       "share_alike_required": true,
-      "modifications": "Cropped/resized to 1920x1080; generic cyber-security visual.",
+      "modifications": "Cropped/resized to 1920x1080; reused as a generic cyber-security and work-from-home illustration; not actual office, enforcement or cyber-incident footage.",
       "checked_at": "2026-11-05T02:18:12+05:30",
       "evidence": "Commons file page lists own work, author and CC BY-SA 4.0.",
       "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Laptop_Keyboard.jpg",
       "adaptation_allowed": true,
       "evidence_location": "https://commons.wikimedia.org/wiki/File:Laptop_Keyboard.jpg",
-      "required_attribution_text": "Laptop Keyboard.jpg — Kokul Jose — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Laptop_Keyboard.jpg — https://creativecommons.org/licenses/by-sa/4.0/"
+      "required_attribution_text": "Laptop Keyboard.jpg — Kokul Jose — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Laptop_Keyboard.jpg — https://creativecommons.org/licenses/by-sa/4.0/",
+      "story_ids": [
+        "N4",
+        "W4"
+      ],
+      "usage_note": "Same licensed generic laptop photograph is used in two scenes (cyber advisory and NCR WFH policy); attribution remains unchanged."
     },
     {
       "asset_id": "IMG-DIWALI-FIREWORKS",
