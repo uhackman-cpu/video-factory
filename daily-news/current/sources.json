@@ -71,7 +71,9 @@
         "source_ids": [
           "S11",
           "S12",
-          "S13"
+          "S13",
+          "S46",
+          "S47"
         ]
       },
       {
@@ -332,15 +334,6 @@
       "url": "https://english.bhaskardigital.com/bijnor-dm-w-lawyers-clash-escalates-after-senior-advocate-is-asked-to-leave-chamber-glass-gate-broken/",
       "supports": "Bijnor dispute, protest and lawyers' demands",
       "confidence": "Medium; official response not obtained",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
-    },
-    {
-      "id": "S13",
-      "publisher": "The Justice Hindi",
-      "date": "2026-11-04",
-      "url": "https://www.thejusticehindi.com/bijnor-dm-lawyers-dispute-collectorate-protest-2026/",
-      "supports": "Bijnor collectorate protest and Bar Association account",
-      "confidence": "Medium",
       "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     },
     {
@@ -629,6 +622,24 @@
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=1",
       "supports": "Telangana page issued 4 Nov shows no warning for 5 Nov",
       "confidence": "Very high; official IMD",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+    },
+    {
+      "id": "S46",
+      "publisher": "Dainik Jagran",
+      "date": "2026-11-04T16:05:00+05:30",
+      "url": "https://www.jagran.com/uttar-pradesh/bijnor-bijnor-lawyers-protest-dm-office-over-misbehavior-allegations-dm-umesh-pratap-singh-40427226.html",
+      "supports": "Bijnor Bar Association protest after alleged misbehaviour at DM office",
+      "confidence": "Medium; allegation attributed to advocate",
+      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+    },
+    {
+      "id": "S47",
+      "publisher": "Amar Ujala",
+      "date": "2026-11-04T13:08:00+05:30",
+      "url": "https://www.amarujala.com/uttar-pradesh/bijnor/clash-between-bijnor-dm-and-lawyers-bar-association-starts-protest-outside-office-2026-11-04",
+      "supports": "Bijnor DM-lawyer dispute and collectorate protest",
+      "confidence": "Medium; report of allegations and protest",
       "accessed_at_ist": "2026-11-05T05:04:15+05:30"
     }
   ],
