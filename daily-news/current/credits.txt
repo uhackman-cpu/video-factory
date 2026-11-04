@@ -2,40 +2,20 @@ Hindi Facts — 5 November 2026
 Project licence: CC BY-SA 4.0 (commercial use allowed with attribution and ShareAlike)
 Licence: https://creativecommons.org/licenses/by-sa/4.0/
 
-Visual assets:
+All photographs are representative illustrative visuals, not event footage. The on-screen label “प्रतीकात्मक तस्वीर” is applied to every scene containing a still photograph.
+
+Visual asset credits:
 1. Wheat Field in India.jpg — Rstv.devesh — CC0 1.0 Universal — https://commons.wikimedia.org/wiki/File:Wheat_Field_in_India.jpg
-2. Bike Ride On the NH 48.jpg — Mallikarjuna Sarvala — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bike_Ride_On_the_NH_48.jpg
-   Representative highway image only; not the Amroha accident.
-3. Indian Sweet.jpg — Mrsagar105 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Indian_Sweet.jpg
-   Representative sweets only; not inspected/seized food.
-4. Namo Bharat train.jpg — The social view — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Namo_Bharat_train.jpg
-   Interior photograph taken inside a Namo Bharat train.
-5. Red Bell Energy Drink 250ml can.jpg — JonathanAaronBridgemohan — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Red_Bell_Energy_Drink_250ml_can.jpg
-   Representative can only; not a product in the legal dispute.
-6. Laptop Keyboard.jpg — Kokul Jose — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Laptop_Keyboard.jpg
-   Generic illustrative visual reused for cyber-security and the NCR work-from-home policy; not actual office or incident footage.
-7. Diwali Fireworks.jpg — Wind Hashira — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Diwali_Fireworks.jpg
-8. Dark clouds, Monsoon, India (2018).jpg — Patilharshit — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Dark_clouds,_Monsoon,_India_(2018).jpg
-   2018 representative image; not today's weather.
+2. Bike Ride On the NH 48.jpg — Mallikarjuna Sarvala — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bike_Ride_On_the_NH_48.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+3. Dark clouds, Monsoon, India (2018).jpg — Patilharshit — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Dark_clouds,_Monsoon,_India_(2018).jpg — https://creativecommons.org/licenses/by-sa/4.0/
+4. Red Bell Energy Drink 250ml can.jpg — JonathanAaronBridgemohan — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Red_Bell_Energy_Drink_250ml_can.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+5. Laptop Keyboard.jpg — Kokul Jose — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Laptop_Keyboard.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+6. Chemetall Foote Lithium Operation.jpg — Doc Searls — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Chemetall_Foote_Lithium_Operation.jpg — https://creativecommons.org/licenses/by/2.0/
+7. Diwali Fireworks.jpg — Wind Hashira — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Diwali_Fireworks.jpg — https://creativecommons.org/licenses/by-sa/4.0/
 
 Narration:
-Kokoro-82M Hindi voice hm_omega — Apache License 2.0
-Model: https://huggingface.co/hexgrad/Kokoro-82M
-Voice catalogue: https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md
-Locally synthesized; no external TTS API.
-
-No music, TV/news clips, publisher photos, screenshots, social-media footage or logos used.
-
-Adaptations: All CC BY-SA 4.0 photographs are cropped/resized to 16:9; the final compilation is released under CC BY-SA 4.0. CC0 wheat-field image is also used.
-
-
-Required attribution text (verbatim; retain for video description/credits):
-No attribution legally required under CC0 1.0; courtesy credit: Wheat Field in India.jpg — Rstv.devesh — https://commons.wikimedia.org/wiki/File:Wheat_Field_in_India.jpg
-Bike Ride On the NH 48.jpg — Mallikarjuna Sarvala — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bike_Ride_On_the_NH_48.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-Indian Sweet.jpg — Mrsagar105 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Indian_Sweet.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-Namo Bharat train.jpg — The social view — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Namo_Bharat_train.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-Red Bell Energy Drink 250ml can.jpg — JonathanAaronBridgemohan — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Red_Bell_Energy_Drink_250ml_can.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-Laptop Keyboard.jpg — Kokul Jose — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Laptop_Keyboard.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-Diwali Fireworks.jpg — Wind Hashira — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Diwali_Fireworks.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-Dark clouds, Monsoon, India (2018).jpg — Patilharshit — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Dark_clouds,_Monsoon,_India_(2018).jpg — https://creativecommons.org/licenses/by-sa/4.0/
 Kokoro-82M Hindi voice hm_omega — hexgrad and Kokoro contributors — Apache License 2.0 — https://huggingface.co/hexgrad/Kokoro-82M — https://www.apache.org/licenses/LICENSE-2.0
+Hindi phonemization: espeak-ng, installed locally from Ubuntu package repository. No external TTS API.
+No music, sound effects, TV/news clips, publisher photos, screenshots, social-media footage or logos used.
+
+Adaptations: photographs resized/cropped to 16:9. CC BY-SA assets are included in a compilation released under CC BY-SA 4.0. The lithium operation image is CC BY 2.0 and is separately attributed. The CC0 field image needs no legal attribution; courtesy credit retained.
