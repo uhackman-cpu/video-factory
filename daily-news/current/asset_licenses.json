@@ -1,6 +1,6 @@
 {
   "edition_date": "2026-11-05",
-  "checked_at": "2026-11-05T02:18:12+05:30",
+  "checked_at": "2026-11-05T04:20:13+05:30",
   "project_license": "CC BY-SA 4.0",
   "project_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
   "commercial_use_allowed": true,
@@ -198,6 +198,25 @@
       "adaptation_allowed": true,
       "evidence_location": "https://huggingface.co/hexgrad/Kokoro-82M",
       "required_attribution_text": "Kokoro-82M Hindi voice hm_omega — hexgrad and Kokoro contributors — Apache License 2.0 — https://huggingface.co/hexgrad/Kokoro-82M — https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "asset_id": "IMG-LITHIUM-OPERATION",
+      "asset_type": "image",
+      "title": "Chemetall Foote Lithium Operation.jpg",
+      "asset_page_url": "https://commons.wikimedia.org/wiki/File:Chemetall_Foote_Lithium_Operation.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Chemetall_Foote_Lithium_Operation.jpg",
+      "creator": "Doc Searls",
+      "rights_holder": "Doc Searls (photographer/copyright holder; original Flickr upload)",
+      "license_name_and_version": "CC BY 2.0 Generic",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "commercial_use_allowed": true,
+      "adaptation_allowed": true,
+      "attribution_required": true,
+      "share_alike_required": false,
+      "required_attribution_text": "Chemetall Foote Lithium Operation.jpg — Doc Searls — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Chemetall_Foote_Lithium_Operation.jpg — https://creativecommons.org/licenses/by/2.0/",
+      "evidence_location": "https://commons.wikimedia.org/wiki/File:Chemetall_Foote_Lithium_Operation.jpg",
+      "checked_at": "2026-11-05T04:20:13+05:30",
+      "modifications": "Cropped/resized to 1920x1080; illustrative Nevada lithium operation, not an Indian facility."
     }
   ],
   "excluded_assets": [
