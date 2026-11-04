@@ -1,660 +1,893 @@
 {
   "edition_date": "2026-11-05",
-  "research_cutoff_ist": "2026-11-05T05:04:15+05:30",
+  "research_cutoff_ist": "2026-11-05T05:15:13+05:30",
   "channel": "Hindi Facts",
   "audience": {
-    "target": "Rural/village Hindi viewers and urban lower-/middle-class households",
-    "tone": "Engaging, surprising, conversation-worthy but verified",
-    "western_up_target_percent": 35,
-    "wider_india_up_percent": 65,
-    "jobs_exams": "Excluded from lead rundown"
+    "primary": "Hindi-speaking rural/village audiences and urban lower-/middle-class households",
+    "style": "Engaging, surprising and conversation-worthy, with verified facts and no exaggeration",
+    "western_up_share_percent": 35,
+    "jobs_exams": "No routine recruitment, job or exam notices in this edition"
   },
-  "rundown": {
-    "duration_seconds": 600,
-    "western_up_seconds": 210,
-    "wider_india_up_seconds": 390,
-    "stories": [
-      {
-        "id": "W1",
-        "region": "Western UP",
-        "district": "Moradabad",
-        "seconds": 55,
-        "title": "25,000+ e-rickshaws reported; traffic congestion; HC asks UP government to decide within four weeks on registration restrictions",
-        "confidence": "Medium for local count (single source); high for HC direction",
-        "claims": [
-          "25,000+ figure is reported locally and needs RTO confirmation",
-          "HC did not impose immediate statewide ban"
-        ],
-        "source_ids": [
-          "S01",
-          "S02",
-          "S03",
-          "S04"
-        ]
-      },
-      {
-        "id": "W2",
-        "region": "Western UP",
-        "districts": [
-          "Bareilly",
-          "Moradabad",
-          "Muzaffarnagar"
-        ],
-        "seconds": 85,
-        "title": "Food-safety raids; mouldy ghevar, hygiene lapses, expired ingredients; 220 kg rasgullas destroyed",
-        "confidence": "High for statewide FSDA figures; medium for local incidents",
-        "claims": [
-          "1133 locations inspected, 935 samples collected, about 54 quintals seized, 27 licences suspended",
-          "Local hygiene violations reported",
-          "Seizure is not a lab-confirmed adulteration verdict"
-        ],
-        "source_ids": [
-          "S05",
-          "S06",
-          "S07",
-          "S08",
-          "S09",
-          "S10"
-        ]
-      },
-      {
-        "id": "W3",
-        "region": "Western UP",
-        "district": "Bijnor",
-        "seconds": 70,
-        "title": "Lawyers protest after alleged misbehaviour at DM office",
-        "confidence": "Medium; official responses pending",
-        "claims": [
-          "Dispute and protest reported by multiple outlets",
-          "Allegation must not be presented as established finding"
-        ],
-        "source_ids": [
-          "S11",
-          "S12",
-          "S46",
-          "S47"
-        ]
-      },
-      {
-        "id": "N1",
-        "region": "India",
-        "seconds": 50,
-        "title": "Weak soil moisture, rabi sowing and household food bill",
-        "claims": [
-          "September CPI food inflation 7.74%; rural 8.06%; urban 7.18%",
-          "Weak soil moisture may affect winter sowing and future supply"
-        ],
-        "source_ids": [
-          "S14",
-          "S15"
-        ]
-      },
-      {
-        "id": "N2",
-        "region": "India",
-        "seconds": 45,
-        "title": "Cyclone Murasu aftermath in Andhra Pradesh",
-        "claims": [
-          "Landfall near Ongole on 3 Nov",
-          "Two deaths and damage reported",
-          "Crop damage estimates are preliminary and vary"
-        ],
-        "source_ids": [
-          "S16",
-          "S17",
-          "S18",
-          "S19"
-        ]
-      },
-      {
-        "id": "N3",
-        "region": "India/Sports",
-        "seconds": 40,
-        "title": "India beat New Zealand by five wickets in first ODI",
-        "claims": [
-          "New Zealand 185",
-          "DLS target 143",
-          "Kohli 74 off 51 balls",
-          "Arshdeep four wickets"
-        ],
-        "source_ids": [
-          "S20",
-          "S21",
-          "S22"
-        ]
-      },
-      {
-        "id": "N4",
-        "region": "India",
-        "seconds": 40,
-        "title": "Karnataka state bus fare hike",
-        "claims": [
-          "Karnataka-specific fare revision effective 4 Nov night",
-          "BMTC and other RTC percentage increases vary; actual fare varies by stage"
-        ],
-        "source_ids": [
-          "S23",
-          "S24",
-          "S25"
-        ]
-      },
-      {
-        "id": "N5",
-        "region": "India",
-        "seconds": 45,
-        "title": "I4C warning about AI-assisted cyberattacks against financial institutions",
-        "claims": [
-          "Advisory targets banks/NBFCs/fintech and payment APIs",
-          "Does not mean all retail accounts are compromised"
-        ],
-        "source_ids": [
-          "S26",
-          "S27",
-          "S28"
-        ]
-      },
-      {
-        "id": "N6",
-        "region": "India",
-        "seconds": 45,
-        "title": "₹2,814 crore critical-minerals processing scheme",
-        "claims": [
-          "Cabinet approved five-year scheme",
-          "Two lithium and two nickel plants",
-          "30% eligible capex support subject to caps"
-        ],
-        "source_ids": [
-          "S29",
-          "S30",
-          "S31"
-        ]
-      },
-      {
-        "id": "N7",
-        "region": "Uttar Pradesh",
-        "seconds": 40,
-        "title": "3,786 fewer polling stations after UP rationalisation",
-        "claims": [
-          "Polling stations reduced from 177516 to 173730",
-          "Voters should check changed polling location",
-          "Not cancellation of voter registration"
-        ],
-        "source_ids": [
-          "S32",
-          "S33",
-          "S34"
-        ]
-      },
-      {
-        "id": "N8",
-        "region": "India",
-        "seconds": 55,
-        "title": "Bengaluru robber used instant adhesive to restrain shop employee and stole gold chain",
-        "claims": [
-          "Gold chain valued around ₹4.5 lakh",
-          "Suspect caught by bystanders/traffic police",
-          "Police said victim was safe"
-        ],
-        "source_ids": [
-          "S35",
-          "S36",
-          "S37",
-          "S38"
-        ]
-      },
-      {
-        "id": "WX",
-        "region": "Weather",
-        "seconds": 30,
-        "title": "IMD warnings: West UP no warning; rain/thunderstorm alerts in parts of south/east India",
-        "claims": [
-          "West UP no warning 5–11 Nov",
-          "Coastal Andhra/Rayalaseema thunderstorm/squall and strong winds to 8 Nov",
-          "Tamil Nadu/Puducherry and Kerala heavy rain/thunderstorm 5–8 Nov",
-          "South Interior Karnataka heavy rain/thunderstorm 5–6 Nov",
-          "Coastal Karnataka and Odisha thunderstorm 5 Nov"
-        ],
-        "source_ids": [
-          "S39",
-          "S40",
-          "S41",
-          "S42",
-          "S43",
-          "S44",
-          "S45"
-        ]
-      }
-    ]
-  },
+  "rundown": [
+    {
+      "story_id": "OPEN",
+      "duration_seconds": 20,
+      "source_ids": []
+    },
+    {
+      "story_id": "W1",
+      "duration_seconds": 55,
+      "source_ids": [
+        "S48",
+        "S49",
+        "S50"
+      ]
+    },
+    {
+      "story_id": "W2",
+      "duration_seconds": 40,
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "story_id": "W3",
+      "duration_seconds": 65,
+      "source_ids": [
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "story_id": "W4",
+      "duration_seconds": 50,
+      "source_ids": [
+        "S11",
+        "S12",
+        "S46",
+        "S47",
+        "S53"
+      ]
+    },
+    {
+      "story_id": "N1",
+      "duration_seconds": 35,
+      "source_ids": [
+        "S51",
+        "S52"
+      ]
+    },
+    {
+      "story_id": "N2",
+      "duration_seconds": 35,
+      "source_ids": [
+        "S14",
+        "S15"
+      ]
+    },
+    {
+      "story_id": "N3",
+      "duration_seconds": 45,
+      "source_ids": [
+        "S16",
+        "S17",
+        "S18",
+        "S19"
+      ]
+    },
+    {
+      "story_id": "N4",
+      "duration_seconds": 35,
+      "source_ids": [
+        "S20",
+        "S21",
+        "S22"
+      ]
+    },
+    {
+      "story_id": "N5",
+      "duration_seconds": 45,
+      "source_ids": [
+        "S26",
+        "S27",
+        "S28"
+      ]
+    },
+    {
+      "story_id": "N6",
+      "duration_seconds": 40,
+      "source_ids": [
+        "S29",
+        "S30",
+        "S31"
+      ]
+    },
+    {
+      "story_id": "N7",
+      "duration_seconds": 35,
+      "source_ids": [
+        "S32",
+        "S33",
+        "S34"
+      ]
+    },
+    {
+      "story_id": "N8",
+      "duration_seconds": 45,
+      "source_ids": [
+        "S54",
+        "S55",
+        "S56",
+        "S57"
+      ]
+    },
+    {
+      "story_id": "WEATHER",
+      "duration_seconds": 30,
+      "source_ids": [
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S43",
+        "S44",
+        "S45"
+      ]
+    },
+    {
+      "story_id": "CLOSE",
+      "duration_seconds": 25,
+      "source_ids": []
+    }
+  ],
   "sources": [
     {
       "id": "S01",
       "publisher": "Amar Ujala",
-      "date": "2026-11-04",
+      "title": "More than 25,000 e-rickshaws are operating in Moradabad city",
       "url": "https://www.amarujala.com/uttar-pradesh/moradabad/more-than-25000-e-rickshaws-are-operating-in-the-city-moradabad-news-c-15-1-mbd1027-1031670-2026-11-04",
-      "supports": "Moradabad e-rickshaw count and congestion",
-      "confidence": "Medium; single local report",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Moradabad e-rickshaw count and congestion"
+      ],
+      "source_type": "news",
+      "verification_notes": "Medium; single local report"
     },
     {
       "id": "S02",
       "publisher": "Hindustan Times",
-      "date": "2026-11-03",
+      "title": "Allahabad HC asks UP government to consider halting fresh e-rickshaw registrations",
       "url": "https://www.hindustantimes.com/cities/lucknow-news/allahabad-hc-asks-up-govt-to-consider-halting-fresh-e-rickshaw-registrations-in-lucknow-101793683309547.html",
-      "supports": "HC asked UP government to decide/consider registration curbs within four weeks",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-03",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "HC asked UP government to decide/consider registration curbs within four weeks"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S03",
       "publisher": "The Week/PTI",
-      "date": "2026-11-02",
+      "title": "HC asks UP government to decide on curbing fresh e-rickshaw registrations in four weeks",
       "url": "https://www.theweek.in/wire-updates/national/2026/11/02/hc-asks-up-govt-to-decide-on-curbing-fresh-e-rickshaw-registrations-in-4-weeks.amp.html",
-      "supports": "HC direction and four-week timeframe",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "HC direction and four-week timeframe"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S04",
       "publisher": "India Today/PTI",
-      "date": "2026-11-02",
+      "title": "Allahabad High Court asks UP government to decide on e-rickshaw registration curbs",
       "url": "https://www.indiatoday.in/amp/india/law-news/story/lucknow-e-rickshaw-registration-curbs-allahabad-high-court-up-government-ptag-3031033-2026-11-02",
-      "supports": "HC direction and statewide applicability caveat",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "HC direction and statewide applicability caveat"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S05",
       "publisher": "Hindustan Times",
-      "date": "2026-11-03",
+      "title": "UP FSDA seizes 54 quintals of food and suspends 27 licences before Diwali",
       "url": "https://www.hindustantimes.com/cities/lucknow-news/prediwali-crackdown-up-fsda-seizes-54-quintals-of-food-worth-1-32-cr-suspends-27-licences-101793715946643.html",
-      "supports": "FSDA statewide figures and Bareilly/Moradabad findings",
-      "confidence": "High; official department spokesperson cited",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-03",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "FSDA statewide figures and Bareilly/Moradabad findings"
+      ],
+      "source_type": "news",
+      "verification_notes": "High; official department spokesperson cited"
     },
     {
       "id": "S06",
       "publisher": "Times of India",
-      "date": "2026-11-04",
+      "title": "FSDA suspends 27 licences in statewide sweet-shop crackdown",
       "url": "https://timesofindia.indiatimes.com/city/lucknow/fsda-suspends-27-licences-in-statewide-sweet-shop-crackdown/articleshow/135512276.cms",
-      "supports": "Statewide inspection figures and local hygiene violations",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Statewide inspection figures and local hygiene violations"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S07",
       "publisher": "Amar Ujala",
-      "date": "2026-11-03",
+      "title": "Bareilly food-safety raid: two sweet-shop licences suspended",
       "url": "https://www.amarujala.com/uttar-pradesh/bareilly/bareilly-food-safety-raid-27-shops-two-sweet-shop-licenses-suspended-2026-11-03",
-      "supports": "Bareilly mouldy ghevar and two licence suspensions",
-      "confidence": "Medium-high",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-03",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Bareilly mouldy ghevar and two licence suspensions"
+      ],
+      "source_type": "news",
+      "verification_notes": "Medium-high"
     },
     {
       "id": "S08",
       "publisher": "Amrit Vichar",
-      "date": "2026-11-04",
+      "title": "Bareilly sweet-shop inspection and ghevar licence action",
       "url": "https://www.amritvichar.com/uttar-pradesh/bareilly/raid-on-sweet-shops-in-bareilly-license-of-ghevar-mixed/article-598216",
-      "supports": "Bareilly inspections, samples and two suspensions",
-      "confidence": "Medium-high",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Bareilly inspections, samples and two suspensions"
+      ],
+      "source_type": "news",
+      "verification_notes": "Medium-high"
     },
     {
       "id": "S09",
       "publisher": "Dainik Jagran",
-      "date": "2026-11-04",
+      "title": "Muzaffarnagar food safety: 220 kg rasgullas destroyed after insects found",
       "url": "https://www.jagran.com/uttar-pradesh/muzaffarnagar-muzaffarnagar-food-safety-220kg-flyinfested-rasgullas-destroyed-40427033.html",
-      "supports": "Muzaffarnagar about 220 kg rasgullas destroyed after flies found",
-      "confidence": "Medium",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Muzaffarnagar about 220 kg rasgullas destroyed after flies found"
+      ],
+      "source_type": "news",
+      "verification_notes": "Medium"
     },
     {
       "id": "S10",
       "publisher": "Times of India",
-      "date": "2026-11-05",
+      "title": "220 kg sweets destroyed in Muzaffarnagar after insects found",
       "url": "https://timesofindia.indiatimes.com/city/agra/diwali-crackdown-220kg-sweets-destroyed-in-muzaffarnagar-after-insects-found-contaminated-milk-cheese-seized-in-mathura/articleshow/135547438.cms",
-      "supports": "Muzaffarnagar 220 kg sweets destroyed after insects found",
-      "confidence": "Medium",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Muzaffarnagar 220 kg sweets destroyed after insects found"
+      ],
+      "source_type": "news",
+      "verification_notes": "Medium"
     },
     {
       "id": "S11",
       "publisher": "Times of India",
-      "date": "2026-11-05",
+      "title": "Bijnor DM faces lawyers' protest over alleged misbehaviour",
       "url": "https://timesofindia.indiatimes.com/city/meerut/lawyers-should-not-come-to-my-office-bijnor-dm-faces-massive-protest-over-misbehaviour/articleshow/135543747.cms",
-      "supports": "Bijnor DM-lawyer dispute and lawyers' protest",
-      "confidence": "Medium; allegation-based",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Bijnor DM-lawyer dispute and lawyers' protest"
+      ],
+      "source_type": "news",
+      "verification_notes": "Medium; allegation-based"
     },
     {
       "id": "S12",
       "publisher": "Bhaskar Digital",
-      "date": "2026-11-04",
+      "title": "Bijnor DM-lawyers clash escalates after advocate asked to leave chamber",
       "url": "https://english.bhaskardigital.com/bijnor-dm-w-lawyers-clash-escalates-after-senior-advocate-is-asked-to-leave-chamber-glass-gate-broken/",
-      "supports": "Bijnor dispute, protest and lawyers' demands",
-      "confidence": "Medium; official response not obtained",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Bijnor dispute, protest and lawyers' demands"
+      ],
+      "source_type": "news",
+      "verification_notes": "Medium; official response not obtained"
     },
     {
       "id": "S14",
       "publisher": "Reuters",
-      "date": "2026-11-03",
+      "title": "From grains to chicken and milk, India faces prolonged food inflation",
       "url": "https://www.reuters.com/world/india/grains-chicken-milk-india-faces-prolonged-food-inflation-2026-11-03/",
-      "supports": "Weak soil moisture, winter sowing and future food-price risks",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-03",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Weak soil moisture, winter sowing and future food-price risks"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S15",
       "publisher": "PIB/MoSPI",
-      "date": "2026-10-12T16:00:00+05:30",
+      "title": "Consumer Price Index and inflation rate for September 2026",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3",
-      "supports": "September 2026 CPI 5.54%; food inflation 7.74%; rural 8.06%, urban 7.18%",
-      "confidence": "Very high; official primary data",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-10-12T16:00:00+05:30",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "September 2026 CPI 5.54%; food inflation 7.74%; rural 8.06%, urban 7.18%"
+      ],
+      "source_type": "official",
+      "verification_notes": "Very high; official primary data"
     },
     {
       "id": "S16",
       "publisher": "APSDMA",
-      "date": "2026-11-03 to 2026-11-04",
+      "title": "APSDMA cyclone Murasu official event log",
       "url": "https://apsdmagis.ap.gov.in/weather-watch/cyclone",
-      "supports": "Murasu cyclone event log, landfall and weakening status",
-      "confidence": "Very high; official disaster authority",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-03",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Murasu cyclone event log, landfall and weakening status"
+      ],
+      "source_type": "official",
+      "verification_notes": "Very high; official disaster authority"
     },
     {
       "id": "S17",
       "publisher": "India Today/PTI",
-      "date": "2026-11-03",
+      "title": "Cyclone Murasu: two killed, crops and homes damaged in Andhra Pradesh",
       "url": "https://www.indiatoday.in/amp/india/story/cyclone-murasu-andhra-pradesh-two-killed-crops-homes-damaged-ptag-3031687-2026-11-03",
-      "supports": "Two deaths and preliminary damage estimates",
-      "confidence": "High; preliminary figures",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-03",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Two deaths and preliminary damage estimates"
+      ],
+      "source_type": "news",
+      "verification_notes": "High; preliminary figures"
     },
     {
       "id": "S18",
       "publisher": "The News Minute",
-      "date": "2026-11-04",
+      "title": "Cyclone Murasu leaves two dead and damages 312 houses in Andhra Pradesh",
       "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-leaves-2-dead-damages-312-houses-in-andhra-pradesh",
-      "supports": "Two deaths, 312 houses affected and recovery context",
-      "confidence": "High; regional reporting",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Two deaths, 312 houses affected and recovery context"
+      ],
+      "source_type": "news",
+      "verification_notes": "High; regional reporting"
     },
     {
       "id": "S19",
       "publisher": "Associated Press",
-      "date": "2026-11-04",
+      "title": "Cyclone Murasu landfall, wind and disruption report",
       "url": "https://apnews.com/article/c8d1899f4344625f63d6d456dc3805fb",
-      "supports": "Landfall, wind speed, evacuation and disruption",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Landfall, wind speed, evacuation and disruption"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S20",
       "publisher": "Reuters",
-      "date": "2026-11-04",
+      "title": "Kohli runs as India beat New Zealand in first ODI",
       "url": "https://www.reuters.com/sports/cricket/kohli-runs-india-thrash-new-zealand-first-odi-2026-11-04/",
-      "supports": "India five-wicket win, score, Kohli 74, bowling figures",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "India five-wicket win, score, Kohli 74, bowling figures"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S21",
       "publisher": "Hindustan Times",
-      "date": "2026-11-04",
+      "title": "India vs New Zealand first ODI match report and score",
       "url": "https://www.hindustantimes.com/cricket/ind-vs-nz-live-score-1st-odi-india-vs-new-zealand-updates-eden-park-november-4-101793752602645.html",
-      "supports": "Match result and DLS target",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Match result and DLS target"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S22",
       "publisher": "AP/SFGate",
-      "date": "2026-11-04",
+      "title": "India wins toss and chooses to bowl in first ODI",
       "url": "https://www.sfgate.com/sports/article/india-wins-the-toss-and-chooses-to-bowl-in-the-22510468.php",
-      "supports": "Independent match score report",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Independent match score report"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S23",
       "publisher": "The Week/PTI",
-      "date": "2026-11-04",
+      "title": "Karnataka hikes bus fares to save transport corporations",
       "url": "https://www.theweek.in/wire-updates/national/2026/11/04/karnataka-hikes-bus-fares-not-to-make-profit-but-to-save-corporations-says-minister.html",
-      "supports": "Karnataka bus fare changes and minister's explanation",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Karnataka bus fare changes and minister's explanation"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S24",
       "publisher": "Hindustan Times/PTI",
-      "date": "2026-11-04",
+      "title": "Karnataka bus fare increase explained by transport minister",
       "url": "https://www.hindustantimes.com/cities/bengaluru-news/karnataka-hikes-bus-fares-not-to-make-profit-but-to-save-corporations-says-minister-101793783575975-amp.html",
-      "supports": "BMTC/KSRTC fare percentages and implementation",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "BMTC/KSRTC fare percentages and implementation"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S25",
       "publisher": "New Indian Express",
-      "date": "2026-11-04",
+      "title": "Karnataka hikes BMTC fares by up to 35% and RTC fares by 23%",
       "url": "https://www.newindianexpress.com/states/karnataka/2026/Nov/04/karnataka-hikes-bus-fares-by-up-to-35-for-bmtc-23-for-rtcs-amid-mounting-losses",
-      "supports": "Fare changes and financial context",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Fare changes and financial context"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S26",
       "publisher": "Reuters",
-      "date": "2026-11-04",
+      "title": "India cybercrime agency warns financial firms of AI attacks",
       "url": "https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/",
-      "supports": "I4C warning on AI-assisted attacks against financial firms and payment APIs",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "I4C warning on AI-assisted attacks against financial firms and payment APIs"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S27",
       "publisher": "New Indian Express",
-      "date": "2026-11-04",
+      "title": "I4C warns banks and fintech firms of AI-powered cyberattacks",
       "url": "https://www.newindianexpress.com/india/2026/Nov/04/mhas-i4c-warns-banks-fintech-firms-of-ai-powered-cyberattacks-and-machine-speed-fraud",
-      "supports": "I4C/CERT-In advisory details",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "I4C/CERT-In advisory details"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S28",
       "publisher": "Mint/PTI",
-      "date": "2026-11-04",
+      "title": "Cyber agency warns banks and fintech firms about AI-agent fraud",
       "url": "https://www.livemint.com/technology/central-cyber-security-agency-warns-banks-fintech-firms-of-frauds-through-ai-agents-11793805354383.html",
-      "supports": "AI-assisted financial attack pattern and institutional response",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "AI-assisted financial attack pattern and institutional response"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S29",
       "publisher": "PM India",
-      "date": "2026-11-04",
+      "title": "Cabinet approves ₹2,814-crore critical-mineral processing scheme",
       "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/",
-      "supports": "Cabinet approval, ₹2,814 crore outlay, four plants and 30% eligible capex support",
-      "confidence": "Very high; official primary source",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Cabinet approval, ₹2,814 crore outlay, four plants and 30% eligible capex support"
+      ],
+      "source_type": "official",
+      "verification_notes": "Very high; official primary source"
     },
     {
       "id": "S30",
       "publisher": "PIB/Ministry of Mines",
-      "date": "2026-11-04",
+      "title": "Ministry of Mines details capex support scheme for lithium and nickel",
       "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2332490&lang=1&reg=3",
-      "supports": "Scheme terms and implementation conditions",
-      "confidence": "Very high; official primary source",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Scheme terms and implementation conditions"
+      ],
+      "source_type": "official",
+      "verification_notes": "Very high; official primary source"
     },
     {
       "id": "S31",
       "publisher": "Reuters",
-      "date": "2026-11-04",
+      "title": "India approves incentive policy for lithium and nickel processing",
       "url": "https://www.reuters.com/business/india-approves-297-million-incentive-policy-lithium-nickel-processing-2026-11-04/",
-      "supports": "Independent reporting on scheme and import-dependence rationale",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Independent reporting on scheme and import-dependence rationale"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S32",
       "publisher": "ThePrint/PTI",
-      "date": "2026-11-04",
+      "title": "Election Commission approves rationalisation of polling stations in UP",
       "url": "https://theprint.in/india/ec-approves-rationalisation-of-polling-stations-in-up-reduces-number-by-3786-ceo/3090827/",
-      "supports": "UP polling stations reduced from 177,516 to 173,730",
-      "confidence": "High; CEO quoted",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "UP polling stations reduced from 177,516 to 173,730"
+      ],
+      "source_type": "news",
+      "verification_notes": "High; CEO quoted"
     },
     {
       "id": "S33",
       "publisher": "India Today",
-      "date": "2026-11-04",
+      "title": "UP polling stations reduced after Election Commission rationalisation",
       "url": "https://www.indiatoday.in/amp/elections/assembly/story/uttar-pradesh-polling-stations-reduced-election-commission-rationalisation-ssr-exercise-3032545-2026-11-04",
-      "supports": "EC approval and statewide rationalisation",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "EC approval and statewide rationalisation"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S34",
       "publisher": "The Statesman",
-      "date": "2026-11-04",
+      "title": "Polling booths in UP decreased by 3,786 after reorganisation",
       "url": "https://www.thestatesman.com/cities/lucknow/polling-booths-in-up-decreased-by-3786-to-173730-after-reorganisation-1503658921.html",
-      "supports": "BLO instructions to inform voters about changed polling stations",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "BLO instructions to inform voters about changed polling stations"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S35",
       "publisher": "Indian Express",
-      "date": "2026-11-03",
+      "title": "Bengaluru robbery: suspect overpowered after chain-snatching attempt",
       "url": "https://indianexpress.com/article/cities/bangalore/bengaluru-indiranagar-hostage-drama-chain-snatching-public-overpower-robber-10948518/",
-      "supports": "Bengaluru robbery, adhesive used, public/traffic police catch suspect",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-03",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Bengaluru robbery, adhesive used, public/traffic police catch suspect"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S36",
       "publisher": "India Today",
-      "date": "2026-11-03",
+      "title": "Bengaluru chain-snatching attempt in Indiranagar shop",
       "url": "https://www.indiatoday.in/cities/bengaluru/story/bengaluru-chain-snatching-attempt-man-storms-into-shop-grabs-womans-neck-threatens-to-kill-her-3031200-2026-11-03",
-      "supports": "Robbery details and victim safety",
-      "confidence": "High",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-03",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Robbery details and victim safety"
+      ],
+      "source_type": "news",
+      "verification_notes": "High"
     },
     {
       "id": "S37",
       "publisher": "Hindustan Times/PTI",
-      "date": "2026-11-03",
+      "title": "Bengaluru man held for attempted robbery of woman's gold mangalsutra",
       "url": "https://www.hindustantimes.com/cities/bengaluru-news/bengaluru-man-held-for-attempting-to-rob-woman-of-gold-mangalsutra-at-knifepoint-101793694714750.html",
-      "supports": "Police confirmation of arrest and victim unharmed",
-      "confidence": "High; PTI/police",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-03",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Police confirmation of arrest and victim unharmed"
+      ],
+      "source_type": "news",
+      "verification_notes": "High; PTI/police"
     },
     {
       "id": "S38",
       "publisher": "Times of India",
-      "date": "2026-11-04",
+      "title": "Robber superglues woman's hands and steals gold chain in Bengaluru",
       "url": "https://timesofindia.indiatimes.com/city/bengaluru/robber-superglues-womans-hands-snatches-4-5l-golden-chain/articleshow/135512452.cms",
-      "supports": "₹4.5 lakh chain value and incident details",
-      "confidence": "High; police account",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "₹4.5 lakh chain value and incident details"
+      ],
+      "source_type": "news",
+      "verification_notes": "High; police account"
     },
     {
       "id": "S39",
       "publisher": "IMD",
-      "date": "2026-11-05",
+      "title": "IMD subdivision-wise warning for West Uttar Pradesh",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25",
-      "supports": "West UP no warning 5–11 November",
-      "confidence": "Very high; official IMD",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "West UP no warning 5–11 November"
+      ],
+      "source_type": "official",
+      "verification_notes": "Very high; official IMD"
     },
     {
       "id": "S40",
       "publisher": "IMD",
-      "date": "2026-11-05",
+      "title": "IMD subdivision-wise warning for Coastal Andhra Pradesh and Rayalaseema",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2",
-      "supports": "Coastal Andhra and Rayalaseema thunderstorm/squall and strong surface winds through 8 Nov",
-      "confidence": "Very high; official IMD",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Coastal Andhra and Rayalaseema thunderstorm/squall and strong surface winds through 8 Nov"
+      ],
+      "source_type": "official",
+      "verification_notes": "Very high; official IMD"
     },
     {
       "id": "S41",
       "publisher": "IMD",
-      "date": "2026-11-05",
+      "title": "IMD warning for Tamil Nadu and Puducherry",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=24",
-      "supports": "Tamil Nadu and Puducherry heavy rain/thunderstorm 5–8 Nov",
-      "confidence": "Very high; official IMD",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Tamil Nadu and Puducherry heavy rain/thunderstorm 5–8 Nov"
+      ],
+      "source_type": "official",
+      "verification_notes": "Very high; official IMD"
     },
     {
       "id": "S42",
       "publisher": "IMD",
-      "date": "2026-11-05",
+      "title": "IMD warning for Kerala",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=4",
-      "supports": "Kerala thunderstorm 5 Nov and heavy rain/thunderstorm 6–8 Nov",
-      "confidence": "Very high; official IMD",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Kerala thunderstorm 5 Nov and heavy rain/thunderstorm 6–8 Nov"
+      ],
+      "source_type": "official",
+      "verification_notes": "Very high; official IMD"
     },
     {
       "id": "S43",
       "publisher": "IMD",
-      "date": "2026-11-05",
+      "title": "IMD warning for Karnataka",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13",
-      "supports": "Coastal Karnataka thunderstorm 5 Nov; South Interior Karnataka heavy rain/thunderstorm 5–6 Nov",
-      "confidence": "Very high; official IMD",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Coastal Karnataka thunderstorm 5 Nov; South Interior Karnataka heavy rain/thunderstorm 5–6 Nov"
+      ],
+      "source_type": "official",
+      "verification_notes": "Very high; official IMD"
     },
     {
       "id": "S44",
       "publisher": "IMD",
-      "date": "2026-11-05",
+      "title": "IMD warning for Odisha",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=10",
-      "supports": "Odisha thunderstorm/lightning/squall 5 Nov",
-      "confidence": "Very high; official IMD",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Odisha thunderstorm/lightning/squall 5 Nov"
+      ],
+      "source_type": "official",
+      "verification_notes": "Very high; official IMD"
     },
     {
       "id": "S45",
       "publisher": "IMD",
-      "date": "2026-11-04",
+      "title": "IMD warning for Telangana",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=1",
-      "supports": "Telangana page issued 4 Nov shows no warning for 5 Nov",
-      "confidence": "Very high; official IMD",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Telangana page issued 4 Nov shows no warning for 5 Nov"
+      ],
+      "source_type": "official",
+      "verification_notes": "Very high; official IMD"
     },
     {
       "id": "S46",
       "publisher": "Dainik Jagran",
-      "date": "2026-11-04T16:05:00+05:30",
+      "title": "Bijnor lawyers protest at DM office over alleged misbehaviour",
       "url": "https://www.jagran.com/uttar-pradesh/bijnor-bijnor-lawyers-protest-dm-office-over-misbehavior-allegations-dm-umesh-pratap-singh-40427226.html",
-      "supports": "Bijnor Bar Association protest after alleged misbehaviour at DM office",
-      "confidence": "Medium; allegation attributed to advocate",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04T16:05:00+05:30",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Bijnor Bar Association protest after alleged misbehaviour at DM office"
+      ],
+      "source_type": "news",
+      "verification_notes": "Medium; allegation attributed to advocate"
     },
     {
       "id": "S47",
       "publisher": "Amar Ujala",
-      "date": "2026-11-04T13:08:00+05:30",
+      "title": "Bijnor DM-lawyers dispute and Bar Association protest",
       "url": "https://www.amarujala.com/uttar-pradesh/bijnor/clash-between-bijnor-dm-and-lawyers-bar-association-starts-protest-outside-office-2026-11-04",
-      "supports": "Bijnor DM-lawyer dispute and collectorate protest",
-      "confidence": "Medium; report of allegations and protest",
-      "accessed_at_ist": "2026-11-05T05:04:15+05:30"
+      "published_at": "2026-11-04T13:08:00+05:30",
+      "accessed_at": "2026-11-05T05:04:15+05:30",
+      "claims_supported": [
+        "Bijnor DM-lawyer dispute and collectorate protest"
+      ],
+      "source_type": "news",
+      "verification_notes": "Medium; report of allegations and protest"
+    },
+    {
+      "id": "S48",
+      "publisher": "Amar Ujala",
+      "title": "तेज रफ्तार बोलेरो ने घर के बाहर खेल रहे पांच बच्चों को कुचला; दो की मौत",
+      "url": "https://www.amarujala.com/uttar-pradesh/moradabad/a-speeding-bolero-ran-over-five-children-playing-outside-a-house-two-including-the-birthday-boy-died-while-three-others-are-in-critical-condition-moradabad-news-c-15-1-mbd1027-1031395-2026-11-04",
+      "published_at": "2026-11-04T02:35:00+05:30",
+      "accessed_at": "2026-11-05T05:15:13+05:30",
+      "claims_supported": [
+        "Moradabad Mudia Bhaypur incident; two child deaths; local account of injured children"
+      ],
+      "source_type": "news",
+      "verification_notes": "Injured count differs across local reports; script omits exact count and graphic detail."
+    },
+    {
+      "id": "S49",
+      "publisher": "Live Hindustan",
+      "title": "बेकाबू बोलेरो ने पांच बच्चों को रौंदा; दो की मौत",
+      "url": "https://www.livehindustan.com/uttar-pradesh/uncontrolled-bolero-ran-over-five-children-two-died-on-the-spot-201793727610682.html",
+      "published_at": "2026-11-04T05:49:00+05:30",
+      "accessed_at": "2026-11-05T05:15:13+05:30",
+      "claims_supported": [
+        "Independent local report corroborating two child deaths and injuries in Moradabad"
+      ],
+      "source_type": "news",
+      "verification_notes": "Injured count differs from other reports; no exact count used."
+    },
+    {
+      "id": "S50",
+      "publisher": "Amrit Vichar",
+      "title": "मुरादाबाद: तेज रफ्तार पिकअप हादसे में दो बच्चों की मौत, कई घायल",
+      "url": "https://www.amritvichar.com/uttar-pradesh/moradabad/moradabad-bolero-pickup-accident-two-children-dead-mundia-bhaipur/article-598156",
+      "published_at": "2026-11-04T08:58:35+05:30",
+      "accessed_at": "2026-11-05T05:15:13+05:30",
+      "claims_supported": [
+        "Moradabad accident, two deaths, several injured, vehicle/driver in police custody as reported"
+      ],
+      "source_type": "news",
+      "verification_notes": "Local report; exact injury count differs from other outlets."
+    },
+    {
+      "id": "S51",
+      "publisher": "Business Standard",
+      "title": "Deficient monsoon slows rabi sowing; wheat sowing yet to pick up pace",
+      "url": "https://www.business-standard.com/industry/agriculture/deficient-monsoon-slows-rabi-sowing-wheat-sowing-yet-to-pick-up-pace-126110300328_1.html",
+      "published_at": "2026-11-03T10:42:00+05:30",
+      "accessed_at": "2026-11-05T05:15:13+05:30",
+      "claims_supported": [
+        "Agriculture Ministry area data: rabi sowing behind previous year as of 30 October"
+      ],
+      "source_type": "news",
+      "verification_notes": "Early-season area comparison; not a final crop-loss estimate."
+    },
+    {
+      "id": "S52",
+      "publisher": "Daijiworld",
+      "title": "Rabi sowing falls 46 per cent behind last year's pace",
+      "url": "https://www.daijiworld.com/news/newsDisplay?newsID=1334259",
+      "published_at": "2026-11-03T11:17:41+05:30",
+      "accessed_at": "2026-11-05T05:15:13+05:30",
+      "claims_supported": [
+        "Agriculture Ministry figures: 37.56 lakh hectares versus 69.02 lakh hectares by 30 October"
+      ],
+      "source_type": "news",
+      "verification_notes": "Secondary report of ministry data; sowing can continue."
+    },
+    {
+      "id": "S53",
+      "publisher": "Bhaskar Digital",
+      "title": "Bijnor DM-lawyers clash escalates after senior advocate is asked to leave chamber",
+      "url": "https://english.bhaskardigital.com/bijnor-dm-w-lawyers-clash-escalates-after-senior-advocate-is-asked-to-leave-chamber-glass-gate-broken/",
+      "published_at": "2026-11-04T16:05:00+05:30",
+      "accessed_at": "2026-11-05T05:15:13+05:30",
+      "claims_supported": [
+        "Bijnor dispute follow-up; report says DM expressed regret and immediate confrontation calmed"
+      ],
+      "source_type": "news",
+      "verification_notes": "Single follow-up report for the regret/assurance detail; allegation remains disputed."
+    },
+    {
+      "id": "S54",
+      "publisher": "Reuters",
+      "title": "India says PepsiCo, Monster marketed with 'energy drink' label to dupe consumers",
+      "url": "https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T05:15:13+05:30",
+      "claims_supported": [
+        "FSSAI court filing allegation, company challenge, existing-stock interim relief and pending hearing"
+      ],
+      "source_type": "news",
+      "verification_notes": "Allegation in court filings; companies dispute it; no final finding."
+    },
+    {
+      "id": "S55",
+      "publisher": "Moneycontrol/Reuters",
+      "title": "PepsiCo, Monster marketed with 'energy drink' label to dupe consumers: FSSAI",
+      "url": "https://www.moneycontrol.com/news/business/companies/pepsico-monster-marketed-with-energy-drink-label-to-dupe-consumers-fssai-14069891.html",
+      "published_at": "2026-11-04T18:17:00+05:30",
+      "accessed_at": "2026-11-05T05:15:13+05:30",
+      "claims_supported": [
+        "Reuters report syndicated by Moneycontrol on FSSAI label dispute"
+      ],
+      "source_type": "news",
+      "verification_notes": "Syndicated Reuters copy; not treated as independent corroboration."
+    },
+    {
+      "id": "S56",
+      "publisher": "NDTV",
+      "title": "Caffeine is not energy: food authority on why it took on energy-drink makers",
+      "url": "https://www.ndtv.com/food/exclusive-caffeine-is-not-energy-food-authority-on-why-they-took-on-the-energy-drink-makers-12147539",
+      "published_at": "2026-10-06T21:15:00+05:30",
+      "accessed_at": "2026-11-05T05:15:13+05:30",
+      "claims_supported": [
+        "FSSAI rationale and Delhi High Court interim relief for existing labelled stock"
+      ],
+      "source_type": "news",
+      "verification_notes": "Earlier report; supports background and interim order, not the 4 November court filing."
+    },
+    {
+      "id": "S57",
+      "publisher": "Lawchakra",
+      "title": "Delhi High Court lets PepsiCo and Monster sell existing energy-drink stock but bars fresh manufacture",
+      "url": "https://lawchakra.in/high-court/delhi-high-court/energy-drink-delhi-high-court/",
+      "published_at": "2026-10-06T18:58:00+05:30",
+      "accessed_at": "2026-11-05T05:15:13+05:30",
+      "claims_supported": [
+        "Delhi High Court interim order on existing stock and fresh manufacture pending hearing"
+      ],
+      "source_type": "news",
+      "verification_notes": "Legal news summary; interim order only, not final adjudication."
     }
   ],
   "held_items": [
-    {
-      "id": "HOLD-W",
-      "topic": "Kundarki wedding-hall scuffle",
-      "reason": "Only one local report; no second independent outlet or police confirmation."
-    }
+    "Moradabad accident injured count: reports differ; do not give a definitive number.",
+    "Moradabad e-rickshaw total: single local report; RTO/traffic-police confirmation pending.",
+    "Food-safety samples: no final lab result for every seized item.",
+    "Bijnor dispute: allegations and one reported regret/assurance; no final inquiry outcome.",
+    "Murasu crop-loss area: preliminary estimates vary.",
+    "Energy-drink label case: 5 November hearing outcome not available at the research cut-off."
   ],
   "unresolved": [
-    "Moradabad 25,000+ e-rickshaw count needs RTO/traffic police confirmation.",
-    "Bijnor DM and Bar Association written responses are not yet independently obtained.",
-    "Food-safety sample outcomes need laboratory follow-up; seizure is not a lab finding.",
-    "Cyclone Murasu crop-area estimates vary across early reports; use no single definitive acreage.",
-    "No fresh city-level temperature was verified for Moradabad or Sambhal."
+    "Fresh IMD district-level town temperatures for Moradabad, Sambhal and Bareilly were not retrieved; no local temperatures are invented.",
+    "Exact issue time was not exposed on the retrieved IMD subdivision warning page."
   ],
-  "retrieved_at_ist": "2026-11-05T05:04:15+05:30"
+  "retrieved_at_ist": "2026-11-05T05:15:13+05:30"
 }
