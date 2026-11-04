@@ -14,7 +14,16 @@ from urllib.parse import urlparse
 
 FPS = 30
 MAX_ASSET_BYTES = 80 * 1024 * 1024
-ALLOWED_LICENSES = ("cc0", "public domain", "cc by", "cc-by", "cc by-sa", "cc-by-sa")
+ALLOWED_LICENSES = ("cc0", "public domain", "cc by", "cc-by")
+
+
+def commercially_usable_license(value: str) -> bool:
+    label = re.sub(r"\s+", " ", value.strip().lower())
+    if any(term in label for term in ("noncommercial", "non-commercial", "no derivatives", "no-derivatives", "sampling")):
+        return False
+    if re.search(r"(^|[\s-])(nc|nd)(?=[\s-]|$)", label):
+        return False
+    return any(label.startswith(item) for item in ALLOWED_LICENSES) or label.startswith(("cc by-sa", "cc-by-sa"))
 
 
 def validate_project(project: dict) -> None:
@@ -42,8 +51,8 @@ def validate_project(project: dict) -> None:
         if parsed.scheme != "https" or not parsed.netloc:
             raise ValueError(f"Scene {index} requires an HTTPS asset URL")
         license_name = str(scene.get("license", "")).strip().lower()
-        if not any(license_name.startswith(item) for item in ALLOWED_LICENSES):
-            raise ValueError(f"Scene {index} has an unsupported or missing commercial-use license")
+        if not commercially_usable_license(license_name):
+            raise ValueError(f"Scene {index} has an unsupported or non-commercial license")
         if not str(scene.get("source_page", "")).startswith("https://"):
             raise ValueError(f"Scene {index} requires an HTTPS source_page for attribution")
     limit = 90 if project.get("format", "short") == "short" else 900
