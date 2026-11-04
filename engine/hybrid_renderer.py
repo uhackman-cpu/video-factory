@@ -17,7 +17,7 @@ ALLOWED_LICENSES = ("cc0", "public domain", "cc by", "cc-by")
 
 
 def commercially_usable_license(value: str) -> bool:
-    label = re.sub(r"\\s+", " ", value.strip().lower())
+    label = re.sub(r"\s+", " ", value.strip().lower())
     if any(term in label for term in ("noncommercial", "non-commercial", "no derivatives", "no-derivatives", "sampling")):
         return False
     if re.search(r"(^|[\\s-])(nc|nd)(?=[\\s-]|$)", label):
@@ -71,7 +71,7 @@ def srt_time(seconds: float) -> str:
 
 
 def sentence_parts(text: str) -> list[str]:
-    return [part.strip() for part in re.split(r"(?<=[।!?])\\s+", text.strip()) if part.strip()]
+    return [part.strip() for part in re.split(r"(?<=[।!?])\s+", text.strip()) if part.strip()]
 
 
 def write_srt(scenes: list[dict], path: Path) -> None:
@@ -88,11 +88,11 @@ def write_srt(scenes: list[dict], path: Path) -> None:
         for sentence, weight in zip(sentences, weights):
             sentence_duration = duration * weight / weight_total
             end = local_cursor + sentence_duration
-            blocks.append(f"{index}\\n{srt_time(local_cursor)} --> {srt_time(end)}\\n{sentence}\\n")
+            blocks.append(f"{index}\n{srt_time(local_cursor)} --> {srt_time(end)}\n{sentence}\n")
             local_cursor = end
             index += 1
         cursor += duration
-    path.write_text("\\n".join(blocks), encoding="utf-8")
+    path.write_text("\n".join(blocks), encoding="utf-8")
 
 
 def run(command: list[str], timeout: int = 300) -> None:
@@ -157,7 +157,7 @@ def synthesize_narration(text: str, destination: Path, voice_gender: str) -> str
         text,
         voice=voice_name,
         speed=1.0,
-        split_pattern=r"(?<=[।!?])\\s+",
+        split_pattern=r"(?<=[।!?])\s+",
     )
     for _, _, audio in generator:
         if audio is None:
@@ -222,7 +222,7 @@ def render_project(project: dict, output: Path, voice_gender: str = "male") -> N
 
         concat_file = work / "concat.txt"
         concat_file.write_text(
-            "".join(f"file '{p.as_posix()}'\\n" for p in segments), encoding="utf-8"
+            "".join(f"file '{p.as_posix()}'\n" for p in segments), encoding="utf-8"
         )
         silent_video = work / "silent.mp4"
         run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_file),
@@ -251,7 +251,7 @@ def render_project(project: dict, output: Path, voice_gender: str = "male") -> N
             f"Narration: Kokoro-82M Hindi voice {voice_name} | Apache-2.0 | "
             "https://huggingface.co/hexgrad/Kokoro-82M"
         )
-        output.with_name("credits.txt").write_text("\\n".join(credits) + "\\n", encoding="utf-8")
+        output.with_name("credits.txt").write_text("\n".join(credits) + "\n", encoding="utf-8")
 
 
 def shutil_which(name: str) -> str | None:
