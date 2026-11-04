@@ -110,8 +110,8 @@
     "details": "All asset records retain source pages, creators, rights holders, licence versions, commercial/adaptation permissions and attribution. Existing licensed laptop image is reused for the WFH illustration; no new external asset added. Kokoro-82M Apache-2.0 hm_omega local TTS selected; final voice quality still needs listening review."
   },
   "technical_checks": {
-    "status": "PENDING_NEW_RENDER",
-    "details": "13 scenes, 600 seconds, 16:9 and 1203 spoken words. Previous successful render run 41912717975 used older head SHA ac1d27aa0c4121f2241835333949d94fccccffd4 and does not include this new WFH scene; updated manifest requires its own render and ffprobe validation."
+    "status": "RENDER_IN_PROGRESS",
+    "details": "Render run 41921052229 is in progress on the latest committed manifest head SHA 68975eaef5117dc310978829941ba0ca188813ff. Wait for its MP4, SRT, credits and ffprobe verification; no second dispatch is queued."
   },
   "final_approval_status": "HOLD",
   "qc_review": {
@@ -121,7 +121,8 @@
       "Previous render run 41912717975 completed successfully and produced artifact 13365484915, but it used the older 12-scene manifest at head SHA ac1d27aa0c4121f2241835333949d94fccccffd4; it does not contain the new CAQM WFH story.",
       "The earlier render run 41911840929 also completed successfully with artifact 13366330890; it is an older edition.",
       "The updated main-branch manifest now has 13 scenes, 600 seconds, 1203 words and 213 seconds (35.5%) of Western UP editorial time.",
-      "Human review remains mandatory for Amroha representative highway imagery, Diwali fireworks safety framing, the WFH illustrative visual and complete Hindi voice pronunciation/pacing/audio."
+      "Human review remains mandatory for Amroha representative highway imagery, Diwali fireworks safety framing, the WFH illustrative visual and complete Hindi voice pronunciation/pacing/audio.",
+      "New render run 41921052229 has been accepted and is in progress on the latest manifest commit; no duplicate render was queued."
     ],
     "workflow_runs": {
       "previous_render": "https://github.com/uhackman-cpu/video-factory/actions/runs/41912717975",
@@ -133,6 +134,10 @@
     },
     "artifact_verified": false,
     "youtube_publish_authorized": false,
-    "previous_artifact_technical_checks_passed": true
+    "previous_artifact_technical_checks_passed": true,
+    "latest_render_run": "https://github.com/uhackman-cpu/video-factory/actions/runs/41921052229",
+    "latest_render_run_id": 41921052229,
+    "latest_render_head_sha": "68975eaef5117dc310978829941ba0ca188813ff",
+    "latest_render_status": "in_progress"
   }
 }
