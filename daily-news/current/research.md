@@ -1,98 +1,78 @@
 # Hindi Facts — Daily News Research
 **Edition:** Thursday, 5 November 2026  
-**Research cut-off:** 04:20 IST, 5 November 2026  
+**Research cut-off:** 05:04 IST, 5 November 2026  
 **Audience:** Rural/village Hindi viewers and urban lower-/middle-class households  
-**Editorial target:** Western UP 35% of bulletin time; wider UP/India 65%  
-**Status:** Updated after a fresh 04:20 IST search and IMD warning-page check.
+**Editorial split:** Western UP 3:30 (35%); wider India/UP 6:00 plus weather 0:30 (65%).
 
 ## Editorial filter
-Prioritise verified, relatable and conversation-worthy stories: rural roads, farming and procurement, household prices, food safety, transport, public services, consumer issues and practical cyber safety. Keep recruitment, jobs and exams out unless a major development directly affects a large audience. “Chatpati” means compelling presentation, not exaggeration. Do not use communal/caste bait, rumours, graphic detail or unverified social clips.
+Select engaging, conversation-worthy, verified stories about everyday life: farmers, mandi and food prices, transport, public services, consumer safety, weather, cyber safety and sport. Keep jobs, recruitment and exam notices out of the lead bulletin. "Chatpati" means compelling storytelling, not exaggeration. No communal/caste bait, rumours, graphic detail, unverified viral claims or copied footage.
 
-## A. Western Uttar Pradesh — 3:30 / 35%
+## Proposed 10-minute rundown
 
-### W1 — Amroha: speeding Thar crash kills two young relatives
-On Tuesday night, 3 November, a speeding Thar struck a motorcycle on the Naugawan Sadat–Amroha/Bijnor Road area. Two young relatives, Rajiv and Prashant, died. PTI reports the collision on Bijnor Road under Amroha Kotwali, says the SUV driver abandoned the vehicle and fled, and says police registered a case and began an investigation. Local reports describe three motorcycles and three other injured people; the PTI account describes a motorcycle and does not confirm the same injury count. **Do not state the exact number of motorcycles/injured as settled fact. Do not repeat the alleged intoxication/BSF-jawan angle without direct police confirmation.**
-**Audience angle:** road safety on village-town connectors; speed control near schools, markets and settlements.
-**Confidence:** High on two deaths, location, driver fleeing and police case; scope-limited on vehicle/injury details.
-Sources:
-- ThePrint/PTI, 4 Nov 2026 08:46 IST: https://theprint.in/india/two-youths-killed-as-speeding-suv-rams-motorcycle-in-ups-amroha/3089902/
-- Live Hindustan, 5 Nov 2026 01:38 IST: https://www.livehindustan.com/uttar-pradesh/amroha/story-amroha-thar-crash-two-cousins-killed-three-injured-bsf-jawan-suspected-201793822883412.html
-- Amar Ujala, updated 4 Nov 2026 17:32 IST: https://www.amarujala.com/uttar-pradesh/amroha/thar-collided-with-three-motorcycles-and-one-after-another-on-the-naugawan-sadat-amroha-road-2026-11-04
-- Dainik Jagran, 4 Nov 2026 09:08 IST: https://www.jagran.com/uttar-pradesh/amroha-city-high-speed-thar-killed-two-cousins-three-others-injured-amroha-accident-40426809.html
+### Western Uttar Pradesh — 3:30 (35%)
 
-### W2 — Bareilly: farmers protest paddy procurement conditions and demand ₹600/quintal cane price
-On 3 November, Kisan Ekta Sangh members demonstrated at Bareilly Collectorate and submitted a memorandum addressed to the Chief Minister. Their demands include removing mandatory Farmer Registry, satellite survey and four weighment workers' thumbprints from the paddy procurement process; setting the sugarcane price at ₹600 per quintal; and opening a purchase centre at Sahdapur Sarora in Nawabganj tehsil.
-**Important distinction:** ₹600 is the farmers' demand, not an announced government rate. Reports establish the protest and memorandum; no final administration decision/response was verified by 04:20 IST.
-**Audience angle:** explain how paperwork, registration and purchase-centre access can affect small farmers selling paddy.
-**Confidence:** Medium-high for the protest and demands (multiple local reports); government response unverified.
-Sources:
-- Amrit Vichar, 3 Nov 2026 16:40 IST: https://www.amritvichar.com/uttar-pradesh/bareilly/farmers-angry-over-the-conditions-of-paddy-purchase-demand-to/article-598128
-- Live Hindustan, 3 Nov 2026: https://www.livehindustan.com/uttar-pradesh/bareily/story-bareilly-farmers-protest-paddy-procurement-rules-demand-sugarcane-price-hike-201793648714197.html
-- BareillyLive, 2 Nov 2026: https://bareillylive.in/bareilly-news/farmers-ekta-sangh-paddy-procurement-sugarcane-price-demand-bareilly/
+**W1 — Moradabad: e-rickshaw congestion and the court's four-week direction (0:55)**  
+A local report dated 4 November says more than 25,000 e-rickshaws operate in Moradabad and describes traffic pressure around major roads and market areas. Separately, the Allahabad High Court's Lucknow Bench asked the UP government to decide within four weeks whether fresh registrations should be restricted in cities where numbers are excessive. **The court did not itself impose an immediate statewide ban.** The 25,000 Moradabad figure is single-source and needs RTO/traffic-police confirmation before it is stated as definitive.  
+Sources: Amar Ujala (4 Nov 2026), https://www.amarujala.com/uttar-pradesh/moradabad/more-than-25000-e-rickshaws-are-operating-in-the-city-moradabad-news-c-15-1-mbd1027-1031670-2026-11-04 ; Hindustan Times (3 Nov), https://www.hindustantimes.com/cities/lucknow-news/allahabad-hc-asks-up-govt-to-consider-halting-fresh-e-rickshaw-registrations-in-lucknow-101793683309547.html ; The Week/PTI (2 Nov), https://www.theweek.in/wire-updates/national/2026/11/02/hc-asks-up-govt-to-decide-on-curbing-fresh-e-rickshaw-registrations-in-4-weeks.amp.html ; India Today/PTI (2 Nov), https://www.indiatoday.in/amp/india/law-news/story/lucknow-e-rickshaw-registration-curbs-allahabad-high-court-up-government-ptag-3031033-2026-11-02
 
-### Held local item — Kundarki wedding-hall scuffle
-A single Live Hindustan report describes a scuffle after a nikah over distribution of dried dates, with injuries. It remains **HOLD** because no second independent report or police confirmation was retrieved. Do not include in this edition.
+**W2 — Bareilly, Moradabad and Muzaffarnagar: food-safety raids before Diwali (1:25)**  
+UP FSDA's statewide drive reportedly inspected 1,133 locations between 26 October and 3 November, collected 935 samples, seized about 54 quintals of food products worth around ₹1.32 crore and suspended 27 licences. Bareilly and Moradabad were among the districts covered by mobile squads. Reports describe mouldy ghevar and unhygienic production in Bareilly, expired ingredients/rodent droppings in Moradabad, and about 220 kg of rasgullas destroyed in Muzaffarnagar after insects were found. **Do not call every seized item lab-confirmed adulterated food.** The 220 kg destruction is an enforcement action reported by local outlets; final lab results were not found in this research.  
+Sources: Hindustan Times (3 Nov 2026), https://www.hindustantimes.com/cities/lucknow-news/prediwali-crackdown-up-fsda-seizes-54-quintals-of-food-worth-1-32-cr-suspends-27-licences-101793715946643.html ; Times of India (4 Nov), https://timesofindia.indiatimes.com/city/lucknow/fsda-suspends-27-licences-in-statewide-sweet-shop-crackdown/articleshow/135512276.cms ; Amar Ujala Bareilly (3 Nov), https://www.amarujala.com/uttar-pradesh/bareilly/bareilly-food-safety-raid-27-shops-two-sweet-shop-licenses-suspended-2026-11-03 ; Amrit Vichar (4 Nov), https://www.amritvichar.com/uttar-pradesh/bareilly/raid-on-sweet-shops-in-bareilly-license-of-ghevar-mixed/article-598216 ; Jagran Muzaffarnagar (4 Nov), https://www.jagran.com/uttar-pradesh/muzaffarnagar-muzaffarnagar-food-safety-220kg-flyinfested-rasgullas-destroyed-40427033.html ; Times of India (5 Nov), https://timesofindia.indiatimes.com/city/agra/diwali-crackdown-220kg-sweets-destroyed-in-muzaffarnagar-after-insects-found-contaminated-milk-cheese-seized-in-mathura/articleshow/135547438.cms
 
-## B. India / wider UP — seven stories
+**W3 — Bijnor: lawyers' protest after alleged misbehaviour at DM office (1:10)**  
+Reports dated 4–5 November describe a dispute after a lawyer allegedly felt insulted during a visit to the District Magistrate's office, followed by a lawyers' protest at the collectorate and demands for administrative action. Keep this as an allegation and a public-grievance access issue, not a proven finding against either side. The DM's written version, Bar Association's full account and any formal complaint/order were not independently obtained by the cut-off; obtain both before final narration.  
+Sources: Times of India (5 Nov), https://timesofindia.indiatimes.com/city/meerut/lawyers-should-not-come-to-my-office-bijnor-dm-faces-massive-protest-over-misbehaviour/articleshow/135543747.cms ; Bhaskar Digital (4 Nov), https://english.bhaskardigital.com/bijnor-dm-w-lawyers-clash-escalates-after-senior-advocate-is-asked-to-leave-chamber-glass-gate-broken/ ; The Justice Hindi (4 Nov), https://www.thejusticehindi.com/bijnor-dm-lawyers-dispute-collectorate-protest-2026/
 
-### N1 — Food inflation and weak soil moisture
-Official September 2026 CPI data: combined food inflation 7.74%; rural 8.06%; urban 7.18%. Reuters on 3 November reports low soil moisture after a weak monsoon and risk to winter sowing/yields, with possible pressure on wheat, pulses, sugar, onions, milk and poultry.
-**Treatment:** distinguish recorded September inflation from forward-looking crop/price risk. Do not claim every item has already risen in every local market.
-Sources:
-- PIB/MoSPI, 12 Oct 2026: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3
-- Reuters, 3 Nov 2026: https://www.reuters.com/world/india/grains-chicken-milk-india-faces-prolonged-food-inflation-2026-11-03/
+### Wider India and UP — 6:00 (65%)
 
-### N2 — Cyclone Murasu recovery in Andhra Pradesh
-Reports on 3–4 November cite preliminary state estimates of 52,459 hectares of crop damage, 312 houses affected and around ₹344 crore in initial losses; two deaths were reported and thousands were moved to relief centres. Paddy, cotton and maize were among affected crops. These are preliminary figures, not final compensation assessments.
-Sources:
-- India Today/PTI, 3 Nov 2026: https://www.indiatoday.in/amp/india/story/cyclone-murasu-andhra-pradesh-two-killed-crops-homes-damaged-ptag-3031687-2026-11-03
-- The Tribune/PTI, 4 Nov 2026: https://www.tribuneindia.com/news/india/cyclone-hits-andhra-coast-2-killed/amp
-- The News Minute, 4 Nov 2026: https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-leaves-2-dead-damages-312-houses-in-andhra-pradesh
+**N1 — Weak soil moisture, rabi sowing and the household food bill (0:50)**  
+Reuters reports weak monsoon soil moisture is constraining winter planting and could put pressure on wheat, pulses, sugar, onions, milk and poultry. Official September 2026 CPI data show headline inflation of 5.54% and food inflation of 7.74%; rural food inflation was 8.06%, urban 7.18%. These are September year-on-year figures, not today's mandi price changes. Explain the possible link from soil moisture and sowing to supply and prices without predicting a guaranteed local rise.  
+Sources: Reuters (3 Nov), https://www.reuters.com/world/india/grains-chicken-milk-india-faces-prolonged-food-inflation-2026-11-03/ ; PIB/MoSPI (12 Oct 2026, 16:00 IST), https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3
 
-### N3 — Ethanol blending may be below E20
-Reuters reports an industry estimate that ethanol blending may be around 15–17% in the current supply year because of feedstock constraints. This is not a final government announcement that E20 has been withdrawn. Explain the food, animal-feed and fuel trade-off; do not predict an automatic petrol-price change.
-Sources:
-- Reuters, 4 Nov 2026: https://www.reuters.com/business/energy/india-puts-food-before-fuel-el-nio-dents-ethanol-ambitions-2026-11-04/
-- Aaj Tak, 4 Nov 2026: https://www.aajtak.in/science/story/ethanol-blending-disturbed-el-nino-put-monsoon-rainfall-lowest-dskc-2688321-2026-11-04
-- S&P Global, 22 Oct 2026: https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/102226-india-orders-states-to-enforce-zero-sugar-diversion-for-ethanol-supply
+**N2 — Cyclone Murasu aftermath in Andhra Pradesh (0:45)**  
+Murasu crossed the south Andhra coast near Ongole on 3 November with reported winds of 100–110 km/h and gusts up to 120 km/h. Follow-up reports describe two deaths, evacuations, damaged homes and power infrastructure, and standing-crop losses across several districts. Early crop-area and loss estimates vary by report and unit; do not give one definitive hectare figure without the latest APSDMA assessment. Focus on farmers, fields, roads and power restoration.  
+Sources: APSDMA official cyclone event log, https://apsdmagis.ap.gov.in/weather-watch/cyclone ; India Today/PTI (3 Nov), https://www.indiatoday.in/amp/india/story/cyclone-murasu-andhra-pradesh-two-killed-crops-homes-damaged-ptag-3031687-2026-11-03 ; AP (4 Nov), https://apnews.com/article/c8d1899f4344625f63d6d456dc3805fb ; The News Minute (4 Nov), https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-leaves-2-dead-damages-312-houses-in-andhra-pradesh
 
-### N4 — FSSAI energy-drink labelling dispute
-FSSAI has argued in court that the “energy drink” label on certain high-caffeine products may mislead consumers; PepsiCo and Monster dispute the regulator's action. Delhi High Court interim directions dealt with existing stock and future manufacture under the disputed label. The 5 Nov hearing outcome was not available at the 04:20 research cut-off.
-**Do not say the products are poisonous or that a final ruling has been made.**
-Sources:
-- Reuters, 4 Nov 2026: https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/
-- Economic Times/Reuters, 4 Nov 2026: https://economictimes.indiatimes.com/industry/cons-products/food/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers/articleshow/135537991.cms
-- Delhi High Court interim order copy, 12 Oct 2026: https://indiankanoon.org/doc/108682359/
+**N3 — India beat New Zealand in the first ODI (0:40)**  
+India won by five wickets under DLS after New Zealand made 185. Virat Kohli scored 74 off 51 balls; Arshdeep Singh took four wickets and Anshul Kamboj was player of the match. The revised target was 143. Keep the score and match format precise.  
+Sources: Reuters (4 Nov), https://www.reuters.com/sports/cricket/kohli-runs-india-thrash-new-zealand-first-odi-2026-11-04/ ; Hindustan Times (4 Nov), https://www.hindustantimes.com/cricket/ind-vs-nz-live-score-1st-odi-india-vs-new-zealand-updates-eden-park-november-4-101793752602645.html ; AP/SFGate (4 Nov), https://www.sfgate.com/sports/article/india-wins-the-toss-and-chooses-to-bowl-in-the-22510468.php
 
-### N5 — I4C warning on AI-assisted attacks against financial institutions
-I4C's 4 November advisory warns banks, NBFCs, fintech firms and payment aggregators about attacks exploiting unpatched systems, misconfigured servers and payment APIs. This is primarily an institutional warning, not evidence that every bank customer's account is compromised. Consumer tips: never share OTP/UPI PIN, verify beneficiary name and amount, avoid unknown APKs/links, and report fraud promptly at 1930.
-Sources:
-- Reuters, 4 Nov 2026: https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/
-- Mint/PTI, 4 Nov 2026: https://www.livemint.com/technology/central-cyber-security-agency-warns-banks-fintech-firms-of-frauds-through-ai-agents-11793805354383.html
+**N4 — Karnataka state bus fares increased (0:40)**  
+Karnataka raised fares across four state transport corporations, effective from midnight on 4 November. Reports say BMTC city fares rise about 33–35%, while KSRTC and other state corporations rise around 23%; actual rupee increases vary by route/stage. This is a Karnataka-specific fare revision, not a nationwide bus-fare hike.  
+Sources: The Week/PTI (4 Nov), https://www.theweek.in/wire-updates/national/2026/11/04/karnataka-hikes-bus-fares-not-to-make-profit-but-to-save-corporations-says-minister.html ; Hindustan Times/PTI (4 Nov), https://www.hindustantimes.com/cities/bengaluru-news/karnataka-hikes-bus-fares-not-to-make-profit-but-to-save-corporations-says-minister-101793783575975-amp.html ; New Indian Express (4 Nov), https://www.newindianexpress.com/states/karnataka/2026/Nov/04/karnataka-hikes-bus-fares-by-up-to-35-for-bmtc-23-for-rtcs-amid-mounting-losses
 
-### N6 — ₹2,814-crore critical-mineral processing scheme
-Cabinet approved a five-year capex-support scheme on 4 November with a ₹2,814-crore outlay. The scheme provides up to 30% capex support for four processing units—two lithium and two nickel; cobalt may be recovered as a by-product. This is a long-term industrial policy, not an immediate household price reduction.
-Sources:
-- PIB/Ministry of Mines, 4 Nov 2026: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2332490&lang=1&reg=3
-- PM India, 4 Nov 2026: https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/
-- Reuters, 4 Nov 2026: https://www.reuters.com/business/india-approves-297-million-incentive-policy-lithium-nickel-processing-2026-11-04/
+**N5 — I4C warns financial institutions about AI-assisted cyberattacks (0:45)**  
+I4C warned banks, NBFCs, fintech firms and payment aggregators about attacks using AI agents to exploit unpatched systems and payment APIs. The advisory is aimed at financial institutions; it does not mean every bank customer's account is compromised. Practical viewer tips: never share OTP/UPI PIN, verify the beneficiary and amount, avoid unknown APKs/links and report suspected digital fraud promptly at 1930.  
+Sources: Reuters (4 Nov), https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/ ; New Indian Express (4 Nov), https://www.newindianexpress.com/india/2026/Nov/04/mhas-i4c-warns-banks-fintech-firms-of-ai-powered-cyberattacks-and-machine-speed-fraud ; Mint/PTI (4 Nov), https://www.livemint.com/technology/central-cyber-security-agency-warns-banks-fintech-firms-of-frauds-through-ai-agents-11793805354383.html
 
-### N7 — Delhi-NCR green-cracker restrictions for 7–8 November
-Reports of Supreme Court directions say certified green crackers are permitted only during 06:00–07:00 and 20:00–22:00 on 7 and 8 November, with a 300-metre no-cracker zone around specified sensitive facilities and a full ban resuming 9 November. Keep the Delhi-NCR scope explicit; advise viewers to check local district orders.
-Sources:
-- Economic Times, 2 Nov 2026: https://economictimes.indiatimes.com/news/india/diwali-firecracker-curbs-sc-sets-two-time-periods-for-fireworks-bans-bursting-near-hospitals/articleshow/135453944.cms
-- NDTV Profit, 2 Nov 2026: https://www.ndtvprofit.com/india/diwali-2026-supreme-court-allows-certified-green-crackers-in-delhi-12270711
-- Indian Express, 3 Nov 2026: https://indianexpress.com/article/legal-news/supreme-court-green-crackers-delhi-ncr-diwali-timings-sale-rules-10948099/lite/
+**N6 — ₹2,814-crore scheme for lithium and nickel processing (0:45)**  
+The Union Cabinet approved a five-year capex-support scheme with an outlay of ₹2,814 crore for four processing plants—two lithium and two nickel. Eligible investment can receive 30% capital support, subject to the scheme's caps and conditions. Explain the long-term link to batteries, electric vehicles and import dependence; the plants are not yet operating and this does not mean battery prices will fall immediately.  
+Sources: PM India official release (4 Nov), https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/ ; PIB/Ministry of Mines (4 Nov), https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2332490&lang=1&reg=3 ; Reuters (4 Nov), https://www.reuters.com/business/india-approves-297-million-incentive-policy-lithium-nickel-processing-2026-11-04/
 
-## C. Weather — refreshed 04:20 IST
-- IMD's 5 November subdivision-wise warning chart shows no warning for West Uttar Pradesh for 5–11 November. The current district-wise warning page was also checked at 04:20 IST.
-- The available Bareilly city forecast page is dated 3 November; it lists 5 November as clear, but it is not a fresh 5 November observation. The Sambhal APMC city page is older (24 October). No current city-level temperature forecast for Moradabad was retrieved.
-- Do not state exact current temperatures for Moradabad/Sambhal or present the older Bareilly page as a live observation. Say no West UP subdivision warning is displayed and direct viewers to the latest district forecast.
-- IMD pages: https://mausam.imd.gov.in/responsive/subDivisionWiseWarningGIS.php ; https://mausam.imd.gov.in/responsive/districtWiseWarningGIS.php ; https://city.imd.gov.in/citywx/citywxnew.php?id=42189
+**N7 — UP polling stations reorganised ahead of 2027 election (0:40)**  
+The Election Commission approved rationalisation across all 403 Assembly constituencies: polling stations reportedly fell from 177,516 to 173,730, a net reduction of 3,786, based on a norm of 1,200 voters per station. Voters should check whether their polling location has changed and follow BLO/CEO instructions. The reduction does not itself mean anyone's voter registration was cancelled.  
+Sources: ThePrint/PTI (4 Nov), https://theprint.in/india/ec-approves-rationalisation-of-polling-stations-in-up-reduces-number-by-3786-ceo/3090827/ ; India Today (4 Nov), https://www.indiatoday.in/amp/elections/assembly/story/uttar-pradesh-polling-stations-reduced-election-commission-rationalisation-ssr-exercise-3032545-2026-11-04 ; The Statesman (4 Nov), https://www.thestatesman.com/cities/lucknow/polling-booths-in-up-decreased-by-3786-to-173730-after-reorganisation-1503658921.html
 
-## D. Running order — 10:00 total
-Opening 0:25; Amroha 1:35; Bareilly farmers 1:55; food inflation 1:00; cyclone recovery 0:50; ethanol 0:40; FSSAI label dispute 0:50; cyber warning 0:50; critical minerals 0:40; green crackers 0:35; weather 0:35; close 0:05.
-Western UP: 3:30 / 35%. India/wider UP, weather, opening and close: 6:30 / 65%.
+**N8 — Bengaluru robbery: instant adhesive used to restrain shop worker (0:55)**  
+Reports say an armed robber used instant adhesive to stick a 23-year-old shop employee's hands to a desk and stole her gold chain valued at about ₹4.5 lakh. Bystanders and traffic police helped catch the suspect; police said the woman was safe. Keep the account non-graphic, attribute details to police/reporting and do not use news footage or viral clips without rights.  
+Sources: Indian Express (3 Nov), https://indianexpress.com/article/cities/bangalore/bengaluru-indiranagar-hostage-drama-chain-snatching-public-overpower-robber-10948518/ ; India Today (3 Nov), https://www.indiatoday.in/cities/bengaluru/story/bengaluru-chain-snatching-attempt-man-storms-into-shop-grabs-womans-neck-threatens-to-kill-her-3031200-2026-11-03 ; Hindustan Times/PTI (3 Nov), https://www.hindustantimes.com/cities/bengaluru-news/bengaluru-man-held-for-attempting-to-rob-woman-of-gold-mangalsutra-at-knifepoint-101793694714750.html ; Times of India (4 Nov), https://timesofindia.indiatimes.com/city/bengaluru/robber-superglues-womans-hands-snatches-4-5l-golden-chain/articleshow/135512452.cms
 
-## E. 04:20 freshness check
-A fresh search was run for India and western-UP updates. No newer, independently corroborated Western-UP story that materially changes the two selected items was found after the source reports above. The Kundarki scuffle remains held as single-source. IMD warning pages were rechecked. Refresh once more if a major breaking update arrives before render.
+## Weather — official IMD snapshot (0:30)
+**Western UP:** IMD's subdivision-wise warning page issued 5 November shows **no warning for West Uttar Pradesh from 5 through 11 November**. This is a subdivision warning status, not a promise of identical conditions in every town. Current city-level temperatures for Moradabad and Sambhal were not independently retrieved; do not invent them.  
+**Other regions:** IMD's 5 November pages show thunderstorm/lightning/squall and strong surface-wind warnings for Coastal Andhra Pradesh and Rayalaseema through 8 November; Tamil Nadu & Puducherry and Kerala have heavy-rain/thunderstorm warnings for 5–8 November; South Interior Karnataka has heavy rain/thunderstorm warnings for 5–6 November; Coastal Karnataka and Odisha have thunderstorm warnings on 5 November. Telangana's 4 November-issued page shows no warning for 5 November. The issue date is visible on the IMD pages, but an exact issue time is not displayed in the retrieved page text.  
+Sources: IMD West UP, https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25 ; Coastal Andhra/Rayalaseema, https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2 ; Tamil Nadu/Puducherry, https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=24 ; Kerala, https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=4 ; Karnataka, https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13 ; Odisha, https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=10 ; Telangana, https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=1
+
+## Must-do checks before scripting
+1. Confirm Moradabad's 25,000+ e-rickshaw count with RTO/traffic police; preserve the correct wording of the High Court direction.
+2. Confirm current food-safety licence status and any lab results; never equate seizure with a lab-confirmed adulteration result.
+3. Obtain both DM and Bar Association versions for Bijnor; retain allegation language.
+4. Refresh IMD warnings immediately before render.
+5. Use only original graphics or commercially licensed assets with documented source, creator and licence. No TV footage, scraped social clips, copied article images, broadcaster logos or unlicensed music.
+
+## Story-mix audit
+- Western UP: 3 story clusters, 210/600 seconds = **35%**.
+- Wider India/UP: 8 stories, 360 seconds.
+- Weather: 30 seconds, included in the wider regional allocation.
+- Recruitment/job/exam stories: **0**.
+- Local uncertainty: Moradabad e-rickshaw count is single-source; Bijnor dispute needs official responses; food-safety sample outcomes need lab confirmation.
+- Research only: no video rendered or published.
