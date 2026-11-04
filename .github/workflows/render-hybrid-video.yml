@@ -70,18 +70,29 @@ jobs:
           PY
 
       - name: Render hybrid video
+        env:
+          OUTPUT_NAME: ${{ inputs.output_name }}
+          VOICE_GENDER: ${{ inputs.voice_gender }}
         run: |
+          case "$OUTPUT_NAME" in
+            ""|*[!A-Za-z0-9._-]* ) echo "Invalid output filename"; exit 1 ;;
+          esac
+          case "$OUTPUT_NAME" in
+            *.mp4) ;;
+            *) echo "Output filename must end in .mp4"; exit 1 ;;
+          esac
           python -m engine.hybrid_renderer \
             --project output/project.json \
-            --output "output/${{ inputs.output_name }}" \
-            --voice-gender "${{ inputs.voice_gender }}"
+            --output "output/$OUTPUT_NAME" \
+            --voice-gender "$VOICE_GENDER"
 
       - name: Verify output
         run: |
-          test -s "output/${{ inputs.output_name }}"
+          test -s "output/$OUTPUT_NAME"
           test -s output/credits.txt
+          test -s "output/${OUTPUT_NAME%.mp4}.srt"
           ffprobe -v error -show_entries format=duration,size \
-            -of default=noprint_wrappers=1 "output/${{ inputs.output_name }}"
+            -of default=noprint_wrappers=1 "output/$OUTPUT_NAME"
 
       - name: Upload video and production records
         uses: actions/upload-artifact@v4
