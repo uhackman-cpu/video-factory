@@ -1,96 +1,146 @@
-# Hindi Facts — Daily News Research & Production Dossier
+# Hindi Facts — Daily News Research
 **Edition:** Thursday, 5 November 2026  
-**Research refresh:** 05 Nov 2026, 03:20 IST (+05:30)  
+**Research cut-off:** 04:01 IST, 5 November 2026  
 **Audience:** Rural/village Hindi viewers and urban lower-/middle-class households  
-**Editorial split:** 35% Western UP / 65% India and wider UP  
-**Bulletin target:** 10:00 minutes, 16:9, approximately 1,200 spoken Hindi words
+**Editorial target:** Western UP ≈35% of bulletin time; wider UP/India ≈65%  
+**Status:** Research dossier only; no video render or publication is claimed.
 
-## Editorial decision
-Prioritise lively, curious and relatable reporting about household prices, food safety, transport, digital fraud, public health, weather and rural livelihoods. Routine recruitment, government-job, exam and admit-card items are excluded from this edition. Do not sensationalise deaths or imply that an allegation, inspection finding or draft rule is a final legal finding.
+## Editorial filter
+Prioritise surprising but verifiable incidents, human-interest, public-interest, household costs, consumer safety, farming/mandi, transport and local services. Routine jobs, recruitment, exams and admit-card notices are excluded from the main rundown. “Chatpati” means compelling, not exaggerated. No communal/caste bait, rumour, graphic detail, unlicensed footage or unverified social clips.
 
-**Time budget:** Western UP 213 seconds (35.5%); five India-wide story blocks 266 seconds; weather 86 seconds; opening 28 seconds; close 7 seconds. Total: exactly 600 seconds.
+## A. Western Uttar Pradesh — target 3:30 / 35%
 
-## Final story rundown
+### W1 — Moradabad: speeding Bolero kills two small children in Mudia Bhaypur
+On Tuesday evening, 3 November, a speeding Bolero hit children playing beside the road in Mudia Bhaypur village, Mundhapande police-station area. Two children, Ansh (2) and Chitra (1), died. Police said the driver was taken into custody and the vehicle seized. **Reports conflict on whether five or six children were struck and whether three or four other children were injured. Do not state an exact injured count until Moradabad Police confirms it.** Reports also describe villagers confronting police after the driver was detained.
+**Audience angle:** Village-road safety, speeding through residential stretches, safe play areas and speed-calming measures. Keep the children's identities and family details minimal; no graphic images.
+**Confidence:** High on two deaths and driver custody (multiple outlets/police quote); medium on exact injured count.
+Sources:
+- Amar Ujala, updated 4 Nov 2026, 02:35 IST: https://www.amarujala.com/uttar-pradesh/moradabad/a-speeding-bolero-ran-over-five-children-playing-outside-a-house-two-including-the-birthday-boy-died-while-three-others-are-in-critical-condition-moradabad-news-c-15-1-mbd1027-1031395-2026-11-04?src=story-related-auto-amp
+- Live Hindustan, 4 Nov 2026, 05:49 IST: https://www.livehindustan.com/uttar-pradesh/uncontrolled-bolero-ran-over-five-children-two-died-on-the-spot-201793727610682.html
+- Dainik Jagran, 3 Nov 2026, 21:15 IST; updated 23:01: https://www.jagran.com/uttar-pradesh/moradabad-city-moradabad-bolero-accident-mundhapande-2-killed-4-injured-40426474.html
+- Amrit Vichar, 4 Nov 2026, 16:47 IST: https://www.amritvichar.com/uttar-pradesh/bareilly/amidst-birthday-preparations-mourning-spread-in-the-house-bolero-crushed/article-598240
 
-### Western Uttar Pradesh — 213 seconds
+### W2 — Bareilly: farmers challenge paddy procurement paperwork and demand ₹600/quintal sugarcane price
+On 3 November, Kisan Ekta Sangh members demonstrated at the Bareilly Collectorate and submitted a memorandum. They sought removal of mandatory Farmer Registry, satellite agriculture survey and four weighment workers' thumbprints from the paddy purchase process; they demanded a sugarcane price of ₹600 per quintal and a new purchase centre at Sahdapur Sarora in Nawabganj tehsil.
+**Audience angle:** Explain how digital records and purchase-centre rules can affect small farmers trying to sell paddy at MSP. Distinguish protestors' demands from government decisions: ₹600 is a demand, not an announced rate; no policy change is confirmed in these reports.
+**Confidence:** Medium-high that protest and memorandum occurred (three local outlets); no verified administration response yet.
+Sources:
+- Amrit Vichar, 3 Nov 2026, 16:40 IST: https://www.amritvichar.com/uttar-pradesh/bareilly/farmers-angry-over-the-conditions-of-paddy-purchase-demand-to/article-598128
+- Live Hindustan, 3 Nov 2026, 01:15 IST as displayed: https://www.livehindustan.com/uttar-pradesh/bareily/story-bareilly-farmers-protest-paddy-procurement-rules-demand-sugarcane-price-hike-201793648714197.html
+- BareillyLive, 2 Nov 2026: https://bareillylive.in/bareilly-news/farmers-ekta-sangh-paddy-procurement-sugarcane-price-demand-bareilly/
 
-### W1 — Amroha: speeding Thar/SUV crash kills two young men
-**Allocation:** 55 seconds.  
-On the night of 3 November, a speeding Thar/SUV struck a motorcycle on the Naugawan Sadat–Amroha road. Two young men died. Amar Ujala and PTI/ThePrint differ on the number of motorcycles and other incident details, so use only the shared facts. A local report says a case was registered and police were searching for the driver; no arrest is claimed in this refresh. No crash footage, gore, victim close-ups or identifying details.  
-**Sources:** Amar Ujala (4 Nov): https://www.amarujala.com/uttar-pradesh/amroha/thar-collided-with-three-motorcycles-and-one-after-another-on-the-naugawan-sadat-amroha-road-2026-11-04 ; ThePrint/PTI (4 Nov): https://theprint.in/india/two-youths-killed-as-speeding-suv-rams-motorcycle-in-ups-amroha/3089902/
+### W3 — Kundarki, Moradabad: wedding-hall scuffle reportedly leaves four injured
+Hindustan's Moradabad bureau reported that a dispute over distributing dried dates after a nikah at a marriage hall on Imratpur Road on Wednesday evening, 4 November, escalated into a fight; belts were used and around four people were injured, one with a serious head injury. Police were reported to have started an inquiry and arranged a medical examination.
+**Hold from final script unless Kundarki Police or a second independent local outlet confirms it.** Do not use viral CCTV/social video without rights and verification.
+Source: Live Hindustan, 4 Nov 2026, 22:11 IST: https://www.livehindustan.com/uttar-pradesh/moradabad/story-wedding-clash-in-kundarki-leaves-four-injured-after-dispute-over-sweets-201793810461152.html
 
-### W2 — Food-safety crackdown: Bareilly, Moradabad and Muzaffarnagar
-**Allocation:** 95 seconds.  
-Reports quoting UP FSDA say the 26 October–3 November campaign inspected 1,133 locations, collected 935 samples, seized about 54 quintals of food worth around ₹1.32 crore and suspended 27 licences. Thirty-two mobile food-safety squads conducted special operations in Bareilly and Moradabad. Reports describe hygiene, expired-ingredient, inedible-colour and rodent-trace issues at some units. In Muzaffarnagar, about 220 kg of sweets were reportedly destroyed after flies/insects were found; descriptions differ on the exact sweet, so say only “sweets”. A seizure or hygiene finding is not automatically a laboratory-confirmed adulteration result. Do not name or shame individual shops.  
-**Sources:** Hindustan Times (3 Nov): https://www.hindustantimes.com/cities/lucknow-news/prediwali-crackdown-up-fsda-seizes-54-quintals-of-food-worth-1-32-cr-suspends-27-licences-101793715946643.html ; Times of India (4 Nov): https://timesofindia.indiatimes.com/city/lucknow/fsda-suspends-27-licences-in-statewide-sweet-shop-crackdown/articleshow/135512276.cms ; The Statesman (3 Nov): https://www.thestatesman.com/cities/lucknow/up-fsda-strikes-hard-at-adulterators-54-quintals-of-food-items-seized-ahead-of-diwali-1503658470.html ; Dainik Jagran (3 Nov): https://www.jagran.com/uttar-pradesh/muzaffarnagar-muzaffarnagar-food-safety-220kg-flyinfested-rasgullas-destroyed-40427033.html ; Times of India (4 Nov): https://timesofindia.indiatimes.com/city/agra/diwali-crackdown-220kg-sweets-destroyed-in-muzaffarnagar-after-insects-found-contaminated-milk-cheese-seized-in-mathura/articleshow/135547438.cms
+**Western UP timing:** W1 1:40, W2 1:15, W3 0:35 only if independently confirmed = 3:30. If W3 fails verification, add its 35 seconds to W1/W2 with road-safety/farmer-procurement context. Do not fill the slot with an unverified story.
 
-### W3 — Namo Bharat: 20 extra trips on Delhi–Meerut corridor
-**Allocation:** 20 seconds.  
-NCRTC announced 20 additional trips from 4 November across the corridor from Sarai Kale Khan to Modipuram. These are additional trips, not 20 new trains. Do not quote departure times without checking the live app or station board.  
-**Sources:** Moneycontrol (3 Nov): https://www.moneycontrol.com/city/ncrtc-to-add-20-additional-namo-bharat-trains-as-delhi-s-air-quality-slips-into-very-poor-category-article-14067938.html ; Times of India (4 Nov): https://timesofindia.indiatimes.com/city/delhi/ncrtc-adds-20-extra-namo-bharat-trips-on-delhi-meerut-corridor/articleshow/135508047.cms. The NCRTC general page no longer displayed the specific 4 November notice at the 03:00 IST check, so the two news reports are the current claim support.
+## B. India / wider UP — 7 main stories
 
-### W4 — Ghaziabad/Noida: 50% office attendance and construction curbs from 5 November
-**Allocation:** 43 seconds.  
-A Commission for Air Quality Management (CAQM) order dated 30 October brings preventive measures into force from 5 to 20 November. Government and private offices in Delhi, Gurugram, Faridabad, Sonipat, Ghaziabad and Gautam Buddha Nagar may have up to 50% physical attendance, with the remaining staff working from home. Dust-generating demolition and outdoor construction are restricted across the NCR for the same period. Railways, metro, airports, inter-state bus terminals, hospitals, water supply, sanitation, national security/defence and projects of national importance are exempt from the construction restrictions; industrial establishments and essential services where WFH is not feasible are exempt from the attendance arrangement. This is temporary, not a permanent or statewide UP rule. Three independent reports describe the same CAQM order; the official PDF was not retrieved in this refresh, so attribute the measure to CAQM and preserve its scope.  
-**Sources:** SCC Times (4 Nov): https://www.scconline.com/blog/post/2026/11/04/caqm-construction-curbs-50-percent-work-from-home-delhi-ncr-november-2026/ ; The New Indian Express (31 Oct): https://www.newindianexpress.com/cities/delhi/2026/Oct/31/caqm-orders-50-wfh-for-delhi-ncr-offices-restricts-construction-activities-from-nov-5-to-20 ; Moneycontrol (4 Nov): https://www.moneycontrol.com/news/india/gurugram-orders-50-work-from-home-restricts-construction-activities-from-november-5-amid-pollution-concerns-14068129.html
+### N1 — Food inflation and weak soil moisture put winter sowing and household budgets under pressure
+Official September 2026 CPI release shows combined food inflation at 7.74%; rural food inflation 8.06%, urban 7.18%. Reuters' 3 November report describes weak soil moisture after a below-average monsoon, risks to winter sowing/yields and upward pressure on wheat, pulses, sugar, onions, milk and poultry. A forecast of food inflation near 10% in October–December is an economist's projection, not an official outcome.
+**Treatment:** Low soil moisture can reduce sowing/yields; supply pressure can affect grocery bills. Do not say every listed item has already risen everywhere or quote the 10% projection as fact.
+Sources:
+- PIB/MoSPI CPI release, 12 Oct 2026, 16:00 IST: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3
+- Reuters, 3 Nov 2026, 06:33 UTC: https://www.reuters.com/world/india/grains-chicken-milk-india-faces-prolonged-food-inflation-2026-11-03/
 
-## India-wide and wider-UP stories — 266 seconds
+### N2 — Cyclone Murasu: two deaths and major crop/power damage in Andhra Pradesh
+Andhra Pradesh officials, as reported by PTI, put preliminary crop damage at 52,459 hectares, 312 houses affected and an initial loss estimate of ₹344 crore; two deaths were reported and 12,230 people were in relief centres. Paddy, cotton and maize were among affected crops. The storm had weakened inland by 4 November; this is now a recovery/crop-loss story, not a claim that a severe cyclone is still making landfall.
+**Treatment:** Centre farmers and families facing crop, power and transport recovery. All figures are preliminary and may be revised.
+Sources:
+- India Today/PTI, 3 Nov 2026, updated 23:18 IST: https://www.indiatoday.in/amp/india/story/cyclone-murasu-andhra-pradesh-two-killed-crops-homes-damaged-ptag-3031687-2026-11-03
+- The Tribune/PTI, 4 Nov 2026, 01:34 IST: https://www.tribuneindia.com/news/india/cyclone-hits-andhra-coast-2-killed/amp
+- The News Minute, 4 Nov 2026, 03:39 IST: https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-leaves-2-dead-damages-312-houses-in-andhra-pradesh
 
-### N1 — Weak monsoon, rabi sowing and household food-price risk
-**Allocation:** 60 seconds.  
-Official September 2026 CPI: headline retail inflation 5.54%; food inflation 7.74%; rural food inflation 8.06%; urban food inflation 7.18%. Reuters field reporting says low soil moisture after a weak monsoon could constrain winter sowing and pressure supplies of wheat, pulses, sugar, onions, milk and poultry. Explain this as a risk/outlook, not a claim that every item has already risen in every mandi or city.  
-**Sources:** PIB/MoSPI (12 Oct): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3 ; Reuters (3 Nov): https://www.reuters.com/world/india/grains-chicken-milk-india-faces-prolonged-food-inflation-2026-11-03/
+### N3 — Ethanol blending may slip below E20 as food security takes priority
+Reuters on 4 November reports industry estimates that ethanol blending may be around 15–17% in the current supply year rather than 20%, amid feedstock pressure and the government's restriction on sugar-based ethanol procurement. Aaj Tak separately reported the same analysis. This is an industry forecast, not an official announcement that E20 has been withdrawn. Government's zero sugar-diversion policy for specified feedstocks is a separate confirmed measure; other feedstocks remain eligible.
+**Treatment:** Explain the food-versus-fuel trade-off for sugar, maize, animal feed and oil imports. Do not claim petrol prices will automatically rise or that E20 has formally been scrapped.
+Sources:
+- Reuters, 4 Nov 2026, 03:02 UTC: https://www.reuters.com/business/energy/india-puts-food-before-fuel-el-nio-dents-ethanol-ambitions-2026-11-04/
+- Aaj Tak, 4 Nov 2026, 17:09 IST: https://www.aajtak.in/science/story/ethanol-blending-disturbed-el-nino-put-monsoon-rainfall-lowest-dskc-2688321-2026-11-04
+- S&P Global, 22 Oct 2026: https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/102226-india-orders-states-to-enforce-zero-sugar-diversion-for-ethanol-supply
 
-### N2 — Ethanol blending: food security versus fuel target
-**Allocation:** 34 seconds.  
-Reuters reports that industry participants expect petrol ethanol blending may fall to around 15–17% in the supply year that began in November, rather than the 20% E20 level, because drought has constrained maize and sugarcane feedstock. The 15–17% figure is an industry estimate, not a government announcement that the E20 target has been formally withdrawn. The government’s October tender had already excluded sugar-based feedstocks; the latest Reuters report describes the supply squeeze.  
-**Sources:** Reuters (4 Nov): https://www.reuters.com/business/energy/india-puts-food-before-fuel-el-nio-dents-ethanol-ambitions-2026-11-04/ ; Reuters tender report (16 Oct): https://www.reuters.com/world/india/india-sets-zero-sugar-diversion-ethanol-202627-tender-2026-10-16/ ; ChiniMandi (4 Nov, secondary report citing Reuters): https://www.chinimandi.com/indias-ethanol-blending-target-at-risk-as-weak-monsoon-hits-maize-sugarcane-crops/
+### N4 — Sting/Monster label dispute: FSSAI's consumer-protection case continues in court
+Reuters reviewed 28 October court filings in which FSSAI argued India has no separately notified “energy drink” category and alleged high-caffeine products were misleadingly marketed under that label. Companies dispute the regulator's action. Delhi High Court interim directions have allowed sale of existing stock in the relevant cases but do not permit fresh manufacture under the disputed label. No final ruling on the underlying dispute was verified by 04:01 IST on 5 November.
+**Treatment:** Present as a live labelling/regulatory dispute, not a finding that Sting/Monster are poisonous or that all existing products are banned. Encourage viewers to read caffeine/sugar information on labels; do not add unsupported medical claims.
+Sources:
+- Reuters, 4 Nov 2026: https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/
+- Economic Times/Reuters, 4 Nov 2026, 17:10 IST: https://economictimes.indiatimes.com/industry/cons-products/food/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers/articleshow/135537991.cms
+- Delhi High Court order reproduced on IndiaKanoon, 12 Oct 2026: https://indiankanoon.org/doc/108682359/
+- Economic Times, 7 Oct 2026, 00:31 IST: https://economictimes.indiatimes.com/industry/cons-products/food/relief-for-monster-energy-pepsico-in-fssai-energy-drink-case/articleshow/134744705.cms
 
-### N3 — FSSAI energy-drink labelling dispute
-**Allocation:** 60 seconds.  
-FSSAI court filings say the “energy drink” descriptor on certain high-caffeine beverages may mislead consumers. PepsiCo and Monster challenge the regulator’s process. Earlier interim relief allowed sale of existing labelled stock, but not new manufacture with the disputed label. A hearing was expected on 5 November; at the 03:00 IST research cut-off, no result was confirmed. This is a labelling/legal dispute, not a court finding that the beverages are poisonous or a blanket ban on every beverage.  
-**Sources:** Reuters (4 Nov): https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/ ; LiveLawBiz (7 Oct): https://www.livelawbiz.com/news-updates/delhi-high-court-stays-fssai-orders-forcing-pepsico-monster-energy-to-drop-energy-drink-label-553479
+### N5 — I4C warns banks and fintechs of AI-assisted cyberattacks
+I4C advisory reported on 4 November warns banks, NBFCs, fintech firms and payment aggregators that attackers can exploit unpatched systems/misconfigured servers and target automated disbursement systems and payment APIs at machine speed. Suggested safeguards include per-transaction/daily limits, beneficiary-name verification and monitoring unusual transaction speeds. This advisory is directed at financial institutions; it does not mean every customer's bank account has been compromised.
+**Treatment:** Never share OTP/PIN, verify payee names, avoid unknown APKs/links and report suspected financial fraud quickly via 1930 / cybercrime.gov.in. Do not imply every consumer phone is directly hacked by AI.
+Sources:
+- Reuters, 4 Nov 2026, 13:34 UTC: https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/
+- Mint/PTI, 4 Nov 2026, 20:45 IST: https://www.livemint.com/technology/central-cyber-security-agency-warns-banks-fintech-firms-of-frauds-through-ai-agents-11793805354383.html
 
-### N4 — AI-assisted cyberattacks targeting banks and fintech firms
-**Allocation:** 70 seconds.  
-CERT-In advisory CIAD-2026-0058, issued 4 November, describes an active campaign by “CRAFTY FALCON” targeting banks, NBFCs, fintechs, digital lenders, payment aggregators and related financial entities. It describes AI-assisted tooling, exposed non-production systems, API abuse and unauthorised fund-transfer attempts. This does not mean every customer’s bank account is compromised. Consumer advice: never share OTP/UPI PIN, verify beneficiary and amount, avoid unknown links, and report financial fraud promptly through 1930 or cybercrime.gov.in.  
-**Sources:** CERT-In advisory: https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02 ; Reuters (4 Nov): https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/ ; Mint/PTI (4 Nov): https://www.livemint.com/technology/central-cyber-security-agency-warns-banks-fintech-firms-of-frauds-through-ai-agents-11793805354383.html ; reporting portal: https://cybercrime.gov.in/
+### N6 — Cabinet approves ₹2,814-crore critical-mineral processing scheme
+Cabinet approved a five-year capex-support scheme (FY 2026-27 to 2030-31) with ₹2,814 crore outlay. It offers 30% capital subsidy for four processing plants: two lithium and two nickel; cobalt may be recovered as a by-product. The policy aims to build domestic processing capacity and reduce import dependence.
+**Treatment:** Connect lithium/nickel to EV batteries, storage, electronics and defence; do not suggest that the scheme immediately lowers household electricity or vehicle prices.
+Sources:
+- PIB/Ministry of Mines, 4 Nov 2026, 15:41 IST: https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2332490&lang=1&reg=3
+- PM India release, 4 Nov 2026: https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/
+- Reuters, 4 Nov 2026: https://www.reuters.com/business/india-approves-297-million-incentive-policy-lithium-nickel-processing-2026-11-04/
+- India Today, 4 Nov 2026, 16:48 IST: https://www.indiatoday.in/business/story/cabinet-approves-rs-2814-crore-critical-minerals-processing-scheme-lithium-nickel-plants-3032151-2026-11-04
 
-### N5 — ₹2,814-crore scheme for lithium and nickel processing
-**Status:** Backup candidate; not included in this 10-minute script.  
-The Union Cabinet approved a five-year ₹2,814-crore capital-support scheme for domestic processing of lithium and nickel. It provides 30% capital subsidy for four plants—two lithium and two nickel—with beneficiary caps and milestone-linked payments. Explain the practical objective: build more processing capacity in India and reduce dependence on imported refined materials used in batteries, electronics, electric mobility and defence. Do not imply that the scheme itself has already produced lithium or lowered battery prices.  
-**Sources:** Prime Minister’s Office official release (4 Nov): https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/ ; Reuters (4 Nov): https://www.reuters.com/business/india-approves-297-million-incentive-policy-lithium-nickel-processing-2026-11-04/ ; India Today (4 Nov): https://www.indiatoday.in/amp/business/story/cabinet-approves-rs-2814-crore-critical-minerals-processing-scheme-lithium-nickel-plants-3032151-2026-11-04 ; Business Standard (4 Nov): https://www.business-standard.com/india-news/cabinet-clears-2-814-crore-support-for-lithium-nickel-processing-plants-126110401937_1.html
+### N7 — Delhi-NCR Diwali green-cracker window is tightly restricted
+Supreme Court's temporary relaxation allows certified green crackers only on 7 and 8 November, between 6–7 am and 8–10 pm. A 300-metre no-cracker zone applies around hospitals, nursing homes, primary/district health centres, old-age homes, educational institutions and notified silence zones. Complete ban resumes from 9 November.
+**Treatment:** Relevant to Delhi-NCR/Meerut-Ghaziabad audiences. Do not say ordinary firecrackers or joined “ladis” are permitted. Check current local enforcement instructions before broadcast.
+Sources:
+- Economic Times, 2 Nov 2026, 15:52 IST: https://economictimes.indiatimes.com/news/india/diwali-firecracker-curbs-sc-sets-two-time-periods-for-fireworks-bans-bursting-near-hospitals/articleshow/135453944.cms
+- NDTV Profit, 2 Nov 2026, 15:21 IST: https://www.ndtvprofit.com/india/diwali-2026-supreme-court-allows-certified-green-crackers-in-delhi-12270711
+- Indian Express, 3 Nov 2026, 09:13 IST: https://indianexpress.com/article/legal-news/supreme-court-green-crackers-delhi-ncr-diwali-timings-sale-rules-10948099/lite/
 
-### N6 — Draft drug rules propose faster suspension after specified quality failures
-**Status:** Backup candidate; not included in this 10-minute script.  
-A draft amendment, G.S.R. 956(E), dated 28 October and published in the Gazette on 4 November, proposes immediate suspension of a manufacturing licence after specified government test failures, with suspension continuing until root-cause analysis and corrective/preventive action are verified. It is a draft open for comments, not a rule already in force. The official eGazette PDF URL was identified through the Gazette Tracker “Official source” link, but the PDF fetch timed out during this run; Reuters and the Gazette transcript corroborate the draft. Keep the “draft—not yet in force” qualification in every mention.  
-**Sources:** Reuters (4 Nov): https://www.reuters.com/legal/litigation/india-proposes-instant-manufacturing-licence-suspension-drugs-failing-quality-2026-11-04/ ; Gazette Tracker transcript (published 4 Nov): https://www.gazettetracker.com/g/CG-DL-E-04112026-277656 ; Official eGazette PDF: https://egazette.gov.in/WriteReadData/2026/277656.pdf
+## C. Weather — latest official IMD pages checked
 
-### N7 — Supreme Court’s green-cracker time window for Delhi-NCR
-**Allocation:** 42 seconds.  
-The reported 29 October Supreme Court order permits certified green crackers only from 6–7 am and 8–10 pm on 7 and 8 November. A 300-metre no-cracker zone applies around specified hospitals, health facilities, old-age homes, educational institutions and notified silence zones. The full ban returns on 9 November. This is relevant to Delhi-NCR viewers; do not imply that it is a nationwide rule. Human review required for the fireworks visual.  
-**Sources:** ThePrint/PTI (2 Nov): https://theprint.in/india/sc-allows-bursting-of-green-firecrackers-in-delhi-ncr-from-6-7-am-8-10-pm-on-nov-7-8/3088152/ ; The Indian Express (3 Nov): https://indianexpress.com/article/legal-news/supreme-court-green-crackers-delhi-ncr-diwali-timings-sale-rules-10948099/lite/ ; ETGovernment/PTI (2 Nov): https://government.economictimes.indiatimes.com/news/governance/sc-allows-bursting-of-green-firecrackers-in-delhi-ncr-from-6-7-am-8-10-pm-on-nov-7-8/135454412
+### Western UP
+- IMD Regional Meteorological Centre New Delhi subdivision warning page issued **5 November 2026**: West Uttar Pradesh shows **No warning** for 5–11 November. The page displays issue date but not exact issue time.
+- IMD Bareilly city forecast page is dated **3 November 2026**; for 5 November it gives mainly clear sky, minimum 17°C and maximum 29°C, no warning.
+- IMD Sambhal APMC page is dated **3 November 2026**; for 5 November it gives sunny day, minimum 18.5°C and maximum 30.0°C.
+- No current Moradabad city-level IMD temperature forecast was retrieved. Do not invent one; subdivision-level West UP warning remains no warning.
+Sources:
+- IMD RMC New Delhi, issued 5 Nov: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25
+- IMD Bareilly: https://city.imd.gov.in/citywx/citywxnew.php?id=42189
+- IMD Sambhal APMC: https://city.imd.gov.in/citywx/citywxnew.php?id=100200
 
-## Weather — fresh IMD check at 03:20 IST
+### India-wide warning summary
+- IMD Met Centre Amaravati page issued 5 Nov: Coastal Andhra Pradesh and Rayalaseema have thunderstorm/lightning/squall and strong-surface-wind warnings for 5–8 November; no warning from 9 November on that page.
+- IMD Met Centre Bengaluru page issued 5 Nov: Coastal Karnataka has thunderstorm/lightning/squall warning for 5 November; South Interior Karnataka has heavy-rain and thunderstorm/squall warning for 5–6 November; no warning thereafter on that page.
+- IMD Met Centre Bhubaneswar page issued 5 Nov: Odisha has thunderstorm/lightning/squall warning for 5 November only.
+- IMD page for West UP: no warning 5–11 November.
+Sources:
+- IMD Amaravati: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2
+- IMD Bengaluru: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13
+- IMD Bhubaneswar: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=10
+- IMD RMC New Delhi: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25
 
-### Western Uttar Pradesh
-IMD Met Centre Lucknow’s live subdivision warning page was issued on **5 November 2026**. It shows **No warning** for West Uttar Pradesh on each day from 5 through 11 November. The page does not display an issue time. The latest city forecast pages available in this check are older: Bareilly’s page dated 3 November lists 5 November as clear, 17–29°C; Sambhal APMC’s page dated 3 November lists a sunny day, 18.5–30°C. These are city/station forecasts, not a district-wide forecast. No current Moradabad city temperature forecast was verified, so none is quoted.  
-**Sources:** IMD Met Centre Lucknow (issued 5 Nov): https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=5 ; IMD Bareilly city forecast (dated 3 Nov): https://city.imd.gov.in/citywx/citywxnew.php?id=42189 ; IMD Sambhal APMC forecast (dated 3 Nov): https://city.imd.gov.in/citywx/citywxnew.php?id=100200
+## D. Proposed 10-minute rundown
+| Time | Segment | Duration |
+|---|---|---:|
+| 00:00–00:20 | Hook and intro | 0:20 |
+| 00:20–02:00 | Moradabad Bolero crash; village-road safety | 1:40 |
+| 02:00–03:15 | Bareilly farmers: paddy procurement and cane-price demands | 1:15 |
+| 03:15–03:50 | Kundarki wedding-hall clash — only if police/second outlet confirms; otherwise expand W1/W2 | 0:35 |
+| 03:50–04:45 | Food inflation and winter sowing | 0:55 |
+| 04:45–05:35 | Murasu cyclone crop/power recovery | 0:50 |
+| 05:35–06:20 | Food vs fuel: ethanol | 0:45 |
+| 06:20–07:05 | Energy-drink label case | 0:45 |
+| 07:05–07:50 | AI cyberattack warning and safe banking | 0:45 |
+| 07:50–08:35 | Critical-minerals scheme | 0:45 |
+| 08:35–09:05 | Delhi-NCR green-cracker restrictions | 0:30 |
+| 09:05–09:50 | Weather: West UP first, then national warnings | 0:45 |
+| 09:50–10:00 | Close | 0:10 |
+**Target split:** West UP 3:30 (35%); wider India/UP 6:30 (65%). If W3 is not confirmed, do not broadcast it; use its 35 seconds for deeper verified context on W1/W2.
 
-### All India
-The live IMD subdivision pages issued 5 November show thunderstorm/lightning/squall and strong-surface-wind warnings for Coastal Andhra Pradesh and Rayalaseema (5–8 Nov); Kerala has thunderstorm/lightning on 5 Nov and heavy-rain/thunderstorm warnings 6–8 Nov; Odisha has thunderstorm/lightning/squall on 5 Nov; South Interior Karnataka has heavy-rain/thunderstorm warnings 5–6 Nov, and Coastal Karnataka has thunderstorm/lightning on 5 Nov. Use district-wise bulletins for local decisions; do not generalise a subdivision alert to every district. IMD’s 4 November national press release (issued 13:00 IST) also stated no significant weather over Northwest, West and Northeast India during the week.  
-**Sources:** IMD Amaravati: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2 ; IMD Kerala: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=4 ; IMD Odisha: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=10 ; IMD Karnataka: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13 ; IMD national press release PDF (4 Nov, 13:00 IST): https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2004-11-2026_1793778009.pdf
-
-## Verification and production safeguards
-- Western UP share is 213/600 seconds = 35.5%; five India-wide story blocks in the final script occupy 266 seconds; weather 86 seconds; opening 28 seconds; close 7 seconds.
-- No routine jobs, recruitment or exam notices.
-- Amroha narration uses only facts common to two reports; no injury count, arrest claim or graphic imagery.
-- FSDA inspection, seizure, licence suspension and laboratory results are distinguished.
-- Namo Bharat is described as 20 additional trips, not 20 new trains; no unverified departure time.
-- CAQM's 5–20 November preventive measures are limited to named NCR jurisdictions; Ghaziabad and Gautam Buddha Nagar are the Western UP locations in this story. Construction exemptions and WFH exceptions are kept distinct.
-- Ethanol 15–17% is labelled an industry estimate, not an official revised target.
-- Energy-drink hearing result was not known at the 03:20 IST cut-off.
-- Drug-rule change is explicitly a draft; the official eGazette PDF link was identified but timed out when opened.
-- IMD West UP warning page issued 5 Nov was rechecked at 03:20 IST and still shows no warning 5–11 Nov; Bareilly and Sambhal city forecasts are dated 3 Nov and labelled accordingly.
-- Use only original or commercially licensed visuals. No news footage, screenshots, publisher photos, social-media clips, music or logos.
-- Existing Commons CC0/CC BY-SA assets require exact creator, source and licence attribution. Human review remains required for road-safety/crime and fireworks visuals, the generic WFH illustration, and final Hindi voice pronunciation/pacing. Do not publish until review is complete.
+## E. Pre-script / pre-render checks
+1. Confirm Moradabad injured-child count, FIR and driver custody with police.
+2. Obtain Bareilly procurement administration response.
+3. Verify Kundarki incident with police or second independent outlet; otherwise drop.
+4. Recheck FSSAI/Delhi High Court case status.
+5. Refresh Andhra crop-loss and restoration numbers.
+6. Refresh IMD warnings immediately before narration.
+7. Use only original or rights-cleared visuals; no TV clips, news screenshots or social video without explicit rights.
+8. This is research, not a script, render or YouTube publication.
