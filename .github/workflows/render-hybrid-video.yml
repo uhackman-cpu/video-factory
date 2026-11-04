@@ -87,6 +87,8 @@ jobs:
             --voice-gender "$VOICE_GENDER"
 
       - name: Verify output
+        env:
+          OUTPUT_NAME: ${{ inputs.output_name }}
         run: |
           test -s "output/$OUTPUT_NAME"
           test -s output/credits.txt
