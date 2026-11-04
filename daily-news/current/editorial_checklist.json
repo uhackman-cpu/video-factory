@@ -107,7 +107,7 @@
   },
   "visual_audio_clearance": {
     "status": "PASS_WITH_HUMAN_REVIEW_PENDING",
-    "details": "All asset records retain source pages, creators, rights holders, licence versions, commercial/adaptation permissions and attribution. Existing licensed laptop image is reused for the WFH illustration; no new external asset added. Kokoro-82M Apache-2.0 hm_omega local TTS selected; final voice quality still needs listening review."
+    "details": "All asset records retain source pages, creators, rights holders, licence versions, commercial/adaptation permissions and attribution. Existing licensed laptop image is reused for the WFH illustration; no new external asset added. Kokoro-82M Apache-2.0 hm_omega local TTS selected; final voice quality still needs listening review. The committed credits.txt now includes each asset's exact required_attribution_text verbatim, including Kokoro-82M Apache-2.0 attribution; the rendered credits also list scene creator, source page, licence and licence URL."
   },
   "technical_checks": {
     "status": "RENDER_IN_PROGRESS",
@@ -122,7 +122,8 @@
       "The earlier render run 41911840929 also completed successfully with artifact 13366330890; it is an older edition.",
       "The updated main-branch manifest now has 13 scenes, 600 seconds, 1203 words and 213 seconds (35.5%) of Western UP editorial time.",
       "Human review remains mandatory for Amroha representative highway imagery, Diwali fireworks safety framing, the WFH illustrative visual and complete Hindi voice pronunciation/pacing/audio.",
-      "New render run 41921052229 has been accepted and is in progress on the latest manifest commit; no duplicate render was queued."
+      "New render run 41921052229 has been accepted and is in progress on the latest manifest commit; no duplicate render was queued.",
+      "Repository credits.txt includes exact required attribution text for all nine asset records; rendered credits are generated from each scene's creator, source page, licence and licence URL plus Kokoro voice attribution."
     ],
     "workflow_runs": {
       "previous_render": "https://github.com/uhackman-cpu/video-factory/actions/runs/41912717975",
