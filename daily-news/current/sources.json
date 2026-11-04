@@ -1,7 +1,7 @@
 {
   "research_date": "2026-11-05",
-  "accessed_at": "2026-11-05T03:00:57+05:30",
-  "cut_off": "2026-11-05T03:00:57+05:30",
+  "accessed_at": "2026-11-05T03:20:11+05:30",
+  "cut_off": "2026-11-05T03:20:11+05:30",
   "audience_and_mix": {
     "audience": [
       "rural and village Hindi-speaking viewers",
@@ -10,14 +10,15 @@
     "story_style": "engaging, surprising, conversation-worthy and relatable without exaggeration",
     "western_up_share_percent": 35,
     "india_and_wider_up_share_percent": 65,
-    "routine_jobs_exams": "excluded from this bulletin"
+    "routine_jobs_exams": "excluded from this bulletin",
+    "editorial_note": "Western UP coverage includes Amroha, Bareilly/Moradabad, Muzaffarnagar, Meerut corridor and Ghaziabad/Noida; no routine job/exam items."
   },
   "stories": [
     {
       "id": "W1",
       "title": "Amroha SUV crash: two young men killed; reports differ on other details",
       "region": "Western UP",
-      "duration_seconds": 62,
+      "duration_seconds": 55,
       "claims": [
         {
           "id": "W1-C1",
@@ -43,7 +44,7 @@
       "id": "W2",
       "title": "UP FSDA pre-Diwali crackdown with Bareilly, Moradabad and Muzaffarnagar examples",
       "region": "Western UP",
-      "duration_seconds": 115,
+      "duration_seconds": 95,
       "claims": [
         {
           "id": "W2-C1",
@@ -80,7 +81,7 @@
       "id": "W3",
       "title": "NCRTC adds 20 Namo Bharat trips on Delhi–Meerut corridor",
       "region": "Western UP",
-      "duration_seconds": 36,
+      "duration_seconds": 20,
       "claims": [
         {
           "id": "W3-C1",
@@ -107,7 +108,7 @@
       "id": "N1",
       "title": "Weak monsoon, rabi sowing and household food-price risk",
       "region": "India",
-      "duration_seconds": 55,
+      "duration_seconds": 60,
       "claims": [
         {
           "id": "N1-C1",
@@ -132,7 +133,7 @@
       "id": "N2",
       "title": "Ethanol blending: food security versus fuel target",
       "region": "India",
-      "duration_seconds": 30,
+      "duration_seconds": 34,
       "claims": [
         {
           "id": "N2-C1",
@@ -158,7 +159,7 @@
       "id": "N3",
       "title": "FSSAI energy-drink labelling dispute",
       "region": "India",
-      "duration_seconds": 45,
+      "duration_seconds": 60,
       "claims": [
         {
           "id": "N3-C1",
@@ -185,7 +186,7 @@
       "id": "N4",
       "title": "CERT-In critical warning on AI-assisted financial cyberattacks",
       "region": "India",
-      "duration_seconds": 55,
+      "duration_seconds": 70,
       "claims": [
         {
           "id": "N4-C1",
@@ -221,7 +222,7 @@
       "id": "N5",
       "title": "₹2,814-crore scheme for lithium and nickel processing",
       "region": "India",
-      "duration_seconds": 45,
+      "duration_seconds": 0,
       "claims": [
         {
           "id": "N5-C1",
@@ -245,13 +246,15 @@
           "confidence": "Official PM India release and independent news reports."
         }
       ],
-      "editorial_caution": "Do not imply the scheme has already produced minerals or reduced battery prices; explain it as a capacity-building programme."
+      "editorial_caution": "Do not imply the scheme has already produced minerals or reduced battery prices; explain it as a capacity-building programme.",
+      "editorial_status": "BACKUP_NOT_USED",
+      "hold_reason": "Not included in this 10-minute cut; retained as a verified backup candidate."
     },
     {
       "id": "N6",
       "title": "Draft drug rules propose immediate suspension after specified quality failures",
       "region": "India",
-      "duration_seconds": 40,
+      "duration_seconds": 0,
       "claims": [
         {
           "id": "N6-C1",
@@ -275,14 +278,14 @@
         }
       ],
       "editorial_caution": "Draft proposal only; do not present as a rule already in force.",
-      "editorial_status": "INCLUDE_WITH_CAUTION",
-      "hold_reason": "Draft only, not in force. Official eGazette PDF URL identified but timed out on retrieval; Reuters and Gazette Tracker transcript corroborate the notification. Human/legal review required before final publication."
+      "editorial_status": "BACKUP_NOT_USED",
+      "hold_reason": "Draft rule and primary Gazette PDF not fully verified; excluded from this cut."
     },
     {
       "id": "N7",
       "title": "Supreme Court green-cracker timings for Delhi-NCR",
       "region": "India/NCR",
-      "duration_seconds": 30,
+      "duration_seconds": 42,
       "claims": [
         {
           "id": "N7-C1",
@@ -306,6 +309,35 @@
         }
       ],
       "editorial_caution": "No implication of unrestricted sale/use; explain certification, dates, time windows and no-cracker zones."
+    },
+    {
+      "id": "W4",
+      "title": "CAQM 50% office attendance and dust-generating construction curbs across NCR, including Ghaziabad and Gautam Buddha Nagar",
+      "region": "Western UP",
+      "duration_seconds": 43,
+      "claims": [
+        {
+          "id": "W4-C1",
+          "claim": "A CAQM order dated 30 October provides that from 5 to 20 November 2026, government and private offices in Delhi, Gurugram, Faridabad, Sonipat, Ghaziabad and Gautam Buddha Nagar may have up to 50% physical attendance, with remaining staff working from home; industrial establishments and essential services where WFH is not feasible are exempt.",
+          "source_ids": [
+            "S43",
+            "S44",
+            "S45"
+          ],
+          "confidence": "Three independent reports describe the same CAQM order; direct official order PDF was not retrieved in this refresh, so attribute the measure to CAQM and preserve the listed jurisdictions and exceptions."
+        },
+        {
+          "id": "W4-C2",
+          "claim": "Dust-generating demolition and outdoor construction are restricted across NCR for the same period, with exemptions for railways, metro, airports, inter-state bus terminals, hospitals, water supply, sanitation, national security/defence and projects of national importance.",
+          "source_ids": [
+            "S43",
+            "S44",
+            "S45"
+          ],
+          "confidence": "Three independent reports quoting/describing the CAQM order; do not broaden beyond the stated exemptions."
+        }
+      ],
+      "editorial_caution": "Temporary preventive measure, not a permanent rule or a blanket Uttar Pradesh order. It applies to Ghaziabad and Gautam Buddha Nagar among named areas. Use only a generic laptop illustration, not footage implying an actual office or enforcement scene."
     }
   ],
   "sources": [
@@ -698,12 +730,12 @@
       "title": "Sub-division-wise warnings: East and West Uttar Pradesh",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=5",
       "published_at": "2026-11-05",
-      "accessed_at": "2026-11-05T03:00:57+05:30",
+      "accessed_at": "2026-11-05T03:20:11+05:30",
       "source_type": "official",
       "claims_supported": [
         "West Uttar Pradesh no warning for 5–11 Nov; East Uttar Pradesh no warning for 5–11 Nov"
       ],
-      "verification_notes": "Live warning page issued 5 Nov; no time-of-issue displayed."
+      "verification_notes": "Live IMD Met Centre Lucknow subdivision warning page rechecked at 03:20 IST on 5 Nov; no issue time displayed."
     },
     {
       "id": "S25",
@@ -996,33 +1028,84 @@
         "N2-C2"
       ],
       "verification_notes": "Earlier Reuters report on the OMC tender excluding sugar-based feedstocks; provides procurement context, not an independent estimate of 15–17% blending."
+    },
+    {
+      "id": "S43",
+      "story_ids": [
+        "W4"
+      ],
+      "publisher": "SCC Times",
+      "title": "Delhi-NCR air pollution: CAQM curbs construction and caps office attendance at 50% from 5 to 20 November",
+      "url": "https://www.scconline.com/blog/post/2026/11/04/caqm-construction-curbs-50-percent-work-from-home-delhi-ncr-november-2026/",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T03:20:11+05:30",
+      "source_type": "news",
+      "claims_supported": [
+        "W4-C1",
+        "W4-C2"
+      ],
+      "verification_notes": "Legal explainer describes CAQM order dated 30 Oct, listed districts, 50% attendance and construction exemptions. Direct CAQM order PDF was not retrieved in this refresh."
+    },
+    {
+      "id": "S44",
+      "story_ids": [
+        "W4"
+      ],
+      "publisher": "The New Indian Express",
+      "title": "CAQM orders 50% WFH for Delhi-NCR offices, restricts construction activities from Nov 5 to 20",
+      "url": "https://www.newindianexpress.com/cities/delhi/2026/Oct/31/caqm-orders-50-wfh-for-delhi-ncr-offices-restricts-construction-activities-from-nov-5-to-20",
+      "published_at": "2026-10-31",
+      "accessed_at": "2026-11-05T03:20:11+05:30",
+      "source_type": "news",
+      "claims_supported": [
+        "W4-C1",
+        "W4-C2"
+      ],
+      "verification_notes": "Reports Delhi plus Gurugram, Faridabad, Sonipat, Ghaziabad and Gautam Buddha Nagar; specifies 5–20 Nov period and exemptions."
+    },
+    {
+      "id": "S45",
+      "story_ids": [
+        "W4"
+      ],
+      "publisher": "Moneycontrol",
+      "title": "Gurugram orders 50% work from home, restricts construction activities from November 5 amid pollution concerns",
+      "url": "https://www.moneycontrol.com/news/india/gurugram-orders-50-work-from-home-restricts-construction-activities-from-november-5-amid-pollution-concerns-14068129.html",
+      "published_at": "2026-11-04T02:58:00+05:30",
+      "accessed_at": "2026-11-05T03:20:11+05:30",
+      "source_type": "news",
+      "claims_supported": [
+        "W4-C1",
+        "W4-C2"
+      ],
+      "verification_notes": "Corroborates the 30 Oct CAQM direction and local implementation in Gurugram; additional confirmation of the order, not a source for UP district details."
     }
   ],
   "production_checks": [
-    "Seven India-wide story blocks plus three Western UP stories; no routine job, recruitment or exam items.",
-    "Western UP scenes total 213/600 seconds (35.5%); seven India-wide stories total 300 seconds; weather 50 seconds; opening 20 seconds; close 17 seconds.",
+    "Selected final script: Western UP coverage includes Amroha, Bareilly/Moradabad FSDA, Muzaffarnagar sweets, Meerut Namo Bharat corridor and Ghaziabad/Noida CAQM measures; five India-wide stories; no routine job, recruitment or exam notices.",
+    "Western UP scenes total 213/600 seconds (35.5%); five India-wide story scenes total 266 seconds; weather 86 seconds; opening 28 seconds; close 7 seconds.",
+    "CAQM WFH/construction measure effective 5–20 Nov is corroborated by three reports; it applies to Ghaziabad and Gautam Buddha Nagar among named NCR areas. Direct official order PDF not retrieved; keep attribution and exceptions.",
     "Amroha narration uses only facts common to two reports; no injury count, arrest claim, crash footage or victim-identifying detail.",
     "FSDA inspection, seizure, licence suspension and laboratory results are clearly distinguished; Muzaffarnagar sweet description kept general because reports differ.",
-    "Namo Bharat is described as 20 additional trips, not 20 new trains; live timetable is not stated.",
+    "Namo Bharat is described as 20 additional trips, not 20 new trains; no unverified departure time.",
     "Food inflation figures are official September CPI data; weak-soil-moisture and crop-price impacts are described as risk/outlook.",
     "Ethanol 15–17% is labelled an industry estimate, not a government revision of E20.",
-    "Energy-drink matter is a labelling/legal dispute; no toxicity finding or final hearing result is claimed.",
+    "Energy-drink matter is a labelling/legal dispute; no toxicity finding or final hearing result is claimed as of 03:20 IST.",
     "AI cyber advisory is directed at financial institutions; consumer precautions are general and do not imply all accounts are compromised.",
-    "Critical minerals scheme details checked against PM India official release and independent news reports.",
-    "Drug-rule item is a draft, not in force; official eGazette PDF URL identified but timed out when fetched.",
+    "Critical-minerals scheme and draft drug-rule items are retained as backup research only and are not in this script; the draft drug-rule item remains excluded pending primary Gazette verification.",
     "Green-cracker order is Delhi-NCR-specific and applies only to certified green crackers during the stated windows.",
-    "Fresh IMD West UP warning page issued 5 Nov shows no warning 5–11 Nov; local city forecasts are dated 3 Nov and labelled accordingly.",
-    "All visuals must be original or commercially licensed; no news footage, screenshots, publisher photos, social-media clips, music or logos.",
-    "Human review remains required for road-safety/crime and fireworks visuals and final Hindi voice pronunciation/pacing; no YouTube publication is authorised."
+    "Fresh IMD West UP warning page issued 5 Nov was rechecked at 03:20 IST; no West UP subdivision warning is shown for 5–11 Nov. Bareilly/Sambhal station forecasts remain dated 3 Nov; no current Moradabad temperature is invented.",
+    "All visuals are original or commercially licensed; no news footage, screenshots, publisher photos, social-media clips, music or logos.",
+    "Human review remains required for road-safety/crime and fireworks visuals, representative WFH visual, and final Hindi voice pronunciation/pacing; no YouTube publication is authorised."
   ],
   "weather_summary": {
-    "checked_at": "2026-11-05T03:00:57+05:30",
+    "checked_at": "2026-11-05T03:20:11+05:30",
     "western_up": {
       "source_id": "S24",
       "valid_dates": "2026-11-05 to 2026-11-11",
       "issue_date": "2026-11-05",
       "issue_time": "Not displayed on live warning page",
-      "warning": "No warning for West Uttar Pradesh on all seven days",
+      "warning": "No warning for West Uttar Pradesh on all seven days, 5–11 Nov, on the live IMD subdivision page checked at 03:20 IST.",
       "city_forecasts": [
         {
           "source_id": "S25",
@@ -1041,7 +1124,8 @@
           "summary": "Sunny day; city/station forecast page dated 2026-11-03"
         }
       ],
-      "limitations": "No current Moradabad city temperature forecast verified; do not invent one or generalise Bareilly/Sambhal station values to the entire district."
+      "limitations": "No current Moradabad city temperature forecast verified; do not invent one or generalise Bareilly/Sambhal station values to the entire district.",
+      "duration_seconds": 86
     },
     "all_india": {
       "sources": [
@@ -1052,7 +1136,8 @@
         "S40"
       ],
       "issue_date": "2026-11-05 for live subdivision pages; 2026-11-04 13:00 IST for national press release",
-      "summary": "Warnings: Coastal Andhra Pradesh and Rayalaseema thunderstorm/lightning/squall and strong surface winds 5–8 Nov; Kerala thunderstorm/lightning 5 Nov and heavy rain/thunderstorm 6–8 Nov; Odisha thunderstorm/lightning/squall 5 Nov; South Interior Karnataka heavy rain/thunderstorm 5–6 Nov; Coastal Karnataka thunderstorm/lightning 5 Nov. IMD 4 Nov national release also said no significant weather over Northwest, West and Northeast India during the week."
+      "summary": "Warnings: Coastal Andhra Pradesh and Rayalaseema thunderstorm/lightning/squall and strong surface winds 5–8 Nov; Kerala thunderstorm/lightning 5 Nov and heavy rain/thunderstorm 6–8 Nov; Odisha thunderstorm/lightning/squall 5 Nov; South Interior Karnataka heavy rain/thunderstorm 5–6 Nov; Coastal Karnataka thunderstorm/lightning 5 Nov. IMD 4 Nov national release also said no significant weather over Northwest, West and Northeast India during the week.",
+      "duration_seconds": 86
     }
   }
 }
