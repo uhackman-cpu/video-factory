@@ -86,7 +86,6 @@
           "id": "W3-C1",
           "claim": "NCRTC announced 20 additional Namo Bharat trips from 4 November on the Delhi–Meerut corridor.",
           "source_ids": [
-            "S08",
             "S09",
             "S10"
           ],
@@ -436,10 +435,8 @@
       "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T03:00:57+05:30",
       "source_type": "official",
-      "claims_supported": [
-        "W3-C1"
-      ],
-      "verification_notes": "Official NCRTC social/public notice mirrored on its website; check live operations before broadcast."
+      "claims_supported": [],
+      "verification_notes": "The general NCRTC page no longer displays the 4 Nov additional-trip notice at the 03:00 IST refresh; do not use this page as proof of the specific 20-trip announcement."
     },
     {
       "id": "S09",
