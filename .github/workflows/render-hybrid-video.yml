@@ -1,0 +1,96 @@
+name: Render Hybrid Facts Video
+
+on:
+  workflow_dispatch:
+    inputs:
+      project_json:
+        description: "Complete hybrid video project JSON manifest"
+        required: true
+        type: string
+      voice_gender:
+        description: "Hindi narration voice"
+        required: true
+        type: choice
+        options:
+          - male
+          - female
+        default: male
+      output_name:
+        description: "Output MP4 filename"
+        required: true
+        type: string
+        default: hybrid-facts.mp4
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hybrid-video-render-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install FFmpeg and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-noto-core
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Write project manifest
+        env:
+          PROJECT_JSON: ${{ inputs.project_json }}
+        run: |
+          mkdir -p output
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          project = json.loads(os.environ["PROJECT_JSON"])
+          Path("output/project.json").write_text(
+              json.dumps(project, ensure_ascii=False, indent=2), encoding="utf-8"
+          )
+          PY
+
+      - name: Render hybrid video
+        run: |
+          python -m engine.hybrid_renderer \
+            --project output/project.json \
+            --output "output/${{ inputs.output_name }}" \
+            --voice-gender "${{ inputs.voice_gender }}"
+
+      - name: Verify output
+        run: |
+          test -s "output/${{ inputs.output_name }}"
+          test -s output/credits.txt
+          ffprobe -v error -show_entries format=duration,size \
+            -of default=noprint_wrappers=1 "output/${{ inputs.output_name }}"
+
+      - name: Upload video and production records
+        uses: actions/upload-artifact@v4
+        with:
+          name: hybrid-facts-video
+          path: |
+            output/*.mp4
+            output/*.srt
+            output/credits.txt
+            output/project.json
+          if-no-files-found: error
+          retention-days: 7
