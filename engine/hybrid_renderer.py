@@ -207,6 +207,7 @@ def render_project(project: dict, output: Path, voice_gender: str = "male") -> N
             f"Title: {project['title']}",
             f"Format: {project.get('format', 'short')}",
             f"Project licence: {project.get('project_license', 'Not specified')}",
+            f"Project licence URL: {project.get('project_license_url', '')}",
         ]
         for index, scene in enumerate(project["scenes"], 1):
             extension = ".mp4" if scene["kind"] == "video" else ".img"
@@ -217,7 +218,7 @@ def render_project(project: dict, output: Path, voice_gender: str = "male") -> N
             segments.append(segment)
             credits.append(
                 f"Scene {index}: {scene['credit']} | {scene['license']} | "
-                f"{scene['source_page']} | {scene.get('visual_note', '')}"
+                f"{scene['source_page']} | {scene.get('license_url', '')} | {scene.get('visual_note', '')}"
             )
 
         concat_file = work / "concat.txt"
