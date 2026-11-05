@@ -1,9 +1,9 @@
 # Hindi Facts — Daily News Research
 **Edition:** Thursday, 5 November 2026  
-**Research cut-off:** 07:00 IST, 5 November 2026  
+**Research cut-off:** 07:24 IST, 5 November 2026  
 **Audience:** Hindi-speaking rural/village viewers and urban lower-/middle-class households  
 **Editorial split:** Western UP 35% (3:30); India/UP-wide 65% (6:30)  
-**Status:** Latest 07:00 research refresh appended; active 10-minute lineup supersedes earlier running order. This research run did not render or publish a video.
+**Status:** Final 07:24 IST pre-render refresh checked CAQM order, current IMD warnings, local Moradabad/Bijnor reports and court/consumer updates; active 10-minute lineup supersedes earlier running order. This research run did not render or publish a video.
 
 ## Editorial rules
 - Prioritise verified, relatable, discussion-worthy stories: household costs, food safety, transport, farming, markets, cyber fraud, unusual human-interest and major public-interest decisions.
@@ -289,3 +289,20 @@ Sources:
 - For the paneer test, show a simple original diagram only; state clearly that it detects starch, not every adulterant.
 - For the firecracker story, use an original generic safety graphic, not images of the actual seized material unless rights are cleared.
 - Recheck CAQM amendments, court hearing outcome and IMD warnings immediately before narration/render.
+
+
+## Final pre-render refresh — 07:24 IST, 5 November 2026
+
+- **Moradabad fireworks:** Amar Ujala (5 Nov 00:52 IST), NewsTrack and Royal Bulletin report a police raid at a house in Gudiya Bagh, Nagphani. Police say 83 kg 250 g gunpowder, 27 sacks of fireworks and two arrests; an FIR was registered. These outlets repeat the same police-origin account, so attribute it to police rather than calling the reports independent investigations. Sources: https://www.amarujala.com/uttar-pradesh/moradabad/illegal-firecracker-factory-operating-in-a-house-in-a-densely-populated-area-two-brothers-arrested-moradabad-news-c-15-1-mbd1027-1031849-2026-11-05 ; https://newstrack.com/uttar-pradesh/moradabad/moradabad-illegal-firecracker-factory-busted-83-kg-gunpowder-seized-two-arrested-645825 ; https://royalbulletin.in/uttar-pradesh/moradabad/illegal-firecracker-factory-busted-in-moradabad-83-kg-gunpowder-seized/article-251782
+- **Bijnor paneer test:** Amar Ujala quotes the assistant food commissioner on the iodine test; FSSAI DART confirms boil 2–3 ml of sample with water, cool, add 2–3 drops of iodine; blue indicates starch. It is not a universal adulteration or safety test. Sources: https://www.amarujala.com/uttar-pradesh/bijnor/blue-color-will-testify-to-the-black-business-of-adulteration-in-cheese-bijnor-news-c-27-1-bij1027-194755-2026-11-05 ; https://www.eatrightindia.gov.in/dart/ ; https://www.fssai.gov.in/upload/uploadfiles/files/Manual_Methods_Testing_Adulterants_18_10_2019.pdf
+- **CAQM:** Reopened the signed 30 Oct order. Dust-generating demolition/outdoor construction is restricted across NCR from 5–20 Nov with listed essential-project exemptions. Up to 50% physical attendance applies to state and private offices in Delhi, Gurugram, Faridabad, Sonipat, Ghaziabad and Gautam Buddha Nagar; industrial/essential services are exempt where WFH is not feasible. Source: https://caqm.nic.in/FileUploadDomain/WebsiteDocument/GRAP/GRAP%20Orders/22e7a559-e78f-49b0-b3f6-3f4e93cfa80f.pdf
+- **Supreme Court:** Rechecked 5 Nov coverage. The two-child disqualification challenge is referred to a larger bench in a Maharashtra local-body case; no final nationwide or UP rule change is reported. Sources: https://indianexpress.com/article/legal-news/supreme-court-two-child-norm-local-body-elections-10950267/ ; https://www.hindustantimes.com/india-news/supreme-court-calls-for-fresh-look-at-2-child-norms-101793818690611.html
+- **Energy-drink labelling:** Rechecked Reuters and prior hearing coverage at 07:24 IST. The 5 Nov hearing is listed, but no new order was located by this cutoff; the narration does not predict an outcome. Sources: https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/ ; https://economictimes.indiatimes.com/industry/cons-products/food/relief-for-monster-energy-pepsico-in-fssai-energy-drink-case/articleshow/134744705.cms
+- **Ramayana:** Indian Express live update at 06:30 IST reports release on 5 Nov and advance-booking estimates; blocked seats are included in the larger figure, so this is not realised box-office revenue. Source: https://indianexpress.com/article/entertainment/bollywood/ramayana-part-1-movie-review-live-updates-ranbir-kapoor-yash-box-office-10950310/
+- **Weather:** Reopened IMD West UP warning page issued 5 Nov: no warning 5–11 Nov. Coastal Andhra/Rayalaseema: thunderstorm, lightning/squall and strong surface winds 5–8 Nov; Kerala: thunderstorm 5 Nov and heavy rain/thunderstorm 6–8 Nov; South Interior Karnataka: heavy rain/thunderstorm 5–6 Nov; Coastal Karnataka: thunderstorm 5 Nov. The subdivision pages show issue date but not exact issue time. Sources: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25 ; https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2 ; https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=4 ; https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13
+
+## Final production manifest
+Opening 0:15; Western UP 3:30 (bus 0:40, food safety 0:40, cyber complaint 0:40, fireworks 0:45, paneer starch test 0:30, West UP weather 0:15); wider India/UP 6:30 (food inflation 0:45, CAQM 0:55, two-child norm 0:45, gold/Dhanteras 0:40, energy-drink label 0:40, AI cyber warning 0:35, ODI 0:35, Ramayana 0:40, national weather 0:30, closing 0:10). Total 10:00; Western UP 35%; jobs/exams 0%.
+
+## Production HOLD
+Human listening of the full Kokoro narration, visual-label review, sensitive-story review, energy-drink hearing refresh and final artifact/SRT/credits check remain mandatory before publication. No YouTube upload or scheduling is authorised.
