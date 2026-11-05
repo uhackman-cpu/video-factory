@@ -258,7 +258,8 @@
         "two fire tenders extinguished fire in about 15 minutes",
         "preliminary tyre-burst explanation"
       ],
-      "notes": "Local report quotes police and Chief Fire Officer; obtain official incident note before asserting cause."
+      "notes": "Local report quotes police and Chief Fire Officer; obtain official incident note before asserting cause.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "W2-S1",
@@ -272,7 +273,8 @@
         "32 mobile squads in Bareilly and Moradabad",
         "reported hygiene and ingredient violations"
       ],
-      "notes": "Departmental figures reported by HT; seizures/samples are not final lab findings."
+      "notes": "Departmental figures reported by HT; seizures/samples are not final lab findings.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "W2-S2",
@@ -285,7 +287,8 @@
         "1,133 inspections and 27 licence suspensions",
         "Bareilly and Moradabad inspection findings"
       ],
-      "notes": "Independent newsroom report on FSDA spokesperson information."
+      "notes": "Independent newsroom report on FSDA spokesperson information.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "W2-S3",
@@ -299,7 +302,8 @@
         "two licence suspensions",
         "mouldy ghevar and unhygienic preparation reported"
       ],
-      "notes": "Attribute findings to the FSDA inspection; lab outcomes not supplied."
+      "notes": "Attribute findings to the FSDA inspection; lab outcomes not supplied.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "W2-S4",
@@ -313,7 +317,8 @@
         "flies found in stock",
         "notice issued to shop"
       ],
-      "notes": "Local food-safety officials are quoted; sample and action status should be checked before naming premises."
+      "notes": "Local food-safety officials are quoted; sample and action status should be checked before naming premises.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "W2-S5",
@@ -325,7 +330,8 @@
       "supports": [
         "Muzaffarnagar destruction of about 220 kg sweets"
       ],
-      "notes": "Current-day report; confirm exact local action with district FSDA before narration."
+      "notes": "Current-day report; confirm exact local action with district FSDA before narration.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "W3-S1",
@@ -339,7 +345,8 @@
         "complainant filed online complaint",
         "cyber police station in-charge advice"
       ],
-      "notes": "One local report; allegation does not establish Flipkart platform breach or involvement."
+      "notes": "One local report; allegation does not establish Flipkart platform breach or involvement.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "W3-S2",
@@ -347,11 +354,12 @@
       "publisher": "I4C / National Cyber Crime Reporting Portal",
       "title": "Official financial cyber-fraud reporting instructions",
       "published_at": null,
-      "url": "https://cybercrime.gov.in/webform/Crime_NodalGrivanceList.aspx",
+      "url": "https://cybercrime.gov.in/webform/crime_nodalgrivancelist.aspx",
       "supports": [
         "1930 helpline for immediate reporting of online financial fraud"
       ],
-      "notes": "Primary government portal; use practical reporting advice only."
+      "notes": "Primary government portal; use practical reporting advice only.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "W4-S1",
@@ -365,7 +373,8 @@
         "jewellery, auto, clothing and electronics demand",
         "advance two-wheeler bookings reported"
       ],
-      "notes": "Forecast by traders only, not audited sales or official district estimate."
+      "notes": "Forecast by traders only, not audited sales or official district estimate.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N1-S1",
@@ -378,7 +387,8 @@
         "weak monsoon and low soil moisture risk to winter planting",
         "food supply and price pressures"
       ],
-      "notes": "Outlook/risk, not proof of local retail price rises."
+      "notes": "Outlook/risk, not proof of local retail price rises.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N1-S2",
@@ -393,7 +403,8 @@
         "rural food inflation 8.06%",
         "urban food inflation 7.18%"
       ],
-      "notes": "Primary official CPI release."
+      "notes": "Primary official CPI release.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N3-S1",
@@ -408,7 +419,8 @@
         "bar and coin demand down 40%",
         "2026 full-year demand outlook 625–675 tonnes"
       ],
-      "notes": "Primary industry research; outlook is a forecast."
+      "notes": "Primary industry research; outlook is a forecast.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N3-S2",
@@ -421,7 +433,8 @@
         "high prices and rural affordability limiting demand",
         "about 650 tonnes full-year midpoint outlook"
       ],
-      "notes": "Reuters report quoting World Gold Council India chief."
+      "notes": "Reuters report quoting World Gold Council India chief.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N3-S3",
@@ -433,7 +446,8 @@
       "supports": [
         "Q3 demand, jewellery and bar/coin volumes"
       ],
-      "notes": "PTI-based report; WGC primary report is preferred for exact figures."
+      "notes": "PTI-based report; WGC primary report is preferred for exact figures.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N4-S1",
@@ -447,7 +461,8 @@
         "92 GWh target: 60 GWh pumped hydro, 30 GWh battery, 2 GWh emerging",
         "40% domestic content requirement for BESS"
       ],
-      "notes": "Primary Cabinet/PMO release."
+      "notes": "Primary Cabinet/PMO release.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N4-S2",
@@ -458,7 +473,8 @@
       "supports": [
         "Cabinet announcement and scheme purpose"
       ],
-      "notes": "Independent newsroom report on Cabinet announcement."
+      "notes": "Independent newsroom report on Cabinet announcement.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N4-S3",
@@ -469,20 +485,22 @@
       "supports": [
         "scheme capacity and estimated investment"
       ],
-      "notes": "Independent report; aligns with official release."
+      "notes": "Independent report; aligns with official release.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N5-S1",
       "story": "Prime Minister of India",
       "title": "Cabinet approves ₹2,814 crore critical mineral processing scheme",
       "published_at": "2026-11-04",
-      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/?comment=disable",
       "supports": [
         "₹2,814 crore five-year outlay",
         "four plants: two lithium and two nickel",
         "30% capital subsidy on eligible investment"
       ],
-      "notes": "Primary Cabinet/PMO release."
+      "notes": "Primary Cabinet/PMO release.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N5-S2",
@@ -493,7 +511,8 @@
       "supports": [
         "Cabinet approval and supply-chain rationale"
       ],
-      "notes": "Independent news report; official release governs scheme detail."
+      "notes": "Independent news report; official release governs scheme detail.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N6-S1",
@@ -505,7 +524,8 @@
         "I4C advisory to banks/NBFCs/fintechs",
         "attack method and recommended safeguards"
       ],
-      "notes": "Primary advisory text is not linked in the report; do not overstate the risk to ordinary personal bank accounts."
+      "notes": "Primary advisory text is not linked in the report; do not overstate the risk to ordinary personal bank accounts.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N6-S2",
@@ -518,7 +538,8 @@
         "API and fund-disbursement risk",
         "six-hour incident reporting"
       ],
-      "notes": "PTI report, separate from Reuters report."
+      "notes": "PTI report, separate from Reuters report.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N6-S3",
@@ -529,7 +550,8 @@
       "supports": [
         "joint I4C/CERT-In advisory details and recommended controls"
       ],
-      "notes": "Independent newsroom summary of the advisory."
+      "notes": "Independent newsroom summary of the advisory.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N7-S1",
@@ -542,7 +564,8 @@
         "Kohli 74",
         "Arshdeep four wickets"
       ],
-      "notes": "Match result and score detail."
+      "notes": "Match result and score detail.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N7-S2",
@@ -553,7 +576,8 @@
       "supports": [
         "185 all out, India 143/5 in 22.4 overs, DLS result"
       ],
-      "notes": "Scorecard cross-check."
+      "notes": "Scorecard cross-check.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N7-S3",
@@ -564,21 +588,23 @@
       "supports": [
         "match result and leading performances"
       ],
-      "notes": "Independent match report."
+      "notes": "Independent match report.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N8-S1",
       "story": "Prime Minister of India",
       "title": "Cabinet continues Fast Track Special Courts scheme for five years",
       "published_at": "2026-11-04",
-      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-centrally-sponsored-scheme-for-fast-track-special-courts-ftscs-for-expeditious-trial-of-cases-of-rape-and-pocso-protection-of-children-from-sexual-offences-act/",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-centrally-sponsored-scheme-for-fast-track-special-courts-ftscs-for-expeditious-trial-of-cases-of-rape-and-pocso-protection-of-children-from-sexual-offences-act/?comment=disable",
       "supports": [
         "₹3,788.04 crore outlay",
         "scheme through 31 March 2031",
         "up to 850 courts from 779 functional",
         "4,02,457 cases disposed since 2019"
       ],
-      "notes": "Primary Cabinet release; 850 is planned capacity, not 850 newly operating courts."
+      "notes": "Primary Cabinet release; 850 is planned capacity, not 850 newly operating courts.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N8-S2",
@@ -589,7 +615,8 @@
       "supports": [
         "Cabinet decision and court expansion"
       ],
-      "notes": "Independent newsroom report."
+      "notes": "Independent newsroom report.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N8-S3",
@@ -600,7 +627,8 @@
       "supports": [
         "scheme continuation and planned expansion"
       ],
-      "notes": "PTI report; do not imply every court has already opened."
+      "notes": "PTI report; do not imply every court has already opened.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "WX-S1",
@@ -611,7 +639,8 @@
       "supports": [
         "No warning for West Uttar Pradesh 5–11 November 2026"
       ],
-      "notes": "Official page shows issue date but not an exact issue time."
+      "notes": "Official page shows issue date but not an exact issue time.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "WX-S2",
@@ -622,7 +651,8 @@
       "supports": [
         "5 November forecast mainly clear, 17–28°C"
       ],
-      "notes": "Page dated 2 November; state this forecast issue date."
+      "notes": "Page dated 2 November; state this forecast issue date.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "WX-S3",
@@ -633,7 +663,8 @@
       "supports": [
         "5 November forecast clear, 16–29°C"
       ],
-      "notes": "Page dated 4 November; state this forecast issue date."
+      "notes": "Page dated 4 November; state this forecast issue date.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "WX-S4",
@@ -646,7 +677,8 @@
         "no significant weather over Northwest, West and Northeast during the week",
         "rain/thunderstorm and heavy-rain forecast over southern states"
       ],
-      "notes": "Official issue time 13:00 IST; valid period stated in the bulletin."
+      "notes": "Official issue time 13:00 IST; valid period stated in the bulletin.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "WX-S5",
@@ -657,7 +689,8 @@
       "supports": [
         "Thunderstorm/lightning/squall and strong surface winds 5–8 November"
       ],
-      "notes": "Official page shows issue date, not issue time."
+      "notes": "Official page shows issue date, not issue time.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "WX-S6",
@@ -668,7 +701,8 @@
       "supports": [
         "Thunderstorm 5 November; heavy rain and thunderstorm 6–8 November"
       ],
-      "notes": "Official page shows issue date, not issue time."
+      "notes": "Official page shows issue date, not issue time.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "WX-S7",
@@ -679,7 +713,8 @@
       "supports": [
         "South Interior Karnataka heavy rain and thunderstorm 5–6 November"
       ],
-      "notes": "Official page shows issue date, not issue time."
+      "notes": "Official page shows issue date, not issue time.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N2-S1",
@@ -695,7 +730,8 @@
         "₹344 crore preliminary loss",
         "12,230 people in rehabilitation centres"
       ],
-      "notes": "Preliminary official figures quoted from APSDMA; not a final loss assessment."
+      "notes": "Preliminary official figures quoted from APSDMA; not a final loss assessment.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N2-S2",
@@ -710,7 +746,8 @@
         "₹344 crore preliminary loss",
         "12,230 people sheltered"
       ],
-      "notes": "Quotes APSDMA managing director; preliminary figures."
+      "notes": "Quotes APSDMA managing director; preliminary figures.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N2-S3",
@@ -724,7 +761,8 @@
         "more than 52,000 ha crop loss",
         "12,230 in shelters"
       ],
-      "notes": "Includes PTI/official input; no newer verified damage total found."
+      "notes": "Includes PTI/official input; no newer verified damage total found.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     },
     {
       "id": "N2-S4",
@@ -736,7 +774,8 @@
         "Murasu weakened to depression over east Telangana and adjoining Coastal Andhra Pradesh by 05:30 IST on 4 Nov",
         "likely to weaken further to a well-marked low pressure area"
       ],
-      "notes": "Primary meteorological status; does not provide the damage figures."
+      "notes": "Primary meteorological status; does not provide the damage figures.",
+      "accessed_at": "2026-11-05T05:59:03+05:30"
     }
   ],
   "claim_to_source": {
@@ -844,5 +883,6 @@
     "closing": 15,
     "total": 600,
     "western_up_share_percent": 35
-  }
+  },
+  "source_access_note": "Source register access snapshot: 5 November 2026, 05:59:03 IST. Pages were checked during this research run; publication/update dates are recorded separately where shown by the publisher."
 }
