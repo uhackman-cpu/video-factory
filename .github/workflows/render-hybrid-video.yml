@@ -164,6 +164,11 @@ jobs:
             --output "output/$OUTPUT_NAME" \
             --voice-gender "$VOICE_GENDER"
 
+      - name: Include complete verified credits
+        run: |
+          cp daily-news/current/credits.txt output/credits.txt
+          test -s output/credits.txt
+
       - name: Verify output
         env:
           OUTPUT_NAME: ${{ inputs.output_name }}
