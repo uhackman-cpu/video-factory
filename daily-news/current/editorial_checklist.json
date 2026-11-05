@@ -1,6 +1,6 @@
 {
   "edition_date": "2026-11-05",
-  "checked_at": "2026-11-05T06:24:34+05:30",
+  "checked_at": "2026-11-05T06:42:19+05:30",
   "render_status": "RENDERING",
   "publication_status": "HOLD_FOR_HUMAN_REVIEW",
   "overall_status": "HOLD",
@@ -135,7 +135,7 @@
   },
   "technical_checks": {
     "status": "PROVENANCE_PASSED_RENDER_IN_PROGRESS",
-    "details": "Run 41945950007 passed unit tests and the provenance/editorial gate. FFmpeg/Kokoro rendering is in progress; MP4 duration/resolution/audio/SRT verification and artifact upload are pending. The run is pinned to the workflow before the complete-credits copy step c8c19a9d3d03ba347eb9517430b075f43cba0382, so one follow-up render after this run completes is required to ensure the artifact contains the complete committed credits.txt. No publication is authorized."
+    "details": "At 06:42 IST, run 41945950007 is still in progress at the FFmpeg/Kokoro render step. Setup, dependency installation, unit tests, manifest creation, provenance copy and provenance/editorial gate passed. No artifact is attached yet; output duration, 1920x1080 resolution, audio stream, SRT and final credits are therefore not independently verified. The run is pinned to 4722d5d22ee24b19f358660aa424b15eb193c945, before workflow commit c8c19a9d3d03ba347eb9517430b075f43cba0382 added the 'Include complete verified credits' step. After this run completes, a single follow-up render from current main is required to ensure the full committed credits.txt (including Noto Sans Devanagari attribution) is packaged. Do not dispatch a duplicate while this run is active."
   },
   "required_human_review": [
     "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, natural pacing, clipping and abrupt cuts.",
@@ -150,7 +150,7 @@
     "Refresh IMD warnings and any breaking news before public release.",
     "Confirm SRT sidecar and credits are included in any later upload."
   ],
-  "final_gate": "HOLD — draft rendering is permitted, but do not publish or schedule until human listening, visual-label review, current legal/weather updates and final editorial approval are complete.",
+  "final_gate": "HOLD — current render is active and has no artifact. Even after render, do not publish until a follow-up run includes complete verified credits and human listening, visual-label review, current IMD refresh and final editorial approval are complete.",
   "final_approval_status": "HOLD",
   "youtube_publish_authorized": false,
   "artifact_verified": false,
@@ -171,12 +171,15 @@
     "previous_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41945512618",
     "previous_run_status": "completed",
     "previous_run_conclusion": "failure",
-    "previous_run_failure": "BLOCKED: source N4-S2 missing publisher in the pinned run snapshot",
+    "previous_run_failure": "BLOCKED: source N4-S2 missing ['publisher']; render and output verification were skipped.",
     "latest_manifest_commit_at_dispatch": "4722d5d22ee24b19f358660aa424b15eb193c945",
     "workflow_credits_copy_commit": "c8c19a9d3d03ba347eb9517430b075f43cba0382",
-    "next_render_reason": "Current run is pinned to the pre-credits-copy workflow; next run must include complete verified credits.txt in the artifact.",
+    "next_render_reason": "The active run uses a workflow revision before the complete credits copy step. Once it finishes, dispatch one follow-up render from current main; do not dispatch while active.",
     "active_run_last_observed_step": "Render hybrid video",
-    "active_run_validation": "passed"
+    "active_run_validation": "passed",
+    "last_qc_checked_at": "2026-11-05T06:42:19+05:30",
+    "active_run_artifact_count": 0,
+    "current_main_commit": "3cd306721e8c12bf25a9e70260301fe306336227"
   },
   "pre_publication_checklist": [
     {
