@@ -349,5 +349,9 @@
       "illustrative_label": true,
       "illustrative_label_text": "प्रतीकात्मक तस्वीर"
     }
-  ]
+  ],
+  "font_assets": [
+    "FONT-NOTO-SANS-DEVANAGARI"
+  ],
+  "subtitle_font": "Noto Sans Devanagari Regular (fonts-noto-core; SIL OFL 1.1)"
 }
