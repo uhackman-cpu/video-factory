@@ -1,27 +1,29 @@
 {
   "edition_date": "2026-11-05",
-  "research_cutoff_ist": "2026-11-05T08:16:43+05:30",
+  "research_cutoff_ist": "2026-11-05T08:28:12+05:30",
   "project_path": "daily-news/current/project.json",
   "research_verification": {
     "status": "PASS",
-    "source_count": 40,
+    "source_count": 43,
     "all_required_source_fields_present": true,
     "primary_sources_used": true,
     "significant_claims_cross_checked": true,
     "notes": [
       "W1 cane figures attributed to department reporting; Dhampur delay is local mill schedule.",
       "W2 220 kg destruction and notice confirmed; lab results not found, so no chemical-adulteration claim.",
-      "W3 ₹700 is farmers' demand, not approved rate; status after late 4 Nov not confirmed.",
-      "W4 traffic restrictions are market/route-specific.",
+      "W3 ₹700 is farmers' demand, not approved rate; status after 4 Nov night not confirmed.",
+      "W4 Moradabad bus fire: 55 passengers evacuated; tyre cause attributed to Chief Fire Officer, not final technical report.",
+      "W5 traffic restrictions are market/route-specific.",
       "N1 September CPI is lagged data; future food-price pressure is risk, not certainty.",
-      "N4 hearing is listed for 5 Nov; no order verified by 08:16 IST.",
+      "N2 primary WGC report and two independent news sources.",
+      "N4 CERT-In advisory CIAD-2026-0058 is for financial institutions; no claim that every customer account is compromised.",
       "N6 850 FTSCs is a provision, not an assertion that all are already operational.",
       "N8 advance bookings are trade estimates, not actual earnings."
     ]
   },
   "script_originality_review": {
     "status": "PASS",
-    "spoken_word_count": 1230,
+    "spoken_word_count": 1189,
     "within_1100_1300": true,
     "original_hindi_wording": true,
     "paragraph_by_paragraph_copying": false,
@@ -35,16 +37,16 @@
     "other_seconds": 390,
     "other_percent": 65,
     "scene_total_seconds": 600,
-    "scene_count": 15
+    "scene_count": 16
   },
   "sensitive_content_review": {
     "status": "HOLD",
     "human_review_required": true,
     "notes": [
-      "Review W3 water-tank protest framing; do not glorify a dangerous tactic or use actual protest imagery.",
-      "Review W2 food-safety wording; no lab result is claimed.",
+      "Review W2 food-safety wording; lab result pending.",
+      "Review W3 water-tank protest framing; do not glorify dangerous tactics or use actual protest imagery.",
+      "Review W4 bus-fire wording; no actual fire image or unverified casualty claim.",
       "Review N6 child-safety court item for respectful, non-graphic wording.",
-      "Review N4 legal status again before publication; hearing may update later.",
       "No identifiable private person, victim, accused person or child is shown."
     ]
   },
@@ -76,6 +78,16 @@
     "audio_listening_review": "pending human review",
     "subtitle_sync_review": "pending human review",
     "credits_and_sharealike_review": "pending human review"
+  },
+  "render_tracking": {
+    "active_run_id": 41958307222,
+    "active_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41958307222",
+    "active_run_status": "in_progress",
+    "active_run_started_before_this_manifest": true,
+    "active_run_uses_previous_manifest": true,
+    "duplicate_dispatch": "deferred",
+    "latest_manifest_ready_for_next_render": true,
+    "note": "Do not dispatch another Render Hybrid Facts Video while run 41958307222 is queued, pending or in_progress. This 08:28 IST manifest is newer and should be rendered after that run completes."
   },
   "final_approval_status": "HOLD",
   "render_allowed": true,
