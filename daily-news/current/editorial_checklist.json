@@ -1,7 +1,7 @@
 {
   "edition_date": "2026-11-05",
   "checked_at": "2026-11-05T07:24:00+05:30",
-  "render_status": "READY_TO_DISPATCH",
+  "render_status": "RENDER_IN_PROGRESS",
   "publication_status": "HOLD_FOR_HUMAN_REVIEW",
   "overall_status": "HOLD",
   "editorial": {
@@ -137,8 +137,8 @@
     "details": "Every used still maps to a complete licence record and exact licence URL; every scene has matching asset_id and visible illustrative label. No music or sound effects; Kokoro hm_omega and Noto Sans Devanagari terms recorded."
   },
   "technical_checks": {
-    "status": "PENDING_RENDER",
-    "details": "Prior run 41945950007 succeeded with one artifact but used the earlier 16-scene manifest and predates the complete-credits-copy workflow step. This new 17-scene manifest is ready for a fresh render from current main; current edition output, duration, 1920x1080, audio, SRT and full credits are not yet verified."
+    "status": "RENDER_IN_PROGRESS",
+    "details": "New 17-scene, 1,292-word, 600-second manifest committed on main. GitHub accepted the dispatch and run 41952599446 is verified in_progress. MP4, 1920x1080, audio, SRT and complete credits are not yet verified for this edition."
   },
   "required_human_review": [
     "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, pacing, clipping and abrupt cuts.",
@@ -167,13 +167,13 @@
     "previous_run_artifact_count": 1,
     "previous_run_head_sha": "4722d5d22ee24b19f358660aa424b15eb193c945",
     "previous_run_note": "Previous 16-scene manifest, not this edition; it predates the complete credits-copy step.",
-    "current_manifest_commit": null,
-    "current_main_commit_before_dispatch": null,
-    "dispatch_status": "pending",
-    "active_run_id": null,
-    "active_run_url": null,
-    "active_run_status": null,
-    "duplicate_dispatch_check": "Latest prior render is completed; no active run observed at pre-dispatch check."
+    "current_manifest_commit": "6d2545da188f03b7b90bb93e6583d509f9f9f50e",
+    "current_main_commit_before_dispatch": "6d2545da188f03b7b90bb93e6583d509f9f9f50e",
+    "dispatch_status": "accepted_and_verified",
+    "active_run_id": 41952599446,
+    "active_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41952599446",
+    "active_run_status": "in_progress",
+    "duplicate_dispatch_check": "No active Render Hybrid Facts Video run existed immediately before dispatch; previous latest run 41945950007 was completed. Exactly one new run was dispatched and verified."
   },
   "pre_publication_checklist": [
     {
