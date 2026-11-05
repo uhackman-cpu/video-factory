@@ -52,11 +52,11 @@ Reuters on 3 November reported that a weak monsoon has left soil too dry for som
 **Time:** 0:40  
 **Sources:** N1-S1, N1-S2
 
-### N2 — Cyclone Murasu: latest Andhra dashboard shows extensive flooding and infrastructure damage
-The Andhra Pradesh State Disaster Management Authority dashboard's latest district return was 4 November, 8:00 pm IST. It lists 1,23,112 hectares of crop area inundated across eight districts, 929 houses and 413 huts damaged, 4,176 electric poles damaged, 118 active relief camps and 18,420 people accommodated in camps. The dashboard explicitly labels the returns provisional and unverified. Earlier PTI/official reporting said at least two deaths; do not mix the earlier 52,459-hectare crop-affected estimate with the newer inundated-area figure because the measures and reporting times differ.
-**Treatment:** Focus on farmers, electricity restoration, roads and families still in relief camps. State that the dashboard figures are provisional departmental returns.
+### N2 — Cyclone Murasu: Andhra begins recovery after crop and housing losses
+The latest confirmed preliminary figures located by 05:59 IST were reported by Andhra Pradesh State Disaster Management Authority Managing Director Prakhar Jain: at least two deaths, crops damaged across 52,459 hectares, 312 houses affected, estimated losses of about ₹344 crore and 12,230 people in relief centres. These figures are preliminary and were reported on 3–4 November; a newer verified official damage assessment was not located before the research cut-off. IMD said the severe cyclone weakened to a depression over east Telangana and adjoining Coastal Andhra Pradesh by 5:30 am on 4 November and was expected to weaken further into a well-marked low-pressure area.
+**Treatment:** Focus on farmers, electricity restoration, roads and families in relief centres. Clearly label crop-loss and monetary figures as preliminary; do not present the cyclone as still a severe cyclonic storm.
 **Time:** 0:40  
-**Sources:** N2-S1, N2-S2, N2-S3
+**Sources:** N2-S1, N2-S2, N2-S3, N2-S4
 
 ### N3 — Record gold prices are changing festive buying
 The World Gold Council's India Q3 report says domestic gold prices averaged about 45% higher year-on-year. Q3 demand was 162.5 tonnes, down 29% year-on-year; jewellery demand fell 20% to about 100 tonnes and bar/coin demand fell 40% to 55 tonnes. The WGC's 2026 full-year outlook is 625–675 tonnes, with high prices and rural affordability constraints limiting demand despite festive and wedding-season support.
