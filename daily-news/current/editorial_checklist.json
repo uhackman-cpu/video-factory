@@ -1,237 +1,85 @@
 {
   "edition_date": "2026-11-05",
-  "checked_at": "2026-11-05T07:41:05+05:30",
-  "render_status": "RENDER_IN_PROGRESS_OLDER_MANIFEST",
-  "publication_status": "HOLD_FOR_HUMAN_REVIEW",
-  "overall_status": "HOLD",
-  "editorial": {
-    "audience_mix": "PASS",
-    "spoken_word_count": 1275,
-    "target_duration_seconds": 600,
-    "scene_count": 17,
+  "research_cutoff_ist": "2026-11-05T08:16:43+05:30",
+  "project_path": "daily-news/current/project.json",
+  "research_verification": {
+    "status": "PASS",
+    "source_count": 40,
+    "all_required_source_fields_present": true,
+    "primary_sources_used": true,
+    "significant_claims_cross_checked": true,
+    "notes": [
+      "W1 cane figures attributed to department reporting; Dhampur delay is local mill schedule.",
+      "W2 220 kg destruction and notice confirmed; lab results not found, so no chemical-adulteration claim.",
+      "W3 ₹700 is farmers' demand, not approved rate; status after late 4 Nov not confirmed.",
+      "W4 traffic restrictions are market/route-specific.",
+      "N1 September CPI is lagged data; future food-price pressure is risk, not certainty.",
+      "N4 hearing is listed for 5 Nov; no order verified by 08:16 IST.",
+      "N6 850 FTSCs is a provision, not an assertion that all are already operational.",
+      "N8 advance bookings are trade estimates, not actual earnings."
+    ]
+  },
+  "script_originality_review": {
+    "status": "PASS",
+    "spoken_word_count": 1230,
+    "within_1100_1300": true,
+    "original_hindi_wording": true,
+    "paragraph_by_paragraph_copying": false,
+    "jobs_exams_count": 0,
+    "notes": "Freshly written Hindi narration; no copied headline or article text."
+  },
+  "editorial_mix": {
+    "status": "PASS",
     "western_up_seconds": 210,
     "western_up_percent": 35,
     "other_seconds": 390,
     "other_percent": 65,
-    "jobs_exams": "No routine recruitment, job, exam or admit-card notices included",
-    "script_originality": "PASS — original Hindi narration from verified facts",
-    "sensationalism": "PASS — no rumours, communal/caste bait, misleading claims or graphic detail",
-    "selected_story_count": 13,
-    "story_mix": "Five Western UP stories (Moradabad bus fire, regional food-safety inspections, Sambhal cyber complaint, Sambhal Dhanteras trader forecast and Bijnor paneer-starch awareness) plus 15 seconds West UP weather = 210 seconds (35%). Wider India/UP, national weather, opening and closing = 390 seconds (65%)."
-  },
-  "research_verification": [
-    {
-      "story_id": "W1",
-      "status": "PASS_WITH_ATTRIBUTION",
-      "note": "Two local reports corroborate safe evacuation of 55 passengers; tyre-burst cause attributed to CFO, not final forensic finding."
-    },
-    {
-      "story_id": "W2",
-      "status": "PASS_WITH_LAB_RESULT_CAVEAT",
-      "note": "FSDA statewide figures and local inspection reports cross-checked; seizures and samples are not all lab-confirmed adulteration."
-    },
-    {
-      "story_id": "W3",
-      "status": "PASS_AS_REPORTED_COMPLAINT",
-      "note": "Victim complaint only; no platform breach or company involvement claimed."
-    },
-    {
-      "story_id": "W6",
-      "status": "PASS_LIMITED_HOUSEHOLD_TEST",
-      "note": "FSSAI DART boil-cool-iodine test detects starch only; not a universal adulteration or safety test."
-    },
-    {
-      "story_id": "N1",
-      "status": "PASS_WITH_TIME_SCOPE",
-      "note": "September CPI figures are official; weak soil moisture framed as supply risk, not current local retail prices."
-    },
-    {
-      "story_id": "N9",
-      "status": "PASS_PRIMARY_ORDER",
-      "note": "Signed CAQM order checked at 07:24 IST; scope and exceptions stated precisely."
-    },
-    {
-      "story_id": "N10",
-      "status": "PASS_WITH_JURISDICTION_CAVEAT",
-      "note": "Maharashtra local-body case referred to larger bench; no final nationwide or UP rule change."
-    },
-    {
-      "story_id": "N3",
-      "status": "PASS_WITH_FORECAST_CAVEAT",
-      "note": "WGC Q3 data corroborated; full-year figure is forecast; Dhanteras is 6 Nov."
-    },
-    {
-      "story_id": "N11",
-      "status": "PASS_WITH_HEARING_CUTOFF",
-      "note": "No new 5 Nov hearing order located by 07:24 IST; no outcome predicted."
-    },
-    {
-      "story_id": "N6",
-      "status": "PASS_OFFICIAL_ADVISORY_SCOPE",
-      "note": "CERT-In primary advisory targets financial institutions and APIs, not all retail accounts."
-    },
-    {
-      "story_id": "N7",
-      "status": "PASS_OFFICIAL_SCORECARD",
-      "note": "Result cross-checked with New Zealand Cricket archive scorecard and independent reports."
-    },
-    {
-      "story_id": "N12",
-      "status": "PASS_WITH_TRADE_ESTIMATE_CAVEAT",
-      "note": "Release date confirmed; advance-booking estimate includes blocked seats and is not realised revenue."
-    },
-    {
-      "story_id": "WEATHER",
-      "status": "PASS_CURRENT_IMD_REFRESH",
-      "note": "West UP page issued 5 Nov shows no warning 5–11 Nov; southern subdivision warnings reopened 07:24 IST."
-    },
-    {
-      "story_id": "W4",
-      "status": "PASS_WITH_FORECAST_CAVEAT",
-      "note": "₹100 crore Dhanteras figure is a trader forecast, not audited or actual sales."
-    }
-  ],
-  "script_originality_review": {
-    "status": "PASS",
-    "details": "1292-word original Hindi narration; no copied article, headline package or broadcaster script."
+    "scene_total_seconds": 600,
+    "scene_count": 15
   },
   "sensitive_content_review": {
-    "status": "PASS_WITH_HUMAN_REVIEW",
-    "details": "Bus-fire and fireworks stories use no actual incident imagery or graphic detail; police allegations attributed; cyber complaint not turned into an accusation against a platform."
-  },
-  "rights_review": {
-    "visual_assets": "PASS_METADATA",
-    "visual_asset_count": 9,
-    "asset_ids": [
-      "IMG-WHEAT-UP",
-      "IMG-BIKE-HIGHWAY",
-      "IMG-INDIAN-SWEET",
-      "IMG-LAPTOP-KEYBOARD",
-      "IMG-DIWALI-MARKET",
-      "IMG-MONSOON-CLOUDS",
-      "IMG-BANGALORE-COURT",
-      "IMG-GOLD-JEWELLERY",
-      "IMG-CRICKET-HYDERABAD"
-    ],
-    "license_types": [
-      "CC0 1.0",
-      "CC BY-SA 4.0",
-      "Apache-2.0",
-      "SIL OFL 1.1"
-    ],
-    "commercial_use_allowed": true,
-    "adaptation_allowed": true,
-    "project_license": "CC BY-SA 4.0; individual asset licences remain separately applicable",
-    "music": "None",
-    "sound_effects": "None",
-    "third_party_news_footage": "None",
-    "narration": "Kokoro-82M Hindi voice hm_omega, Apache-2.0; local synthesis only",
-    "phonemizer": "espeak-ng",
-    "font_assets": 1,
-    "font_asset_ids": [
-      "FONT-NOTO-SANS-DEVANAGARI"
+    "status": "HOLD",
+    "human_review_required": true,
+    "notes": [
+      "Review W3 water-tank protest framing; do not glorify a dangerous tactic or use actual protest imagery.",
+      "Review W2 food-safety wording; no lab result is claimed.",
+      "Review N6 child-safety court item for respectful, non-graphic wording.",
+      "Review N4 legal status again before publication; hearing may update later.",
+      "No identifiable private person, victim, accused person or child is shown."
     ]
   },
   "visual_audio_clearance": {
-    "status": "PASS_WITH_HUMAN_REVIEW_PENDING",
-    "details": "Every used still maps to a complete licence record and exact licence URL; every scene has matching asset_id and visible illustrative label. No music or sound effects; Kokoro hm_omega and Noto Sans Devanagari terms recorded."
+    "status": "PASS",
+    "asset_count": 11,
+    "scene_asset_mapping_valid": true,
+    "all_scene_license_urls_match": true,
+    "commercial_use_allowed": true,
+    "adaptation_allowed": true,
+    "prohibited_nc_nd_assets": 0,
+    "visuals_labelled_symbolic": true,
+    "tts": "Kokoro-82M local hm_omega — Apache License 2.0",
+    "phonemizer": "espeak-ng",
+    "music": "none",
+    "sound_effects": "none",
+    "external_tts_api": false,
+    "notes": "Only verified CC0/CC BY-SA 4.0 images plus Apache-2.0 Kokoro model and OFL font; no third-party video, news media, music or SFX."
   },
   "technical_checks": {
-    "status": "RENDER_IN_PROGRESS_OLDER_MANIFEST",
-    "details": "At 07:41 IST, run 41952599446 is still rendering commit 6d2545da188f03b7b90bb93e6583d509f9f9f50e. That pinned manifest contains the earlier Moradabad illegal-firecracker-raid story. Current main has replaced that story with the Sambhal Dhanteras trader forecast and corrected the opening teaser to match the selected lineup. The corrected project is 1,275 words, 17 scenes and 600 seconds; current-main commit f1bbd1190616ef7b0eaa067fe2bfaf1f97722f54. The current run has no artifact yet. Its eventual output is not the current-main edition. After it completes, dispatch one render from current main and verify MP4, 1920x1080, audio, SRT and complete credits. Human audio/visual/editorial review remains mandatory."
+    "status": "PENDING",
+    "format": "16:9 landscape",
+    "resolution": "1920x1080",
+    "target_duration_seconds": 600,
+    "scene_duration_seconds": 600,
+    "subtitles": "SRT generated by renderer",
+    "audio": "local Kokoro-82M hm_omega",
+    "ffprobe_validation": "pending workflow",
+    "audio_listening_review": "pending human review",
+    "subtitle_sync_review": "pending human review",
+    "credits_and_sharealike_review": "pending human review"
   },
-  "required_human_review": [
-    "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, pacing, clipping and abrupt cuts.",
-    "Check 'प्रतीकात्मक तस्वीर' label visibility and legibility in every scene.",
-    "Check Bijnor iodine test is described as starch-only, not a complete purity test.",
-    "Confirm Diwali Market image is Rani Bagh, Delhi, not Sambhal, Moradabad or a film visual.",
-    "Confirm court image is Bangalore City Civil Court, not Supreme Court or Maharashtra court.",
-    "Confirm gold image is Nepali-style jewellery, not a named Indian retailer or price.",
-    "Confirm Ramayana scene contains no film still, poster, actor likeness or movie artwork.",
-    "Refresh the Delhi High Court energy-drink hearing outcome before public release.",
-    "Refresh IMD warnings and breaking news immediately before public release.",
-    "Confirm SRT and complete credits.txt are included in the new artifact.",
-    "Review all allegations and estimates for accurate attribution.",
-    "Confirm the Sambhal ₹100 crore Dhanteras figure is attributed as traders' forecast, not actual turnover."
-  ],
-  "final_gate": "HOLD — run 41952599446 is rendering an older manifest from 6d2545da, not the latest main edition. Current main replaces the earlier Moradabad firecracker-raid story with the Sambhal Dhanteras trader forecast and has a corrected opening teaser. The latest project and credits agree on 1,275 spoken words. Wait for the active run to finish; then render current main once. No YouTube upload or scheduling until the current-main artifact, SRT, full credits and human audio/visual/editorial checks pass.",
   "final_approval_status": "HOLD",
-  "youtube_publish_authorized": false,
-  "artifact_verified": false,
-  "workflow_tracking": {
-    "previous_run_id": 41945950007,
-    "previous_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41945950007",
-    "previous_run_status": "completed",
-    "previous_run_conclusion": "success",
-    "previous_run_artifact_id": 13378818575,
-    "previous_run_artifact_count": 1,
-    "previous_run_head_sha": "4722d5d22ee24b19f358660aa424b15eb193c945",
-    "previous_run_note": "Previous 16-scene manifest, not this edition; it predates the complete credits-copy step.",
-    "current_manifest_commit": "f1bbd1190616ef7b0eaa067fe2bfaf1f97722f54",
-    "current_main_commit_before_dispatch": "6d2545da188f03b7b90bb93e6583d509f9f9f50e",
-    "dispatch_status": "one_run_in_progress_latest_manifest_staged_for_next_run",
-    "active_run_id": 41952599446,
-    "active_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41952599446",
-    "active_run_status": "in_progress",
-    "duplicate_dispatch_check": "No active Render Hybrid Facts Video run existed immediately before dispatch; previous latest run 41945950007 was completed. Exactly one new run was dispatched and verified.",
-    "next_render_after_active_run": true,
-    "latest_manifest_note": "Latest main manifest replaces the earlier Moradabad illegal-firecracker-raid story with the Sambhal Dhanteras trader forecast. The opening teaser now matches the current story lineup. The active run 41952599446 remains pinned to the older 6d2545da manifest and is not the latest edition.",
-    "script_correction_commit": "f1bbd1190616ef7b0eaa067fe2bfaf1f97722f54",
-    "active_run_head_sha": "6d2545da188f03b7b90bb93e6583d509f9f9f50e",
-    "current_main_commit": "f1bbd1190616ef7b0eaa067fe2bfaf1f97722f54"
-  },
-  "pre_publication_checklist": [
-    {
-      "item": "Every important claim is sourced and checked",
-      "status": "PASS_WITH_CAVEATS"
-    },
-    {
-      "item": "Script independently written, not copied or mechanically paraphrased",
-      "status": "PASS"
-    },
-    {
-      "item": "Allegations and uncertainty handled responsibly",
-      "status": "PASS_WITH_ATTRIBUTION"
-    },
-    {
-      "item": "Every external asset has verified rights and provenance",
-      "status": "PASS_METADATA"
-    },
-    {
-      "item": "Required credits and attribution included",
-      "status": "PASS_METADATA"
-    },
-    {
-      "item": "Narration, fonts, music and sound effects cleared",
-      "status": "PASS"
-    },
-    {
-      "item": "Weather/data issue date, validity and geography recorded",
-      "status": "PASS_WITH_CURRENT_IMD_REFRESH"
-    },
-    {
-      "item": "Illustrative visuals labelled",
-      "status": "PASS"
-    },
-    {
-      "item": "Privacy, defamation, safety and sensitive-content review",
-      "status": "PASS_WITH_HUMAN_REVIEW"
-    },
-    {
-      "item": "All four provenance files present",
-      "status": "PASS"
-    },
-    {
-      "item": "Video/audio/subtitles technically verified",
-      "status": "PENDING_RENDER"
-    },
-    {
-      "item": "Required human review complete",
-      "status": "HOLD"
-    },
-    {
-      "item": "Publishing gate returns PASS",
-      "status": "HOLD"
-    }
-  ]
+  "render_allowed": true,
+  "publication_allowed": false,
+  "publication_status": "NOT PUBLISHED",
+  "human_review_required_before_publication": true
 }
