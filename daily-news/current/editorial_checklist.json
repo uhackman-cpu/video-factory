@@ -1,7 +1,7 @@
 {
   "edition_date": "2026-11-05",
   "checked_at": "2026-11-05T06:24:34+05:30",
-  "render_status": "IN_PROGRESS_FULL_CREDITS_RERENDER_REQUIRED",
+  "render_status": "RENDERING",
   "publication_status": "HOLD_FOR_HUMAN_REVIEW",
   "overall_status": "HOLD",
   "editorial": {
@@ -134,8 +134,8 @@
     "details": "All 11 used still images have exact source pages, creator/rights holder, licence version, commercial/adaptation permissions, attribution and evidence URLs. Every scene maps to a matching asset_licenses record and includes the licence URL. Every still carries a visible illustrative label. Kokoro hm_omega is recorded as Apache-2.0; no music or sound effects. Noto Sans Devanagari font source and SIL OFL 1.1 terms are recorded; font is installed from fonts-noto-core and not bundled as a standalone file."
   },
   "technical_checks": {
-    "status": "PENDING_RENDER",
-    "details": "Run 41945950007 is in progress from main commit 4722d5d22ee24b19f358660aa424b15eb193c945. Its source schema and asset/font provenance are valid. This run uses the workflow revision before the new 'Include complete verified credits' step; its generated credits may omit the Noto font line. Workflow fix is committed at c8c19a9d3d03ba347eb9517430b075f43cba0382. After run 41945950007 completes, dispatch one new run from latest main so the artifact includes the full committed credits.txt. No duplicate while active."
+    "status": "PROVENANCE_PASSED_RENDER_IN_PROGRESS",
+    "details": "Run 41945950007 passed unit tests and the provenance/editorial gate. FFmpeg/Kokoro rendering is in progress; MP4 duration/resolution/audio/SRT verification and artifact upload are pending. The run is pinned to the workflow before the complete-credits copy step c8c19a9d3d03ba347eb9517430b075f43cba0382, so one follow-up render after this run completes is required to ensure the artifact contains the complete committed credits.txt. No publication is authorized."
   },
   "required_human_review": [
     "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, natural pacing, clipping and abrupt cuts.",
@@ -174,7 +174,9 @@
     "previous_run_failure": "BLOCKED: source N4-S2 missing publisher in the pinned run snapshot",
     "latest_manifest_commit_at_dispatch": "4722d5d22ee24b19f358660aa424b15eb193c945",
     "workflow_credits_copy_commit": "c8c19a9d3d03ba347eb9517430b075f43cba0382",
-    "next_render_reason": "Current run is pinned to the pre-credits-copy workflow; next run must include complete verified credits.txt in the artifact."
+    "next_render_reason": "Current run is pinned to the pre-credits-copy workflow; next run must include complete verified credits.txt in the artifact.",
+    "active_run_last_observed_step": "Render hybrid video",
+    "active_run_validation": "passed"
   },
   "pre_publication_checklist": [
     {
