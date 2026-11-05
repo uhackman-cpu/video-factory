@@ -86,13 +86,14 @@
       "id": "N2",
       "region": "India",
       "headline": "Murasu cyclone recovery in Andhra Pradesh",
-      "status": "provisional_damage_data",
+      "status": "preliminary_official_estimates",
       "time_seconds": 40,
-      "claim": "Latest AP SDMA district returns show crop area inundated and damage to houses, poles and infrastructure; figures are provisional.",
+      "claim": "Latest confirmed preliminary figures located by 05:59 IST: at least two deaths, crops damaged across 52,459 hectares, 312 houses affected, preliminary loss about ₹344 crore and 12,230 people in relief centres; IMD said the storm had weakened to a depression by 4 Nov morning.",
       "source_ids": [
         "N2-S1",
         "N2-S2",
-        "N2-S3"
+        "N2-S3",
+        "N2-S4"
       ]
     },
     {
@@ -395,46 +396,6 @@
       "notes": "Primary official CPI release."
     },
     {
-      "id": "N2-S1",
-      "story": "N2",
-      "publisher": "Andhra Pradesh State Disaster Management Authority",
-      "title": "Cyclone Murasu dashboard — district damage returns",
-      "published_at": "2026-11-04T20:00:00+05:30",
-      "url": "https://apsdmagis.ap.gov.in/weather-watch/cyclone.html",
-      "supports": [
-        "1,23,112 ha crop area inundated as of 4 Nov 8pm",
-        "929 houses and 413 huts damaged",
-        "4,176 electric poles damaged",
-        "118 relief camps and 18,420 people accommodated"
-      ],
-      "notes": "Dashboard explicitly says provisional district/department returns, not verified; crop area inundated is not the same as crop loss."
-    },
-    {
-      "id": "N2-S2",
-      "story": "N2",
-      "publisher": "The News Minute",
-      "title": "Cyclone Murasu leaves two dead, damages 312 houses in Andhra Pradesh",
-      "published_at": "2026-11-04T03:39:00+05:30",
-      "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-leaves-2-dead-damages-312-houses-in-andhra-pradesh",
-      "supports": [
-        "at least two deaths reported by APSDMA managing director",
-        "early official preliminary damage estimates"
-      ],
-      "notes": "Earlier report; use only for the earlier casualty statement and do not combine its early crop figure with the later dashboard."
-    },
-    {
-      "id": "N2-S3",
-      "story": "N2",
-      "publisher": "The Tribune / PTI",
-      "title": "Cyclone hits Andhra coast, two killed",
-      "published_at": "2026-11-04T01:34:00+05:30",
-      "url": "https://www.tribuneindia.com/news/india/cyclone-hits-andhra-coast-2-killed/amp/",
-      "supports": [
-        "two deaths and early official damage estimates"
-      ],
-      "notes": "PTI report quoting APSDMA managing director; early preliminary figures."
-    },
-    {
       "id": "N3-S1",
       "story": "N3",
       "publisher": "World Gold Council",
@@ -719,6 +680,63 @@
         "South Interior Karnataka heavy rain and thunderstorm 5–6 November"
       ],
       "notes": "Official page shows issue date, not issue time."
+    },
+    {
+      "id": "N2-S1",
+      "story": "N2",
+      "publisher": "The News Minute",
+      "title": "Cyclone Murasu leaves two dead, damages 312 houses in Andhra Pradesh",
+      "published_at": "2026-11-04T03:39:00+05:30",
+      "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-leaves-2-dead-damages-312-houses-in-andhra-pradesh",
+      "supports": [
+        "APSDMA MD says at least two deaths",
+        "52,459 ha crops damaged",
+        "312 houses damaged",
+        "₹344 crore preliminary loss",
+        "12,230 people in rehabilitation centres"
+      ],
+      "notes": "Preliminary official figures quoted from APSDMA; not a final loss assessment."
+    },
+    {
+      "id": "N2-S2",
+      "story": "N2",
+      "publisher": "The Indian Express",
+      "title": "Two die as cyclone Murasu hits Andhra Pradesh; educational centres shut",
+      "published_at": "2026-11-04T03:30:00+05:30",
+      "url": "https://indianexpress.com/article/india/cyclone-murasu-andhra-pradesh-odisha-impact-10949483/",
+      "supports": [
+        "two deaths",
+        "52,459 ha crops damaged",
+        "₹344 crore preliminary loss",
+        "12,230 people sheltered"
+      ],
+      "notes": "Quotes APSDMA managing director; preliminary figures."
+    },
+    {
+      "id": "N2-S3",
+      "story": "Hindustan Times",
+      "title": "Cyclone Murasu weakens into deep depression; Andhra reports two deaths",
+      "published_at": "2026-11-04T12:12:01+05:30",
+      "url": "https://www.hindustantimes.com/india-news/cyclone-murasu-weakens-into-deep-depression-to-become-low-pressure-area-in-12-hours-imd-forecasts-more-rain-in-andhra-101793772415920.html",
+      "supports": [
+        "IMD position at 5:30 am 4 Nov",
+        "two deaths",
+        "more than 52,000 ha crop loss",
+        "12,230 in shelters"
+      ],
+      "notes": "Includes PTI/official input; no newer verified damage total found."
+    },
+    {
+      "id": "N2-S4",
+      "story": "India Meteorological Department",
+      "title": "National weather press release — Murasu weakened to depression",
+      "published_at": "2026-11-04T13:00:00+05:30",
+      "url": "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2004-11-2026_1793778009.pdf",
+      "supports": [
+        "Murasu weakened to depression over east Telangana and adjoining Coastal Andhra Pradesh by 05:30 IST on 4 Nov",
+        "likely to weaken further to a well-marked low pressure area"
+      ],
+      "notes": "Primary meteorological status; does not provide the damage figures."
     }
   ],
   "claim_to_source": {
@@ -746,7 +764,8 @@
     "N2": [
       "N2-S1",
       "N2-S2",
-      "N2-S3"
+      "N2-S3",
+      "N2-S4"
     ],
     "N3": [
       "N3-S1",
@@ -796,11 +815,11 @@
     "W2 inspection and seizure are not the same as a final laboratory finding.",
     "W3 is a reported complaint; no platform breach or refund recovery established.",
     "W4 is a trader estimate, not official turnover.",
-    "N2 latest dashboard returns are provisional and not field-verified; do not mix crop inundation with earlier crop-loss estimates.",
     "N3 full-year gold demand is a forecast, not actual completed-year consumption.",
     "N6 advisory is addressed to financial institutions, not a blanket alert that every consumer account is compromised.",
     "N8 850 is planned scheme capacity, not 850 additional courts already operational.",
-    "Ethanol blend forecast of 15–17% and energy-drink label litigation are watchlist items only; neither is a confirmed policy change or safety finding."
+    "Ethanol blend forecast of 15–17% and energy-drink label litigation are watchlist items only; neither is a confirmed policy change or safety finding.",
+    "N2 damage figures are preliminary APSDMA estimates reported on 3–4 Nov; no newer verified official damage assessment was located by 05:59 IST on 5 Nov."
   ],
   "running_order_seconds": {
     "opening": 15,
