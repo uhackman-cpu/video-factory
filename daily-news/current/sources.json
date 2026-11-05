@@ -1,6 +1,6 @@
 {
   "edition_date": "2026-11-05",
-  "research_cutoff_ist": "2026-11-05T08:16:43+05:30",
+  "research_cutoff_ist": "2026-11-05T08:28:12+05:30",
   "audience": {
     "target": "Hindi-speaking rural/village viewers and urban lower-/middle-class households",
     "priority": "verified, relatable, conversation-worthy public-interest, agriculture, prices, consumer, transport, weather, health, education and human-interest stories",
@@ -16,7 +16,7 @@
     "opening_closing_seconds": 30,
     "opening_closing_percent": 5,
     "total_seconds": 600,
-    "story_count": 12,
+    "story_count": 13,
     "jobs_exams_count": 0
   },
   "stories": [
@@ -70,16 +70,29 @@
     {
       "id": "W4",
       "region": "Western UP",
-      "place": "Meerut",
-      "claim": "Traffic plan 5–11 Nov, 07:00–02:00; heavy-vehicle diversions; Abu Lane closed to vehicles and Sarafa market to four-wheelers.",
-      "confidence": "high; Jagran and Hindustan reports dated 5 Nov cross-checked",
-      "editorial_duration_seconds": 40,
+      "place": "Moradabad, Mundhapande/Dalpatpur flyover",
+      "claim": "A Delhi-to-Bareilly UPSRTC bus caught fire on 4 Nov night; all 55 passengers were evacuated; the Chief Fire Officer attributed the fire to a burst rear tyre.",
+      "confidence": "high for incident and evacuation; cause attributed to Chief Fire Officer, not final technical report",
+      "editorial_duration_seconds": 35,
       "source_ids": [
         "W4-S1",
-        "W4-S2",
-        "W4-S3"
+        "W4-S2"
       ],
-      "caveat": "Restrictions are route/market-specific; not a blanket closure of Meerut."
+      "caveat": "No unverified injury/death count; use only generic road visual, no actual fire footage."
+    },
+    {
+      "id": "W5",
+      "region": "Western UP",
+      "place": "Meerut",
+      "claim": "Festival traffic plan 5–11 Nov, 07:00–02:00; heavy-vehicle diversions; Abu Lane closed to vehicles and Sarafa market to four-wheelers.",
+      "confidence": "high; Jagran, Live Hindustan and Amar Ujala reports",
+      "editorial_duration_seconds": 30,
+      "source_ids": [
+        "W5-S1",
+        "W5-S2",
+        "W5-S3"
+      ],
+      "caveat": "Restrictions are market/route-specific, not a blanket city closure."
     },
     {
       "id": "N1",
@@ -97,8 +110,8 @@
     {
       "id": "N2",
       "region": "India",
-      "claim": "WGC says Q3 2026 Indian gold demand fell 29% year-on-year to 162.5 tonnes; jewellery demand down 20%, investment down 40%.",
-      "confidence": "high; Reuters/WGC and two other outlets",
+      "claim": "WGC says Q3 2026 Indian gold demand fell 29% year-on-year to 162.5 tonnes; jewellery demand fell 20% and bar/coin demand 40%.",
+      "confidence": "high; primary WGC report plus Reuters and New Indian Express",
       "editorial_duration_seconds": 35,
       "source_ids": [
         "N2-S1",
@@ -123,15 +136,16 @@
     {
       "id": "N4",
       "region": "India",
-      "claim": "FSSAI and PepsiCo/Monster dispute use of the 'energy drink' descriptor; Delhi HC interim order addressed existing labelled stock and fresh manufacture; hearing listed 5 Nov.",
-      "confidence": "medium-high; Reuters and legal/news reporting; no 5 Nov order found by 08:16 IST",
-      "editorial_duration_seconds": 40,
+      "claim": "CERT-In issued critical advisory CIAD-2026-0058 on 4 Nov about active AI-assisted CRAFTY FALCON attacks against banks, NBFCs, fintechs and payment/disbursement APIs; successful attacks and multi-crore unauthorised transactions have been reported in individual cases.",
+      "confidence": "high; primary CERT-In advisory plus New Indian Express and Reuters",
+      "editorial_duration_seconds": 50,
       "source_ids": [
         "N4-S1",
         "N4-S2",
-        "N4-S3"
+        "N4-S3",
+        "N4-S4"
       ],
-      "caveat": "Not a finding that products are poisonous and not a nationwide total ban; refresh court update before publishing."
+      "caveat": "Advisory is for financial institutions; do not imply every customer's account is compromised. Use 1930 only as the official financial-fraud helpline."
     },
     {
       "id": "N5",
@@ -186,7 +200,7 @@
     }
   ],
   "weather": {
-    "access_time_ist": "2026-11-05T08:16:43+05:30",
+    "access_time_ist": "2026-11-05T08:28:12+05:30",
     "west_up_warning": {
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25",
       "issue_date": "2026-11-05",
@@ -213,11 +227,11 @@
       "url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/343c66ccef53ce4beae566b75bd70f87.pdf",
       "issue_date": "2026-11-04",
       "issue_time_ist": "13:07",
-      "latest_available_at_access": "5 Nov 2026 08:16 IST",
+      "latest_available_at_access": "5 Nov 2026 08:28 IST",
       "summary": "5 Nov: isolated heavy rain over Tamil Nadu/Puducherry/Karaikal and South Interior Karnataka; thunderstorms/lightning and gusty winds in parts of Andhra Pradesh, Odisha, Karnataka, Kerala and Tamil Nadu. Andhra isolated gusts 40–50 km/h. Kerala heavy-rain risk 6–8 Nov. No significant weather over Northwest, West and Northeast India in that bulletin."
     }
   },
-  "global_access_timestamp_ist": "2026-11-05T08:16:43+05:30",
+  "global_access_timestamp_ist": "2026-11-05T08:28:12+05:30",
   "sources": [
     {
       "id": "W1-S1",
@@ -249,7 +263,7 @@
     {
       "id": "W1-S3",
       "publisher": "UPTak",
-      "title": "UP में गन्ना पेराई सत्र 2026-27: 9 मिलों में काम शुरू, 33 ने इंडेंट जारी किया",
+      "title": "यूपी में शुरू हुई गन्ने की पेराई, 9 चीनी मिलों ने संभाला मोर्चा, 33 मिलों ने जारी किया इंडेंट",
       "url": "https://www.uptak.in/apna-up/story/up-sugarcane-crushing-season-2026-27-9-sugar-mills-start-operations-3559380-2026-11-04",
       "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T08:16:43+05:30",
@@ -317,9 +331,9 @@
     {
       "id": "W3-S2",
       "publisher": "Amar Ujala",
-      "title": "मेरठ: गन्ने के भाव की मांग को लेकर पानी की टंकी पर चढ़े तीन किसान, 700 रुपये प्रति क्विंटल करने की मांग",
-      "url": "https://www.amarujala.com/uttar-pradesh/meerut/three-farmers-climb-water-tank-in-hastinapur-demand-sugarcane-price-of-700-per-quintal-2026-11-04",
-      "published_at": "2026-11-04 15:06 IST",
+      "title": "Meerut News: गन्ना मूल्य बढ़ाने के लिए टंकी पर चढ़े किसान, किया प्रदर्शन",
+      "url": "https://www.amarujala.com/uttar-pradesh/meerut/farmers-climb-water-tank-to-demand-higher-sugarcane-prices-stage-protest-meerut-news-c-228-1-mwn1001-105713-2026-11-04",
+      "published_at": "2026-11-04 21:44 IST",
       "accessed_at": "2026-11-05T08:16:43+05:30",
       "claims_supported": [
         "W3: तीन किसानों के टंकी पर चढ़ने और ₹700 की मांग"
@@ -342,42 +356,42 @@
       "verification_notes": "रात तक की स्थिति का अतिरिक्त क्रॉस-चेक; 5 नवंबर सुबह तक समाधान की पुष्टि नहीं मिली।"
     },
     {
-      "id": "W4-S1",
+      "id": "W5-S1",
       "publisher": "Dainik Jagran",
       "title": "खरीददारी करने मेरठ आ रहे हैं तो जान लें! गुरुवार सुबह सात से इन बाजारों में प्रवेश नहीं कर पाएंगे चौपहिया वाहन",
       "url": "https://www.jagran.com/uttar-pradesh/meerut-city-meerut-diwali-traffic-4wheelers-erickshaws-banned-in-markets-40427792.html",
       "published_at": "2026-11-05 05:10 IST",
       "accessed_at": "2026-11-05T08:16:43+05:30",
       "claims_supported": [
-        "W4: 5 से 11 नवंबर तक मेरठ में त्योहार यातायात योजना",
-        "W4: बाजारों में वाहन प्रतिबंध और भारी वाहनों के लिए डायवर्जन"
+        "W5: 5 से 11 नवंबर तक मेरठ में त्योहार यातायात योजना",
+        "W5: बाजारों में वाहन प्रतिबंध और भारी वाहनों के लिए डायवर्जन"
       ],
       "source_type": "news",
       "verification_notes": "प्रकाशन समय 5 नवंबर सुबह; स्थानीय ट्रैफिक पुलिस की व्यवस्था के रूप में प्रस्तुत।"
     },
     {
-      "id": "W4-S2",
+      "id": "W5-S2",
       "publisher": "Live Hindustan",
       "title": "मेरठ में धनतेरस से भाई दूज तक शहर में भारी वाहनों की एंट्री बंद",
       "url": "https://www.livehindustan.com/uttar-pradesh/meerut/story-meerut-traffic-diversion-heavy-vehicles-barred-from-city-routes-during-dhanteras-to-bhai-dooj-201793822678702.html",
       "published_at": "2026-11-05 01:34 IST",
       "accessed_at": "2026-11-05T08:16:43+05:30",
       "claims_supported": [
-        "W4: 5–11 नवंबर, सुबह 7 से रात 2 बजे तक भारी वाहन डायवर्जन",
-        "W4: आबूलेन और सर्राफा बाजार की वाहन पाबंदियां"
+        "W5: 5–11 नवंबर, सुबह 7 से रात 2 बजे तक भारी वाहन डायवर्जन",
+        "W5: आबूलेन और सर्राफा बाजार की वाहन पाबंदियां"
       ],
       "source_type": "news",
       "verification_notes": "जागरण से क्रॉस-चेक; प्रतिबंधों को बाजार/मार्ग-विशिष्ट बताया।"
     },
     {
-      "id": "W4-S3",
+      "id": "W5-S3",
       "publisher": "Amar Ujala",
       "title": "मेरठ में दिवाली के लिए ट्रैफिक डायवर्जन, कई बाजारों में वाहनों की एंट्री पर रोक",
       "url": "https://www.amarujala.com/uttar-pradesh/meerut/meerut-traffic-diversions-in-the-city-for-diwali-vehicle-entry-banned-in-several-markets-2026-11-04",
       "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T08:16:43+05:30",
       "claims_supported": [
-        "W4: मेरठ में त्योहार के लिए बाजार-वार ट्रैफिक प्रतिबंध"
+        "W5: मेरठ में त्योहार के लिए बाजार-वार ट्रैफिक प्रतिबंध"
       ],
       "source_type": "news",
       "verification_notes": "दो अन्य स्थानीय रिपोर्टों से क्रॉस-चेक।"
@@ -426,56 +440,58 @@
     },
     {
       "id": "N2-S1",
+      "publisher": "World Gold Council",
+      "title": "Gold Demand Trends: India Focus Q3 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-india-focus-q3-2026",
+      "published_at": "2026-11-03",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N2: Q3 2026 Indian gold demand 162.5 tonnes, down 29% y/y",
+        "N2: jewellery demand down 20%; bar and coin demand down 40%"
+      ],
+      "source_type": "official",
+      "verification_notes": "Primary WGC India Q3 report; cross-checked with Reuters and New Indian Express."
+    },
+    {
+      "id": "N2-S2",
       "publisher": "Reuters",
       "title": "India's 2026 gold demand seen falling to six-year low on price rise",
       "url": "https://www.reuters.com/world/india/indias-2026-gold-demand-seen-falling-six-year-low-price-rise-2026-11-03/",
       "published_at": "2026-11-03 06:04 UTC",
       "accessed_at": "2026-11-05T08:16:43+05:30",
       "claims_supported": [
-        "N2: Q3 2026 भारत की सोने की मांग 29% घटकर 162.5 टन",
-        "N2: आभूषण मांग 20% और निवेश मांग 40% कम"
+        "N2: Q3 Indian gold demand down 29% to 162.5 tonnes",
+        "N2: jewellery down 20%, investment demand down 40%"
       ],
       "source_type": "news",
-      "verification_notes": "WGC के आंकड़े Reuters ने उद्धृत किए; राष्ट्रीय मांग, स्थानीय दुकान का आंकड़ा नहीं।"
-    },
-    {
-      "id": "N2-S2",
-      "publisher": "The New Indian Express",
-      "title": "India gold demand down 29% in Q3 2026: WGC report",
-      "url": "https://www.newindianexpress.com/business/2026/Nov/03/india-gold-demand-down-29-in-q3-2026-wgc-report",
-      "published_at": "2026-11-03 11:41 IST",
-      "accessed_at": "2026-11-05T08:16:43+05:30",
-      "claims_supported": [
-        "N2: WGC Q3 सोना मांग के आंकड़े"
-      ],
-      "source_type": "news",
-      "verification_notes": "Reuters/WGC आंकड़ों का स्वतंत्र समाचार क्रॉस-चेक।"
+      "verification_notes": "WGC primary report cross-check; national demand trend, not local retail prices."
     },
     {
       "id": "N2-S3",
-      "publisher": "Rediff / PTI",
+      "publisher": "The New Indian Express",
       "title": "India gold demand down 29% in Q3 2026: WGC report",
-      "url": "https://money.rediff.com/news/market/india-gold-demand-down-29-in-q3-2026-wgc-report/57407620261103",
-      "published_at": "2026-11-03 12:10 IST",
+      "url": "https://www.newindianexpress.com/business/2026/Nov/03/india-gold-demand-down-29-in-q3-2026-wgc-report",
+      "published_at": "2026-11-03 21:24 IST",
       "accessed_at": "2026-11-05T08:16:43+05:30",
       "claims_supported": [
-        "N2: Q3 सोना मांग में गिरावट"
+        "N2: Q3 2026 gold demand down 29% to 162.5 tonnes",
+        "N2: jewellery demand down 20%, bar and coin demand down 40%"
       ],
       "source_type": "news",
-      "verification_notes": "PTI/Rediff के माध्यम से WGC आंकड़ों का अतिरिक्त क्रॉस-चेक।"
+      "verification_notes": "WGC primary report and Reuters cross-check."
     },
     {
       "id": "N3-S1",
       "publisher": "Telecom Regulatory Authority of India",
       "title": "Telecom Consumers Complaint Redressal (Fourth Amendment) Regulations, 2026",
-      "url": "https://www.trai.gov.in/notifications/press-release",
+      "url": "https://www.trai.gov.in/telecom-consumers-complaint-redressal-fourth-amendment-regulations-2026",
       "published_at": "2026-11-02",
       "accessed_at": "2026-11-05T08:16:43+05:30",
       "claims_supported": [
         "N3: 2 नवंबर का चौथा संशोधन नियम"
       ],
       "source_type": "official",
-      "verification_notes": "TRAI की आधिकारिक प्रेस रिलीज सूची; विस्तृत PDF fetch नहीं हुआ, इसलिए परिचालन विवरण NDTV Profit और Business Standard से भी मिलाए।"
+      "verification_notes": "Exact TRAI regulation page; detailed rules cross-checked with NDTV Profit and Business Standard."
     },
     {
       "id": "N3-S2",
@@ -504,47 +520,6 @@
       ],
       "source_type": "news",
       "verification_notes": "NDTV Profit के साथ क्रॉस-चेक; स्क्रिप्ट में हर शिकायत के तुरंत समाधान का दावा नहीं।"
-    },
-    {
-      "id": "N4-S1",
-      "publisher": "Reuters",
-      "title": "India says PepsiCo, Monster marketed with 'energy drink' label to dupe consumers",
-      "url": "https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/",
-      "published_at": "2026-11-04 11:40 UTC",
-      "accessed_at": "2026-11-05T08:16:43+05:30",
-      "claims_supported": [
-        "N4: FSSAI का 'energy drink' descriptor पर नियामकीय पक्ष",
-        "N4: PepsiCo और Monster की चुनौती"
-      ],
-      "source_type": "news",
-      "verification_notes": "कानूनी विवाद का नवीनतम उपलब्ध समाचार स्रोत; इसे स्वास्थ्य/विषाक्तता निष्कर्ष नहीं बताया।"
-    },
-    {
-      "id": "N4-S2",
-      "publisher": "Lawchakra",
-      "title": "Delhi High Court energy drink case: FSSAI, PepsiCo and Monster",
-      "url": "https://lawchakra.in/high-court/delhi-high-court/energy-drink-delhi-high-court/",
-      "published_at": "2026-10-06 18:58 IST",
-      "accessed_at": "2026-11-05T08:16:43+05:30",
-      "claims_supported": [
-        "N4: दिल्ली हाईकोर्ट का अंतरिम आदेश; पुराने लेबल स्टॉक और नए उत्पादन में अंतर",
-        "N4: 5 नवंबर की सुनवाई सूचीबद्ध"
-      ],
-      "source_type": "news",
-      "verification_notes": "अंतरिम आदेश का विवरण; 5 नवंबर का कोई नया आदेश 08:16 IST तक सत्यापित नहीं हुआ।"
-    },
-    {
-      "id": "N4-S3",
-      "publisher": "The News Minute / ANI",
-      "title": "Delhi High Court stays FSSAI order on energy drink label for PepsiCo and Monster",
-      "url": "https://thenewsmill.com/2026/10/delhi-high-court-stays-fssai-order-on-energy-drink-label-for-pepsico-and-monster/",
-      "published_at": "2026-10-06 21:32 IST",
-      "accessed_at": "2026-11-05T08:16:43+05:30",
-      "claims_supported": [
-        "N4: अंतरिम आदेश और कंपनियों की कानूनी चुनौती"
-      ],
-      "source_type": "news",
-      "verification_notes": "Lawchakra और Reuters के साथ कानूनी स्थिति का क्रॉस-चेक; कोई अंतिम निर्णय नहीं।"
     },
     {
       "id": "N5-S1",
@@ -757,16 +732,103 @@
       ],
       "source_type": "news",
       "verification_notes": "IMD bulletin का द्वितीयक cross-check; आधिकारिक चेतावनी के लिए IMD को प्राथमिकता।"
+    },
+    {
+      "id": "W4-S1",
+      "publisher": "Amar Ujala",
+      "title": "Moradabad News: हाईवे पर रोडवेज बस में लगी आग, 55 यात्रियों ने कूदकर बचाई जान",
+      "url": "https://www.amarujala.com/uttar-pradesh/moradabad/fire-breaks-out-in-a-state-transport-bus-on-the-highway-55-passengers-save-their-lives-by-jumping-out-moradabad-news-c-15-1-mbd1027-1032271-2026-11-05",
+      "published_at": "2026-11-05 00:57 IST",
+      "accessed_at": "2026-11-05T08:28:12+05:30",
+      "claims_supported": [
+        "W4: मूंढापांडे/दलपतपुर फ्लाईओवर पर रोडवेज बस में आग; 55 यात्रियों को बाहर निकाला",
+        "W4: मुख्य अग्निशमन अधिकारी ने पिछला टायर फटने को कारण बताया"
+      ],
+      "source_type": "news",
+      "verification_notes": "Jagran से घटना का क्रॉस-चेक; कारण को मुख्य अग्निशमन अधिकारी के शुरुआती बयान के रूप में रखा, अंतिम तकनीकी निष्कर्ष नहीं।"
+    },
+    {
+      "id": "W4-S2",
+      "publisher": "Dainik Jagran",
+      "title": "धमाके के साथ फटा AC बस का टायर, नेशनल हाईवे पर मची चीख-पुकार; 55 यात्रियों ने कूदकर बचाई जान",
+      "url": "https://www.jagran.com/uttar-pradesh/moradabad-city-moradabad-delhi-lucknow-highway-ac-bus-fire-55-passengers-safe-40427710.html",
+      "published_at": "2026-11-04 23:10 IST",
+      "accessed_at": "2026-11-05T08:28:12+05:30",
+      "claims_supported": [
+        "W4: दिल्ली-बरेली रोडवेज बस में आग; 55 यात्री बाहर निकले",
+        "W4: दमकल ने करीब 15 मिनट में आग बुझाई; प्रारंभिक कारण पिछला पहिया फटना बताया"
+      ],
+      "source_type": "news",
+      "verification_notes": "Amar Ujala से स्वतंत्र स्थानीय क्रॉस-चेक; कोई अपुष्ट चोट/मृत्यु संख्या नहीं जोड़ी।"
+    },
+    {
+      "id": "N4-S1",
+      "publisher": "CERT-In / MeitY",
+      "title": "CERT-In Advisory CIAD-2026-0058: Escalation of AI-Driven Attacks on BFSI Entities by Threat Actor CRAFTY FALCON",
+      "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T08:28:12+05:30",
+      "claims_supported": [
+        "N4: Critical advisory on active AI-assisted CRAFTY FALCON attacks targeting banks, NBFCs, fintechs and payment/disbursement APIs",
+        "N4: AI-assisted attacks operate at machine speed and successful attacks have been reported"
+      ],
+      "source_type": "official",
+      "verification_notes": "Primary CERT-In advisory issued 4 Nov; technical details simplified for public without reproducing exploit steps."
+    },
+    {
+      "id": "N4-S2",
+      "publisher": "The New Indian Express",
+      "title": "MHA’s I4C warns banks, fintech firms of AI-powered cyberattacks and machine-speed fraud",
+      "url": "https://www.newindianexpress.com/india/2026/Nov/04/mhas-i4c-warns-banks-fintech-firms-of-ai-powered-cyberattacks-and-machine-speed-fraud",
+      "published_at": "2026-11-04 21:43 IST",
+      "accessed_at": "2026-11-05T08:28:12+05:30",
+      "claims_supported": [
+        "N4: I4C/CERT-In advisory; multi-crore unauthorised transactions in individual cases",
+        "N4: attacks exploit exposed systems and payment APIs; money can move to mule accounts"
+      ],
+      "source_type": "news",
+      "verification_notes": "CERT-In primary advisory cross-check; the advisory is directed at financial institutions, not proof that every customer's account is compromised."
+    },
+    {
+      "id": "N4-S3",
+      "publisher": "Reuters",
+      "title": "India cybercrime agency warns financial firms of AI attacks",
+      "url": "https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T08:28:12+05:30",
+      "claims_supported": [
+        "N4: I4C warning to banks, NBFCs and fintech firms on AI-agent-assisted attacks",
+        "N4: attackers exploit unpatched systems and payment/disbursement APIs"
+      ],
+      "source_type": "news",
+      "verification_notes": "CERT-In advisory cross-check; no specific customer account or bank is named."
+    },
+    {
+      "id": "N4-S4",
+      "publisher": "Indian Cyber Crime Coordination Centre, Ministry of Home Affairs",
+      "title": "Money Restoration Portal — Financial fraud helpline 1930",
+      "url": "https://mrm-ncrp.mha.gov.in/restoration/",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T08:28:12+05:30",
+      "claims_supported": [
+        "N4: 1930 helpline for financial cyber fraud reporting"
+      ],
+      "source_type": "official",
+      "verification_notes": "Official I4C portal; included only for general victim-reporting guidance."
     }
   ],
   "editorial_checks": [
-    "Four Western UP stories total exactly 210/600 seconds (35%).",
+    "Five Western UP stories total exactly 210/600 seconds (35%).",
     "Eight national/UP stories total 330 seconds; weather 30 seconds; opening/close 30 seconds.",
     "No routine recruitment, government-job, exam, admit-card or career notice included.",
-    "No story forced solely to fill a district quota; verified Western UP items are from Meerut, Muzaffarnagar, Bijnor and the Moradabad division.",
-    "Allegations, demands, estimates and interim legal proceedings are explicitly attributed and qualified.",
-    "Refresh N4 Delhi High Court hearing status immediately before render; no 5 Nov order found at 08:16 IST.",
+    "Verified Western UP items cover Bijnor/Dhampur and Moradabad division, Muzaffarnagar, Meerut and Moradabad city.",
+    "Allegations, demands, estimates and preliminary causes are attributed and qualified.",
+    "Moradabad bus fire cause is attributed to the Chief Fire Officer; no unverified injury/death count is added.",
+    "Meerut ₹700/quintal is a farmer demand, not an announced government rate; no 5 Nov resolution verified by 08:28 IST.",
+    "Muzaffarnagar sweets lab results not located; no chemical adulteration finding claimed.",
+    "CERT-In CIAD-2026-0058 is a warning for financial institutions; do not imply every customer's account is compromised.",
     "IMD West UP warning page directly checked 5 Nov; no warning for 5–11 Nov.",
     "Only original script and verified CC0/CC BY-SA images; no news screenshots, TV clips, YouTube footage, music or sound effects."
-  ]
+  ],
+  "source_count": 43
 }
