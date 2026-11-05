@@ -15,9 +15,9 @@
 ## Western Uttar Pradesh — 3:30 total (35%)
 
 ### W1 — Moradabad: Delhi–Bareilly roadways bus catches fire, all 55 passengers escape
-A Bareilly-depot AC roadways bus travelling from Delhi to Bareilly caught fire near the Dalpatpur overbridge on the Delhi–Lucknow National Highway at about 8:45 pm on 4 November. Dainik Jagran reports that all 55 passengers got out safely and two fire tenders extinguished the fire in about 15 minutes. A tyre burst is described as the preliminary cause, not a final technical finding.
+A Bareilly-depot AC roadways bus travelling from Delhi to Bareilly caught fire near the Dalpatpur overbridge on the Delhi–Lucknow National Highway at about 9 pm on 4 November. Dainik Jagran and Amar Ujala both report that all 55 passengers were evacuated safely and two fire tenders attended. Amar Ujala quotes the Chief Fire Officer attributing the fire to a rear tyre burst; no final engineering or forensic report was located.
 **Audience angle:** Passenger safety, bus maintenance and what to do when a vehicle catches fire.
-**Verification:** One detailed local report quotes the police and Chief Fire Officer. Obtain the fire service/police incident note before stating the exact cause. Do not use passengers' panic footage unless rights and consent are established.
+**Verification:** Two independent local reports corroborate the safe evacuation and fire response. Attribute the tyre-burst explanation to the Chief Fire Officer; do not call it a final technical finding. Do not use passengers' panic footage unless rights and consent are established.
 **Time:** 0:45  
 **Sources:** W1-S1, W1-S2
 
