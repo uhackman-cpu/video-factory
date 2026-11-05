@@ -112,7 +112,9 @@
     ],
     "license_types": [
       "CC0 1.0",
-      "CC BY-SA 4.0"
+      "CC BY-SA 4.0",
+      "SIL OFL 1.1",
+      "Apache-2.0"
     ],
     "commercial_use_allowed": true,
     "adaptation_allowed": true,
@@ -121,11 +123,15 @@
     "sound_effects": "None",
     "third_party_news_footage": "None",
     "narration": "Kokoro-82M Hindi voice hm_omega, Apache-2.0; local synthesis only",
-    "phonemizer": "espeak-ng"
+    "phonemizer": "espeak-ng",
+    "font_assets": 1,
+    "font_asset_ids": [
+      "FONT-NOTO-SANS-DEVANAGARI"
+    ]
   },
   "visual_audio_clearance": {
     "status": "PASS_WITH_HUMAN_REVIEW_PENDING",
-    "details": "All 11 used still images have exact source pages, creator/rights holder, licence version, commercial/adaptation permissions, attribution and evidence URLs. Every scene maps to a matching asset_licenses record and includes the licence URL. Every still carries a visible illustrative label. Kokoro hm_omega is recorded as Apache-2.0; no music or sound effects."
+    "details": "All 11 used still images have exact source pages, creator/rights holder, licence version, commercial/adaptation permissions, attribution and evidence URLs. Every scene maps to a matching asset_licenses record and includes the licence URL. Every still carries a visible illustrative label. Kokoro hm_omega is recorded as Apache-2.0; no music or sound effects. Noto Sans Devanagari font source and SIL OFL 1.1 terms are recorded; font is installed from fonts-noto-core and not bundled as a standalone file."
   },
   "technical_checks": {
     "status": "PENDING_RENDER",
@@ -155,6 +161,63 @@
     "active_run_head_sha": "f007c6fd6aa6c6de98f02c1963930438b4789f5c",
     "latest_sources_schema_fix_commit": "1cd1691fddacaeb8c8f56f5f8c992984ca34f9b0",
     "next_render_required_after_active_run": true,
-    "duplicate_dispatch_prohibited_while_active": true
-  }
+    "duplicate_dispatch_prohibited_while_active": true,
+    "latest_font_provenance_commit_pending": true
+  },
+  "pre_publication_checklist": [
+    {
+      "item": "Every important claim is sourced and checked",
+      "status": "PASS_WITH_CAVEATS",
+      "notes": "See research_verification and sources.json."
+    },
+    {
+      "item": "Script is independently written, not copied or mechanically paraphrased",
+      "status": "PASS"
+    },
+    {
+      "item": "Allegations, uncertainty and corrections are handled responsibly",
+      "status": "PASS_WITH_ATTRIBUTION"
+    },
+    {
+      "item": "Every external visual/audio/font asset has verified rights and complete provenance",
+      "status": "PASS_METADATA"
+    },
+    {
+      "item": "Required credits and attribution are included",
+      "status": "PASS"
+    },
+    {
+      "item": "Narration, fonts, music and sound effects are cleared",
+      "status": "PASS",
+      "notes": "Kokoro Apache-2.0, Noto Sans Devanagari SIL OFL 1.1; no music or sound effects."
+    },
+    {
+      "item": "Weather/data use complies with provider terms and has issue time/validity/geographic scope",
+      "status": "PASS_WITH_CURRENT_IMD_REFRESH"
+    },
+    {
+      "item": "Synthetic/reconstructed visuals are labelled and not presented as actual event footage",
+      "status": "PASS"
+    },
+    {
+      "item": "Privacy, defamation, safety and sensitive-content checks",
+      "status": "PASS_WITH_HUMAN_REVIEW"
+    },
+    {
+      "item": "sources.json, asset_licenses.json, credits.txt and editorial_checklist.json are present",
+      "status": "PASS"
+    },
+    {
+      "item": "Video/audio/subtitles pass technical quality checks",
+      "status": "PENDING_RENDER"
+    },
+    {
+      "item": "Required human review is complete",
+      "status": "HOLD"
+    },
+    {
+      "item": "Publishing gate returns PASS",
+      "status": "HOLD"
+    }
+  ]
 }
