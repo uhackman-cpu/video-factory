@@ -289,5 +289,23 @@
   ],
   "font_asset_ids": [
     "FONT-NOTO-SANS-DEVANAGARI"
+  ],
+  "current_edition_used_asset_ids": [
+    "IMG-WHEAT-UP",
+    "IMG-BIKE-HIGHWAY",
+    "IMG-INDIAN-SWEET",
+    "IMG-LAPTOP-KEYBOARD",
+    "IMG-DIWALI-MARKET",
+    "IMG-MONSOON-CLOUDS",
+    "IMG-BANGALORE-COURT",
+    "IMG-GOLD-JEWELLERY",
+    "IMG-CRICKET-HYDERABAD"
+  ],
+  "current_edition_usage_notes": [
+    "All stills are illustrative and carry the visible label 'प्रतीकात्मक तस्वीर'.",
+    "Moradabad firecracker story uses a generic Delhi Diwali-market photo only; no seized explosives or actual raid imagery.",
+    "Ramayana story uses a generic festival-market photo only; no film still, poster, actor likeness or movie artwork.",
+    "Bijnor paneer story uses a generic food photo, not an actual paneer sample or lab result.",
+    "All visual assets are CC0 or CC BY-SA 4.0 with commercial use/adaptations allowed; TTS is Kokoro Apache-2.0; subtitle font is SIL OFL 1.1."
   ]
 }
