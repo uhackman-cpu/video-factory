@@ -578,7 +578,8 @@
         "Cabinet announcement and scheme purpose"
       ],
       "source_type": "news",
-      "verification_notes": "Independent newsroom report on Cabinet announcement."
+      "verification_notes": "Independent newsroom report on Cabinet announcement.",
+      "publisher": "The Economic Times"
     },
     {
       "id": "N4-S3",
@@ -595,7 +596,8 @@
         "scheme capacity and estimated investment"
       ],
       "source_type": "news",
-      "verification_notes": "Independent report; aligns with official release."
+      "verification_notes": "Independent report; aligns with official release.",
+      "publisher": "Business Standard"
     },
     {
       "id": "N5-S1",
@@ -615,8 +617,9 @@
         "four plants: two lithium and two nickel",
         "30% capital subsidy on eligible investment"
       ],
-      "source_type": "news",
-      "verification_notes": "Primary Cabinet/PMO release."
+      "source_type": "official",
+      "verification_notes": "Primary Cabinet/PMO release.",
+      "publisher": "Prime Minister of India (PMO)"
     },
     {
       "id": "N5-S2",
@@ -633,7 +636,8 @@
         "Cabinet approval and supply-chain rationale"
       ],
       "source_type": "news",
-      "verification_notes": "Independent news report; official release governs scheme detail."
+      "verification_notes": "Independent news report; official release governs scheme detail.",
+      "publisher": "Reuters"
     },
     {
       "id": "N6-S1",
@@ -652,7 +656,8 @@
         "attack method and recommended safeguards"
       ],
       "source_type": "news",
-      "verification_notes": "Primary advisory text is not linked in the report; do not overstate the risk to ordinary personal bank accounts."
+      "verification_notes": "Primary advisory text is not linked in the report; do not overstate the risk to ordinary personal bank accounts.",
+      "publisher": "Reuters"
     },
     {
       "id": "N6-S2",
@@ -673,7 +678,8 @@
         "six-hour incident reporting"
       ],
       "source_type": "news",
-      "verification_notes": "PTI report, separate from Reuters report."
+      "verification_notes": "PTI report, separate from Reuters report.",
+      "publisher": "Mint"
     },
     {
       "id": "N6-S3",
@@ -690,7 +696,8 @@
         "joint I4C/CERT-In advisory details and recommended controls"
       ],
       "source_type": "news",
-      "verification_notes": "Independent newsroom summary of the advisory."
+      "verification_notes": "Independent newsroom summary of the advisory.",
+      "publisher": "The Economic Times"
     },
     {
       "id": "N7-S1",
@@ -711,7 +718,8 @@
         "Arshdeep four wickets"
       ],
       "source_type": "news",
-      "verification_notes": "Match result and score detail."
+      "verification_notes": "Match result and score detail.",
+      "publisher": "Reuters"
     },
     {
       "id": "N7-S2",
@@ -728,7 +736,8 @@
         "185 all out, India 143/5 in 22.4 overs, DLS result"
       ],
       "source_type": "news",
-      "verification_notes": "Scorecard cross-check."
+      "verification_notes": "Scorecard cross-check.",
+      "publisher": "Hindustan Times"
     },
     {
       "id": "N7-S3",
@@ -745,7 +754,8 @@
         "match result and leading performances"
       ],
       "source_type": "news",
-      "verification_notes": "Independent match report."
+      "verification_notes": "Independent match report.",
+      "publisher": "The Times of India"
     },
     {
       "id": "N8-S1",
@@ -767,8 +777,9 @@
         "up to 850 courts from 779 functional",
         "4,02,457 cases disposed since 2019"
       ],
-      "source_type": "news",
-      "verification_notes": "Primary Cabinet release; 850 is planned capacity, not 850 newly operating courts."
+      "source_type": "official",
+      "verification_notes": "Primary Cabinet release; 850 is planned capacity, not 850 newly operating courts.",
+      "publisher": "Prime Minister of India (PMO)"
     },
     {
       "id": "N8-S2",
@@ -785,7 +796,8 @@
         "Cabinet decision and court expansion"
       ],
       "source_type": "news",
-      "verification_notes": "Independent newsroom report."
+      "verification_notes": "Independent newsroom report.",
+      "publisher": "The Economic Times"
     },
     {
       "id": "N8-S3",
@@ -802,7 +814,8 @@
         "scheme continuation and planned expansion"
       ],
       "source_type": "news",
-      "verification_notes": "PTI report; do not imply every court has already opened."
+      "verification_notes": "PTI report; do not imply every court has already opened.",
+      "publisher": "Hindustan Times"
     },
     {
       "id": "WX-S1",
@@ -818,8 +831,9 @@
       "claims_supported": [
         "No warning for West Uttar Pradesh 5–11 November 2026"
       ],
-      "source_type": "news",
-      "verification_notes": "Official RMC New Delhi page issued 5 Nov; West UP shows no warning 5–11 Nov."
+      "source_type": "official",
+      "verification_notes": "Official RMC New Delhi page issued 5 Nov; West UP shows no warning 5–11 Nov.",
+      "publisher": "India Meteorological Department"
     },
     {
       "id": "WX-S2",
@@ -835,8 +849,9 @@
       "claims_supported": [
         "5 Nov forecast mainly clear, 19–28°C"
       ],
-      "source_type": "news",
-      "verification_notes": "IMD city page dated 4 Nov; town forecast only, not a district-wide alert."
+      "source_type": "official",
+      "verification_notes": "IMD city page dated 4 Nov; town forecast only, not a district-wide alert.",
+      "publisher": "India Meteorological Department"
     },
     {
       "id": "WX-S3",
@@ -852,8 +867,9 @@
       "claims_supported": [
         "5 Nov forecast clear, 16–29°C"
       ],
-      "source_type": "news",
-      "verification_notes": "IMD city page dated 4 Nov; town forecast only, not a district-wide alert."
+      "source_type": "official",
+      "verification_notes": "IMD city page dated 4 Nov; town forecast only, not a district-wide alert.",
+      "publisher": "India Meteorological Department"
     },
     {
       "id": "WX-S4",
@@ -873,8 +889,9 @@
         "no significant weather over Northwest, West and Northeast during the week",
         "rain/thunderstorm and heavy-rain forecast over southern states"
       ],
-      "source_type": "news",
-      "verification_notes": "Official issue time 13:00 IST; valid period stated in the bulletin."
+      "source_type": "official",
+      "verification_notes": "Official issue time 13:00 IST; valid period stated in the bulletin.",
+      "publisher": "India Meteorological Department"
     },
     {
       "id": "WX-S5",
@@ -890,8 +907,9 @@
       "claims_supported": [
         "Thunderstorm/lightning/squall and strong surface winds 5–8 November"
       ],
-      "source_type": "news",
-      "verification_notes": "Official page shows issue date, not issue time."
+      "source_type": "official",
+      "verification_notes": "Official page shows issue date, not issue time.",
+      "publisher": "India Meteorological Department"
     },
     {
       "id": "WX-S6",
@@ -907,8 +925,9 @@
       "claims_supported": [
         "Thunderstorm 5 November; heavy rain and thunderstorm 6–8 November"
       ],
-      "source_type": "news",
-      "verification_notes": "Official page shows issue date, not issue time."
+      "source_type": "official",
+      "verification_notes": "Official page shows issue date, not issue time.",
+      "publisher": "India Meteorological Department"
     },
     {
       "id": "WX-S7",
@@ -924,8 +943,9 @@
       "claims_supported": [
         "South Interior Karnataka heavy rain and thunderstorm 5–6 November"
       ],
-      "source_type": "news",
-      "verification_notes": "Official page shows issue date, not issue time."
+      "source_type": "official",
+      "verification_notes": "Official page shows issue date, not issue time.",
+      "publisher": "India Meteorological Department"
     },
     {
       "id": "N2-S1",
@@ -998,7 +1018,8 @@
         "12,230 in shelters"
       ],
       "source_type": "news",
-      "verification_notes": "Includes PTI/official input; no newer verified damage total found."
+      "verification_notes": "Includes PTI/official input; no newer verified damage total found.",
+      "publisher": "Hindustan Times"
     },
     {
       "id": "N2-S4",
@@ -1016,8 +1037,9 @@
         "Murasu weakened to depression over east Telangana and adjoining Coastal Andhra Pradesh by 05:30 IST on 4 Nov",
         "likely to weaken further to a well-marked low pressure area"
       ],
-      "source_type": "news",
-      "verification_notes": "Primary meteorological status; does not provide the damage figures."
+      "source_type": "official",
+      "verification_notes": "Primary meteorological status; does not provide the damage figures.",
+      "publisher": "India Meteorological Department"
     },
     {
       "id": "W1-S2",
@@ -1377,6 +1399,7 @@
     },
     {
       "id": "N4-S2",
+      "publisher": "The Economic Times",
       "title": "Cabinet approves ₹14,500-crore scheme to add 92 GWh energy storage capacity",
       "url": "https://economictimes.indiatimes.com/industry/energy/cabinet-approves-14500-crore-scheme-to-add-92-gwh-energy-storage-capacity/articleshow/135533402.cms",
       "published_at": "2026-11-04T14:47:00+05:30",
@@ -1389,6 +1412,7 @@
     },
     {
       "id": "N4-S3",
+      "publisher": "Business Standard",
       "title": "Cabinet clears ₹14,500 crore VGF scheme for 92 GWh storage",
       "url": "https://www.business-standard.com/india-news/cabinet-clears-14-500-crore-vgf-scheme-for-92-gwh-energy-storage-capacity-126110401643_1.html",
       "published_at": "2026-11-04T18:57:00+05:30",
@@ -1401,6 +1425,7 @@
     },
     {
       "id": "N5-S1",
+      "publisher": "Prime Minister of India (PMO)",
       "title": "Cabinet approves ₹2,814 crore critical mineral processing scheme",
       "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/?comment=disable",
       "published_at": "2026-11-04",
@@ -1410,11 +1435,12 @@
         "four plants: two lithium and two nickel",
         "30% capital subsidy on eligible investment"
       ],
-      "source_type": "news",
+      "source_type": "official",
       "verification_notes": "Primary Cabinet/PMO release."
     },
     {
       "id": "N5-S2",
+      "publisher": "Reuters",
       "title": "India approves $297 million incentive policy for lithium, nickel processing",
       "url": "https://www.reuters.com/business/india-approves-297-million-incentive-policy-lithium-nickel-processing-2026-11-04/",
       "published_at": "2026-11-04",
@@ -1427,6 +1453,7 @@
     },
     {
       "id": "N6-S1",
+      "publisher": "Reuters",
       "title": "India cybercrime agency warns financial firms of AI-driven cyberattacks",
       "url": "https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/",
       "published_at": "2026-11-04",
@@ -1440,6 +1467,7 @@
     },
     {
       "id": "N6-S2",
+      "publisher": "Mint",
       "title": "Central cyber security agency warns banks and fintech firms of AI attacks",
       "url": "https://www.livemint.com/technology/central-cyber-security-agency-warns-banks-fintech-firms-of-frauds-through-ai-agents-11793805354383.html",
       "published_at": "2026-11-04T20:45:00+05:30",
@@ -1454,6 +1482,7 @@
     },
     {
       "id": "N6-S3",
+      "publisher": "The Economic Times",
       "title": "I4C warns banks, NBFCs and fintech firms of AI-powered fraud",
       "url": "https://economictimes.indiatimes.com/news/new-updates/central-cyber-security-agency-warns-banks-nbfcs-of-ai-attacks-i4c-reveals-how-hackers-are-executing-multi-crore-frauds/articleshow/135546478.cms",
       "published_at": "2026-11-04T22:44:00+05:30",
@@ -1466,6 +1495,7 @@
     },
     {
       "id": "N7-S1",
+      "publisher": "Reuters",
       "title": "Kohli in the runs as India beat New Zealand in first ODI",
       "url": "https://www.reuters.com/sports/cricket/kohli-runs-india-thrash-new-zealand-first-odi-2026-11-04/",
       "published_at": "2026-11-04",
@@ -1480,6 +1510,7 @@
     },
     {
       "id": "N7-S2",
+      "publisher": "Hindustan Times",
       "title": "New Zealand vs India 1st ODI scorecard",
       "url": "https://www.hindustantimes.com/cricket/match-result-nz-vs-ind-ind-in-nz-5-odis-2026-1st-odi-new-zealand-vs-india-odi-nzin11042026271651",
       "published_at": "2026-11-04",
@@ -1492,6 +1523,7 @@
     },
     {
       "id": "N7-S3",
+      "publisher": "The Times of India",
       "title": "Kohli 74 and Arshdeep four-wicket haul guide India to win",
       "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/virat-kohlis-74-arshdeep-singhs-four-wicket-haul-guide-india-to-victory-in-rain-hit-odi/articleshow/135534542.cms",
       "published_at": "2026-11-04",
@@ -1504,6 +1536,7 @@
     },
     {
       "id": "N8-S1",
+      "publisher": "Prime Minister of India (PMO)",
       "title": "Cabinet continues Fast Track Special Courts scheme for five years",
       "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-centrally-sponsored-scheme-for-fast-track-special-courts-ftscs-for-expeditious-trial-of-cases-of-rape-and-pocso-protection-of-children-from-sexual-offences-act/?comment=disable",
       "published_at": "2026-11-04",
@@ -1514,11 +1547,12 @@
         "up to 850 courts from 779 functional",
         "4,02,457 cases disposed since 2019"
       ],
-      "source_type": "news",
+      "source_type": "official",
       "verification_notes": "Primary Cabinet release; 850 is planned capacity, not 850 newly operating courts."
     },
     {
       "id": "N8-S2",
+      "publisher": "The Economic Times",
       "title": "Cabinet clears ₹3,788 crore to strengthen 850 fast-track courts",
       "url": "https://economictimes.indiatimes.com/news/india/cabinet-approves-extension-strengthening-of-850-fast-track-courts-for-rape-child-abuse-cases/articleshow/135533788.cms",
       "published_at": "2026-11-04T15:03:00+05:30",
@@ -1531,6 +1565,7 @@
     },
     {
       "id": "N8-S3",
+      "publisher": "Hindustan Times",
       "title": "Government extends Fast Track Special Courts to 2031",
       "url": "https://www.hindustantimes.com/india-news/govt-approves-strengthening-extension-of-850-fast-track-courts-to-deal-with-child-abuse-and-rape-cases-101793791099448.html",
       "published_at": "2026-11-04T16:48:19+05:30",
@@ -1543,6 +1578,7 @@
     },
     {
       "id": "WX-S1",
+      "publisher": "India Meteorological Department",
       "title": "Subdivision warnings — West Uttar Pradesh",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25",
       "published_at": "2026-11-05",
@@ -1550,11 +1586,12 @@
       "claims_supported": [
         "No warning for West Uttar Pradesh 5–11 November 2026"
       ],
-      "source_type": "news",
+      "source_type": "official",
       "verification_notes": "Official RMC New Delhi page issued 5 Nov; West UP shows no warning 5–11 Nov."
     },
     {
       "id": "WX-S2",
+      "publisher": "India Meteorological Department",
       "title": "Moradabad local forecast",
       "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42187",
       "published_at": "2026-11-04",
@@ -1562,11 +1599,12 @@
       "claims_supported": [
         "5 Nov forecast mainly clear, 19–28°C"
       ],
-      "source_type": "news",
+      "source_type": "official",
       "verification_notes": "IMD city page dated 4 Nov; town forecast only, not a district-wide alert."
     },
     {
       "id": "WX-S3",
+      "publisher": "India Meteorological Department",
       "title": "Bareilly local forecast",
       "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42189",
       "published_at": "2026-11-04",
@@ -1574,11 +1612,12 @@
       "claims_supported": [
         "5 Nov forecast clear, 16–29°C"
       ],
-      "source_type": "news",
+      "source_type": "official",
       "verification_notes": "IMD city page dated 4 Nov; town forecast only, not a district-wide alert."
     },
     {
       "id": "WX-S4",
+      "publisher": "India Meteorological Department",
       "title": "National weather press release",
       "url": "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2004-11-2026_1793778009.pdf",
       "published_at": "2026-11-04T13:00:00+05:30",
@@ -1588,11 +1627,12 @@
         "no significant weather over Northwest, West and Northeast during the week",
         "rain/thunderstorm and heavy-rain forecast over southern states"
       ],
-      "source_type": "news",
+      "source_type": "official",
       "verification_notes": "Official issue time 13:00 IST; valid period stated in the bulletin."
     },
     {
       "id": "WX-S5",
+      "publisher": "India Meteorological Department",
       "title": "Subdivision warnings — Coastal Andhra and Rayalaseema",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2",
       "published_at": "2026-11-05",
@@ -1600,11 +1640,12 @@
       "claims_supported": [
         "Thunderstorm/lightning/squall and strong surface winds 5–8 November"
       ],
-      "source_type": "news",
+      "source_type": "official",
       "verification_notes": "Official page shows issue date, not issue time."
     },
     {
       "id": "WX-S6",
+      "publisher": "India Meteorological Department",
       "title": "Subdivision warnings — Kerala",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=4",
       "published_at": "2026-11-05",
@@ -1612,11 +1653,12 @@
       "claims_supported": [
         "Thunderstorm 5 November; heavy rain and thunderstorm 6–8 November"
       ],
-      "source_type": "news",
+      "source_type": "official",
       "verification_notes": "Official page shows issue date, not issue time."
     },
     {
       "id": "WX-S7",
+      "publisher": "India Meteorological Department",
       "title": "Subdivision warnings — Karnataka",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13",
       "published_at": "2026-11-05",
@@ -1624,7 +1666,7 @@
       "claims_supported": [
         "South Interior Karnataka heavy rain and thunderstorm 5–6 November"
       ],
-      "source_type": "news",
+      "source_type": "official",
       "verification_notes": "Official page shows issue date, not issue time."
     },
     {
@@ -1662,6 +1704,7 @@
     },
     {
       "id": "N2-S3",
+      "publisher": "Hindustan Times",
       "title": "Cyclone Murasu weakens into deep depression; Andhra reports two deaths",
       "url": "https://www.hindustantimes.com/india-news/cyclone-murasu-weakens-into-deep-depression-to-become-low-pressure-area-in-12-hours-imd-forecasts-more-rain-in-andhra-101793772415920.html",
       "published_at": "2026-11-04T12:12:01+05:30",
@@ -1677,6 +1720,7 @@
     },
     {
       "id": "N2-S4",
+      "publisher": "India Meteorological Department",
       "title": "National weather press release — Murasu weakened to depression",
       "url": "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2004-11-2026_1793778009.pdf",
       "published_at": "2026-11-04T13:00:00+05:30",
@@ -1685,7 +1729,7 @@
         "Murasu weakened to depression over east Telangana and adjoining Coastal Andhra Pradesh by 05:30 IST on 4 Nov",
         "likely to weaken further to a well-marked low pressure area"
       ],
-      "source_type": "news",
+      "source_type": "official",
       "verification_notes": "Primary meteorological status; does not provide the damage figures."
     },
     {
