@@ -294,11 +294,11 @@
     "IMG-WHEAT-UP",
     "IMG-INDIAN-SWEET",
     "IMG-BIKE-HIGHWAY",
+    "IMG-DIWALI-MARKET",
     "IMG-GOLD-JEWELLERY",
     "IMG-LAPTOP-KEYBOARD",
     "IMG-SOLAR-PANELS-INDIA",
     "IMG-BANGALORE-COURT",
-    "IMG-DIWALI-MARKET",
     "IMG-MONSOON-CLOUDS",
     "TTS-KOKORO-82M-HM-OMEGA",
     "FONT-NOTO-SANS-DEVANAGARI"
@@ -310,6 +310,6 @@
     "Bijnor paneer story uses a generic food photo, not an actual paneer sample or lab result.",
     "All visual assets are CC0 or CC BY-SA 4.0 with commercial use and adaptations allowed; TTS is Kokoro Apache-2.0; subtitle font is SIL OFL 1.1."
   ],
-  "current_edition": "2026-11-05 morning bulletin — 08:16 IST",
+  "current_edition": "2026-11-05 morning bulletin — 08:28 IST",
   "current_edition_notes": "All scene visuals are symbolic still images, each visibly labelled 'प्रतीकात्मक तस्वीर'. No news photographs, TV clips, screenshots, film stills, team logos, brand/product images, music or sound effects are used. CC BY-SA 4.0 image adaptations and the complete video are released under CC BY-SA 4.0; CC0 image credited as courtesy. Kokoro-82M hm_omega is local Apache-2.0; espeak-ng is installed locally by workflow."
 }
