@@ -29,6 +29,9 @@ Visual clarifications:
 - Cricket image is Rajiv Gandhi International Cricket Stadium in Hyderabad, not Auckland and not the India–New Zealand match.
 - Court image is Bangalore City Civil Court, not a Fast Track Special Court.
 
+Font:
+Noto Sans Devanagari Regular — The Noto Project Authors (Google) — SIL Open Font License 1.1 — https://github.com/google/fonts/tree/main/ofl/notosansdevanagari — https://scripts.sil.org/OFL. Installed via Ubuntu fonts-noto-core; font is rendered into captions and not bundled separately.
+
 Narration:
 Kokoro-82M Hindi voice hm_omega — hexgrad and Kokoro contributors — Apache License 2.0 — https://huggingface.co/hexgrad/Kokoro-82M — https://www.apache.org/licenses/LICENSE-2.0
 Hindi phonemization: espeak-ng installed locally. No external TTS API or Edge Read Aloud/edge-tts.
