@@ -138,7 +138,7 @@
   },
   "technical_checks": {
     "status": "RENDER_IN_PROGRESS",
-    "details": "Run 41952599446 is already in progress on the earlier 6d2545da manifest. The latest main manifest has been updated after that run started; do not queue a duplicate. The active run is a draft only. After it completes, render the latest manifest with the Sambhal Dhanteras story replacing the firecracker story held for an original safety graphic."
+    "details": "Run 41952599446 is in progress on earlier commit 6d2545da. Latest compliant manifest is committed through 33bf1bf7 on main (1,275 words, 17 scenes, 600 seconds, West UP 210 seconds). Do not dispatch a duplicate while run 41952599446 remains active. After it completes, dispatch the latest main manifest and verify MP4, 1920x1080, Hindi audio, SRT and full credits."
   },
   "required_human_review": [
     "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, pacing, clipping and abrupt cuts.",
@@ -167,14 +167,15 @@
     "previous_run_artifact_count": 1,
     "previous_run_head_sha": "4722d5d22ee24b19f358660aa424b15eb193c945",
     "previous_run_note": "Previous 16-scene manifest, not this edition; it predates the complete credits-copy step.",
-    "current_manifest_commit": "pending-next-commit",
+    "current_manifest_commit": "33bf1bf7b552f439112fa9b66aeb68a74cd8f719",
     "current_main_commit_before_dispatch": "6d2545da188f03b7b90bb93e6583d509f9f9f50e",
     "dispatch_status": "one_run_in_progress_latest_manifest_staged_for_next_run",
     "active_run_id": 41952599446,
     "active_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41952599446",
     "active_run_status": "in_progress",
     "duplicate_dispatch_check": "No active Render Hybrid Facts Video run existed immediately before dispatch; previous latest run 41945950007 was completed. Exactly one new run was dispatched and verified.",
-    "next_render_after_active_run": true
+    "next_render_after_active_run": true,
+    "latest_manifest_note": "Latest main manifest replaces the Moradabad firecracker scene with the Sambhal Dhanteras trader forecast to satisfy the caution-file visual requirement. Active run 41952599446 checked out the earlier manifest at 6d2545da and does not include this latest change."
   },
   "pre_publication_checklist": [
     {
