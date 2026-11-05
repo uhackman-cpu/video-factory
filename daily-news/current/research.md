@@ -1,106 +1,93 @@
 # Hindi Facts — Daily News Research
-**Edition:** 5 November 2026  
-**Research cut-off / access time:** 05 Nov 2026, 08:02:23 IST  
-**Audience:** Rural/village Hindi viewers and urban lower-/middle-class households  
-**Editorial rule:** Engaging, surprising and relatable verified stories; jobs/exams low priority; Western UP about 35% of total editorial time.
+**Edition:** 5 November 2026, morning update  
+**Research cutoff:** 08:16:43 IST  
+**Audience:** Hindi-speaking village/rural viewers and urban lower-/middle-class households  
+**Editorial mandate:** conversation-worthy, relatable, verified public-interest stories; low priority for routine jobs/exams; Western UP 35% of total bulletin time.
 
-## Editorial shortlist and 10-minute allocation
+## Editorial allocation
+- Western UP: 210 seconds / 600 seconds = **35%** (4 stories).
+- National/UP-wide: 330 seconds / 600 seconds = 55% (8 stories).
+- Weather: 30 seconds; opening and close: 30 seconds.
+- Total: 600 seconds, 15 scenes, 1,100–1,300 spoken words.
+- No routine recruitment, job, exam, admit-card or career notice.
 
-### Western Uttar Pradesh — 210 seconds (35%)
+## Western Uttar Pradesh — 3:30 total
+### W1. गन्ना पेराई शुरू, लेकिन हर मिल की तारीख अलग — 65 sec
+- Department figures reported on 4 Nov: 9 mills had started crushing; 33 mills had issued cane indents. Regional split of the 9: Saharanpur 3, Meerut 1, Moradabad 2, Lucknow 3.
+- Dhampur (Bijnor) mill said crushing shifted from 5 Nov to 11 Nov because rain and waterlogging affected preparations; weighing at centres from 8 Nov.
+- Do not imply all mills have started. Farmers should check their own indent and committee schedule.
+- Sources: Kisan Samadhan https://kisansamadhan.com/up-sugarcane-crushing-season-2026-27-begins-33-sugar-mills-indent-issued/ ; ABP Live https://www.abplive.com/states/up-uk/yogi-government-sugarcane-crushing-season-2026-27-begins-production-underway-9-sugar-mills-3211041 ; UPTak https://www.uptak.in/apna-up/story/up-sugarcane-crushing-season-2026-27-9-sugar-mills-start-operations-3559380-2026-11-04 ; Amar Ujala https://www.amarujala.com/uttar-pradesh/bijnor/sugarcane-weighing-at-centers-in-dhampur-will-begin-on-november-8-the-inauguration-will-take-place-on-the-11th-bijnor-news-c-27-1-smrt1025-194547-2026-11-03
 
-#### W1. गन्ना पेराई सीजन शुरू, लेकिन कई किसानों को अपनी मिल की तारीख देखनी होगी — 65 sec
-- UP Sugarcane Development Department figures reported on 4 Nov: 9 mills have begun crushing; 33 mills have issued purchase indents. The 9 operating mills include 3 in Saharanpur division, 1 in Meerut, 2 in Moradabad and 3 in Lucknow.
-- A separate Bijnor report says Dhampur mill's start was moved from 5 to 11 Nov because heavy rain and waterlogging delayed cutting; weighment at its centres is expected from 8 Nov. This is a local mill schedule, not a statewide delay.
-- Explain what an indent means and tell farmers to check their own mill/committee schedule; do not imply every mill is already crushing or that all farmers can supply immediately.
-- Sources: ABP Live (4 Nov 17:27 IST), Kisan Samadhan (4 Nov 18:15 IST), UPTak (4 Nov), Amar Ujala Bijnor (3 Nov 01:06 IST).
+### W2. मुजफ्फरनगर में 220 किलो रसगुल्ले नष्ट — 55 sec
+- Jolly Road, Neha Misthan Bhandar: flies found in rasgullas; food safety team destroyed about 220 kg and issued a notice; samples of khoya and rasgullas were collected.
+- Lab results were not located by cutoff. Do not call it laboratory-proven chemical adulteration.
+- Sources: Dainik Jagran https://www.jagran.com/uttar-pradesh/muzaffarnagar-muzaffarnagar-food-safety-220kg-flyinfested-rasgullas-destroyed-40427033.html ; Times of India https://timesofindia.indiatimes.com/city/agra/diwali-crackdown-220kg-sweets-destroyed-in-muzaffarnagar-after-insects-found-contaminated-milk-cheese-seized-in-mathura/articleshow/135547438.cms
 
-#### W2. मुजफ्फरनगर में कीड़े वाली मिठाई की 220 किलो खेप नष्ट — 55 sec
-- Food-safety officers destroyed about 220 kg of ras madhuri/rasgulla stock at a Jolly Road sweet shop after insects were found; samples were also collected and sent for testing.
-- This is a documented hygiene/inspection action. Do not say a laboratory proved chemical adulteration: the sample results were still pending in the reports.
-- Wider state context: UP FSDA inspection campaign reported 1,133 inspections, 935 samples, about 54 quintals seized and 27 licences suspended. Keep the distinction between seizure, destruction and a lab finding.
-- Sources: Times of India (4 Nov 22:54 IST), Jagran (4 Nov 13:22 IST), Janta Se Rishta (4 Nov 13:42 IST).
+### W3. मेरठ में किसान ₹700 गन्ना भाव की मांग पर टंकी पर चढ़े — 50 sec
+- Three farmers climbed a water tank at Alipur Morna, Hastinapur, on 4 Nov; demanded ₹700/quintal, price announcement before mills open, and interest on old arrears.
+- Local reports said protest continued late on 4 Nov. No confirmed settlement or end of protest found by 08:16 IST on 5 Nov.
+- ₹700 is a demand, not an announced government price. Do not glorify the dangerous protest tactic or use actual protest footage.
+- Sources: Jagran https://www.jagran.com/uttar-pradesh/meerut-city-farmers-protest-on-water-tank-for-sugarcane-price-hike-in-meerut-40427145.html ; Amar Ujala https://www.amarujala.com/uttar-pradesh/meerut/three-farmers-climb-water-tank-in-hastinapur-demand-sugarcane-price-of-700-per-quintal-2026-11-04 ; Live Hindustan https://www.livehindustan.com/uttar-pradesh/meerut/story-sugarcane-farmers-stage-indefinite-protest-demand-700-per-quintal-and-pending-dues-201793807378693.html
 
-#### W3. मुरादाबाद के घनी आबादी वाले घर में अवैध पटाखा निर्माण का आरोप — 50 sec
-- Police reporting says Nagphani police raided a house in Gudiya Bagh and arrested two brothers. Reports list 83.25 kg of gunpowder, 27 sacks of finished/semi-finished crackers and packaging/labels.
-- A case was registered; investigation is continuing. Attribute all seized quantities and allegations to police. Do not show explosive-making instructions, graphic visuals or sensational reenactments.
-- Three local reports repeat the police briefing, so they are not three independent confirmations.
-- Sources: Amar Ujala (5 Nov 00:52 IST), Newstrack (4 Nov 16:02 IST), Royal Bulletin (4 Nov 19:30 IST).
+### W4. मेरठ धनतेरस ट्रैफिक प्लान — 40 sec
+- 5–11 Nov, 07:00–02:00. Heavy-vehicle diversions; Abu Lane vehicle entry barred; four-wheelers barred from Sarafa market; route alternatives for buses.
+- Restrictions are market/route-specific, not a citywide shutdown.
+- Sources: Jagran https://www.jagran.com/uttar-pradesh/meerut-city-meerut-diwali-traffic-4wheelers-banned-in-markets-40427792.html ; Live Hindustan https://www.livehindustan.com/uttar-pradesh/meerut/story-meerut-traffic-diversion-heavy-vehicles-barred-from-city-routes-during-dhanteras-to-bhai-dooj-201793822678702.html ; Amar Ujala https://www.amarujala.com/uttar-pradesh/meerut/meerut-traffic-diversions-in-the-city-for-diwali-vehicle-entry-banned-in-several-markets-2026-11-04
 
-#### W4. मेरठ में धनतेरस से भाई-दूज तक बाजारों का ट्रैफिक प्लान — 40 sec
-- Traffic diversion runs 5–11 Nov, generally 07:00–02:00. Heavy vehicles are diverted; Abu Lane market is closed to all vehicles and Sarafa market to four-wheelers. Some city routes and bus approaches are altered.
-- Viewers going shopping should check the specific route before leaving; do not overgeneralise the restrictions to every vehicle on every road.
-- Sources: Jagran (5 Nov 05:10 IST), Live Hindustan (5 Nov 01:34 IST), Amar Ujala (4 Nov).
+## India / wider UP — 5:30 total
+### N1. खाद्य महंगाई और रबी जोखिम — 40 sec
+- September 2026 CPI: headline 5.54%, food 7.74%; rural food 8.06%, urban 7.18%; onion annual inflation 108.09%.
+- Weak soil moisture after a poor monsoon could pressure rabi sowing/yields and food prices; it is a risk, not a guaranteed rise in every market.
+- Sources: PIB/MoSPI https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2322244&lang=2&reg=48 ; Reuters https://www.reuters.com/world/india/grains-chicken-milk-india-faces-prolonged-food-inflation-2026-11-03/ ; India Today https://www.indiatoday.in/business/story/retail-inflation-rises-to-554-in-september-from-483-in-august-as-food-prices-climb-3015553-2026-10-12
 
-### India / wider Uttar Pradesh — 330 seconds (55%)
+### N2. सोने की मांग में गिरावट — 35 sec
+- WGC: Indian Q3 gold demand down 29% y/y to 162.5 tonnes; jewellery demand down 20%, investment demand down 40%.
+- National trend, not a local retail rate.
+- Sources: Reuters https://www.reuters.com/world/india/indias-2026-gold-demand-seen-falling-six-year-low-price-rise-2026-11-03/ ; New Indian Express https://www.newindianexpress.com/business/2026/Nov/03/india-gold-demand-down-29-in-q3-2026-wgc-report ; Rediff/PTI https://money.rediff.com/news/market/india-gold-demand-down-29-in-q3-2026-wgc-report/57407620261103
 
-#### N1. खाने की महँगाई: सितंबर में खाद्य महँगाई 7.74%, प्याज की सालाना CPI महँगाई 108.09% — 40 sec
-- Official MoSPI/PIB September CPI print (released 12 Oct, provisional): overall CPI 5.54%; food inflation 7.74%; rural food 8.06%, urban 7.18%. Onion's September year-on-year CPI sub-index inflation was 108.09%.
-- Make clear these are September year-on-year index figures, not today's mandi price or proof that every local onion seller doubled prices. October CPI is scheduled for 12 Nov.
-- Sources: PIB/MoSPI official release (12 Oct 16:00 IST), India Today (12 Oct), Fortune India (12 Oct).
+### N3. TRAI telecom complaint rules — 35 sec
+- Fourth Amendment dated 2 Nov: complaint centres round-the-clock; human representatives at least 16 hours/day; AI-agent disclosure and human oversight; financial disincentives for improper handling.
+- No promise that every complaint will be resolved immediately; no unverified appeal deadline.
+- Sources: TRAI https://www.trai.gov.in/notifications/press-release ; NDTV Profit https://www.ndtvprofit.com/india/trai-tightens-telecom-complaint-rules-introduces-consumer-feedback-surveys-and-financial-penalties-12272672 ; Business Standard https://www.business-standard.com/industry/news/trai-tightens-telecom-complaint-redressal-rules-caps-fines-at-20-lakh-126110201133_1.html
 
-#### N2. धनतेरस सप्ताह में सोने की कीमतों का असर — 35 sec
-- World Gold Council data reported 3 Nov: India's Q3 2026 gold demand fell 29% year-on-year to 162.5 tonnes; jewellery demand fell 20%. WGC attributed pressure partly to elevated prices and a weak rural economy.
-- Frame this as a national demand trend, not a claim that every jewellery shop is empty. Ask viewers to compare final bill, purity, hallmark/HUID, making charges and buyback terms. Do not quote a live gold rate without a same-morning verified price source.
-- Sources: Reuters (3 Nov 06:04 UTC), New Indian Express (3 Nov 11:41 IST), Rediff/PTI (3 Nov 12:10 IST).
+### N4. “Energy Drink” label dispute — 40 sec
+- FSSAI says the descriptor can mislead; PepsiCo and Monster challenge the direction. Delhi HC interim order dealt with existing labelled stock and did not allow new manufacture under that descriptor.
+- Hearing listed 5 Nov; no verified 5 Nov order by 08:16 IST. Not a finding that drinks are poisonous and not a total ban.
+- Sources: Reuters https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/ ; Lawchakra https://lawchakra.in/high-court/delhi-high-court/energy-drink-delhi-high-court/ ; The News Minute/ANI https://thenewsmill.com/2026/10/delhi-high-court-stays-fssai-order-on-energy-drink-label-for-pepsico-and-monster/
 
-#### N3. मोबाइल और इंटरनेट शिकायतों के लिए TRAI के नए नियम — 35 sec
-- TRAI's Fourth Amendment was published 2 Nov. Complaint centres must operate round-the-clock; human assistance must be available at least 16 hours daily. Consumers must be told when they are speaking to an AI agent, and AI/automated systems require human oversight. The amendment also sets financial disincentives for improperly handled complaints.
-- This does not mean every complaint will be resolved instantly. Explain the escalation/appeal route only after reading the final regulation; the PDF download timed out during this research, but TRAI's official listing confirms the regulation and date.
-- Sources: TRAI official press-release listing (2 Nov), NDTV Profit (2 Nov 21:02 IST), Business Standard (2 Nov 22:32 IST).
+### N5. ₹14,500 crore grid-scale energy storage scheme — 45 sec
+- Cabinet approved VGF to develop 92 GWh of new storage capacity by FY2030-31: 60 GWh pumped hydro, 30 GWh battery, 2 GWh emerging technologies.
+- Capacity is yet to be commissioned; do not promise immediate bill reduction.
+- Sources: PMIndia https://www.pmindia.gov.in/hi/news_updates/%E0%A4%95%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AF-%E0%A4%AE%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE%E0%A4%82%E0%A4%A1%E0%A4%B2-%E0%A4%A8%E0%A5%87-92-2/?comment=disable ; DD India https://ddindia.co.in/2026/11/cabinet-approves-%E2%82%B914500-crore-scheme-to-develop-92-gwh-grid-scale-energy-storage-capacity/ ; Moneycontrol https://www.moneycontrol.com/news/business/economy/union-cabinet-approves-energy-storage-scheme-says-ashwini-vaishnaw-14069387.html
 
-#### N4. Sting/Monster के “Energy Drink” लेबल पर दिल्ली हाईकोर्ट में सुनवाई — 40 sec
-- FSSAI says the descriptor can mislead consumers; PepsiCo and Monster challenge the regulator's direction. The Delhi High Court's earlier interim order let them sell existing labelled stock but did not permit fresh manufacture under that descriptor. A further hearing was listed for 5 Nov.
-- At this 08:02 IST research cut-off, no verified 5 Nov hearing outcome was found. Do not report a new ruling. This is a labelling/regulatory dispute, not a court finding that the drinks are poisonous.
-- Sources: Reuters (4 Nov 11:40 UTC), Lawchakra (6 Oct 18:58 IST), The News Minute/ANI (6 Oct 21:32 IST).
+### N6. Fast Track Special Courts extended — 40 sec
+- Cabinet extended the FTSC scheme to 31 March 2031, outlay ₹3,788.04 crore; provision to expand from 779 to up to 850 courts, including exclusive POCSO courts.
+- 850 is the provision/target, not the number already functioning; avoid graphic detail.
+- Sources: PMIndia https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-centrally-sponsored-scheme-for-fast-track-special-courts-ftscs-for-expeditious-trial-of-cases-of-rape-and-pocso-protection-of-children-from-sexual-offences-act/?comment=disable ; India Today https://www.indiatoday.in/amp/india/story/cabinet-extends-850-fast-track-special-courts-rape-pocso-cases-3032142-2026-11-04 ; Hindustan Times https://www.hindustantimes.com/india-news/govt-approves-strengthening-extension-of-850-fast-track-special-courts-to-deal-with-child-abuse-and-rape-cases-101793791099448.html
 
-#### N5. बिजली भंडारण के लिए ₹14,500 करोड़ की योजना — 45 sec
-- Union Cabinet approved a ₹14,500-crore viability-gap funding scheme for 92 GWh of grid-scale storage over FY 2026-27 to 2030-31: 60 GWh pumped hydro, 30 GWh batteries and 2 GWh emerging technologies.
-- Explain that storage can help balance renewable power and grid reliability over time; it does not mean household bills will fall immediately or that 92 GWh is already installed.
-- Sources: PMIndia official Cabinet release (4 Nov), DD India (4 Nov 16:31 IST), Moneycontrol (4 Nov 15:00 IST).
+### N7. India–Pakistan SAFF football fixture — 35 sec
+- AIFF confirms 5 Nov, 15:00 IST, Dhaka National Stadium; Veto app stream. India defending champions.
+- At 08:16 IST this is a preview, not a result; strictly sporting framing.
+- Sources: AIFF https://www.the-aiff.com/index.php/article/india-begin-saff-championship-title-defence-against-pakistan-in-dhaka ; Indian Express https://indianexpress.com/article/sports/football/india-vs-pakistan-saff-championship-live-streaming-ind-vs-pak-10950624/ ; Outlook https://www.outlookindia.com/sports/football/india-vs-pakistan-live-streaming-saff-championship-2026-preview
 
-#### N6. UP में त्योहारों से पहले प्रशासन को सख्त निर्देश — 40 sec
-- Reports on the 4 Nov review meeting say officials' leave was cancelled except exceptional cases; market security and social-media monitoring were stepped up; electricity, water, sanitation and safe firecracker sale arrangements were stressed. India Today also reports instructions on fertiliser black-marketing, paddy procurement lapses and underweight ration distribution.
-- Attribute the farmer/ration details to the reported meeting; obtain the written CMO/department order before presenting them as enforceable new rules. Avoid communal framing.
-- Sources: India Today (4 Nov 16:28 IST), Mint (4 Nov 18:31 IST), Navbharat Times (5 Nov).
+### N8. Ramayana: Part One release — 60 sec
+- Scheduled theatrical release 5 Nov. Financial Express reports trade-tracker advance bookings as of 3 Nov 09:00 IST: India gross ₹72.91 crore including blocked seats, about ₹57.9 crore excluding them; worldwide gross advance booking above ₹100 crore.
+- Advance-booking estimates are not actual box-office revenue. No film poster/still or actor likeness used.
+- Sources: Financial Express https://www.financialexpress.com/life/entertainment/ramayana-movie-advance-booking-crosses-rs-72-crore-sells-18-lakh-box-office-tickets-ranbir-kapoor-yash-sai-pallavi/4375861/ ; Indian Express https://indianexpress.com/article/entertainment/bollywood/ramayana-advance-booking-box-office-ranbir-yash-film-sells-4-lakh-tickets-3-million-overseas-10944380/
 
-#### N7. आज भारत-पाकिस्तान फुटबॉल मुकाबला — 35 sec
-- India opens its SAFF Championship title defence against Pakistan at Dhaka National Stadium on 5 Nov at 15:00 IST. AIFF says the match streams on VETO; Indian Express reported no separate Indian TV broadcast had been announced as of 3 Nov.
-- India are defending champions and pursuing a 10th title. Keep this as a sports preview, not a political/communal provocation. Check the streaming app immediately before broadcast.
-- Sources: AIFF official preview (4 Nov), Indian Express (4 Nov 18:37 IST), Outlook India (4 Nov 23:23 IST).
+## Weather — refreshed at 08:16 IST
+- IMD RMC New Delhi subdivision warning page issued 5 Nov: **West Uttar Pradesh — No warning** for every day 5–11 Nov. Direct page: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25
+- Moradabad IMD city page dated 4 Nov: 5 Nov mainly clear, 19–28°C. https://city.imd.gov.in/citywx/citywxnew.php?id=42187
+- Bareilly IMD city page dated 4 Nov: 5 Nov clear, 16–29°C. https://city.imd.gov.in/citywx/citywxnew.php?id=42189
+- Latest available All India Weather Summary bulletin at cutoff was issued 4 Nov 13:07 IST. It warns of isolated heavy rain over Tamil Nadu/Puducherry/Karaikal and South Interior Karnataka on 5 Nov; thunderstorms/lightning and gusty winds in parts of Andhra Pradesh, Odisha, Karnataka, Kerala and Tamil Nadu; isolated Andhra gusts 40–50 km/h; Kerala heavy-rain risk 6–8 Nov. https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/343c66ccef53ce4beae566b75bd70f87.pdf
+- Secondary cross-check: Economic Times weather summary 4 Nov 18:02 IST https://economictimes.indiatimes.com/news/new-updates/weather-today-november-5-imd-issues-heavy-rainfall-alert-for-these-states-check-state-wise-forecast-rain-warnings-and-weather-conditions/articleshow/135539378.cms
+- Weather wording distinguishes warning, forecast and observation; no official IMD screenshot/graphic is used.
 
-#### N8. आज सिनेमाघरों में 'Ramayana: Part One' — 60 sec
-- The film is scheduled for theatrical release on 5 Nov. Financial Express reported on 3 Nov that worldwide opening-weekend advance bookings had crossed ₹100 crore gross, including blocked seats; Indian advance gross was ₹72.91 crore as of 9 am on 3 Nov, or ₹57.9 crore excluding blocked seats.
-- These are trade-tracker advance-booking estimates, not opening-day earnings or audited box-office collections. Do not claim a box-office record before actual figures are reported.
-- Sources: Financial Express (3 Nov 13:48 IST), Indian Express (31 Oct 13:41 IST), Sacnilk figures as attributed by both outlets.
-
-### Opening, weather and close — 60 seconds
-- Opening hook: 15 sec.
-- IMD weather: 30 sec.
-- Closing: 15 sec.
-- Total: Western UP 210 sec + India/wider-UP news 330 sec + weather 30 sec + opening/close 30 sec = 600 sec. Western UP is exactly 35% of editorial time.
-
-## Weather — official IMD
-**Latest accessible All India Weather Summary and Forecast Bulletin:** issued 4 Nov 2026 at 13:07 IST (mid-day). Forecast days are valid 08:30 IST to 08:30 IST next day.
-- West Uttar Pradesh: IMD's 5 Nov subdivision warning page says **No warning** for each day 5–11 Nov. The 4 Nov all-India bulletin's rainfall table also marks West UP dry for 5–10 Nov.
-- Moradabad city IMD forecast, page dated 4 Nov: 5 Nov mainly clear, 19–28°C.
-- Bareilly city IMD forecast, page dated 4 Nov: 5 Nov clear, 16–29°C.
-- South India: isolated heavy rain on 5 Nov over Tamil Nadu/Puducherry/Karaikal and South Interior Karnataka; thunderstorms/lightning over parts of Andhra Pradesh, Odisha, Karnataka, Kerala and Tamil Nadu. Andhra Pradesh may see gusty winds 40–50 km/h at isolated places. Kerala heavy rain risk continues 6–8 Nov.
-- No significant weather likely over Northwest, West and Northeast India in the 4 Nov bulletin. Refresh IMD before rendering; forecasts can change.
-Sources: IMD All India Bulletin 4 Nov 13:07 IST; IMD West UP warning page dated 5 Nov; IMD Moradabad and Bareilly city forecasts dated 4 Nov; Economic Times weather summary 5 Nov 00:30 IST.
-
-## Editorial / verification cautions
-1. Do not treat a seized or destroyed food lot as a laboratory-confirmed adulteration result. Muzaffarnagar samples were still pending in reports.
-2. For the Moradabad cracker case, state only what police say was seized and that two arrests were reported; do not give manufacturing details or use explosive visuals.
-3. The Bijnor Dhampur schedule is local and weather-related; farmers should confirm their own committee/mill indent.
-4. Meerut restrictions are time- and market-specific, not a blanket closure of the entire city.
-5. September CPI figures are provisional and lagged; do not present them as 5 Nov market prices.
-6. TRAI rules are official, but verify exact appeal timelines from the final regulation before giving step-by-step consumer advice.
-7. FSSAI/energy-drink hearing result was not available at 08:02 IST; keep as pending or drop if no verified order emerges.
-8. Gold and Ramayana advance-booking numbers are attributed to WGC/trade trackers; identify the data source and exclude blocked seats when quoting net bookings.
-9. Do not claim the energy-storage plan immediately reduces household tariffs.
-10. No recruitment/admit-card/job items included.
-11. Use only original graphics, narration and properly licensed assets. No TV clips, scraped footage, news screenshots or unlicensed music.
-12. Refresh breaking developments, court listings and IMD warnings before script/render.
-
-## Sources and timestamps
-The full source register, with IDs, exact URLs, publication dates where visible, claim mapping and the common access timestamp (05 Nov 2026, 08:02:23 IST), is in `daily-news/current/sources.json`.
+## Mandatory production notes
+- W3 is a reported farmer protest. Use only a generic crop-field visual; no actual protest footage or identifiable person. Human review required.
+- W2 is a hygiene enforcement action; lab results are pending. Do not claim chemical adulteration as proven.
+- N4 hearing outcome may change; refresh court order before publication.
+- N6 is a sensitive justice story; keep wording respectful and non-graphic.
+- All scene stills are symbolic, labelled “प्रतीकात्मक तस्वीर”. No TV/news footage, screenshots, YouTube footage, film stills, logos, music or SFX.
+- Local Kokoro-82M Hindi voice hm_omega (Apache-2.0); espeak-ng phonemizer; no Edge TTS or external TTS API.
+- Human review required before publication; current checklist status HOLD.
