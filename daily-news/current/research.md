@@ -306,3 +306,7 @@ Opening 0:15; Western UP 3:30 (bus 0:40, food safety 0:40, cyber complaint 0:40,
 
 ## Production HOLD
 Human listening of the full Kokoro narration, visual-label review, sensitive-story review, energy-drink hearing refresh and final artifact/SRT/credits check remain mandatory before publication. No YouTube upload or scheduling is authorised.
+
+
+## 07:35 IST production compliance adjustment
+The Moradabad illegal-firecracker raid remains a verified police-reported story in the reserve. It is not in this edition's final script because CAUTION_README.md calls for an original generic safety graphic for that story; the current visual set has no such graphic. To avoid substituting a generic market photograph for the required safety graphic, the 45-second Western UP slot is assigned to the Sambhal Dhanteras market outlook instead. The ₹100 crore figure is explicitly a trader forecast, not actual turnover. The 35% Western UP time share remains unchanged. The firecracker story can return in a later edition after the original safety graphic is prepared and its provenance is recorded.
