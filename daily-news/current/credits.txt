@@ -1,33 +1,31 @@
-Hindi Facts — Daily Bulletin — 5 November 2026
-Format: 16:9 landscape, 10:00 target (600 seconds)
+Hindi Facts — Daily Bulletin — 5 November 2026, morning edition
+Format: 16:9 landscape, 10:00 target (600 seconds), 17 scenes, 1,292 spoken words
+Editorial split: Western UP 3:30 (35%); wider India/UP, national weather, opening and closing 6:30 (65%).
 Project adaptation licence: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 Individual third-party assets retain their own licences; this project notice does not relicense them.
-All still images are representative illustrative visuals, not footage of the reported incidents or locations unless explicitly stated. The on-screen label “प्रतीकात्मक तस्वीर” is applied to every still-image scene. All photos are cropped/resized to 1920x1080 by the renderer; changes are indicated here.
+Every still is illustrative, not footage of the reported incident, people, product or location. The visible label 'प्रतीकात्मक तस्वीर' is applied to every still. Images are cropped/resized to 1920x1080; changes are indicated below.
 
 Visual asset credits and required attribution:
-1. Wheat Field in India.jpg — Rstv.devesh — CC0 1.0 Universal Public Domain Dedication — https://commons.wikimedia.org/wiki/File:Wheat_Field_in_India.jpg — https://creativecommons.org/publicdomain/zero/1.0/
+1. No attribution legally required under CC0 1.0; courtesy credit: Wheat Field in India.jpg — Rstv.devesh — https://commons.wikimedia.org/wiki/File:Wheat_Field_in_India.jpg
 2. Bike Ride On the NH 48.jpg — Mallikarjuna Sarvala — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bike_Ride_On_the_NH_48.jpg — https://creativecommons.org/licenses/by-sa/4.0/
 3. Indian Sweet.jpg — Mrsagar105 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Indian_Sweet.jpg — https://creativecommons.org/licenses/by-sa/4.0/
 4. Laptop Keyboard.jpg — Kokul Jose — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Laptop_Keyboard.jpg — https://creativecommons.org/licenses/by-sa/4.0/
 5. Diwali Market.jpg — Bakarpuran — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Diwali_Market.jpg — https://creativecommons.org/licenses/by-sa/4.0/
 6. Dark clouds, Monsoon, India (2018).jpg — Patilharshit — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Dark_clouds,_Monsoon,_India_(2018).jpg — https://creativecommons.org/licenses/by-sa/4.0/
-7. Gold Jewellery .jpg — Gaurav Dhwaj Khadka — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Gold_Jewellery_.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-8. Solar panels in India.jpg — Manjunatha G, WELL Labs — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Solar_panels_in_India.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-9. Kwinana Lithium Plant, March 2023 01.jpg — Calistemon — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Kwinana_Lithium_Plant,_March_2023_01.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-10. Rajiv Gandhi International Cricket Stadium Hyderabad.jpg — Phanidharvaranasi — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Rajiv_Gandhi_International_Cricket_Stadium_Hyderabad.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-11. Bangalore City Civil Court Complex 1.jpg — Wilhelm Tell DCCXLVI — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bangalore_City_Civil_Court_Complex_1.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+7. Bangalore City Civil Court Complex 1.jpg — Wilhelm Tell DCCXLVI — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bangalore_City_Civil_Court_Complex_1.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+8. Gold Jewellery .jpg — Gaurav Dhwaj Khadka — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Gold_Jewellery_.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+9. Rajiv Gandhi International Cricket Stadium Hyderabad.jpg — Phanidharvaranasi — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Rajiv_Gandhi_International_Cricket_Stadium_Hyderabad.jpg — https://creativecommons.org/licenses/by-sa/4.0/
 
 Visual clarifications:
-- Highway image is generic and is not the Moradabad bus or fire scene.
-- Sweet image is generic and is not the inspected/seized product or premises.
-- Laptop image is generic and does not depict the complainant, bank system or actual cyberattack.
-- Diwali market image shows Rani Bagh, New Delhi, not Sambhal.
-- Cloud image dates from 2018 and is not current weather or cyclone footage.
-- Gold jewellery image depicts Nepali-style jewellery and is not a specific Indian retailer or price.
-- Solar panel image shows generation/grid infrastructure, not a battery-storage plant.
-- Kwinana lithium plant is in Western Australia, not India.
-- Cricket image is Rajiv Gandhi International Cricket Stadium in Hyderabad, not Auckland and not the India–New Zealand match.
-- Court image is Bangalore City Civil Court, not a Fast Track Special Court.
+- Highway photograph is generic; it is not the Moradabad roadways bus or fire.
+- Sweet photograph is generic; it is not the inspected sweet, shop, seized stock or paneer sample.
+- Laptop photograph is generic; it does not depict the Sambhal complainant, named company, bank or actual cyberattack.
+- Diwali Market photograph shows Rani Bagh, New Delhi; it is not the Moradabad raid, Sambhal market or a Ramayana film still/poster.
+- Cloud photograph dates from 2018; it is not current weather, cyclone footage or an official IMD graphic.
+- Court photograph is Bangalore City Civil Court; it is a symbolic image, not the Supreme Court or a Maharashtra court.
+- Gold jewellery photograph depicts Nepali-style jewellery, not a named Indian retailer, item or price.
+- Cricket stadium photograph is Hyderabad; it is not Auckland and not match footage.
+- Wheat-field photograph is a generic Indian agriculture illustration.
 
 Font:
 Noto Sans Devanagari Regular — The Noto Project Authors (Google) — SIL Open Font License 1.1 — https://github.com/google/fonts/tree/main/ofl/notosansdevanagari — https://scripts.sil.org/OFL. Installed via Ubuntu fonts-noto-core; font is rendered into captions and not bundled separately.
@@ -35,4 +33,4 @@ Noto Sans Devanagari Regular — The Noto Project Authors (Google) — SIL Open 
 Narration:
 Kokoro-82M Hindi voice hm_omega — hexgrad and Kokoro contributors — Apache License 2.0 — https://huggingface.co/hexgrad/Kokoro-82M — https://www.apache.org/licenses/LICENSE-2.0
 Hindi phonemization: espeak-ng installed locally. No external TTS API or Edge Read Aloud/edge-tts.
-No music, sound effects, TV/news clips, publisher photographs, screenshots, social-media footage or logos used.
+No music, sound effects, TV/news clips, publisher photographs, screenshots, social-media footage, film stills or logos used.
