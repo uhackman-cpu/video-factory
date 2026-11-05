@@ -135,7 +135,7 @@
   },
   "technical_checks": {
     "status": "PENDING_RENDER",
-    "details": "Run 41945512618 started from commit f007c6fd6aa6c6de98f02c1963930438b4789f5c before the sources.json publisher-field correction. Its pinned snapshot may fail provenance validation. The corrected 40-source schema is now committed on main at 1cd1691fddacaeb8c8f56f5f8c992984ca34f9b0. Do not dispatch a duplicate while run 41945512618 remains active; after it completes, dispatch from the latest main commit and verify MP4, 1920x1080, 540–660 seconds, audio and SRT."
+    "details": "Run 41945512618 is pinned to commit f007c6fd6aa6c6de98f02c1963930438b4789f5c, before the source publisher-field and font-provenance corrections, so it may fail the provenance gate. Latest main now has a valid 40-source schema, 13 complete asset/font records and 16 scene mappings; corrected project commit is 54cb9111e420d76fd2641ac3d8bfa06d187cf20c. Do not dispatch a duplicate while run 41945512618 remains active; after it completes, dispatch from latest main and verify MP4, 1920x1080, 540–660 seconds, audible Hindi audio and SRT."
   },
   "required_human_review": [
     "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, natural pacing, clipping and abrupt cuts.",
@@ -162,7 +162,11 @@
     "latest_sources_schema_fix_commit": "1cd1691fddacaeb8c8f56f5f8c992984ca34f9b0",
     "next_render_required_after_active_run": true,
     "duplicate_dispatch_prohibited_while_active": true,
-    "latest_font_provenance_commit_pending": true
+    "latest_font_provenance_commit_pending": false,
+    "latest_source_schema_fix_commit": "1cd1691fddacaeb8c8f56f5f8c992984ca34f9b0",
+    "latest_asset_license_commit": "fa0b4e320b4e10b699d903b142b9c5b9ef0823bb",
+    "latest_credits_commit": "ab4fa96a07ddd5cec298c5f5f6feb1f8e5064ff7",
+    "latest_project_commit": "54cb9111e420d76fd2641ac3d8bfa06d187cf20c"
   },
   "pre_publication_checklist": [
     {
