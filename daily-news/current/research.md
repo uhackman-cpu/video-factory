@@ -1,9 +1,9 @@
 # Hindi Facts — Daily News Research
 **Edition:** Thursday, 5 November 2026  
-**Research cut-off:** 06:24 IST, 5 November 2026  
+**Research cut-off:** 07:00 IST, 5 November 2026  
 **Audience:** Hindi-speaking rural/village viewers and urban lower-/middle-class households  
 **Editorial split:** Western UP 35% (3:30); India/UP-wide 65% (6:30)  
-**Status:** Refreshed research dossier and production manifest; draft render permitted, publication remains on HOLD.
+**Status:** Latest 07:00 research refresh appended; active 10-minute lineup supersedes earlier running order. This research run did not render or publish a video.
 
 ## Editorial rules
 - Prioritise verified, relatable, discussion-worthy stories: household costs, food safety, transport, farming, markets, cyber fraud, unusual human-interest and major public-interest decisions.
@@ -152,3 +152,140 @@ Use original maps, charts, diagrams and typography. Do not download or reuse thi
 - **South India warning refresh:** IMD pages issued 5 November show thunderstorm/lightning/squall and strong surface winds in Coastal Andhra Pradesh and Rayalaseema through 8 November; Kerala thunderstorm on 5 November and heavy rain/thunderstorm on 6–8 November; South Interior Karnataka heavy rain/thunderstorm on 5–6 November.
 - The national IMD press release available at the cut-off is dated 4 November, 13:00 IST; its broad forecast is retained only as context. The current subdivision warning pages issued 5 November take precedence for the listed regions.
 - Running order adjusted to a true 600 seconds: Western UP 210 seconds (35%); remaining India/UP, all-India weather, opening and closing 390 seconds (65%).
+
+
+---
+
+## 07:00 IST refresh — active bulletin plan for 5 November 2026
+
+**Research cut-off:** 07:00:53 IST, Thursday 5 November 2026  
+**Current audience rule:** ordinary rural/village viewers and urban lower-/middle-class households; chatpati, relatable, verified stories; jobs/exams kept out.  
+**Current 10-minute plan:** Western UP exactly 3:30 (35%); India/UP-wide and national items exactly 6:30 (65%). This section supersedes the earlier running order above.
+
+### Western UP — 3:30
+
+**W1 — Moradabad: 55 यात्रियों वाली रोडवेज बस में आग, सभी सुरक्षित (0:40).**  
+दिल्ली से बरेली जा रही AC बस में 4 नवंबर की रात दलपतपुर ओवरब्रिज के पास आग लगी। दो स्थानीय रिपोर्टों के अनुसार सभी 55 यात्रियों को सुरक्षित बाहर निकाला गया और दो दमकल गाड़ियों ने आग बुझाई। Chief Fire Officer ने शुरुआती वजह पीछे के टायर में आग/फटना बताई; इसे अंतिम तकनीकी जाँच का निष्कर्ष न कहें।  
+Sources:  
+- Dainik Jagran: https://www.jagran.com/uttar-pradesh/moradabad-city-moradabad-delhi-lucknow-highway-ac-bus-fire-55-passengers-safe-40427710.html  
+- Amar Ujala: https://www.amarujala.com/uttar-pradesh/moradabad/fire-breaks-out-in-a-state-transport-bus-on-the-highway-55-passengers-save-their-lives-by-jumping-out-moradabad-news-c-15-1-mbd1027-1032271-2026-11-05
+
+**W2 — बरेली/मुरादाबाद सहित UP में मिठाई दुकानों पर FSDA कार्रवाई (0:40).**  
+विभागीय आँकड़ों पर आधारित रिपोर्टों में प्रदेशभर में 1,133 निरीक्षण, 935 नमूने, लगभग 54 क्विंटल खाद्य सामग्री जब्त और 27 लाइसेंस निलंबित बताए गए हैं। बरेली में फफूंद लगा घेवर मिलने की रिपोर्ट है; मुजफ्फरनगर में लगभग 220 किलो रसगुल्ले नष्ट कराने की खबर है। जब्ती या नमूना लेना लैब में मिलावट साबित होना नहीं है।  
+Sources:  
+- Hindustan Times: https://www.hindustantimes.com/cities/lucknow-news/prediwali-crackdown-up-fsda-seizes-54-quintals-of-food-worth-1-32-cr-suspends-27-licences-101793715946643-amp.html  
+- Times of India: https://timesofindia.indiatimes.com/city/lucknow/fsda-suspends-27-licences-in-statewide-sweet-shop-crackdown/articleshow/135512276.cms  
+- Amar Ujala Bareilly: https://www.amarujala.com/uttar-pradesh/bareilly/bareilly-food-safety-raid-27-shops-two-sweet-shop-licenses-suspended-2026-11-03  
+- Jagran Muzaffarnagar: https://www.jagran.com/uttar-pradesh/muzaffarnagar-muzaffarnagar-food-safety-220kg-flyinfested-rasgullas-destroyed-40427033.html
+
+**W3 — संभल: ऑनलाइन ऑर्डर कैंसिल कराने के चक्कर में ₹99,000 की कथित साइबर ठगी (0:40).**  
+असमोली के एक स्कूल प्रधानाचार्य की शिकायत के अनुसार नकली कस्टमर-केयर प्रक्रिया और QR/स्कैनर के बाद खाते से रकम निकल गई। इसे पीड़ित की शिकायत की तरह ही बताना है; इससे किसी ई-कॉमर्स प्लेटफॉर्म में सेंध या कंपनी की संलिप्तता साबित नहीं होती। दर्शकों को तुरंत 1930 पर कॉल और cybercrime.gov.in पर रिपोर्ट करने की सलाह दें।  
+Sources:  
+- Amar Ujala: https://www.amarujala.com/uttar-pradesh/sambhal/99000-rupees-siphoned-from-account-while-trying-to-cancel-a-flipkart-order-sambhal-news-c-275-1-sbl1015-142801-2026-11-05  
+- National Cyber Crime Reporting Portal: https://cybercrime.gov.in/webform/crime_nodalgrivancelist.aspx
+
+**W5 — मुरादाबाद: घनी आबादी के मकान में कथित अवैध पटाखा फैक्टरी (0:45).**  
+नागफनी के गुड़िया बाग में पुलिस कार्रवाई के बारे में स्थानीय रिपोर्टों में 83 किलो 250 ग्राम बारूद, 27 बोरियों में पटाखे, नकली ब्रांड के डिब्बे/रैपर और दो गिरफ्तारियों की जानकारी है। तीनों रिपोर्ट एक ही पुलिस ब्रीफिंग पर आधारित लगती हैं; इसलिए कहें “पुलिस के मुताबिक”, इसे तीन स्वतंत्र जाँचों का नतीजा न बताएं।  
+Sources:  
+- Amar Ujala: https://www.amarujala.com/uttar-pradesh/moradabad/illegal-firecracker-factory-operating-in-a-house-in-a-densely-populated-area-two-brothers-arrested-moradabad-news-c-15-1-mbd1027-1031849-2026-11-05  
+- NewsTrack: https://newstrack.com/uttar-pradesh/moradabad/moradabad-illegal-firecracker-factory-busted-83-kg-gunpowder-seized-two-arrested-645825  
+- Royal Bulletin: https://royalbulletin.in/uttar-pradesh/moradabad/illegal-firecracker-factory-busted-in-moradabad-83-kg-gunpowder-seized/article-251782
+
+**W6 — बिजनौर: पनीर में स्टार्च जाँचने का सीमित तरीका (0:30).**  
+जिला खाद्य सुरक्षा अधिकारी ने बताया कि पनीर के नमूने को उबालकर ठंडा करने के बाद आयोडीन डालने पर नीला रंग स्टार्च की मौजूदगी दिखाता है। FSSAI का DART पेज भी इसी स्क्रीनिंग विधि की पुष्टि करता है। यह हर तरह की मिलावट पकड़ने वाला टेस्ट नहीं है और इससे अकेले पनीर की पूरी शुद्धता/सुरक्षा प्रमाणित नहीं होती। इसे उपभोक्ता-जागरूकता खबर की तरह दिखाएँ, किसी दुकान पर छापे की खबर की तरह नहीं।  
+Sources:  
+- Amar Ujala Bijnor: https://www.amarujala.com/uttar-pradesh/bijnor/blue-color-will-testify-to-the-black-business-of-adulteration-in-cheese-bijnor-news-c-27-1-bij1027-194755-2026-11-05  
+- FSSAI Eat Right DART: https://www.eatrightindia.gov.in/dart/  
+- FSSAI manual: https://www.fssai.gov.in/upload/uploadfiles/files/Manual_Methods_Testing_Adulterants_18_10_2019.pdf
+
+**Western UP मौसम (0:15).**  
+IMD के 5 नवंबर के उपखंड चेतावनी पेज पर पश्चिमी उत्तर प्रदेश के लिए 5–11 नवंबर तक कोई चेतावनी नहीं है। 4 नवंबर दिनांकित शहर पेज के अनुसार 5 नवंबर मुरादाबाद 19–28°C, मुख्यतः साफ; बरेली 16–29°C, साफ। संभल के लिए नया शहर-स्तरीय तापमान नहीं मिला।  
+Sources:  
+- IMD West UP warnings: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25  
+- IMD Moradabad: https://city.imd.gov.in/citywx/citywxnew.php?id=42187  
+- IMD Bareilly: https://city.imd.gov.in/citywx/citywxnew.php?id=42189
+
+### भारत/व्यापक UP — 6:30
+
+**N1 — खाने की महँगाई और रबी की बुवाई (0:45).**  
+सितंबर 2026 में आधिकारिक खाद्य महँगाई 7.74% रही; ग्रामीण 8.06%, शहरी 7.18%। कमजोर मानसून/मिट्टी की नमी से सर्दियों की बुवाई और आपूर्ति पर दबाव का जोखिम है। इसे आगे की आशंका कहें, हर मंडी में दाम बढ़ने का पक्का दावा नहीं।  
+Sources:  
+- PIB/MoSPI CPI: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3  
+- Reuters: https://www.reuters.com/world/india/grains-chicken-milk-india-faces-prolonged-food-inflation-2026-11-03/
+
+**N9 — दिल्ली-NCR में प्रदूषण रोकने के लिए आज से पाबंदियाँ (0:55).**  
+CAQM का हस्ताक्षरित आदेश 5–20 नवंबर तक पूरे NCR में धूल पैदा करने वाले demolition और outdoor construction पर रोक/प्रतिबंध लगाता है, सूचीबद्ध आवश्यक परियोजनाओं के अपवादों के साथ। Delhi NCT और गुरुग्राम, फरीदाबाद, सोनीपत, गाजियाबाद तथा गौतम बुद्ध नगर के राज्य सरकार और निजी दफ्तरों में अधिकतम 50% स्टाफ physically आ सकता है; शेष WFH। औद्योगिक प्रतिष्ठानों/essential services को तभी छूट है जब WFH व्यवस्था व्यवहार्य न हो। गुरुग्राम का AQI 322 बुधवार 4 नवंबर का रिपोर्टेड आँकड़ा है, 5 नवंबर का live reading नहीं।  
+Sources:  
+- Official CAQM signed order: https://caqm.nic.in/FileUploadDomain/WebsiteDocument/GRAP/GRAP%20Orders/22e7a559-e78f-49b0-b3f6-3f4e93cfa80f.pdf  
+- PIB/MoEFCC: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2330449&lang=1&reg=3  
+- SCC Times explainer: https://www.scconline.com/blog/post/2026/11/04/caqm-construction-curbs-50-percent-work-from-home-delhi-ncr-november-2026/  
+- Times of India Gurugram AQI: https://timesofindia.indiatimes.com/city/gurgaon/gurgaon-aqi-at-322-air-remains-very-poor-for-second-day/articleshow/135550774.cms
+
+**N10 — दो से अधिक बच्चों वाले उम्मीदवारों की चुनावी अयोग्यता पर सुप्रीम कोर्ट की बड़ी टिप्पणी (0:45).**  
+सुप्रीम कोर्ट ने महाराष्ट्र के एक पूर्व सरपंच के मामले में दो-बच्चे वाली अयोग्यता के संवैधानिक प्रश्न को बड़ी पीठ के पास भेजा और पुराने तर्क की आज की प्रासंगिकता पर सवाल उठाए। अभी अंतिम फैसला नहीं आया; सभी राज्यों के कानून स्वतः खत्म नहीं हुए और इसे UP में नियम बदलने की खबर न बताएं।  
+Sources:  
+- Indian Express: https://indianexpress.com/article/legal-news/supreme-court-two-child-norm-local-body-elections-10950267/  
+- Economic Times: https://economictimes.indiatimes.com/news/india/sc-questions-relevance-of-two-child-norm-for-contesting-elections-cites-changing-demographic-trends/articleshow/135550083.cms
+
+**N3 — धनतेरस से पहले सोने की ऊँची कीमतों का असर (0:40).**  
+World Gold Council के अनुसार जुलाई–सितंबर 2026 में भारत की सोने की माँग 162.5 टन रही, सालाना आधार पर 29% कम; आभूषण माँग 20% और बार/कॉइन माँग 40% घटी। पूरे साल के लिए 625–675 टन का अनुमान है, यह forecast है। धनतेरस 6 नवंबर को है।  
+Sources:  
+- World Gold Council: https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-india-focus-q3-2026  
+- Financial Express: https://www.financialexpress.com/market/india-gold-demand-plunges-29-in-q3-wgc-cuts-full-year-forecast-4376143/  
+- Rediff/PTI: https://money.rediff.com/amp/news/market/india-gold-demand-down-29-in-q3-2026-wgc-report/57407620261103  
+- Dhanteras date cross-check: https://m.economictimes.com/news/new-updates/dhanteras-2026-date-shubh-muhurat-to-buy-gold-silver-utensils-and-other-valuables/articleshow/135467191.cms
+
+**N11 — Sting/Monster जैसे पेय पर “Energy Drink” लेबल की कानूनी लड़ाई (0:40).**  
+FSSAI का कहना है कि इस श्रेणी का औपचारिक मानक नहीं और लेबल उपभोक्ता को भ्रमित कर सकता है; कंपनियाँ प्रक्रिया और आदेश को चुनौती दे रही हैं। 5 नवंबर को दिल्ली हाईकोर्ट में आगे की सुनवाई सूचीबद्ध थी, लेकिन 07:00 IST तक नया आदेश उपलब्ध नहीं था। पुराने स्टॉक की बिक्री और नए स्टॉक पर लेबल संबंधी interim आदेश को सही दायरे में बताएं। यह पेय के जहरीले होने का फैसला या सभी उत्पादों पर पूर्ण प्रतिबंध नहीं है।  
+Sources:  
+- Reuters, 4 Nov: https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/  
+- Economic Times, previous hearing and 5 Nov listing: https://economictimes.indiatimes.com/industry/cons-products/food/relief-for-monster-energy-pepsico-in-fssai-energy-drink-case/articleshow/134744705.cms
+
+**N6 — CERT-In ने AI साइबर अभियान “CRAFTY FALCON” पर चेताया (0:35).**  
+4 नवंबर की आधिकारिक advisory में CERT-In ने बताया कि AI-सहायता वाला खतरा बैंकों, NBFC, fintech, payment aggregators/providers और crypto exchanges के payment/disbursement APIs को निशाना बना रहा है। ₹1 जैसे छोटे test transfers के बाद बड़े unauthorized transfers हो सकते हैं; UAT/staging से production तक पहुँचने के मामले भी बताए गए। यह वित्तीय संस्थानों के infrastructure की चेतावनी है, हर आम ग्राहक का खाता hack होने का दावा नहीं।  
+Sources:  
+- CERT-In official advisory CIAD-2026-0058: https://www.cert-in.org.in/s2cMainServlet?CACODE=CICA-2026-3651&pageid=PUBADV01  
+- CERT-In advisory list: https://www.cert-in.org.in/s2cMainServlet?pageid=PUBADVLIST02&year=2026  
+- Rediff/PTI: https://www.rediff.com/business/report/ai-cyber-threat-crafty-falcon-targets-banking-firms/20261104.htm  
+- Economic Times/PTI: https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-based-cyber-threat-executing-unauthorised-fund-transfers-from-banking-firms-cert-in/articleshow/135547661.cms
+
+**N7 — भारत ने न्यूजीलैंड को पहले ODI में DLS से पाँच विकेट से हराया (0:35).**  
+न्यूजीलैंड 185 पर ऑलआउट हुआ; बारिश के बाद भारत ने 32 ओवर में 143 का संशोधित लक्ष्य 22.4 ओवर में 5 विकेट पर हासिल किया। विराट कोहली 74 (51), अर्शदीप सिंह 4/70; अंशुल कंबोज को Player of the Match चुना गया।  
+Sources:  
+- Reuters: https://www.reuters.com/sports/cricket/kohli-runs-india-thrash-new-zealand-first-odi-2026-11-04/  
+- HT scorecard: https://www.hindustantimes.com/cricket/match-result-nz-vs-ind-ind-in-nz-5-odis-2026-1st-odi-new-zealand-vs-india-odi-nzin11042026271651  
+- New Zealand Cricket archive scorecard: https://archive.blackcaps.co.nz/Scorecards/1455/1455466.html
+
+**N12 — रामायण: Part 1 आज सिनेमाघरों में (0:40).**  
+फिल्म 5 नवंबर को रिलीज हो रही है। Indian Express live update ने 4 नवंबर 18:15 तक छह show dates की advance booking ₹110.06 करोड़ बताई, जिसमें blocked seats शामिल हैं; blocked seats हटाने पर ₹88.11 करोड़। यह pre-sales estimate है, वास्तविक box-office कमाई नहीं। निर्माता के मुताबिक दूसरा भाग 2028 तक टला है।  
+Sources:  
+- Indian Express live updates: https://indianexpress.com/article/entertainment/bollywood/ramayana-part-1-movie-review-live-updates-ranbir-kapoor-yash-box-office-10950310/  
+- Business Standard, earlier booking cut-off: https://www.business-standard.com/entertainment/ramayana-advance-booking-nitesh-tiwari-film-nears-100-crore-in-india-nc-126110400549_1.html  
+- Sacnilk booking tracker: https://www.sacnilk.com/livetracker/ramayana_part_1_2026_Advance-Booking-Live
+
+**देश का मौसम (0:30).**  
+IMD के 5 नवंबर warning pages के अनुसार तटीय आंध्र और रायलसीमा में 5–8 नवंबर गरज-चमक/तेज हवा; केरल में 5 नवंबर thunderstorm और 6–8 नवंबर भारी बारिश; दक्षिण आंतरिक कर्नाटक में 5–6 नवंबर भारी बारिश/गरज-चमक; तटीय कर्नाटक में 5 नवंबर thunderstorm। इन warning pages पर जारी करने का सटीक समय प्रदर्शित नहीं है।  
+Sources:  
+- IMD Coastal Andhra/Rayalaseema: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2  
+- IMD Kerala: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=4  
+- IMD Karnataka: https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13  
+- IMD national bulletin, issued 4 Nov 13:00 IST, valid 4–10 Nov: https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2004-11-2026_1793778009.pdf
+
+### Active running order — exactly 10:00
+- Opening: 0:15
+- Western UP: bus fire 0:40; FSDA food safety 0:40; Sambhal cyber complaint 0:40; Moradabad illegal firecracker unit 0:45; Bijnor paneer starch advisory 0:30; West UP weather 0:15. **Total 3:30 (35%).**
+- India/UP-wide: food inflation 0:45; NCR pollution curbs 0:55; two-child norm Supreme Court 0:45; gold demand/Dhanteras 0:40; energy-drink label hearing 0:40; CRAFTY FALCON cyber advisory 0:35; India-NZ ODI 0:35; Ramayana release 0:40; national weather 0:30; closing 0:10. **Total 6:30 (65%).**
+- Jobs/recruitment/exams/admit cards: none.
+
+### Reserve / HOLD — not in today's active 8+5
+- Bijnor Ayurvedic-store fire: local reports exist, but initial cause and loss estimate need district fire-service confirmation.
+- Bijnor woman who became ill after tea: post-mortem did not establish cause; viscera pending. Do not imply poisoning.
+- Bijnor sugarcane-cart road death: single-source report; police confirmation required.
+- Drug-manufacturing licence suspension proposal: potentially important, but not selected in this edition pending direct Gazette/ministry text and a second independent confirmation.
+- Any new court outcome in the energy-drink case after 07:00 IST must be checked before recording; do not predict the order.
+
+### Production guardrails
+- Keep all Western UP allegations attributed; do not use unlicensed news footage, screenshots or third-party TV clips.
+- For the paneer test, show a simple original diagram only; state clearly that it detects starch, not every adulterant.
+- For the firecracker story, use an original generic safety graphic, not images of the actual seized material unless rights are cleared.
+- Recheck CAQM amendments, court hearing outcome and IMD warnings immediately before narration/render.
