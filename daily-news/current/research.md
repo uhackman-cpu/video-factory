@@ -47,7 +47,7 @@ Local traders told Amar Ujala they expect district-wide Dhanteras sales of rough
 ## India / wider UP — 8 main stories (5:00)
 
 ### N1 — Food inflation and weak soil moisture put winter crops under pressure
-Reuters on 3 November reported that a weak monsoon has left soil too dry for some winter planting and could tighten supplies of wheat, rice, pulses, sugar, onions, milk and poultry. The official September CPI release reported headline inflation at 5.54% and food inflation at 7.74%; food inflation was 8.06% in rural areas and 7.18% in urban areas.
+Reuters on 3 November reported that a weak monsoon has left soil too dry for some winter planting and could tighten supplies of wheat, rice, pulses, sugar, onions, milk and poultry. The official September CPI release reported headline inflation at 5.54% and food inflation at 7.74%; food inflation was 8.06% in rural areas and 7.18% in urban areas. The onion sub-group recorded 108.09% year-on-year inflation in September, while Uttar Pradesh's headline CPI inflation was 6.08%. These are September CPI rates, not today's quoted retail prices.
 **Treatment:** Explain the possible chain from low soil moisture to sowing/yield risk and household prices. These are risks and national CPI figures, not proof that every local mandi or shop has already raised prices.
 **Time:** 0:40  
 **Sources:** N1-S1, N1-S2
