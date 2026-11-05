@@ -255,6 +255,27 @@
       "adaptation_allowed": true,
       "evidence_location": "https://huggingface.co/hexgrad/Kokoro-82M",
       "required_attribution_text": "Kokoro-82M Hindi voice hm_omega — hexgrad and Kokoro contributors — Apache License 2.0 — https://huggingface.co/hexgrad/Kokoro-82M — https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "asset_id": "FONT-NOTO-SANS-DEVANAGARI",
+      "asset_type": "font",
+      "title": "Noto Sans Devanagari Regular",
+      "asset_page_url": "https://github.com/google/fonts/tree/main/ofl/notosansdevanagari",
+      "download_url": null,
+      "package_name": "fonts-noto-core (Ubuntu package installed by the GitHub Actions workflow)",
+      "file_name": "NotoSansDevanagari-Regular.ttf",
+      "creator": "The Noto Project Authors (Google)",
+      "rights_holder": "The Noto Project Authors",
+      "license_name_and_version": "SIL Open Font License 1.1",
+      "license_url": "https://scripts.sil.org/OFL",
+      "commercial_use_allowed": true,
+      "adaptation_allowed": true,
+      "attribution_required": false,
+      "required_attribution_text": "No attribution is required for a video/document rendered using the font. If the font files themselves are redistributed, retain the OFL 1.1 copyright and licence notice.",
+      "evidence_location": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansdevanagari/OFL.txt",
+      "checked_at": "2026-11-05T06:24:34+05:30",
+      "evidence": "Google Fonts METADATA.pb identifies Noto Sans Devanagari, designer Google and OFL; upstream OFL.txt states SIL Open Font License 1.1. The CI workflow installs fonts-noto-core and uses NotoSansDevanagari-Regular.ttf.",
+      "modifications": "Font is used to rasterize Hindi captions/labels in the video; the font file is not bundled in the MP4."
     }
   ],
   "excluded_assets": [
@@ -265,5 +286,8 @@
     "No unlicensed music or sound effects",
     "No identifiable accident victims",
     "No unverified stock imagery"
+  ],
+  "font_asset_ids": [
+    "FONT-NOTO-SANS-DEVANAGARI"
   ]
 }
