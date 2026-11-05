@@ -17,7 +17,7 @@
     "script_originality": "PASS — original Hindi narration from verified facts",
     "sensationalism": "PASS — no rumours, communal/caste bait, misleading claims or graphic detail",
     "selected_story_count": 13,
-    "story_mix": "Five Western UP stories plus 15 seconds West UP weather = 210 seconds; eight wider India/UP stories, national weather, opening and closing = 390 seconds."
+    "story_mix": "Five Western UP stories: Moradabad bus fire, regional food-safety inspections, Sambhal cyber complaint, Sambhal Dhanteras trader forecast and Bijnor paneer-starch awareness. Plus 15 seconds West UP weather = 210 seconds (35%)."
   },
   "research_verification": [
     {
@@ -34,11 +34,6 @@
       "story_id": "W3",
       "status": "PASS_AS_REPORTED_COMPLAINT",
       "note": "Victim complaint only; no platform breach or company involvement claimed."
-    },
-    {
-      "story_id": "W5",
-      "status": "PASS_WITH_POLICE_ATTRIBUTION",
-      "note": "83.25 kg gunpowder and 27 sacks are police-reported; local reports repeat the same police briefing."
     },
     {
       "story_id": "W6",
@@ -89,6 +84,11 @@
       "story_id": "WEATHER",
       "status": "PASS_CURRENT_IMD_REFRESH",
       "note": "West UP page issued 5 Nov shows no warning 5–11 Nov; southern subdivision warnings reopened 07:24 IST."
+    },
+    {
+      "story_id": "W4",
+      "status": "PASS_WITH_FORECAST_CAVEAT",
+      "note": "₹100 crore Dhanteras figure is a trader forecast, not audited or actual sales."
     }
   ],
   "script_originality_review": {
@@ -138,12 +138,11 @@
   },
   "technical_checks": {
     "status": "RENDER_IN_PROGRESS",
-    "details": "New 17-scene, 1,292-word, 600-second manifest committed on main. GitHub accepted the dispatch and run 41952599446 is verified in_progress. MP4, 1920x1080, audio, SRT and complete credits are not yet verified for this edition."
+    "details": "Run 41952599446 is already in progress on the earlier 6d2545da manifest. The latest main manifest has been updated after that run started; do not queue a duplicate. The active run is a draft only. After it completes, render the latest manifest with the Sambhal Dhanteras story replacing the firecracker story held for an original safety graphic."
   },
   "required_human_review": [
     "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, pacing, clipping and abrupt cuts.",
     "Check 'प्रतीकात्मक तस्वीर' label visibility and legibility in every scene.",
-    "Review bus-fire and fireworks narration for sensitivity; only generic images are used.",
     "Check Bijnor iodine test is described as starch-only, not a complete purity test.",
     "Confirm Diwali Market image is Rani Bagh, Delhi, not Sambhal, Moradabad or a film visual.",
     "Confirm court image is Bangalore City Civil Court, not Supreme Court or Maharashtra court.",
@@ -152,9 +151,10 @@
     "Refresh the Delhi High Court energy-drink hearing outcome before public release.",
     "Refresh IMD warnings and breaking news immediately before public release.",
     "Confirm SRT and complete credits.txt are included in the new artifact.",
-    "Review all allegations and estimates for accurate attribution."
+    "Review all allegations and estimates for accurate attribution.",
+    "Confirm the Sambhal ₹100 crore Dhanteras figure is attributed as traders' forecast, not actual turnover."
   ],
-  "final_gate": "HOLD — draft rendering is allowed; publication remains blocked pending human audio/visual/editorial review, current court-hearing and IMD refresh, and final artifact/SRT/credits confirmation.",
+  "final_gate": "HOLD — the active run uses the earlier manifest; latest main now replaces the firecracker story with the Sambhal Dhanteras trader forecast. Do not publish any draft. Wait for active run to finish, then render the latest manifest; human audio/visual/editorial review and artifact/SRT/credits checks remain mandatory.",
   "final_approval_status": "HOLD",
   "youtube_publish_authorized": false,
   "artifact_verified": false,
@@ -167,13 +167,14 @@
     "previous_run_artifact_count": 1,
     "previous_run_head_sha": "4722d5d22ee24b19f358660aa424b15eb193c945",
     "previous_run_note": "Previous 16-scene manifest, not this edition; it predates the complete credits-copy step.",
-    "current_manifest_commit": "6d2545da188f03b7b90bb93e6583d509f9f9f50e",
+    "current_manifest_commit": "pending-next-commit",
     "current_main_commit_before_dispatch": "6d2545da188f03b7b90bb93e6583d509f9f9f50e",
-    "dispatch_status": "accepted_and_verified",
+    "dispatch_status": "one_run_in_progress_latest_manifest_staged_for_next_run",
     "active_run_id": 41952599446,
     "active_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41952599446",
     "active_run_status": "in_progress",
-    "duplicate_dispatch_check": "No active Render Hybrid Facts Video run existed immediately before dispatch; previous latest run 41945950007 was completed. Exactly one new run was dispatched and verified."
+    "duplicate_dispatch_check": "No active Render Hybrid Facts Video run existed immediately before dispatch; previous latest run 41945950007 was completed. Exactly one new run was dispatched and verified.",
+    "next_render_after_active_run": true
   },
   "pre_publication_checklist": [
     {
