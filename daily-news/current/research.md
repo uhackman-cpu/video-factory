@@ -1,9 +1,9 @@
 # Hindi Facts — Daily News Research
 **Edition:** Thursday, 5 November 2026  
-**Research cut-off:** 05:59 IST, 5 November 2026  
+**Research cut-off:** 06:24 IST, 5 November 2026  
 **Audience:** Hindi-speaking rural/village viewers and urban lower-/middle-class households  
 **Editorial split:** Western UP 35% (3:30); India/UP-wide 65% (6:30)  
-**Status:** Research dossier only. No script render or YouTube publication in this run.
+**Status:** Refreshed research dossier and production manifest; draft render permitted, publication remains on HOLD.
 
 ## Editorial rules
 - Prioritise verified, relatable, discussion-worthy stories: household costs, food safety, transport, farming, markets, cyber fraud, unusual human-interest and major public-interest decisions.
@@ -19,7 +19,7 @@ A Bareilly-depot AC roadways bus travelling from Delhi to Bareilly caught fire n
 **Audience angle:** Passenger safety, bus maintenance and what to do when a vehicle catches fire.
 **Verification:** One detailed local report quotes the police and Chief Fire Officer. Obtain the fire service/police incident note before stating the exact cause. Do not use passengers' panic footage unless rights and consent are established.
 **Time:** 0:45  
-**Sources:** W1-S1
+**Sources:** W1-S1, W1-S2
 
 ### W2 — Bareilly, Moradabad and Muzaffarnagar: festive sweet-shop safety inspections
 UP FSDA's pre-Diwali campaign inspected 1,133 locations and collected 935 samples between 26 October and 3 November; reports say around 54 quintals of food products worth about ₹1.32 crore were seized and 27 establishment licences suspended statewide. The drive deployed 32 mobile squads in Bareilly and Moradabad. Local findings reported include unhygienic production and mouldy ghevar in Bareilly, expired ingredients/inedible colours/rodent contamination in Moradabad, and about 220 kg of rasgullas destroyed in Muzaffarnagar after flies were found.
@@ -49,13 +49,13 @@ Local traders told Amar Ujala they expect district-wide Dhanteras sales of rough
 ### N1 — Food inflation and weak soil moisture put winter crops under pressure
 Reuters on 3 November reported that a weak monsoon has left soil too dry for some winter planting and could tighten supplies of wheat, rice, pulses, sugar, onions, milk and poultry. The official September CPI release reported headline inflation at 5.54% and food inflation at 7.74%; food inflation was 8.06% in rural areas and 7.18% in urban areas. The onion sub-group recorded 108.09% year-on-year inflation in September, while Uttar Pradesh's headline CPI inflation was 6.08%. These are September CPI rates, not today's quoted retail prices.
 **Treatment:** Explain the possible chain from low soil moisture to sowing/yield risk and household prices. These are risks and national CPI figures, not proof that every local mandi or shop has already raised prices.
-**Time:** 0:40  
+**Time:** 0:55  
 **Sources:** N1-S1, N1-S2
 
 ### N2 — Cyclone Murasu: Andhra begins recovery after crop and housing losses
 The latest confirmed preliminary figures located by 05:59 IST were reported by Andhra Pradesh State Disaster Management Authority Managing Director Prakhar Jain: at least two deaths, crops damaged across 52,459 hectares, 312 houses affected, estimated losses of about ₹344 crore and 12,230 people in relief centres. These figures are preliminary and were reported on 3–4 November; a newer verified official damage assessment was not located before the research cut-off. IMD said the severe cyclone weakened to a depression over east Telangana and adjoining Coastal Andhra Pradesh by 5:30 am on 4 November and was expected to weaken further into a well-marked low-pressure area.
 **Treatment:** Focus on farmers, electricity restoration, roads and families in relief centres. Clearly label crop-loss and monetary figures as preliminary; do not present the cyclone as still a severe cyclonic storm.
-**Time:** 0:40  
+**Time:** 0:55  
 **Sources:** N2-S1, N2-S2, N2-S3, N2-S4
 
 ### N3 — Record gold prices are changing festive buying
@@ -98,7 +98,7 @@ The Cabinet approved a five-year extension of the Fast Track Special Courts sche
 
 ### Western UP
 - IMD Regional Meteorological Centre New Delhi's subdivision warning page was issued on 5 November 2026 and shows **No warning** for West Uttar Pradesh from 5 through 11 November.
-- Moradabad city forecast page (dated 2 November) lists 5 November as mainly clear, 17–28°C.
+- Moradabad city forecast page (dated 4 November) lists 5 November as mainly clear, 19–28°C.
 - Bareilly city forecast page (dated 4 November) lists 5 November as clear, 16–29°C.
 - No current city-level Sambhal forecast was located; do not invent a temperature for Sambhal.
 - The 4 November IMD national press release (issued 13:00 IST) says no significant weather is likely over Northwest, West and Northeast India during the week.
@@ -119,8 +119,8 @@ The Cabinet approved a five-year extension of the Fast Track Special Courts sche
 | W3 Sambhal cyber-fraud complaint | 0:45 |
 | W4 Sambhal Dhanteras market outlook | 0:45 |
 | Western UP weather | 0:15 |
-| N1 Food inflation / winter sowing | 0:40 |
-| N2 Murasu recovery | 0:40 |
+| N1 Food inflation / winter sowing | 0:55 |
+| N2 Murasu recovery | 0:55 |
 | N3 Gold buying | 0:35 |
 | N4 Grid storage scheme | 0:35 |
 | N5 Lithium/nickel processing | 0:35 |
@@ -144,3 +144,11 @@ Western UP editorial time = 3:30 / 10:00 = **35%**. Jobs/recruitment/exam notice
 
 ## Visual and rights instructions
 Use original maps, charts, diagrams and typography. Do not download or reuse third-party TV/news footage, article screenshots, publisher photographs, social-media clips, logos or music without documented commercial rights and source attribution. For the bus and sweets stories, prefer original explanatory graphics and generic licensed visuals. Keep names of private complainants out of thumbnails; do not show distress or alleged criminal acts as entertainment.
+
+
+## 06:24 IST production refresh — 5 November 2026
+- **Moradabad bus fire:** a second local report from Amar Ujala, updated 00:57 IST, corroborates that all 55 passengers escaped. The Chief Fire Officer is quoted attributing the fire to a rear tyre burst. The narration attributes the cause to the officer and does not call it a final technical finding. Sources W1-S1 and W1-S2.
+- **West UP warning refresh:** IMD RMC New Delhi page issued 5 November shows no warning for West Uttar Pradesh on 5–11 November. Moradabad city page dated 4 November forecasts mainly clear conditions, 19–28°C; Bareilly page dated 4 November forecasts clear conditions, 16–29°C. No town temperature is invented for Sambhal.
+- **South India warning refresh:** IMD pages issued 5 November show thunderstorm/lightning/squall and strong surface winds in Coastal Andhra Pradesh and Rayalaseema through 8 November; Kerala thunderstorm on 5 November and heavy rain/thunderstorm on 6–8 November; South Interior Karnataka heavy rain/thunderstorm on 5–6 November.
+- The national IMD press release available at the cut-off is dated 4 November, 13:00 IST; its broad forecast is retained only as context. The current subdivision warning pages issued 5 November take precedence for the listed regions.
+- Running order adjusted to a true 600 seconds: Western UP 210 seconds (35%); remaining India/UP, all-India weather, opening and closing 390 seconds (65%).
