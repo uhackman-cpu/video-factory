@@ -1,36 +1,27 @@
-Hindi Facts — Daily Bulletin — 5 November 2026, morning edition
-Format: 16:9 landscape, 10:00 target (600 seconds), 17 scenes, 1,275 spoken words
-Editorial split: Western UP 3:30 (35%); wider India/UP, national weather, opening and closing 6:30 (65%).
-Project adaptation licence: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
-Individual third-party assets retain their own licences; this project notice does not relicense them.
-Every still is illustrative, not footage of the reported incident, people, product or location. The visible label 'प्रतीकात्मक तस्वीर' is applied to every still. Images are cropped/resized to 1920x1080; changes are indicated below.
+HINDI FACTS — DAILY NEWS BULLETIN
+Edition: 5 November 2026, morning update (research cutoff 08:16 IST)
+Format: 1920×1080, 16:9, 600 seconds; 1,100–1,300-word original Hindi script.
 
-Visual asset credits and required attribution:
-1. No attribution legally required under CC0 1.0; courtesy credit: Wheat Field in India.jpg — Rstv.devesh — https://commons.wikimedia.org/wiki/File:Wheat_Field_in_India.jpg
-2. Bike Ride On the NH 48.jpg — Mallikarjuna Sarvala — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bike_Ride_On_the_NH_48.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-3. Indian Sweet.jpg — Mrsagar105 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Indian_Sweet.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-4. Laptop Keyboard.jpg — Kokul Jose — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Laptop_Keyboard.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-5. Diwali Market.jpg — Bakarpuran — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Diwali_Market.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-6. Dark clouds, Monsoon, India (2018).jpg — Patilharshit — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Dark_clouds,_Monsoon,_India_(2018).jpg — https://creativecommons.org/licenses/by-sa/4.0/
-7. Bangalore City Civil Court Complex 1.jpg — Wilhelm Tell DCCXLVI — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bangalore_City_Civil_Court_Complex_1.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-8. Gold Jewellery .jpg — Gaurav Dhwaj Khadka — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Gold_Jewellery_.jpg — https://creativecommons.org/licenses/by-sa/4.0/
-9. Rajiv Gandhi International Cricket Stadium Hyderabad.jpg — Phanidharvaranasi — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Rajiv_Gandhi_International_Cricket_Stadium_Hyderabad.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+VISUAL ASSET CREDITS — all images are illustrative, visibly labelled “प्रतीकात्मक तस्वीर”. None depicts the reported incident, shop, protest, court case, match or film.
+No attribution legally required under CC0 1.0; courtesy credit: Wheat Field in India.jpg — Rstv.devesh — https://commons.wikimedia.org/wiki/File:Wheat_Field_in_India.jpg
+Indian Sweet.jpg — Mrsagar105 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Indian_Sweet.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+Bike Ride On the NH 48.jpg — Mallikarjuna Sarvala — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bike_Ride_On_the_NH_48.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+Gold Jewellery .jpg — Gaurav Dhwaj Khadka — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Gold_Jewellery_.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+Laptop Keyboard.jpg — Kokul Jose — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Laptop_Keyboard.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+Solar panels in India.jpg — Manjunatha G, WELL Labs — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Solar_panels_in_India.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+Bangalore City Civil Court Complex 1.jpg — Wilhelm Tell DCCXLVI — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Bangalore_City_Civil_Court_Complex_1.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+Diwali Market.jpg — Bakarpuran — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Diwali_Market.jpg — https://creativecommons.org/licenses/by-sa/4.0/
+Dark clouds, Monsoon, India (2018).jpg — Patilharshit — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Dark_clouds,_Monsoon,_India_(2018).jpg — https://creativecommons.org/licenses/by-sa/4.0/
 
-Visual clarifications:
-- Highway photograph is generic; it is not the Moradabad roadways bus or fire.
-- Sweet photograph is generic; it is not the inspected sweet, shop, seized stock or paneer sample.
-- Laptop photograph is generic; it does not depict the Sambhal complainant, named company, bank or actual cyberattack.
-- Diwali Market photograph shows Rani Bagh, New Delhi; it is a generic festive-market illustration, not a photograph of Sambhal or audited local sales, and not a Ramayana film still/poster.
-- Cloud photograph dates from 2018; it is not current weather, cyclone footage or an official IMD graphic.
-- Court photograph is Bangalore City Civil Court; it is a symbolic image, not the Supreme Court or a Maharashtra court.
-- Gold jewellery photograph depicts Nepali-style jewellery, not a named Indian retailer, item or price.
-- Cricket stadium photograph is Hyderabad; it is not Auckland and not match footage.
-- Wheat-field photograph is a generic Indian agriculture illustration.
-
-Font:
-Noto Sans Devanagari Regular — The Noto Project Authors (Google) — SIL Open Font License 1.1 — https://github.com/google/fonts/tree/main/ofl/notosansdevanagari — https://scripts.sil.org/OFL. Installed via Ubuntu fonts-noto-core; font is rendered into captions and not bundled separately.
-
-Narration:
+VOICE AND FONT
 Kokoro-82M Hindi voice hm_omega — hexgrad and Kokoro contributors — Apache License 2.0 — https://huggingface.co/hexgrad/Kokoro-82M — https://www.apache.org/licenses/LICENSE-2.0
-Hindi phonemization: espeak-ng installed locally. No external TTS API or Edge Read Aloud/edge-tts.
-No music, sound effects, TV/news clips, publisher photographs, screenshots, social-media footage, film stills or logos used.
+Local Hindi phonemization: espeak-ng (system package; no external TTS API).
+No attribution is required for a video/document rendered using the font. If the font files themselves are redistributed, retain the OFL 1.1 copyright and licence notice.
+
+LICENSING AND SHARE-ALIKE
+Project narration, captions, scene edits and the complete video are released under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/ .
+CC BY-SA 4.0 image adaptations are credited above and the ShareAlike condition is applied to this production. The CC0 wheat-field image is credited as a courtesy.
+Apache-2.0 applies to the Kokoro model; SIL OFL 1.1 applies to the Noto Sans Devanagari font. No music or sound effects are used.
+
+NEWS SOURCES
+All factual source titles, publishers, publication times, access times, supported claims and verification caveats are recorded in daily-news/current/sources.json.
