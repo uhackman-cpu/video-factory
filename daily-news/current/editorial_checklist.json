@@ -1,12 +1,12 @@
 {
   "edition_date": "2026-11-05",
-  "checked_at": "2026-11-05T07:24:00+05:30",
-  "render_status": "RENDER_IN_PROGRESS",
+  "checked_at": "2026-11-05T07:41:05+05:30",
+  "render_status": "RENDER_IN_PROGRESS_OLDER_MANIFEST",
   "publication_status": "HOLD_FOR_HUMAN_REVIEW",
   "overall_status": "HOLD",
   "editorial": {
     "audience_mix": "PASS",
-    "spoken_word_count": 1292,
+    "spoken_word_count": 1275,
     "target_duration_seconds": 600,
     "scene_count": 17,
     "western_up_seconds": 210,
@@ -137,8 +137,8 @@
     "details": "Every used still maps to a complete licence record and exact licence URL; every scene has matching asset_id and visible illustrative label. No music or sound effects; Kokoro hm_omega and Noto Sans Devanagari terms recorded."
   },
   "technical_checks": {
-    "status": "RENDER_IN_PROGRESS",
-    "details": "Run 41952599446 is in progress on earlier commit 6d2545da. Latest compliant manifest is committed through 33bf1bf7 on main (1,275 words, 17 scenes, 600 seconds, West UP 210 seconds). Do not dispatch a duplicate while run 41952599446 remains active. After it completes, dispatch the latest main manifest and verify MP4, 1920x1080, Hindi audio, SRT and full credits."
+    "status": "RENDER_IN_PROGRESS_OLDER_MANIFEST",
+    "details": "At 07:41 IST, run 41952599446 is still rendering commit 6d2545da188f03b7b90bb93e6583d509f9f9f50e, which contains the earlier Moradabad illegal-firecracker-raid scene. The latest main manifest is different: it replaces that scene with the Sambhal Dhanteras trader forecast and its opening has now been corrected to match the selected stories (project commit 4b30299d2452a58abcf06f987885d710e86bac68). No artifact is attached to the active run yet. Its eventual output must not be treated as the latest main edition. After this run completes, dispatch one render from current main, then verify MP4 duration/resolution/audio, SRT, complete credits, provenance and human review."
   },
   "required_human_review": [
     "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, pacing, clipping and abrupt cuts.",
@@ -154,7 +154,7 @@
     "Review all allegations and estimates for accurate attribution.",
     "Confirm the Sambhal ₹100 crore Dhanteras figure is attributed as traders' forecast, not actual turnover."
   ],
-  "final_gate": "HOLD — the active run uses the earlier manifest; latest main now replaces the firecracker story with the Sambhal Dhanteras trader forecast. Do not publish any draft. Wait for active run to finish, then render the latest manifest; human audio/visual/editorial review and artifact/SRT/credits checks remain mandatory.",
+  "final_gate": "HOLD — active run 41952599446 is rendering an older manifest that includes the Moradabad firecracker-raid story. Current main has replaced it with the Sambhal Dhanteras trader forecast and corrected the opening so the teaser matches the story lineup. The current project and credits now both state 1,275 spoken words. Wait for the old run to finish; then render current main once. No upload/publication until the current-main artifact, SRT and full credits are verified and human audio/visual/editorial review is complete.",
   "final_approval_status": "HOLD",
   "youtube_publish_authorized": false,
   "artifact_verified": false,
@@ -167,7 +167,7 @@
     "previous_run_artifact_count": 1,
     "previous_run_head_sha": "4722d5d22ee24b19f358660aa424b15eb193c945",
     "previous_run_note": "Previous 16-scene manifest, not this edition; it predates the complete credits-copy step.",
-    "current_manifest_commit": "33bf1bf7b552f439112fa9b66aeb68a74cd8f719",
+    "current_manifest_commit": "4b30299d2452a58abcf06f987885d710e86bac68",
     "current_main_commit_before_dispatch": "6d2545da188f03b7b90bb93e6583d509f9f9f50e",
     "dispatch_status": "one_run_in_progress_latest_manifest_staged_for_next_run",
     "active_run_id": 41952599446,
@@ -175,7 +175,9 @@
     "active_run_status": "in_progress",
     "duplicate_dispatch_check": "No active Render Hybrid Facts Video run existed immediately before dispatch; previous latest run 41945950007 was completed. Exactly one new run was dispatched and verified.",
     "next_render_after_active_run": true,
-    "latest_manifest_note": "Latest main manifest replaces the Moradabad firecracker scene with the Sambhal Dhanteras trader forecast to satisfy the caution-file visual requirement. Active run 41952599446 checked out the earlier manifest at 6d2545da and does not include this latest change."
+    "latest_manifest_note": "Latest main manifest replaces the earlier Moradabad illegal-firecracker-raid story with Sambhal Dhanteras trader forecast; the opening teaser has been corrected to match. Active run 41952599446 still uses the older 6d2545da manifest and is not the latest main edition.",
+    "script_correction_commit": "4b30299d2452a58abcf06f987885d710e86bac68",
+    "active_run_head_sha": "6d2545da188f03b7b90bb93e6583d509f9f9f50e"
   },
   "pre_publication_checklist": [
     {
