@@ -1,16 +1,23 @@
 {
   "edition_date": "2026-11-05",
-  "research_cutoff_ist": "2026-11-05T08:02:23+05:30",
-  "audience": "Rural/village Hindi viewers and urban lower-/middle-class households",
+  "research_cutoff_ist": "2026-11-05T08:16:43+05:30",
+  "audience": {
+    "target": "Hindi-speaking rural/village viewers and urban lower-/middle-class households",
+    "priority": "verified, relatable, conversation-worthy public-interest, agriculture, prices, consumer, transport, weather, health, education and human-interest stories",
+    "jobs_exams": "low priority; none included"
+  },
   "editorial_mix": {
     "western_up_seconds": 210,
     "western_up_percent": 35,
-    "india_wider_up_seconds": 330,
+    "national_up_seconds": 330,
+    "national_up_percent": 55,
     "weather_seconds": 30,
-    "opening_seconds": 15,
-    "closing_seconds": 15,
+    "weather_percent": 5,
+    "opening_closing_seconds": 30,
+    "opening_closing_percent": 5,
     "total_seconds": 600,
-    "jobs_exams": "none"
+    "story_count": 12,
+    "jobs_exams_count": 0
   },
   "stories": [
     {
@@ -18,301 +25,168 @@
       "region": "Western UP",
       "places": [
         "Saharanpur division",
-        "Meerut division",
+        "Meerut",
         "Moradabad division",
         "Bijnor/Dhampur"
       ],
-      "claim": "9 UP sugar mills started crushing; 33 mills issued indents; 3 Saharanpur, 1 Meerut, 2 Moradabad and 3 Lucknow; Dhampur local start shifted to 11 Nov, weighment centres from 8 Nov",
-      "confidence": "medium-high; department figures reported by multiple agriculture/local outlets; Dhampur date is single local report",
-      "sources": [
-        {
-          "url": "https://www.abplive.com/states/up-uk/yogi-government-sugarcane-crushing-season-2026-27-begins-production-underway-9-sugar-mills-3211041",
-          "publisher": "ABP Live",
-          "published": "2026-11-04 17:27 IST"
-        },
-        {
-          "url": "https://kisansamadhan.com/up-sugarcane-crushing-season-2026-27-begins-33-sugar-mills-indent-issued/",
-          "publisher": "Kisan Samadhan",
-          "published": "2026-11-04 18:15 IST"
-        },
-        {
-          "url": "https://www.uptak.in/apna-up/story/up-sugarcane-crushing-season-2026-27-9-sugar-mills-start-operations-3559380-2026-11-04",
-          "publisher": "UPTak",
-          "published": "2026-11-04"
-        },
-        {
-          "url": "https://www.amarujala.com/uttar-pradesh/bijnor/sugarcane-weighing-at-centers-in-dhampur-will-begin-on-november-8-the-inauguration-will-take-place-on-the-11th-bijnor-news-c-27-1-smrt1025-194547-2026-11-03",
-          "publisher": "Amar Ujala",
-          "published": "2026-11-03 01:06 IST"
-        }
-      ]
+      "claim": "Nine UP sugar mills had started crushing and 33 had issued cane indents; Dhampur local weighing starts 8 Nov and crushing inauguration is shifted to 11 Nov after rain/waterlogging.",
+      "confidence": "high; department figures reported by multiple sources; Dhampur timing attributed to local mill management",
+      "editorial_duration_seconds": 65,
+      "source_ids": [
+        "W1-S1",
+        "W1-S2",
+        "W1-S3",
+        "W1-S4"
+      ],
+      "caveat": "Do not imply all UP mills have started; farmers should check their own indent and committee schedule."
     },
     {
       "id": "W2",
       "region": "Western UP",
-      "place": "Muzaffarnagar",
-      "claim": "About 220 kg of sweets destroyed after insects were found; samples collected and sent for lab testing",
-      "confidence": "high for destruction and inspection; laboratory status not yet known; do not claim confirmed chemical adulteration",
-      "sources": [
-        {
-          "url": "https://timesofindia.indiatimes.com/city/agra/diwali-crackdown-220kg-sweets-destroyed-in-muzaffarnagar-after-insects-found-contaminated-milk-cheese-seized-in-mathura/articleshow/135547438.cms",
-          "publisher": "Times of India",
-          "published": "2026-11-04 22:54 IST"
-        },
-        {
-          "url": "https://www.jagran.com/uttar-pradesh/muzaffarnagar-muzaffarnagar-food-safety-220kg-flyinfested-rasgullas-destroyed-40427033.html",
-          "publisher": "Dainik Jagran",
-          "published": "2026-11-04 13:22 IST"
-        },
-        {
-          "url": "https://jantaserishta.com/local/uttar-pradesh/major-raid-at-a-sweet-shop-ahead-of-diwali-flies-and-insects-found-in-220-kg-of-rasgullas-4915944",
-          "publisher": "Janta Se Rishta",
-          "published": "2026-11-04 13:42 IST"
-        }
-      ]
+      "place": "Muzaffarnagar, Jolly Road",
+      "claim": "About 220 kg rasgullas destroyed after flies were found; shop issued a notice; samples collected for quality testing.",
+      "confidence": "high for destruction/notice; lab results not located",
+      "editorial_duration_seconds": 55,
+      "source_ids": [
+        "W2-S1",
+        "W2-S2"
+      ],
+      "caveat": "Do not call this laboratory-proven chemical adulteration; distinguish hygiene action from sample result."
     },
     {
       "id": "W3",
       "region": "Western UP",
-      "place": "Moradabad, Nagphani/Gudiya Bagh",
-      "claim": "Police say two brothers arrested after alleged illegal cracker-making unit raid; 83.25 kg gunpowder, 27 sacks of crackers and packaging reportedly seized",
-      "confidence": "medium; multiple local outlets appear to repeat one police briefing; attribute to police",
-      "sources": [
-        {
-          "url": "https://www.amarujala.com/uttar-pradesh/moradabad/illegal-firecracker-factory-operating-in-a-house-in-a-densely-populated-area-two-brothers-arrested-moradabad-news-c-15-1-mbd1027-1031849-2026-11-05",
-          "publisher": "Amar Ujala",
-          "published": "2026-11-05 00:52 IST"
-        },
-        {
-          "url": "https://newstrack.com/uttar-pradesh/moradabad/moradabad-illegal-firecracker-factory-busted-83-kg-gunpowder-seized-two-arrested-645825",
-          "publisher": "News Track",
-          "published": "2026-11-04 16:02 IST"
-        },
-        {
-          "url": "https://royalbulletin.in/uttar-pradesh/moradabad/illegal-firecracker-factory-busted-in-moradabad-83-kg-gunpowder-seized/article-251782",
-          "publisher": "Royal Bulletin",
-          "published": "2026-11-04 19:30 IST"
-        }
-      ]
+      "place": "Meerut, Hastinapur, Alipur Morna",
+      "claim": "Three farmers climbed a water tank on 4 Nov demanding ₹700/quintal sugarcane price, pre-season price announcement and interest on arrears; local reports said protest continued late on 4 Nov.",
+      "confidence": "high for reported event and demands; no verified 5 Nov morning resolution",
+      "editorial_duration_seconds": 50,
+      "source_ids": [
+        "W3-S1",
+        "W3-S2",
+        "W3-S3"
+      ],
+      "caveat": "₹700 is a demand, not an announced government rate; avoid graphic or celebratory treatment of a dangerous protest tactic."
     },
     {
       "id": "W4",
       "region": "Western UP",
       "place": "Meerut",
-      "claim": "Diwali traffic plan 5–11 Nov, generally 07:00–02:00; heavy vehicle diversion; Abu Lane closed to all vehicles and Sarafa to four-wheelers",
-      "confidence": "high; corroborated by local reports; restrictions are route/market-specific",
-      "sources": [
-        {
-          "url": "https://www.jagran.com/uttar-pradesh/meerut-city-meerut-diwali-traffic-4wheelers-erickshaws-banned-in-markets-40427792.html",
-          "publisher": "Dainik Jagran",
-          "published": "2026-11-05 05:10 IST"
-        },
-        {
-          "url": "https://www.livehindustan.com/uttar-pradesh/meerut/story-meerut-traffic-diversion-heavy-vehicles-barred-from-city-routes-during-dhanteras-to-bhai-dooj-201793822678702.html",
-          "publisher": "Live Hindustan",
-          "published": "2026-11-05 01:34 IST"
-        },
-        {
-          "url": "https://www.amarujala.com/uttar-pradesh/meerut/meerut-traffic-diversions-in-the-city-for-diwali-vehicle-entry-banned-in-several-markets-2026-11-04",
-          "publisher": "Amar Ujala",
-          "published": "2026-11-04"
-        }
-      ]
+      "claim": "Traffic plan 5–11 Nov, 07:00–02:00; heavy-vehicle diversions; Abu Lane closed to vehicles and Sarafa market to four-wheelers.",
+      "confidence": "high; Jagran and Hindustan reports dated 5 Nov cross-checked",
+      "editorial_duration_seconds": 40,
+      "source_ids": [
+        "W4-S1",
+        "W4-S2",
+        "W4-S3"
+      ],
+      "caveat": "Restrictions are route/market-specific; not a blanket closure of Meerut."
     },
     {
       "id": "N1",
       "region": "India",
-      "claim": "September 2026 provisional CPI 5.54%, food inflation 7.74%; rural food 8.06%, urban 7.18%; onion sub-index inflation 108.09%",
-      "confidence": "high; official MoSPI/PIB data; lagged September data, not current mandi prices",
-      "sources": [
-        {
-          "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2322244&lang=2&reg=48",
-          "publisher": "PIB/MoSPI",
-          "published": "2026-10-12 16:00 IST"
-        },
-        {
-          "url": "https://www.indiatoday.in/business/story/retail-inflation-rises-to-554-in-september-from-483-in-august-as-food-prices-climb-3015553-2026-10-12",
-          "publisher": "India Today",
-          "published": "2026-10-12 16:38 IST"
-        },
-        {
-          "url": "https://www.fortuneindia.com/economy/indias-retail-inflation-rises-to-554-in-september-as-food-inflation-hits-774/164145",
-          "publisher": "Fortune India",
-          "published": "2026-10-12 16:22 IST"
-        }
-      ]
+      "claim": "September 2026 CPI 5.54%, food inflation 7.74%, rural food 8.06%, urban food 7.18%; onion annual inflation 108.09%; weak soil moisture creates rabi and food-price risks.",
+      "confidence": "high for September official CPI; Reuters describes future risk, not guaranteed price increases",
+      "editorial_duration_seconds": 40,
+      "source_ids": [
+        "N1-S1",
+        "N1-S2",
+        "N1-S3"
+      ],
+      "caveat": "Lagged September data, not 5 Nov mandi prices; do not say every market will rise."
     },
     {
       "id": "N2",
       "region": "India",
-      "claim": "WGC reports Q3 2026 Indian gold demand down 29% y/y to 162.5 tonnes; jewellery demand down 20%; high prices and rural weakness cited",
-      "confidence": "high; WGC report relayed by Reuters and other outlets; not live retail rate",
-      "sources": [
-        {
-          "url": "https://www.reuters.com/world/india/indias-2026-gold-demand-seen-falling-six-year-low-price-rise-2026-11-03/",
-          "publisher": "Reuters",
-          "published": "2026-11-03 06:04 UTC"
-        },
-        {
-          "url": "https://www.newindianexpress.com/business/2026/Nov/03/india-gold-demand-down-29-in-q3-2026-wgc-report",
-          "publisher": "The New Indian Express",
-          "published": "2026-11-03 11:41 IST"
-        },
-        {
-          "url": "https://money.rediff.com/news/market/india-gold-demand-down-29-in-q3-2026-wgc-report/57407620261103",
-          "publisher": "Rediff/PTI",
-          "published": "2026-11-03 12:10 IST"
-        }
-      ]
+      "claim": "WGC says Q3 2026 Indian gold demand fell 29% year-on-year to 162.5 tonnes; jewellery demand down 20%, investment down 40%.",
+      "confidence": "high; Reuters/WGC and two other outlets",
+      "editorial_duration_seconds": 35,
+      "source_ids": [
+        "N2-S1",
+        "N2-S2",
+        "N2-S3"
+      ],
+      "caveat": "National demand trend, not local store sales or current retail gold rate."
     },
     {
       "id": "N3",
       "region": "India",
-      "claim": "TRAI Fourth Amendment dated 2 Nov: complaint centres round-the-clock; human reps at least 16 hours; AI disclosure and oversight; financial disincentives",
-      "confidence": "high; official TRAI listing and two independent reports; detailed PDF download timed out",
-      "sources": [
-        {
-          "url": "https://www.trai.gov.in/notifications/press-release",
-          "publisher": "TRAI official press release listing",
-          "published": "2026-11-02"
-        },
-        {
-          "url": "https://www.ndtvprofit.com/india/trai-tightens-telecom-complaint-rules-introduces-consumer-feedback-surveys-and-financial-penalties-12272672",
-          "publisher": "NDTV Profit",
-          "published": "2026-11-02 21:02 IST"
-        },
-        {
-          "url": "https://www.business-standard.com/industry/news/trai-tightens-telecom-complaint-redressal-rules-caps-fines-at-20-lakh-126110201133_1.html",
-          "publisher": "Business Standard",
-          "published": "2026-11-02 22:32 IST"
-        },
-        {
-          "url": "https://www.compliedai.com/updates/trai/telecom-consumers-complaint-redressal-fourth-amendment-regulations-2026-dsl8tn",
-          "publisher": "CompliedAI regulation text",
-          "published": "2026-11-02"
-        }
-      ]
+      "claim": "TRAI Fourth Amendment dated 2 Nov sets 24/7 complaint centres, at least 16 hours of human representatives, AI disclosure/oversight and penalties for improper complaint handling.",
+      "confidence": "high; official TRAI listing plus NDTV Profit and Business Standard; detailed PDF not fetched",
+      "editorial_duration_seconds": 35,
+      "source_ids": [
+        "N3-S1",
+        "N3-S2",
+        "N3-S3"
+      ],
+      "caveat": "Do not promise immediate complaint resolution or add unverified appeal deadlines."
     },
     {
       "id": "N4",
       "region": "India",
-      "claim": "FSSAI says energy-drink descriptor may mislead; PepsiCo and Monster challenge; Delhi HC interim order permits existing labelled stock but not fresh manufacture under that descriptor; hearing listed 5 Nov",
-      "confidence": "medium-high for pending dispute; no verified 5 Nov order by 08:02 IST",
-      "sources": [
-        {
-          "url": "https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/",
-          "publisher": "Reuters",
-          "published": "2026-11-04 11:40 UTC"
-        },
-        {
-          "url": "https://lawchakra.in/high-court/delhi-high-court/energy-drink-delhi-high-court/",
-          "publisher": "Lawchakra",
-          "published": "2026-10-06 18:58 IST"
-        },
-        {
-          "url": "https://thenewsmill.com/2026/10/delhi-high-court-stays-fssai-order-on-energy-drink-label-for-pepsico-and-monster/",
-          "publisher": "The News Minute/ANI",
-          "published": "2026-10-06 21:32 IST"
-        }
-      ]
+      "claim": "FSSAI and PepsiCo/Monster dispute use of the 'energy drink' descriptor; Delhi HC interim order addressed existing labelled stock and fresh manufacture; hearing listed 5 Nov.",
+      "confidence": "medium-high; Reuters and legal/news reporting; no 5 Nov order found by 08:16 IST",
+      "editorial_duration_seconds": 40,
+      "source_ids": [
+        "N4-S1",
+        "N4-S2",
+        "N4-S3"
+      ],
+      "caveat": "Not a finding that products are poisonous and not a nationwide total ban; refresh court update before publishing."
     },
     {
       "id": "N5",
       "region": "India",
-      "claim": "Cabinet approves ₹14,500 crore VGF for 92 GWh grid-scale storage: 60 GWh pumped hydro, 30 GWh battery, 2 GWh emerging technologies",
-      "confidence": "high; official Cabinet release and independent reporting; long-term capacity, not installed now",
-      "sources": [
-        {
-          "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-14500-crore-viability-gap-funding-scheme-for-development-of-92-gwh-grid-scale-energy-storage-systems/",
-          "publisher": "PMIndia official",
-          "published": "2026-11-04"
-        },
-        {
-          "url": "https://ddindia.co.in/2026/11/cabinet-approves-%E2%82%B914500-crore-scheme-to-develop-92-gwh-grid-scale-energy-storage-capacity/",
-          "publisher": "DD India",
-          "published": "2026-11-04 16:31 IST"
-        },
-        {
-          "url": "https://www.moneycontrol.com/news/business/economy/union-cabinet-approves-energy-storage-scheme-says-ashwini-vaishnaw-14069387.html",
-          "publisher": "Moneycontrol",
-          "published": "2026-11-04 15:00 IST"
-        }
-      ]
+      "claim": "Cabinet approved ₹14,500 crore VGF for 92 GWh grid-scale storage capacity: 60 GWh pumped hydro, 30 GWh batteries, 2 GWh emerging technologies, FY2026-27 to FY2030-31.",
+      "confidence": "high; PMIndia official release and DD India/Moneycontrol",
+      "editorial_duration_seconds": 45,
+      "source_ids": [
+        "N5-S1",
+        "N5-S2",
+        "N5-S3"
+      ],
+      "caveat": "New capacity is yet to be commissioned; no claim of immediate household bill reduction."
     },
     {
       "id": "N6",
-      "region": "Uttar Pradesh",
-      "claim": "4 Nov festival review reportedly cancelled officials' leave, strengthened market security and essential services; India Today also reports directions on fertiliser black-marketing, paddy procurement and underweight ration",
-      "confidence": "medium; two reports corroborate review/leave/security, exact farmer/ration directions appear in India Today; obtain written official order before firm wording",
-      "sources": [
-        {
-          "url": "https://www.indiatoday.in/amp/india/story/yogi-adityanath-cancels-officials-leave-orders-high-alert-up-festivals-3032140-2026-11-04",
-          "publisher": "India Today",
-          "published": "2026-11-04 16:28 IST"
-        },
-        {
-          "url": "https://www.livemint.com/focus/up-cancels-officials-leave-steps-up-festival-security-and-civic-preparations-11793797054313.html",
-          "publisher": "Mint",
-          "published": "2026-11-04 18:31 IST"
-        },
-        {
-          "url": "https://navbharattimes.indiatimes.com/state/uttar-pradesh/lucknow/cm-yogi-diwali-security-strict-stance-leaves-of-officials-cancelled/articleshow/135520123.cms",
-          "publisher": "Navbharat Times",
-          "published": "2026-11-05"
-        }
-      ]
+      "region": "India",
+      "claim": "Cabinet extended/strengthened FTSC scheme to 31 Mar 2031 with ₹3,788.04 crore outlay and provision to expand from 779 to up to 850 courts, including exclusive POCSO courts.",
+      "confidence": "high; PMIndia official release, India Today and Hindustan Times",
+      "editorial_duration_seconds": 40,
+      "source_ids": [
+        "N6-S1",
+        "N6-S2",
+        "N6-S3"
+      ],
+      "caveat": "850 is a provision/target, not a count of already functioning courts; avoid graphic detail."
     },
     {
       "id": "N7",
       "region": "India sport",
-      "claim": "India vs Pakistan SAFF Championship 2026 opener at Dhaka National Stadium, 5 Nov 15:00 IST; VETO stream; no Indian TV broadcaster confirmed as of 3 Nov",
-      "confidence": "high for match schedule/streaming from AIFF; check streaming access immediately before broadcast",
-      "sources": [
-        {
-          "url": "https://www.the-aiff.com/index.php/article/india-begin-saff-championship-title-defence-against-pakistan-in-dhaka",
-          "publisher": "AIFF official",
-          "published": "2026-11-04"
-        },
-        {
-          "url": "https://indianexpress.com/article/sports/football/india-vs-pakistan-saff-championship-live-streaming-ind-vs-pak-10950624/",
-          "publisher": "Indian Express",
-          "published": "2026-11-04 18:37 IST"
-        },
-        {
-          "url": "https://www.outlookindia.com/sports/football/india-vs-pakistan-live-streaming-saff-championship-2026-preview",
-          "publisher": "Outlook India",
-          "published": "2026-11-04 22:28 IST"
-        }
-      ]
+      "claim": "India begin SAFF Championship title defence against Pakistan in Dhaka on 5 Nov at 15:00 IST; AIFF says Veto app stream.",
+      "confidence": "high; AIFF primary fixture and two news previews",
+      "editorial_duration_seconds": 35,
+      "source_ids": [
+        "N7-S1",
+        "N7-S2",
+        "N7-S3"
+      ],
+      "caveat": "Preview only at 08:16 IST; no result yet. Keep strictly sporting, not communal/political."
     },
     {
       "id": "N8",
       "region": "India entertainment",
-      "claim": "Ramayana: Part One scheduled for 5 Nov release; Financial Express reported >₹100 crore worldwide gross advance booking on 3 Nov, including blocked seats; India gross ₹72.91 crore including blocks, ₹57.9 crore excluding",
-      "confidence": "medium; advance booking estimates attributed to Sacnilk/trade trackers; not actual box-office earnings",
-      "sources": [
-        {
-          "url": "https://www.financialexpress.com/life/entertainment/ramayana-movie-advance-booking-crosses-rs-72-crore-sells-18-lakh-box-office-tickets-ranbir-kapoor-yash-sai-pallavi/4375861/",
-          "publisher": "Financial Express",
-          "published": "2026-11-03 13:48 IST"
-        },
-        {
-          "url": "https://indianexpress.com/article/entertainment/bollywood/ramayana-advance-booking-box-office-ranbir-yash-film-sells-4-lakh-tickets-3-million-overseas-10944380/",
-          "publisher": "Indian Express",
-          "published": "2026-10-31 13:41 IST"
-        }
-      ]
+      "claim": "Ramayana: Part One scheduled for theatrical release 5 Nov; trade-tracker advance booking figures reported on 3 Nov include blocked seats.",
+      "confidence": "medium; Financial Express and Indian Express citing trade-tracker data",
+      "editorial_duration_seconds": 60,
+      "source_ids": [
+        "N8-S1",
+        "N8-S2"
+      ],
+      "caveat": "Advance bookings are estimates, not actual box-office revenue; no poster, film still or actor likeness used."
     }
   ],
   "weather": {
-    "access_time_ist": "2026-11-05T08:02:23+05:30",
-    "all_india_bulletin": {
-      "url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/343c66ccef53ce4beae566b75bd70f87.pdf",
-      "issue_date": "2026-11-04",
-      "issue_time_ist": "13:07",
-      "validity": "Daily forecast day 08:30 IST to next day 08:30 IST",
-      "key_warnings": "5 Nov: isolated heavy rain over Tamil Nadu/Puducherry/Karaikal and South Interior Karnataka; thunderstorms/lightning and gusty winds in parts of Andhra Pradesh, Odisha, Karnataka, Kerala and Tamil Nadu; isolated Andhra winds 40–50 km/h; Kerala heavy-rain risk 6–8 Nov; no significant weather over Northwest, West and Northeast India in bulletin."
-    },
+    "access_time_ist": "2026-11-05T08:16:43+05:30",
     "west_up_warning": {
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25",
       "issue_date": "2026-11-05",
@@ -325,31 +199,574 @@
         "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42187",
         "page_date": "2026-11-04",
         "forecast_date": "2026-11-05",
-        "min_c": 19,
-        "max_c": 28,
-        "summary": "Mainly clear"
+        "summary": "Mainly clear sky; 19–28°C forecast."
       },
       {
         "place": "Bareilly",
         "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42189",
         "page_date": "2026-11-04",
         "forecast_date": "2026-11-05",
-        "min_c": 16,
-        "max_c": 29,
-        "summary": "Clear sky"
+        "summary": "Clear sky; 16–29°C forecast."
       }
     ],
-    "cross_check_url": "https://economictimes.indiatimes.com/news/new-updates/weather-today-november-5-imd-issues-heavy-rainfall-alert-for-these-states-check-state-wise-forecast-rain-warnings-and-weather-conditions/articleshow/135539378.cms"
+    "all_india_bulletin": {
+      "url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/343c66ccef53ce4beae566b75bd70f87.pdf",
+      "issue_date": "2026-11-04",
+      "issue_time_ist": "13:07",
+      "latest_available_at_access": "5 Nov 2026 08:16 IST",
+      "summary": "5 Nov: isolated heavy rain over Tamil Nadu/Puducherry/Karaikal and South Interior Karnataka; thunderstorms/lightning and gusty winds in parts of Andhra Pradesh, Odisha, Karnataka, Kerala and Tamil Nadu. Andhra isolated gusts 40–50 km/h. Kerala heavy-rain risk 6–8 Nov. No significant weather over Northwest, West and Northeast India in that bulletin."
+    }
   },
-  "global_access_timestamp_ist": "2026-11-05T08:02:23+05:30",
+  "global_access_timestamp_ist": "2026-11-05T08:16:43+05:30",
+  "sources": [
+    {
+      "id": "W1-S1",
+      "publisher": "Kisan Samadhan",
+      "title": "उत्तर प्रदेश में पेराई सत्र 2026-27 का हुआ आगाज: 33 चीनी मिलों ने जारी किया गन्ना इण्डेंट, 9 मिलों में पेराई कार्य शुरू",
+      "url": "https://kisansamadhan.com/up-sugarcane-crushing-season-2026-27-begins-33-sugar-mills-indent-issued/",
+      "published_at": "2026-11-04 18:15 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "W1: नौ मिलों में पेराई शुरू और 33 मिलों ने इंडेंट जारी किया",
+        "W1: सहारनपुर 3, मेरठ 1, मुरादाबाद 2, लखनऊ 3 मिलें"
+      ],
+      "source_type": "news",
+      "verification_notes": "विभागीय आंकड़ों का प्रकाशन; क्षेत्रवार संख्या लेख में दी गई है।"
+    },
+    {
+      "id": "W1-S2",
+      "publisher": "ABP Live",
+      "title": "योगी सरकार में गन्ना पेराई सत्र 2026-27 शुरू, 9 चीनी मिलों में उत्पादन चालू",
+      "url": "https://www.abplive.com/states/up-uk/yogi-government-sugarcane-crushing-season-2026-27-begins-production-underway-9-sugar-mills-3211041",
+      "published_at": "2026-11-04 17:27 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "W1: उत्तर प्रदेश में 2026-27 गन्ना पेराई सत्र की शुरुआत"
+      ],
+      "source_type": "news",
+      "verification_notes": "Kisan Samadhan और UPTak से क्रॉस-चेक; विभागीय आंकड़ों को ही तथ्य के रूप में रखा।"
+    },
+    {
+      "id": "W1-S3",
+      "publisher": "UPTak",
+      "title": "UP में गन्ना पेराई सत्र 2026-27: 9 मिलों में काम शुरू, 33 ने इंडेंट जारी किया",
+      "url": "https://www.uptak.in/apna-up/story/up-sugarcane-crushing-season-2026-27-9-sugar-mills-start-operations-3559380-2026-11-04",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "W1: नौ मिलों में पेराई और 33 इंडेंट"
+      ],
+      "source_type": "news",
+      "verification_notes": "स्वतंत्र क्षेत्रीय रिपोर्ट; आंकड़ों का मिलान Kisan Samadhan से।"
+    },
+    {
+      "id": "W1-S4",
+      "publisher": "Amar Ujala",
+      "title": "धामपुर में आठ नवंबर से शुरू होगी सेंटरों पर गन्ना तौल, 11 को होगा उद्घाटन",
+      "url": "https://www.amarujala.com/uttar-pradesh/bijnor/sugarcane-weighing-at-centers-in-dhampur-will-begin-on-november-8-the-inauguration-will-take-place-on-the-11th-bijnor-news-c-27-1-smrt1025-194547-2026-11-03",
+      "published_at": "2026-11-03 01:06 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "W1: धामपुर मिल की पेराई 5 से 11 नवंबर स्थगित",
+        "W1: केंद्रों पर तौल 8 नवंबर से"
+      ],
+      "source_type": "news",
+      "verification_notes": "स्थानीय मिल प्रबंधन के बयान पर आधारित; इसे केवल धामपुर मिल का कार्यक्रम बताया गया है।"
+    },
+    {
+      "id": "W2-S1",
+      "publisher": "Dainik Jagran",
+      "title": "दिवाली से पहले बड़ी कार्रवाई, रसगुल्लों में मक्खियां मिलीं तो खाद्य विभाग ने 220 किलोग्राम नष्ट कराए",
+      "url": "https://www.jagran.com/uttar-pradesh/muzaffarnagar-muzaffarnagar-food-safety-220kg-flyinfested-rasgullas-destroyed-40427033.html",
+      "published_at": "2026-11-04 13:22 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "W2: जौली रोड की दुकान पर 220 किलो रसगुल्ले नष्ट",
+        "W2: दुकानदार को नोटिस; खोया और रसगुल्ले के नमूने लिए गए"
+      ],
+      "source_type": "news",
+      "verification_notes": "स्थानीय खाद्य सुरक्षा कार्रवाई की रिपोर्ट; लैब निष्कर्ष प्रकाशित नहीं था।"
+    },
+    {
+      "id": "W2-S2",
+      "publisher": "Times of India",
+      "title": "Diwali crackdown: 220kg sweets destroyed in Muzaffarnagar after insects found; contaminated milk, cheese seized in Mathura",
+      "url": "https://timesofindia.indiatimes.com/city/agra/diwali-crackdown-220kg-sweets-destroyed-in-muzaffarnagar-after-insects-found-contaminated-milk-cheese-seized-in-mathura/articleshow/135547438.cms",
+      "published_at": "2026-11-04 22:54 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "W2: मुजफ्फरनगर में 220 किलो मिठाई नष्ट करने की कार्रवाई"
+      ],
+      "source_type": "news",
+      "verification_notes": "जागरण की स्थानीय रिपोर्ट से मुख्य कार्रवाई का क्रॉस-चेक; स्क्रिप्ट में केवल मुजफ्फरनगर का सत्यापित हिस्सा लिया।"
+    },
+    {
+      "id": "W3-S1",
+      "publisher": "Dainik Jagran",
+      "title": "मेरठ में पानी की टंकी पर किसानों का अनिश्चितकालीन धरना, ₹700 प्रति क्विंटल गन्ने के रेट सहित कई मांगों पर अड़े",
+      "url": "https://www.jagran.com/uttar-pradesh/meerut-city-farmers-protest-on-water-tank-for-sugarcane-price-hike-in-meerut-40427145.html",
+      "published_at": "2026-11-04 15:16 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "W3: अलीपुर मोरना में किसान पानी की टंकी पर चढ़े",
+        "W3: ₹700 प्रति क्विंटल और बकाया ब्याज की मांग"
+      ],
+      "source_type": "news",
+      "verification_notes": "Amar Ujala और Live Hindustan से क्रॉस-चेक; मांग को सरकारी घोषित दर नहीं बताया।"
+    },
+    {
+      "id": "W3-S2",
+      "publisher": "Amar Ujala",
+      "title": "मेरठ: गन्ने के भाव की मांग को लेकर पानी की टंकी पर चढ़े तीन किसान, 700 रुपये प्रति क्विंटल करने की मांग",
+      "url": "https://www.amarujala.com/uttar-pradesh/meerut/three-farmers-climb-water-tank-in-hastinapur-demand-sugarcane-price-of-700-per-quintal-2026-11-04",
+      "published_at": "2026-11-04 15:06 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "W3: तीन किसानों के टंकी पर चढ़ने और ₹700 की मांग"
+      ],
+      "source_type": "news",
+      "verification_notes": "स्थानीय रिपोर्ट; मांग और घटना का Jagran/Hindustan से मिलान।"
+    },
+    {
+      "id": "W3-S3",
+      "publisher": "Live Hindustan",
+      "title": "गन्ने के न्यूनतम भाव को बढ़ाने और शीघ्र भुगतान को टंकी पर चढ़े किसान",
+      "url": "https://www.livehindustan.com/uttar-pradesh/meerut/story-sugarcane-farmers-stage-indefinite-protest-demand-700-per-quintal-and-pending-dues-201793807378693.html",
+      "published_at": "2026-11-04 21:19 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "W3: 4 नवंबर रात तक किसान टंकी पर धरने पर थे",
+        "W3: पुराने बकाये पर ब्याज सहित भुगतान की मांग"
+      ],
+      "source_type": "news",
+      "verification_notes": "रात तक की स्थिति का अतिरिक्त क्रॉस-चेक; 5 नवंबर सुबह तक समाधान की पुष्टि नहीं मिली।"
+    },
+    {
+      "id": "W4-S1",
+      "publisher": "Dainik Jagran",
+      "title": "खरीददारी करने मेरठ आ रहे हैं तो जान लें! गुरुवार सुबह सात से इन बाजारों में प्रवेश नहीं कर पाएंगे चौपहिया वाहन",
+      "url": "https://www.jagran.com/uttar-pradesh/meerut-city-meerut-diwali-traffic-4wheelers-erickshaws-banned-in-markets-40427792.html",
+      "published_at": "2026-11-05 05:10 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "W4: 5 से 11 नवंबर तक मेरठ में त्योहार यातायात योजना",
+        "W4: बाजारों में वाहन प्रतिबंध और भारी वाहनों के लिए डायवर्जन"
+      ],
+      "source_type": "news",
+      "verification_notes": "प्रकाशन समय 5 नवंबर सुबह; स्थानीय ट्रैफिक पुलिस की व्यवस्था के रूप में प्रस्तुत।"
+    },
+    {
+      "id": "W4-S2",
+      "publisher": "Live Hindustan",
+      "title": "मेरठ में धनतेरस से भाई दूज तक शहर में भारी वाहनों की एंट्री बंद",
+      "url": "https://www.livehindustan.com/uttar-pradesh/meerut/story-meerut-traffic-diversion-heavy-vehicles-barred-from-city-routes-during-dhanteras-to-bhai-dooj-201793822678702.html",
+      "published_at": "2026-11-05 01:34 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "W4: 5–11 नवंबर, सुबह 7 से रात 2 बजे तक भारी वाहन डायवर्जन",
+        "W4: आबूलेन और सर्राफा बाजार की वाहन पाबंदियां"
+      ],
+      "source_type": "news",
+      "verification_notes": "जागरण से क्रॉस-चेक; प्रतिबंधों को बाजार/मार्ग-विशिष्ट बताया।"
+    },
+    {
+      "id": "W4-S3",
+      "publisher": "Amar Ujala",
+      "title": "मेरठ में दिवाली के लिए ट्रैफिक डायवर्जन, कई बाजारों में वाहनों की एंट्री पर रोक",
+      "url": "https://www.amarujala.com/uttar-pradesh/meerut/meerut-traffic-diversions-in-the-city-for-diwali-vehicle-entry-banned-in-several-markets-2026-11-04",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "W4: मेरठ में त्योहार के लिए बाजार-वार ट्रैफिक प्रतिबंध"
+      ],
+      "source_type": "news",
+      "verification_notes": "दो अन्य स्थानीय रिपोर्टों से क्रॉस-चेक।"
+    },
+    {
+      "id": "N1-S1",
+      "publisher": "PIB / MoSPI",
+      "title": "Consumer Price Index Numbers on Base 2024=100 for September 2026",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2322244&lang=2&reg=48",
+      "published_at": "2026-10-12 16:00 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N1: सितंबर 2026 CPI 5.54%",
+        "N1: खाद्य महंगाई 7.74%; ग्रामीण 8.06%, शहरी 7.18%",
+        "N1: प्याज की सालाना महंगाई 108.09%"
+      ],
+      "source_type": "official",
+      "verification_notes": "प्राथमिक सरकारी CPI स्रोत; आंकड़ों को सितंबर का lagged data बताया, आज की मंडी कीमत नहीं।"
+    },
+    {
+      "id": "N1-S2",
+      "publisher": "Reuters",
+      "title": "From grains to chicken and milk, India faces prolonged food inflation",
+      "url": "https://www.reuters.com/world/india/grains-chicken-milk-india-faces-prolonged-food-inflation-2026-11-03/",
+      "published_at": "2026-11-03 06:33 UTC",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N1: कमजोर मानसून और कम मिट्टी नमी से रबी फसल जोखिम",
+        "N1: गेहूं, दाल, चीनी, प्याज, दूध और पोल्ट्री लागत पर दबाव"
+      ],
+      "source_type": "news",
+      "verification_notes": "अर्थशास्त्रियों और किसानों की रिपोर्टिंग; संभावित दबाव को जोखिम के रूप में रखा, निश्चित कीमत वृद्धि नहीं।"
+    },
+    {
+      "id": "N1-S3",
+      "publisher": "India Today",
+      "title": "Retail inflation rises to 5.54% in September from 4.83% in August as food prices climb",
+      "url": "https://www.indiatoday.in/business/story/retail-inflation-rises-to-554-in-september-from-483-in-august-as-food-prices-climb-3015553-2026-10-12",
+      "published_at": "2026-10-12 16:38 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N1: सितंबर CPI और खाद्य महंगाई के सरकारी आंकड़े"
+      ],
+      "source_type": "news",
+      "verification_notes": "MoSPI/PIB आंकड़ों का द्वितीयक क्रॉस-चेक।"
+    },
+    {
+      "id": "N2-S1",
+      "publisher": "Reuters",
+      "title": "India's 2026 gold demand seen falling to six-year low on price rise",
+      "url": "https://www.reuters.com/world/india/indias-2026-gold-demand-seen-falling-six-year-low-price-rise-2026-11-03/",
+      "published_at": "2026-11-03 06:04 UTC",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N2: Q3 2026 भारत की सोने की मांग 29% घटकर 162.5 टन",
+        "N2: आभूषण मांग 20% और निवेश मांग 40% कम"
+      ],
+      "source_type": "news",
+      "verification_notes": "WGC के आंकड़े Reuters ने उद्धृत किए; राष्ट्रीय मांग, स्थानीय दुकान का आंकड़ा नहीं।"
+    },
+    {
+      "id": "N2-S2",
+      "publisher": "The New Indian Express",
+      "title": "India gold demand down 29% in Q3 2026: WGC report",
+      "url": "https://www.newindianexpress.com/business/2026/Nov/03/india-gold-demand-down-29-in-q3-2026-wgc-report",
+      "published_at": "2026-11-03 11:41 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N2: WGC Q3 सोना मांग के आंकड़े"
+      ],
+      "source_type": "news",
+      "verification_notes": "Reuters/WGC आंकड़ों का स्वतंत्र समाचार क्रॉस-चेक।"
+    },
+    {
+      "id": "N2-S3",
+      "publisher": "Rediff / PTI",
+      "title": "India gold demand down 29% in Q3 2026: WGC report",
+      "url": "https://money.rediff.com/news/market/india-gold-demand-down-29-in-q3-2026-wgc-report/57407620261103",
+      "published_at": "2026-11-03 12:10 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N2: Q3 सोना मांग में गिरावट"
+      ],
+      "source_type": "news",
+      "verification_notes": "PTI/Rediff के माध्यम से WGC आंकड़ों का अतिरिक्त क्रॉस-चेक।"
+    },
+    {
+      "id": "N3-S1",
+      "publisher": "Telecom Regulatory Authority of India",
+      "title": "Telecom Consumers Complaint Redressal (Fourth Amendment) Regulations, 2026",
+      "url": "https://www.trai.gov.in/notifications/press-release",
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N3: 2 नवंबर का चौथा संशोधन नियम"
+      ],
+      "source_type": "official",
+      "verification_notes": "TRAI की आधिकारिक प्रेस रिलीज सूची; विस्तृत PDF fetch नहीं हुआ, इसलिए परिचालन विवरण NDTV Profit और Business Standard से भी मिलाए।"
+    },
+    {
+      "id": "N3-S2",
+      "publisher": "NDTV Profit",
+      "title": "TRAI Tightens Telecom Complaint Rules, Introduces Consumer Feedback Surveys And Financial Penalties",
+      "url": "https://www.ndtvprofit.com/india/trai-tightens-telecom-complaint-rules-introduces-consumer-feedback-surveys-and-financial-penalties-12272672",
+      "published_at": "2026-11-02 21:02 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N3: शिकायत केंद्र 24/7; कम से कम 16 घंटे मानव प्रतिनिधि",
+        "N3: AI agent disclosure और शिकायत निस्तारण पर दंड"
+      ],
+      "source_type": "news",
+      "verification_notes": "Business Standard से मुख्य नियमों का क्रॉस-चेक।"
+    },
+    {
+      "id": "N3-S3",
+      "publisher": "Business Standard",
+      "title": "Trai tightens consumer complaint rules, caps penalties at ₹20 lakh",
+      "url": "https://www.business-standard.com/industry/news/trai-tightens-telecom-complaint-redressal-rules-caps-fines-at-20-lakh-126110201133_1.html",
+      "published_at": "2026-11-02 22:32 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N3: मानव सहायता के 16 घंटे, 24/7 शिकायत केंद्र, AI सूचना",
+        "N3: गलत तरीके से बंद शिकायतों पर आर्थिक दंड"
+      ],
+      "source_type": "news",
+      "verification_notes": "NDTV Profit के साथ क्रॉस-चेक; स्क्रिप्ट में हर शिकायत के तुरंत समाधान का दावा नहीं।"
+    },
+    {
+      "id": "N4-S1",
+      "publisher": "Reuters",
+      "title": "India says PepsiCo, Monster marketed with 'energy drink' label to dupe consumers",
+      "url": "https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/",
+      "published_at": "2026-11-04 11:40 UTC",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N4: FSSAI का 'energy drink' descriptor पर नियामकीय पक्ष",
+        "N4: PepsiCo और Monster की चुनौती"
+      ],
+      "source_type": "news",
+      "verification_notes": "कानूनी विवाद का नवीनतम उपलब्ध समाचार स्रोत; इसे स्वास्थ्य/विषाक्तता निष्कर्ष नहीं बताया।"
+    },
+    {
+      "id": "N4-S2",
+      "publisher": "Lawchakra",
+      "title": "Delhi High Court energy drink case: FSSAI, PepsiCo and Monster",
+      "url": "https://lawchakra.in/high-court/delhi-high-court/energy-drink-delhi-high-court/",
+      "published_at": "2026-10-06 18:58 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N4: दिल्ली हाईकोर्ट का अंतरिम आदेश; पुराने लेबल स्टॉक और नए उत्पादन में अंतर",
+        "N4: 5 नवंबर की सुनवाई सूचीबद्ध"
+      ],
+      "source_type": "news",
+      "verification_notes": "अंतरिम आदेश का विवरण; 5 नवंबर का कोई नया आदेश 08:16 IST तक सत्यापित नहीं हुआ।"
+    },
+    {
+      "id": "N4-S3",
+      "publisher": "The News Minute / ANI",
+      "title": "Delhi High Court stays FSSAI order on energy drink label for PepsiCo and Monster",
+      "url": "https://thenewsmill.com/2026/10/delhi-high-court-stays-fssai-order-on-energy-drink-label-for-pepsico-and-monster/",
+      "published_at": "2026-10-06 21:32 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N4: अंतरिम आदेश और कंपनियों की कानूनी चुनौती"
+      ],
+      "source_type": "news",
+      "verification_notes": "Lawchakra और Reuters के साथ कानूनी स्थिति का क्रॉस-चेक; कोई अंतिम निर्णय नहीं।"
+    },
+    {
+      "id": "N5-S1",
+      "publisher": "Prime Minister of India",
+      "title": "केन्द्रीय मंत्रिमंडल ने 92 गीगावॉट ग्रिड-स्केल ऊर्जा भंडारण प्रणालियों के विकास के लिए 14,500 करोड़ रुपये की व्यवहार्यता अंतर वित्त पोषण योजना को मंजूरी दी",
+      "url": "https://www.pmindia.gov.in/hi/news_updates/%E0%A4%95%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AF-%E0%A4%AE%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE%E0%A4%82%E0%A4%A1%E0%A4%B2-%E0%A4%A8%E0%A5%87-92-2/?comment=disable",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N5: ₹14,500 करोड़ VGF और 92 GWh प्रस्तावित क्षमता",
+        "N5: 60 GWh pumped hydro, 30 GWh battery, 2 GWh emerging technologies"
+      ],
+      "source_type": "official",
+      "verification_notes": "प्राथमिक Cabinet release; क्षमता भविष्य में विकसित होनी है, चालू क्षमता नहीं।"
+    },
+    {
+      "id": "N5-S2",
+      "publisher": "DD India",
+      "title": "Cabinet approves ₹14,500 crore scheme to develop 92 GWh grid-scale energy storage capacity",
+      "url": "https://ddindia.co.in/2026/11/cabinet-approves-%E2%82%B914500-crore-scheme-to-develop-92-gwh-grid-scale-energy-storage-capacity/",
+      "published_at": "2026-11-04 16:31 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N5: ऊर्जा भंडारण योजना का आकार और तकनीकवार विभाजन"
+      ],
+      "source_type": "news",
+      "verification_notes": "PMIndia Cabinet release से क्रॉस-चेक।"
+    },
+    {
+      "id": "N5-S3",
+      "publisher": "Moneycontrol",
+      "title": "Union Cabinet approves energy storage scheme, says Ashwini Vaishnaw",
+      "url": "https://www.moneycontrol.com/news/business/economy/union-cabinet-approves-energy-storage-scheme-says-ashwini-vaishnaw-14069387.html",
+      "published_at": "2026-11-04 15:00 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N5: ₹14,500 करोड़ और 92 GWh ऊर्जा भंडारण योजना"
+      ],
+      "source_type": "news",
+      "verification_notes": "घोषणा का स्वतंत्र समाचार क्रॉस-चेक।"
+    },
+    {
+      "id": "N6-S1",
+      "publisher": "Prime Minister of India",
+      "title": "Cabinet approves continuation of the Centrally Sponsored Scheme for Fast Track Special Courts (FTSCs) for expeditious trial of cases of rape and POCSO Act for a further period of five years",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-centrally-sponsored-scheme-for-fast-track-special-courts-ftscs-for-expeditious-trial-of-cases-of-rape-and-pocso-protection-of-children-from-sexual-offences-act/?comment=disable",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N6: योजना 31 मार्च 2031 तक जारी; कुल outlay ₹3,788.04 करोड़",
+        "N6: 779 से अधिकतम 850 FTSCs का प्रावधान"
+      ],
+      "source_type": "official",
+      "verification_notes": "प्राथमिक Cabinet release; 850 को लक्ष्य/प्रावधान कहा, वर्तमान परिचालित अदालतों की संख्या नहीं।"
+    },
+    {
+      "id": "N6-S2",
+      "publisher": "India Today",
+      "title": "Centre extends 850 fast-track special courts to ensure speedy trials in rape, Pocso cases",
+      "url": "https://www.indiatoday.in/amp/india/story/cabinet-extends-850-fast-track-special-courts-rape-pocso-cases-3032142-2026-11-04",
+      "published_at": "2026-11-04 16:16 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N6: 850 FTSCs योजना और पांच वर्ष का विस्तार"
+      ],
+      "source_type": "news",
+      "verification_notes": "आधिकारिक Cabinet निर्णय का द्वितीयक क्रॉस-चेक; संवेदनशील विषय को बिना ग्राफिक विवरण के प्रस्तुत किया।"
+    },
+    {
+      "id": "N6-S3",
+      "publisher": "Hindustan Times / PTI",
+      "title": "Govt approves strengthening, extension of 850 fast-track special courts to deal with child abuse and rape cases",
+      "url": "https://www.hindustantimes.com/india-news/govt-approves-strengthening-extension-of-850-fast-track-special-courts-to-deal-with-child-abuse-and-rape-cases-101793791099448.html",
+      "published_at": "2026-11-04 16:48 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N6: 779 से 850 तक विस्तार और ₹3,788.04 करोड़ outlay"
+      ],
+      "source_type": "news",
+      "verification_notes": "PIB/PMIndia के साथ क्रॉस-चेक; स्वीकृत बजट को खर्च या जारी राशि नहीं बताया।"
+    },
+    {
+      "id": "N7-S1",
+      "publisher": "All India Football Federation",
+      "title": "India begin SAFF Championship title defence against Pakistan in Dhaka",
+      "url": "https://www.the-aiff.com/index.php/article/india-begin-saff-championship-title-defence-against-pakistan-in-dhaka",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N7: 5 नवंबर 2026, 15:00 IST पर Dhaka National Stadium में भारत-पाकिस्तान मैच",
+        "N7: Veto app live stream"
+      ],
+      "source_type": "official",
+      "verification_notes": "AIFF का प्राथमिक fixture और streaming source; इसे केवल खेल preview के रूप में रखा।"
+    },
+    {
+      "id": "N7-S2",
+      "publisher": "The Indian Express",
+      "title": "India vs Pakistan SAFF Championship live streaming: IND vs PAK football match",
+      "url": "https://indianexpress.com/article/sports/football/india-vs-pakistan-saff-championship-live-streaming-ind-vs-pak-10950624/",
+      "published_at": "2026-11-04 18:37 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N7: मैच का समय और उपलब्ध प्रसारण जानकारी"
+      ],
+      "source_type": "news",
+      "verification_notes": "AIFF से fixture cross-check।"
+    },
+    {
+      "id": "N7-S3",
+      "publisher": "Outlook India",
+      "title": "India vs Pakistan live streaming: SAFF Championship 2026 preview",
+      "url": "https://www.outlookindia.com/sports/football/india-vs-pakistan-live-streaming-saff-championship-2026-preview",
+      "published_at": "2026-11-04 22:28 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N7: भारत-पाकिस्तान SAFF मैच preview"
+      ],
+      "source_type": "news",
+      "verification_notes": "AIFF और Indian Express से cross-check; कोई राजनीतिक framing नहीं।"
+    },
+    {
+      "id": "N8-S1",
+      "publisher": "Financial Express",
+      "title": "Ramayana advance booking collection crosses Rs 72 cr in India; global tally tops Rs 100 cr",
+      "url": "https://www.financialexpress.com/life/entertainment/ramayana-movie-advance-booking-crosses-rs-72-crore-sells-18-lakh-box-office-tickets-ranbir-kapoor-yash-sai-pallavi/4375861/",
+      "published_at": "2026-11-03 13:48 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N8: 5 नवंबर रिलीज शेड्यूल",
+        "N8: 3 नवंबर सुबह 9 बजे तक ₹72.91 करोड़ gross India advance booking; blocked seats हटाकर ₹57.9 करोड़"
+      ],
+      "source_type": "news",
+      "verification_notes": "Sacnilk/trade-tracker figures attributed; advance bookings, actual box office revenue नहीं।"
+    },
+    {
+      "id": "N8-S2",
+      "publisher": "The Indian Express",
+      "title": "Ramayana advance booking: box office, ticket sales and release update",
+      "url": "https://indianexpress.com/article/entertainment/bollywood/ramayana-advance-booking-box-office-ranbir-yash-film-sells-4-lakh-tickets-3-million-overseas-10944380/",
+      "published_at": "2026-10-31 13:41 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "N8: फिल्म की रिलीज और advance booking context"
+      ],
+      "source_type": "news",
+      "verification_notes": "Financial Express के साथ advance-booking context cross-check; estimates को वास्तविक कमाई नहीं कहा।"
+    },
+    {
+      "id": "WX-S1",
+      "publisher": "India Meteorological Department, RMC New Delhi",
+      "title": "Sub-division-wise warnings: West Uttar Pradesh, issue date 5 November 2026",
+      "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "WX: West Uttar Pradesh में 5–11 नवंबर तक No warning"
+      ],
+      "source_type": "official",
+      "verification_notes": "5 नवंबर को सीधे IMD पेज खोला; सातों forecast days पर West UP के लिए No warning।"
+    },
+    {
+      "id": "WX-S2",
+      "publisher": "India Meteorological Department",
+      "title": "All India Weather Summary and Forecast Bulletin, issued 4 November 2026 at 13:07 IST",
+      "url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/343c66ccef53ce4beae566b75bd70f87.pdf",
+      "published_at": "2026-11-04 13:07 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "WX: 5 नवंबर के लिए दक्षिण भारत के कुछ हिस्सों में भारी बारिश/गरज/तेज हवा की चेतावनी"
+      ],
+      "source_type": "official",
+      "verification_notes": "5 नवंबर सुबह तक archive में नवीनतम उपलब्ध all-India bulletin 4 नवंबर 13:07 IST का था; issue time और validity नोट की।"
+    },
+    {
+      "id": "WX-S3",
+      "publisher": "India Meteorological Department, City Forecast",
+      "title": "Local Weather Report and Forecast for Moradabad",
+      "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42187",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "WX: Moradabad 5 नवंबर mainly clear sky"
+      ],
+      "source_type": "official",
+      "verification_notes": "IMD city page dated 4 November; 5 November forecast row पढ़ा, इसे observation नहीं बताया।"
+    },
+    {
+      "id": "WX-S4",
+      "publisher": "India Meteorological Department, City Forecast",
+      "title": "Local Weather Report and Forecast for Bareilly",
+      "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42189",
+      "published_at": "2026-11-04",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "WX: Bareilly 5 नवंबर clear sky"
+      ],
+      "source_type": "official",
+      "verification_notes": "IMD city page dated 4 November; 5 November forecast row पढ़ा, इसे observation नहीं बताया।"
+    },
+    {
+      "id": "WX-S5",
+      "publisher": "The Economic Times",
+      "title": "Weather tomorrow, November 5: IMD issues heavy rainfall alert for these states; check state-wise forecast and rain warnings",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/weather-today-november-5-imd-issues-heavy-rainfall-alert-for-these-states-check-state-wise-forecast-rain-warnings-and-weather-conditions/articleshow/135539378.cms",
+      "published_at": "2026-11-04 18:02 IST",
+      "accessed_at": "2026-11-05T08:16:43+05:30",
+      "claims_supported": [
+        "WX: तमिलनाडु/पुडुचेरी/कर्नाटक में भारी बारिश और आंध्र में गरज/तेज हवा की IMD warning summary"
+      ],
+      "source_type": "news",
+      "verification_notes": "IMD bulletin का द्वितीयक cross-check; आधिकारिक चेतावनी के लिए IMD को प्राथमिकता।"
+    }
+  ],
   "editorial_checks": [
-    "Western UP exactly 35% of 600 sec",
-    "jobs/recruitment/exams omitted",
-    "rural and middle-class relevance",
-    "claims attributed and caveats retained",
-    "no sensationalised facts",
-    "no communal/caste bait",
-    "weather issue time and validity recorded",
-    "original or commercially licensed visuals only"
+    "Four Western UP stories total exactly 210/600 seconds (35%).",
+    "Eight national/UP stories total 330 seconds; weather 30 seconds; opening/close 30 seconds.",
+    "No routine recruitment, government-job, exam, admit-card or career notice included.",
+    "No story forced solely to fill a district quota; verified Western UP items are from Meerut, Muzaffarnagar, Bijnor and the Moradabad division.",
+    "Allegations, demands, estimates and interim legal proceedings are explicitly attributed and qualified.",
+    "Refresh N4 Delhi High Court hearing status immediately before render; no 5 Nov order found at 08:16 IST.",
+    "IMD West UP warning page directly checked 5 Nov; no warning for 5–11 Nov.",
+    "Only original script and verified CC0/CC BY-SA images; no news screenshots, TV clips, YouTube footage, music or sound effects."
   ]
 }
