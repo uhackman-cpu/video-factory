@@ -1,6 +1,6 @@
 {
   "edition_date": "2026-11-05",
-  "research_cutoff": "2026-11-05T07:00:53+05:30",
+  "research_cutoff": "2026-11-05T07:24:00+05:30",
   "timezone": "Asia/Kolkata",
   "editorial_policy": {
     "audience": [
@@ -10,7 +10,18 @@
     "western_up_share_percent": 35,
     "other_india_up_share_percent": 65,
     "jobs_exams": "excluded from this edition",
-    "sensationalism": "engaging presentation only; no exaggerated or unverified claims"
+    "priority_topics": [
+      "human-interest",
+      "public safety",
+      "food safety",
+      "agriculture",
+      "household prices",
+      "consumer issues",
+      "transport",
+      "weather",
+      "local developments"
+    ],
+    "sensationalism": "engaging presentation only; no exaggerated, communal, caste-based or unverified claims"
   },
   "stories": [
     {
@@ -20,7 +31,7 @@
       "headline": "Roadways bus fire; 55 passengers escaped",
       "status": "corroborated_local_reports_cause_attributed_to_CFO_not_final_forensic",
       "time_seconds": 40,
-      "claim": "A Bareilly-depot AC bus travelling Delhi to Bareilly caught fire near Dalpatpur overbridge on 4 Nov evening; all 55 passengers escaped. Tyre burst is preliminary explanation only.",
+      "claim": "A Delhi–Bareilly roadways bus caught fire near Dalpatpur overbridge on 4 Nov night; all 55 passengers escaped. Tyre-burst cause is only the Chief Fire Officer's preliminary explanation.",
       "source_ids": [
         "W1-S1",
         "W1-S2"
@@ -35,9 +46,9 @@
         "Muzaffarnagar"
       ],
       "headline": "Pre-Diwali FSDA sweet-shop inspections",
-      "status": "FSDA_statewide_action_with_local_reports_lab_results_pending",
+      "status": "official_statewide_action_local_findings_lab_results_pending",
       "time_seconds": 40,
-      "claim": "Statewide inspection/seizure/licence data plus local hygiene violations and 220kg sweets destroyed after flies were found.",
+      "claim": "UP FSDA reported 1,133 inspections, 935 samples, 54 quintals seized and 27 licences suspended; local observations are not all final lab-confirmed adulteration.",
       "source_ids": [
         "W2-S1",
         "W2-S2",
@@ -53,135 +64,20 @@
       "headline": "₹99,000 reported cyber fraud during order cancellation",
       "status": "reported_complaint_not_adjudicated_or_platform_breach",
       "time_seconds": 40,
-      "claim": "A local complainant reports losing about ₹99,000 after following a purported customer-care cancellation process; no evidence of platform breach or involvement.",
+      "claim": "A complainant reports losing about ₹99,000 after following a purported customer-care QR-code process; no platform breach or company involvement is established.",
       "source_ids": [
         "W3-S1",
         "W3-S2"
       ]
     },
     {
-      "id": "W4",
-      "region": "Western UP",
-      "place": "Sambhal",
-      "headline": "Traders expect about ₹100 crore Dhanteras sales",
-      "status": "reserve_trader_forecast_not_selected",
-      "time_seconds": 0,
-      "claim": "Local traders forecast about ₹100 crore district-wide trade; not audited actual sales.",
-      "source_ids": [
-        "W4-S1"
-      ]
-    },
-    {
-      "id": "N1",
-      "region": "India",
-      "headline": "Food inflation and weak winter planting",
-      "status": "official_september_CPI_plus_monsoon_outlook",
-      "time_seconds": 45,
-      "claim": "September food inflation 7.74%; weak soil moisture may pressure winter sowing and food supplies.",
-      "source_ids": [
-        "N1-S1",
-        "N1-S2"
-      ]
-    },
-    {
-      "id": "N2",
-      "region": "India",
-      "headline": "Murasu cyclone recovery in Andhra Pradesh",
-      "status": "previous_day_cyclone_recovery_reserve_not_selected",
-      "time_seconds": 0,
-      "claim": "Latest confirmed preliminary figures located by 05:59 IST: at least two deaths, crops damaged across 52,459 hectares, 312 houses affected, preliminary loss about ₹344 crore and 12,230 people in relief centres; IMD said the storm had weakened to a depression by 4 Nov morning.",
-      "source_ids": [
-        "N2-S1",
-        "N2-S2",
-        "N2-S3",
-        "N2-S4"
-      ]
-    },
-    {
-      "id": "N3",
-      "region": "India",
-      "headline": "Gold demand down 29% in Q3 as high prices weigh on festive buyers",
-      "status": "WGC_Q3_data_with_Dhanteras_context",
-      "time_seconds": 40,
-      "claim": "Q3 demand down 29% year-on-year; full-year demand outlook 625–675 tonnes.",
-      "source_ids": [
-        "N3-S1",
-        "N3-S2",
-        "N3-S3"
-      ]
-    },
-    {
-      "id": "N4",
-      "region": "India",
-      "headline": "₹14,500 crore grid-scale energy storage scheme",
-      "status": "policy_announcement_reserve_not_selected",
-      "time_seconds": 0,
-      "claim": "92 GWh planned capacity across pumped hydro, battery and emerging technologies.",
-      "source_ids": [
-        "N4-S1",
-        "N4-S2",
-        "N4-S3"
-      ]
-    },
-    {
-      "id": "N5",
-      "region": "India",
-      "headline": "₹2,814 crore lithium/nickel processing support",
-      "status": "policy_announcement_reserve_not_selected",
-      "time_seconds": 0,
-      "claim": "Four plants planned, with 30% eligible capital subsidy.",
-      "source_ids": [
-        "N5-S1",
-        "N5-S2"
-      ]
-    },
-    {
-      "id": "N6",
-      "region": "India",
-      "headline": "CERT-In names AI-assisted CRAFTY FALCON in attacks on financial firms",
-      "status": "CERT-In_official_CRAFTY_FALCON_advisory_active_BFSI_campaign",
-      "time_seconds": 35,
-      "claim": "Warning is directed to financial institutions; do not claim all personal bank accounts are affected.",
-      "source_ids": [
-        "N6-S1",
-        "N6-S2",
-        "N6-S3"
-      ]
-    },
-    {
-      "id": "N7",
-      "region": "India",
-      "headline": "India beat New Zealand in first ODI",
-      "status": "match_result_confirmed_by_broadcasters_and_host_board",
-      "time_seconds": 35,
-      "claim": "India won by five wickets under DLS; Kohli scored 74.",
-      "source_ids": [
-        "N7-S1",
-        "N7-S2",
-        "N7-S3"
-      ]
-    },
-    {
-      "id": "N8",
-      "region": "India",
-      "headline": "Fast Track Special Courts scheme extended to 2031",
-      "status": "policy_announcement_reserve_not_selected",
-      "time_seconds": 0,
-      "claim": "Scheme provides for up to 850 courts from 779 functional; not 850 new courts already operating.",
-      "source_ids": [
-        "N8-S1",
-        "N8-S2",
-        "N8-S3"
-      ]
-    },
-    {
       "id": "W5",
       "region": "Western UP",
       "place": "Moradabad",
-      "headline": "Illegal firecracker unit found inside house in densely populated Nagphani area",
-      "status": "police_reported_recovery_multiple_local_outlets_same_police_briefing",
+      "headline": "Police raid alleged illegal firecracker unit in Nagphani",
+      "status": "police_reported_recovery_same_police_briefing_across_local_outlets",
       "time_seconds": 45,
-      "claim": "Police say 83 kg 250 g gunpowder, 27 sacks of fireworks and forged branded packaging were recovered from a house in Gudiya Bagh; two brothers were arrested and an FIR registered.",
+      "claim": "Police say 83 kg 250 g gunpowder and 27 sacks of fireworks were recovered from a house in Gudiya Bagh; two brothers arrested and FIR registered. Reports share the same police-origin account.",
       "source_ids": [
         "W5-S1",
         "W5-S2",
@@ -192,10 +88,10 @@
       "id": "W6",
       "region": "Western UP",
       "place": "Bijnor",
-      "headline": "Food-safety officer explains a limited iodine test for starch in paneer",
-      "status": "official_consumer_awareness_method_not_a_raid_or_general_fake_paneer_test",
+      "headline": "FSSAI household iodine test detects starch in paneer",
+      "status": "official_consumer_awareness_method_limited_to_starch",
       "time_seconds": 30,
-      "claim": "The prescribed boil-cool-iodine method turns blue when starch is present. It does not detect every kind of adulteration and cannot certify paneer as safe or fake on its own.",
+      "claim": "The prescribed boil-cool-iodine test turns blue when starch is present in paneer; it does not detect every adulterant or certify overall safety.",
       "source_ids": [
         "W6-S1",
         "W6-S2",
@@ -203,54 +99,110 @@
       ]
     },
     {
+      "id": "N1",
+      "region": "India",
+      "headline": "Food inflation and weak winter planting",
+      "status": "official_september_CPI_plus_monsoon_supply_risk",
+      "time_seconds": 45,
+      "claim": "September food inflation was 7.74%; weak soil moisture may pressure winter sowing and supplies. These are not current local retail prices.",
+      "source_ids": [
+        "N1-S1",
+        "N1-S2"
+      ]
+    },
+    {
       "id": "N9",
       "region": "India / NCR",
-      "place": "Delhi-NCR, including Ghaziabad and Gautam Buddha Nagar",
-      "headline": "CAQM pollution curbs start today: construction restrictions and up-to-50% office attendance",
-      "status": "primary_CAQM_order_and_PIB_announcement",
+      "place": "Delhi-NCR including Ghaziabad and Gautam Buddha Nagar",
+      "headline": "CAQM construction curbs and up-to-50% physical office attendance",
+      "status": "primary_signed_CAQM_order_checked",
       "time_seconds": 55,
-      "claim": "From 5 to 20 Nov, dust-generating demolition/outdoor construction is restricted across NCR with listed exceptions. Up to 50% physical attendance applies to state government and private offices in Delhi and Gurugram, Faridabad, Sonipat, Ghaziabad and Gautam Buddha Nagar; remaining staff work from home. Gurugram AQI was reported at 322 on Wednesday 4 Nov, not as a 5 Nov live reading.",
+      "claim": "From 5–20 Nov, dust-generating demolition/outdoor construction is restricted across NCR with listed exemptions. Up to 50% physical attendance applies to offices in Delhi and five named districts including Ghaziabad and Gautam Buddha Nagar.",
       "source_ids": [
         "N9-S1",
         "N9-S2",
-        "N9-S3",
-        "N9-S4"
+        "N9-S3"
       ]
     },
     {
       "id": "N10",
       "region": "India",
       "place": "Supreme Court / local-body elections",
-      "headline": "Supreme Court sends two-child disqualification rule to larger bench",
+      "headline": "Supreme Court sends Maharashtra two-child disqualification challenge to larger bench",
       "status": "larger_bench_reference_not_final_strike_down",
       "time_seconds": 45,
-      "claim": "The Court questioned the contemporary basis of laws disqualifying people with more than two children from local-body elections and referred a challenge to a larger bench. The case concerns Maharashtra; no blanket nationwide or UP rule has been struck down.",
+      "claim": "The Court questioned the contemporary basis of the Maharashtra local-body two-child disqualification and referred the challenge to a larger bench; no blanket nationwide or UP rule has been struck down.",
       "source_ids": [
         "N10-S1",
         "N10-S2"
       ]
     },
     {
+      "id": "N3",
+      "region": "India",
+      "headline": "Gold demand down 29% in Q3 ahead of Dhanteras",
+      "status": "WGC_Q3_data_with_full_year_forecast_caveat",
+      "time_seconds": 40,
+      "claim": "WGC says Q3 Indian gold demand fell 29% year-on-year to 162.5 tonnes; 625–675 tonnes is a forecast, not final full-year data. Dhanteras is 6 Nov.",
+      "source_ids": [
+        "N3-S1",
+        "N3-S2",
+        "N3-S3",
+        "N3-S4",
+        "N3-S5"
+      ]
+    },
+    {
       "id": "N11",
       "region": "India",
       "place": "Delhi High Court / consumer labelling",
-      "headline": "FSSAI and energy-drink makers face another hearing over the label on high-caffeine drinks",
-      "status": "hearing_scheduled_for_5_Nov_no_result_by_0700_IST",
+      "headline": "FSSAI and energy-drink makers in labelling dispute; hearing listed today",
+      "status": "hearing_listed_no_new_order_found_by_0724_IST",
       "time_seconds": 40,
-      "claim": "FSSAI says the label 'energy drink' is misleading and that no formal category exists; PepsiCo and Monster contest the process. Existing labelled stock may be sold under the interim arrangement, but new stock cannot use the descriptor. This is not a finding that products are poisonous or a blanket ban.",
+      "claim": "FSSAI says the 'energy drink' descriptor is misleading; companies challenge the process. Earlier interim relief allowed some existing stock but not new stock under that descriptor. No 5 Nov order was located by 07:24 IST.",
       "source_ids": [
         "N11-S1",
         "N11-S2"
       ]
     },
     {
+      "id": "N6",
+      "region": "India",
+      "headline": "CERT-In warns financial institutions of AI-assisted CRAFTY FALCON campaign",
+      "status": "official_CERT_In_advisory_BFSI_scope",
+      "time_seconds": 35,
+      "claim": "CERT-In describes AI-assisted attacks against financial institutions and payment APIs; it does not say all retail bank customers are compromised.",
+      "source_ids": [
+        "N6-S1",
+        "N6-S2",
+        "N6-S3",
+        "N6-S4",
+        "N6-S5",
+        "N6-S6"
+      ]
+    },
+    {
+      "id": "N7",
+      "region": "India",
+      "headline": "India beat New Zealand in first ODI",
+      "status": "official_scorecard_and_independent_reports_confirmed",
+      "time_seconds": 35,
+      "claim": "India won by five wickets under DLS; New Zealand 185 all out, India 143/5 in 22.4 overs; Kohli 74 off 51.",
+      "source_ids": [
+        "N7-S1",
+        "N7-S2",
+        "N7-S3",
+        "N7-S4"
+      ]
+    },
+    {
       "id": "N12",
       "region": "India",
       "place": "Entertainment / consumer",
-      "headline": "Ramayana: Part 1 opens in theatres today after large advance bookings",
+      "headline": "Ramayana Part 1 releases today after large advance bookings",
       "status": "release_confirmed_booking_estimate_includes_blocked_seats",
       "time_seconds": 40,
-      "claim": "The film releases on 5 Nov. An Indian Express live update reported ₹110.06 crore in advance bookings across six show dates as of 18:15 on 4 Nov, or ₹88.11 crore excluding blocked seats; this is pre-sales, not realised box-office revenue. The producer said Part 2 is pushed to 2028.",
+      "claim": "The film releases on 5 Nov. Indian Express reported an advance-booking estimate above ₹110 crore including blocked seats as of 4 Nov evening; excluding blocked seats the estimate was about ₹88 crore. This is pre-sales, not realised box-office revenue.",
       "source_ids": [
         "N12-S1",
         "N12-S2",
@@ -287,10 +239,11 @@
         "WX-S1",
         "WX-S2",
         "WX-S3"
-      ]
+      ],
+      "checked_at": "2026-11-05T07:24:00+05:30"
     },
     "india": {
-      "live_warning_pages_checked_at": "2026-11-05T07:00:53+05:30",
+      "live_warning_pages_checked_at": "2026-11-05T07:24:00+05:30",
       "issue_date": "2026-11-05",
       "issue_time": "not displayed on subdivision warning pages",
       "valid_period": "2026-11-05 through 2026-11-11",
@@ -334,18 +287,10 @@
   "source_records": [
     {
       "id": "W1-S1",
-      "story": "W1",
       "publisher": "Dainik Jagran",
       "title": "Moradabad–Delhi-Lucknow highway AC bus fire; 55 passengers escape",
-      "published_at": "2026-11-04T23:10:00+05:30",
       "url": "https://www.jagran.com/uttar-pradesh/moradabad-city-moradabad-delhi-lucknow-highway-ac-bus-fire-55-passengers-safe-40427710.html",
-      "supports": [
-        "bus fire near Dalpatpur overbridge",
-        "55 passengers evacuated safely",
-        "two fire tenders extinguished fire in about 15 minutes",
-        "preliminary tyre-burst explanation"
-      ],
-      "notes": "Local report quotes police and Chief Fire Officer; obtain official incident note before asserting cause.",
+      "published_at": "2026-11-04T23:10:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "bus fire near Dalpatpur overbridge",
@@ -358,17 +303,10 @@
     },
     {
       "id": "W2-S1",
-      "story": "W2",
       "publisher": "Hindustan Times",
       "title": "UP FSDA pre-Diwali crackdown: 1,133 inspections, 935 samples, 54 quintals seized, 27 licences suspended",
-      "published_at": "2026-11-03T19:55:46+05:30",
       "url": "https://www.hindustantimes.com/cities/lucknow-news/prediwali-crackdown-up-fsda-seizes-54-quintals-of-food-worth-1-32-cr-suspends-27-licences-101793715946643-amp.html",
-      "supports": [
-        "statewide inspection/sample/seizure/licence figures",
-        "32 mobile squads in Bareilly and Moradabad",
-        "reported hygiene and ingredient violations"
-      ],
-      "notes": "Departmental figures reported by HT; seizures/samples are not final lab findings.",
+      "published_at": "2026-11-03T19:55:46+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "statewide inspection/sample/seizure/licence figures",
@@ -380,16 +318,10 @@
     },
     {
       "id": "W2-S2",
-      "story": "W2",
       "publisher": "The Times of India",
       "title": "FSDA suspends 27 licences in statewide sweet-shop crackdown",
-      "published_at": "2026-11-04T01:06:00+05:30",
       "url": "https://timesofindia.indiatimes.com/city/lucknow/fsda-suspends-27-licences-in-statewide-sweet-shop-crackdown/articleshow/135512276.cms",
-      "supports": [
-        "1,133 inspections and 27 licence suspensions",
-        "Bareilly and Moradabad inspection findings"
-      ],
-      "notes": "Independent newsroom report on FSDA spokesperson information.",
+      "published_at": "2026-11-04T01:06:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "1,133 inspections and 27 licence suspensions",
@@ -400,17 +332,10 @@
     },
     {
       "id": "W2-S3",
-      "story": "W2",
       "publisher": "Amar Ujala",
       "title": "Bareilly food-safety raid: mouldy ghevar and two licence suspensions",
-      "published_at": "2026-11-03T20:39:00+05:30",
       "url": "https://www.amarujala.com/uttar-pradesh/bareilly/bareilly-food-safety-raid-27-shops-two-sweet-shop-licenses-suspended-2026-11-03",
-      "supports": [
-        "Bareilly inspection of 27 outlets",
-        "two licence suspensions",
-        "mouldy ghevar and unhygienic preparation reported"
-      ],
-      "notes": "Attribute findings to the FSDA inspection; lab outcomes not supplied.",
+      "published_at": "2026-11-03T20:39:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "Bareilly inspection of 27 outlets",
@@ -422,17 +347,10 @@
     },
     {
       "id": "W2-S4",
-      "story": "W2",
       "publisher": "Dainik Jagran",
       "title": "Muzaffarnagar food-safety team destroys 220 kg rasgullas after flies found",
-      "published_at": "2026-11-04T13:22:00+05:30",
       "url": "https://www.jagran.com/uttar-pradesh/muzaffarnagar-muzaffarnagar-food-safety-220kg-flyinfested-rasgullas-destroyed-40427033.html",
-      "supports": [
-        "about 220 kg rasgullas destroyed",
-        "flies found in stock",
-        "notice issued to shop"
-      ],
-      "notes": "Local food-safety officials are quoted; sample and action status should be checked before naming premises.",
+      "published_at": "2026-11-04T13:22:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "about 220 kg rasgullas destroyed",
@@ -444,15 +362,10 @@
     },
     {
       "id": "W2-S5",
-      "story": "W2",
       "publisher": "The Times of India",
       "title": "Muzaffarnagar sweets destroyed after insects found",
-      "published_at": "2026-11-05",
       "url": "https://timesofindia.indiatimes.com/city/agra/diwali-crackdown-220kg-sweets-destroyed-in-muzaffarnagar-after-insects-found-contaminated-milk-cheese-seized-in-mathura/articleshow/135547438.cms",
-      "supports": [
-        "Muzaffarnagar destruction of about 220 kg sweets"
-      ],
-      "notes": "Current-day report; confirm exact local action with district FSDA before narration.",
+      "published_at": "2026-11-05",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "Muzaffarnagar destruction of about 220 kg sweets"
@@ -462,17 +375,10 @@
     },
     {
       "id": "W3-S1",
-      "story": "W3",
       "publisher": "Amar Ujala",
       "title": "Sambhal principal reports ₹99,000 cyber-fraud during online order cancellation",
-      "published_at": "2026-11-05T01:38:00+05:30",
       "url": "https://www.amarujala.com/uttar-pradesh/sambhal/99000-rupees-siphoned-from-account-while-trying-to-cancel-a-flipkart-order-sambhal-news-c-275-1-sbl1015-142801-2026-11-05",
-      "supports": [
-        "reported ₹99,000 debit after fake customer-care cancellation process",
-        "complainant filed online complaint",
-        "cyber police station in-charge advice"
-      ],
-      "notes": "One local report; allegation does not establish Flipkart platform breach or involvement.",
+      "published_at": "2026-11-05T01:38:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "reported ₹99,000 debit after fake customer-care cancellation process",
@@ -484,15 +390,10 @@
     },
     {
       "id": "W3-S2",
-      "story": "W3",
       "publisher": "I4C / National Cyber Crime Reporting Portal",
       "title": "Official financial cyber-fraud reporting instructions",
-      "published_at": null,
       "url": "https://cybercrime.gov.in/webform/crime_nodalgrivancelist.aspx",
-      "supports": [
-        "1930 helpline for immediate reporting of online financial fraud"
-      ],
-      "notes": "Primary government portal; use practical reporting advice only.",
+      "published_at": null,
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "1930 helpline for immediate reporting of online financial fraud"
@@ -502,17 +403,10 @@
     },
     {
       "id": "W4-S1",
-      "story": "W4",
       "publisher": "Amar Ujala",
       "title": "Sambhal traders expect about ₹100 crore Dhanteras business",
-      "published_at": "2026-11-05T01:39:00+05:30",
       "url": "https://www.amarujala.com/uttar-pradesh/sambhal/dhanteras-is-tomorrow-business-worth-rs-100-crore-expected-in-the-district-sambhal-news-c-275-1-smbd1033-142815-2026-11-05",
-      "supports": [
-        "traders' estimate of about ₹100 crore turnover",
-        "jewellery, auto, clothing and electronics demand",
-        "advance two-wheeler bookings reported"
-      ],
-      "notes": "Forecast by traders only, not audited sales or official district estimate.",
+      "published_at": "2026-11-05T01:39:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "traders' estimate of about ₹100 crore turnover",
@@ -524,16 +418,10 @@
     },
     {
       "id": "N1-S1",
-      "story": "N1",
       "publisher": "Reuters",
       "title": "From grains to chicken and milk, India faces prolonged food inflation",
-      "published_at": "2026-11-03",
       "url": "https://www.reuters.com/world/india/grains-chicken-milk-india-faces-prolonged-food-inflation-2026-11-03/",
-      "supports": [
-        "weak monsoon and low soil moisture risk to winter planting",
-        "food supply and price pressures"
-      ],
-      "notes": "Outlook/risk, not proof of local retail price rises.",
+      "published_at": "2026-11-03",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "weak monsoon and low soil moisture risk to winter planting",
@@ -544,20 +432,10 @@
     },
     {
       "id": "N1-S2",
-      "story": "N1",
       "publisher": "PIB / MoSPI",
       "title": "Consumer Price Index, September 2026",
-      "published_at": "2026-10-12",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3",
-      "supports": [
-        "headline CPI 5.54%",
-        "food inflation 7.74%",
-        "rural food inflation 8.06%",
-        "urban food inflation 7.18%",
-        "onion sub-group inflation 108.09% year-on-year in September",
-        "Uttar Pradesh headline CPI inflation 6.08%"
-      ],
-      "notes": "Primary official CPI release.",
+      "published_at": "2026-10-12",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "headline CPI 5.54%",
@@ -572,18 +450,10 @@
     },
     {
       "id": "N3-S1",
-      "story": "N3",
       "publisher": "World Gold Council",
       "title": "Gold Demand Trends: India Focus Q3 2026",
-      "published_at": "2026-11-03",
       "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-india-focus-q3-2026",
-      "supports": [
-        "Q3 India demand 162.5 tonnes, down 29% year-on-year",
-        "jewellery demand down 20%",
-        "bar and coin demand down 40%",
-        "2026 full-year demand outlook 625–675 tonnes"
-      ],
-      "notes": "Primary industry research; outlook is a forecast.",
+      "published_at": "2026-11-03",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "Q3 India demand 162.5 tonnes, down 29% year-on-year",
@@ -596,16 +466,10 @@
     },
     {
       "id": "N3-S2",
-      "story": "N3",
       "publisher": "Reuters",
       "title": "India's 2026 gold demand seen falling to six-year low on price rise",
-      "published_at": "2026-11-03",
       "url": "https://www.reuters.com/world/india/indias-2026-gold-demand-seen-falling-six-year-low-price-rise-2026-11-03/",
-      "supports": [
-        "high prices and rural affordability limiting demand",
-        "about 650 tonnes full-year midpoint outlook"
-      ],
-      "notes": "Reuters report quoting World Gold Council India chief.",
+      "published_at": "2026-11-03",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "high prices and rural affordability limiting demand",
@@ -616,15 +480,10 @@
     },
     {
       "id": "N3-S3",
-      "story": "N3",
       "publisher": "The New Indian Express / PTI",
       "title": "India gold demand down 29% in Q3 2026: WGC report",
-      "published_at": "2026-11-03T11:41:00+05:30",
       "url": "https://www.newindianexpress.com/business/2026/Nov/03/india-gold-demand-down-29-in-q3-2026-wgc-report",
-      "supports": [
-        "Q3 demand, jewellery and bar/coin volumes"
-      ],
-      "notes": "PTI-based report; WGC primary report is preferred for exact figures.",
+      "published_at": "2026-11-03T11:41:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "Q3 demand, jewellery and bar/coin volumes"
@@ -634,17 +493,10 @@
     },
     {
       "id": "N4-S1",
-      "story": "N4",
       "publisher": "Prime Minister of India",
       "title": "Cabinet approves ₹14,500 crore VGF scheme for 92 GWh grid-scale energy storage",
-      "published_at": "2026-11-04",
       "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-14500-crore-viability-gap-funding-scheme-for-development-of-92-gwh-grid-scale-energy-storage-systems/",
-      "supports": [
-        "₹14,500 crore outlay",
-        "92 GWh target: 60 GWh pumped hydro, 30 GWh battery, 2 GWh emerging",
-        "40% domestic content requirement for BESS"
-      ],
-      "notes": "Primary Cabinet/PMO release.",
+      "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "₹14,500 crore outlay",
@@ -656,52 +508,36 @@
     },
     {
       "id": "N4-S2",
-      "story": "The Economic Times",
+      "publisher": "The Economic Times",
       "title": "Cabinet approves ₹14,500-crore scheme to add 92 GWh energy storage capacity",
-      "published_at": "2026-11-04T14:47:00+05:30",
       "url": "https://economictimes.indiatimes.com/industry/energy/cabinet-approves-14500-crore-scheme-to-add-92-gwh-energy-storage-capacity/articleshow/135533402.cms",
-      "supports": [
-        "Cabinet announcement and scheme purpose"
-      ],
-      "notes": "Independent newsroom report on Cabinet announcement.",
+      "published_at": "2026-11-04T14:47:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "Cabinet announcement and scheme purpose"
       ],
       "source_type": "news",
-      "verification_notes": "Independent newsroom report on Cabinet announcement.",
-      "publisher": "The Economic Times"
+      "verification_notes": "Independent newsroom report on Cabinet announcement."
     },
     {
       "id": "N4-S3",
-      "story": "Business Standard",
+      "publisher": "Business Standard",
       "title": "Cabinet clears ₹14,500 crore VGF scheme for 92 GWh storage",
-      "published_at": "2026-11-04T18:57:00+05:30",
       "url": "https://www.business-standard.com/india-news/cabinet-clears-14-500-crore-vgf-scheme-for-92-gwh-energy-storage-capacity-126110401643_1.html",
-      "supports": [
-        "scheme capacity and estimated investment"
-      ],
-      "notes": "Independent report; aligns with official release.",
+      "published_at": "2026-11-04T18:57:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "scheme capacity and estimated investment"
       ],
       "source_type": "news",
-      "verification_notes": "Independent report; aligns with official release.",
-      "publisher": "Business Standard"
+      "verification_notes": "Independent report; aligns with official release."
     },
     {
       "id": "N5-S1",
-      "story": "Prime Minister of India",
+      "publisher": "Prime Minister of India (PMO)",
       "title": "Cabinet approves ₹2,814 crore critical mineral processing scheme",
-      "published_at": "2026-11-04",
       "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/?comment=disable",
-      "supports": [
-        "₹2,814 crore five-year outlay",
-        "four plants: two lithium and two nickel",
-        "30% capital subsidy on eligible investment"
-      ],
-      "notes": "Primary Cabinet/PMO release.",
+      "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "₹2,814 crore five-year outlay",
@@ -709,59 +545,41 @@
         "30% capital subsidy on eligible investment"
       ],
       "source_type": "official",
-      "verification_notes": "Primary Cabinet/PMO release.",
-      "publisher": "Prime Minister of India (PMO)"
+      "verification_notes": "Primary Cabinet/PMO release."
     },
     {
       "id": "N5-S2",
-      "story": "Reuters",
+      "publisher": "Reuters",
       "title": "India approves $297 million incentive policy for lithium, nickel processing",
-      "published_at": "2026-11-04",
       "url": "https://www.reuters.com/business/india-approves-297-million-incentive-policy-lithium-nickel-processing-2026-11-04/",
-      "supports": [
-        "Cabinet approval and supply-chain rationale"
-      ],
-      "notes": "Independent news report; official release governs scheme detail.",
+      "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "Cabinet approval and supply-chain rationale"
       ],
       "source_type": "news",
-      "verification_notes": "Independent news report; official release governs scheme detail.",
-      "publisher": "Reuters"
+      "verification_notes": "Independent news report; official release governs scheme detail."
     },
     {
       "id": "N6-S1",
-      "story": "Reuters",
+      "publisher": "Reuters",
       "title": "India cybercrime agency warns financial firms of AI-driven cyberattacks",
-      "published_at": "2026-11-04",
       "url": "https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/",
-      "supports": [
-        "I4C advisory to banks/NBFCs/fintechs",
-        "attack method and recommended safeguards"
-      ],
-      "notes": "Primary advisory text is not linked in the report; do not overstate the risk to ordinary personal bank accounts.",
+      "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "I4C advisory to banks/NBFCs/fintechs",
         "attack method and recommended safeguards"
       ],
       "source_type": "news",
-      "verification_notes": "Primary advisory text is not linked in the report; do not overstate the risk to ordinary personal bank accounts.",
-      "publisher": "Reuters"
+      "verification_notes": "Primary advisory text is not linked in the report; do not overstate the risk to ordinary personal bank accounts."
     },
     {
       "id": "N6-S2",
-      "story": "Mint / PTI",
+      "publisher": "Mint",
       "title": "Central cyber security agency warns banks and fintech firms of AI attacks",
-      "published_at": "2026-11-04T20:45:00+05:30",
       "url": "https://www.livemint.com/technology/central-cyber-security-agency-warns-banks-fintech-firms-of-frauds-through-ai-agents-11793805354383.html",
-      "supports": [
-        "I4C/CERT-In advisory details",
-        "API and fund-disbursement risk",
-        "six-hour incident reporting"
-      ],
-      "notes": "PTI report, separate from Reuters report.",
+      "published_at": "2026-11-04T20:45:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "I4C/CERT-In advisory details",
@@ -769,39 +587,27 @@
         "six-hour incident reporting"
       ],
       "source_type": "news",
-      "verification_notes": "PTI report, separate from Reuters report.",
-      "publisher": "Mint"
+      "verification_notes": "PTI report, separate from Reuters report."
     },
     {
       "id": "N6-S3",
-      "story": "The Economic Times",
+      "publisher": "The Economic Times",
       "title": "I4C warns banks, NBFCs and fintech firms of AI-powered fraud",
-      "published_at": "2026-11-04T22:44:00+05:30",
       "url": "https://economictimes.indiatimes.com/news/new-updates/central-cyber-security-agency-warns-banks-nbfcs-of-ai-attacks-i4c-reveals-how-hackers-are-executing-multi-crore-frauds/articleshow/135546478.cms",
-      "supports": [
-        "joint I4C/CERT-In advisory details and recommended controls"
-      ],
-      "notes": "Independent newsroom summary of the advisory.",
+      "published_at": "2026-11-04T22:44:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "joint I4C/CERT-In advisory details and recommended controls"
       ],
       "source_type": "news",
-      "verification_notes": "Independent newsroom summary of the advisory.",
-      "publisher": "The Economic Times"
+      "verification_notes": "Independent newsroom summary of the advisory."
     },
     {
       "id": "N7-S1",
-      "story": "Reuters",
+      "publisher": "Reuters",
       "title": "Kohli in the runs as India beat New Zealand in first ODI",
-      "published_at": "2026-11-04",
       "url": "https://www.reuters.com/sports/cricket/kohli-runs-india-thrash-new-zealand-first-odi-2026-11-04/",
-      "supports": [
-        "India five-wicket DLS win",
-        "Kohli 74",
-        "Arshdeep four wickets"
-      ],
-      "notes": "Match result and score detail.",
+      "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "India five-wicket DLS win",
@@ -809,58 +615,40 @@
         "Arshdeep four wickets"
       ],
       "source_type": "news",
-      "verification_notes": "Match result and score detail.",
-      "publisher": "Reuters"
+      "verification_notes": "Match result and score detail."
     },
     {
       "id": "N7-S2",
-      "story": "Hindustan Times",
+      "publisher": "Hindustan Times",
       "title": "New Zealand vs India 1st ODI scorecard",
-      "published_at": "2026-11-04",
       "url": "https://www.hindustantimes.com/cricket/match-result-nz-vs-ind-ind-in-nz-5-odis-2026-1st-odi-new-zealand-vs-india-odi-nzin11042026271651",
-      "supports": [
-        "185 all out, India 143/5 in 22.4 overs, DLS result"
-      ],
-      "notes": "Scorecard cross-check.",
+      "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "185 all out, India 143/5 in 22.4 overs, DLS result"
       ],
       "source_type": "news",
-      "verification_notes": "Scorecard cross-check.",
-      "publisher": "Hindustan Times"
+      "verification_notes": "Scorecard cross-check."
     },
     {
       "id": "N7-S3",
-      "story": "The Times of India",
+      "publisher": "The Times of India",
       "title": "Kohli 74 and Arshdeep four-wicket haul guide India to win",
-      "published_at": "2026-11-04",
       "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/virat-kohlis-74-arshdeep-singhs-four-wicket-haul-guide-india-to-victory-in-rain-hit-odi/articleshow/135534542.cms",
-      "supports": [
-        "match result and leading performances"
-      ],
-      "notes": "Independent match report.",
+      "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "match result and leading performances"
       ],
       "source_type": "news",
-      "verification_notes": "Independent match report.",
-      "publisher": "The Times of India"
+      "verification_notes": "Independent match report."
     },
     {
       "id": "N8-S1",
-      "story": "Prime Minister of India",
+      "publisher": "Prime Minister of India (PMO)",
       "title": "Cabinet continues Fast Track Special Courts scheme for five years",
-      "published_at": "2026-11-04",
       "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-centrally-sponsored-scheme-for-fast-track-special-courts-ftscs-for-expeditious-trial-of-cases-of-rape-and-pocso-protection-of-children-from-sexual-offences-act/?comment=disable",
-      "supports": [
-        "₹3,788.04 crore outlay",
-        "scheme through 31 March 2031",
-        "up to 850 courts from 779 functional",
-        "4,02,457 cases disposed since 2019"
-      ],
-      "notes": "Primary Cabinet release; 850 is planned capacity, not 850 newly operating courts.",
+      "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "₹3,788.04 crore outlay",
@@ -869,111 +657,79 @@
         "4,02,457 cases disposed since 2019"
       ],
       "source_type": "official",
-      "verification_notes": "Primary Cabinet release; 850 is planned capacity, not 850 newly operating courts.",
-      "publisher": "Prime Minister of India (PMO)"
+      "verification_notes": "Primary Cabinet release; 850 is planned capacity, not 850 newly operating courts."
     },
     {
       "id": "N8-S2",
-      "story": "The Economic Times",
+      "publisher": "The Economic Times",
       "title": "Cabinet clears ₹3,788 crore to strengthen 850 fast-track courts",
-      "published_at": "2026-11-04T15:03:00+05:30",
       "url": "https://economictimes.indiatimes.com/news/india/cabinet-approves-extension-strengthening-of-850-fast-track-courts-for-rape-child-abuse-cases/articleshow/135533788.cms",
-      "supports": [
-        "Cabinet decision and court expansion"
-      ],
-      "notes": "Independent newsroom report.",
+      "published_at": "2026-11-04T15:03:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "Cabinet decision and court expansion"
       ],
       "source_type": "news",
-      "verification_notes": "Independent newsroom report.",
-      "publisher": "The Economic Times"
+      "verification_notes": "Independent newsroom report."
     },
     {
       "id": "N8-S3",
-      "story": "Hindustan Times / PTI",
+      "publisher": "Hindustan Times",
       "title": "Government extends Fast Track Special Courts to 2031",
-      "published_at": "2026-11-04T16:48:19+05:30",
       "url": "https://www.hindustantimes.com/india-news/govt-approves-strengthening-extension-of-850-fast-track-courts-to-deal-with-child-abuse-and-rape-cases-101793791099448.html",
-      "supports": [
-        "scheme continuation and planned expansion"
-      ],
-      "notes": "PTI report; do not imply every court has already opened.",
+      "published_at": "2026-11-04T16:48:19+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "scheme continuation and planned expansion"
       ],
       "source_type": "news",
-      "verification_notes": "PTI report; do not imply every court has already opened.",
-      "publisher": "Hindustan Times"
+      "verification_notes": "PTI report; do not imply every court has already opened."
     },
     {
       "id": "WX-S1",
-      "story": "India Meteorological Department, RMC New Delhi",
+      "publisher": "India Meteorological Department",
       "title": "Subdivision warnings — West Uttar Pradesh",
-      "published_at": "2026-11-05",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25",
-      "supports": [
-        "No warning for West Uttar Pradesh 5–11 November 2026"
-      ],
-      "notes": "Official RMC New Delhi page issued 5 Nov; West UP shows no warning 5–11 Nov.",
-      "accessed_at": "2026-11-05T06:24:34+05:30",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "No warning for West Uttar Pradesh 5–11 November 2026"
       ],
       "source_type": "official",
-      "verification_notes": "Official RMC New Delhi page issued 5 Nov; West UP shows no warning 5–11 Nov.",
-      "publisher": "India Meteorological Department"
+      "verification_notes": "Official RMC New Delhi page issued 5 Nov; no West UP warning 5–11 Nov."
     },
     {
       "id": "WX-S2",
-      "story": "India Meteorological Department",
+      "publisher": "India Meteorological Department",
       "title": "Moradabad local forecast",
-      "published_at": "2026-11-04",
       "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42187",
-      "supports": [
-        "5 Nov forecast mainly clear, 19–28°C"
-      ],
-      "notes": "IMD city page dated 4 Nov; town forecast only, not a district-wide alert.",
+      "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T06:24:34+05:30",
       "claims_supported": [
         "5 Nov forecast mainly clear, 19–28°C"
       ],
       "source_type": "official",
-      "verification_notes": "IMD city page dated 4 Nov; town forecast only, not a district-wide alert.",
-      "publisher": "India Meteorological Department"
+      "verification_notes": "IMD city page dated 4 Nov; town forecast only, not a district-wide alert."
     },
     {
       "id": "WX-S3",
-      "story": "India Meteorological Department",
+      "publisher": "India Meteorological Department",
       "title": "Bareilly local forecast",
-      "published_at": "2026-11-04",
       "url": "https://city.imd.gov.in/citywx/citywxnew.php?id=42189",
-      "supports": [
-        "5 Nov forecast clear, 16–29°C"
-      ],
-      "notes": "IMD city page dated 4 Nov; town forecast only, not a district-wide alert.",
+      "published_at": "2026-11-04",
       "accessed_at": "2026-11-05T06:24:34+05:30",
       "claims_supported": [
         "5 Nov forecast clear, 16–29°C"
       ],
       "source_type": "official",
-      "verification_notes": "IMD city page dated 4 Nov; town forecast only, not a district-wide alert.",
-      "publisher": "India Meteorological Department"
+      "verification_notes": "IMD city page dated 4 Nov; town forecast only, not a district-wide alert."
     },
     {
       "id": "WX-S4",
-      "story": "India Meteorological Department",
+      "publisher": "India Meteorological Department",
       "title": "National weather press release",
-      "published_at": "2026-11-04T13:00:00+05:30",
       "url": "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2004-11-2026_1793778009.pdf",
-      "supports": [
-        "4–10 November national forecast",
-        "no significant weather over Northwest, West and Northeast during the week",
-        "rain/thunderstorm and heavy-rain forecast over southern states"
-      ],
-      "notes": "Official issue time 13:00 IST; valid period stated in the bulletin.",
+      "published_at": "2026-11-04T13:00:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "4–10 November national forecast",
@@ -981,78 +737,53 @@
         "rain/thunderstorm and heavy-rain forecast over southern states"
       ],
       "source_type": "official",
-      "verification_notes": "Official issue time 13:00 IST; valid period stated in the bulletin.",
-      "publisher": "India Meteorological Department"
+      "verification_notes": "Official issue time 13:00 IST; valid period stated in the bulletin."
     },
     {
       "id": "WX-S5",
-      "story": "India Meteorological Department, Met Centre Amaravati",
+      "publisher": "India Meteorological Department",
       "title": "Subdivision warnings — Coastal Andhra and Rayalaseema",
-      "published_at": "2026-11-05",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2",
-      "supports": [
-        "Thunderstorm/lightning/squall and strong surface winds 5–8 November"
-      ],
-      "notes": "Official page shows issue date, not issue time.",
-      "accessed_at": "2026-11-05T06:24:34+05:30",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "Thunderstorm/lightning/squall and strong surface winds 5–8 November"
       ],
       "source_type": "official",
-      "verification_notes": "Official page shows issue date, not issue time.",
-      "publisher": "India Meteorological Department"
+      "verification_notes": "Official IMD subdivision warning page issued 5 Nov; issue time not displayed."
     },
     {
       "id": "WX-S6",
-      "story": "India Meteorological Department, Met Centre Thiruvananthapuram",
+      "publisher": "India Meteorological Department",
       "title": "Subdivision warnings — Kerala",
-      "published_at": "2026-11-05",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=4",
-      "supports": [
-        "Thunderstorm 5 November; heavy rain and thunderstorm 6–8 November"
-      ],
-      "notes": "Official page shows issue date, not issue time.",
-      "accessed_at": "2026-11-05T06:24:34+05:30",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "Thunderstorm 5 November; heavy rain and thunderstorm 6–8 November"
       ],
       "source_type": "official",
-      "verification_notes": "Official page shows issue date, not issue time.",
-      "publisher": "India Meteorological Department"
+      "verification_notes": "Official IMD subdivision warning page issued 5 Nov; issue time not displayed."
     },
     {
       "id": "WX-S7",
-      "story": "India Meteorological Department",
+      "publisher": "India Meteorological Department",
       "title": "Subdivision warnings — Karnataka",
-      "published_at": "2026-11-05",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13",
-      "supports": [
-        "South Interior Karnataka heavy rain and thunderstorm 5–6 November"
-      ],
-      "notes": "Official page shows issue date, not issue time.",
-      "accessed_at": "2026-11-05T06:24:34+05:30",
+      "published_at": "2026-11-05",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "South Interior Karnataka heavy rain and thunderstorm 5–6 November"
       ],
       "source_type": "official",
-      "verification_notes": "Official page shows issue date, not issue time.",
-      "publisher": "India Meteorological Department"
+      "verification_notes": "Official IMD subdivision warning page issued 5 Nov; issue time not displayed."
     },
     {
       "id": "N2-S1",
-      "story": "N2",
       "publisher": "The News Minute",
       "title": "Cyclone Murasu leaves two dead, damages 312 houses in Andhra Pradesh",
-      "published_at": "2026-11-04T03:39:00+05:30",
       "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-leaves-2-dead-damages-312-houses-in-andhra-pradesh",
-      "supports": [
-        "APSDMA MD says at least two deaths",
-        "52,459 ha crops damaged",
-        "312 houses damaged",
-        "₹344 crore preliminary loss",
-        "12,230 people in rehabilitation centres"
-      ],
-      "notes": "Preliminary official figures quoted from APSDMA; not a final loss assessment.",
+      "published_at": "2026-11-04T03:39:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "APSDMA MD says at least two deaths",
@@ -1066,18 +797,10 @@
     },
     {
       "id": "N2-S2",
-      "story": "N2",
       "publisher": "The Indian Express",
       "title": "Two die as cyclone Murasu hits Andhra Pradesh; educational centres shut",
-      "published_at": "2026-11-04T03:30:00+05:30",
       "url": "https://indianexpress.com/article/india/cyclone-murasu-andhra-pradesh-odisha-impact-10949483/",
-      "supports": [
-        "two deaths",
-        "52,459 ha crops damaged",
-        "₹344 crore preliminary loss",
-        "12,230 people sheltered"
-      ],
-      "notes": "Quotes APSDMA managing director; preliminary figures.",
+      "published_at": "2026-11-04T03:30:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "two deaths",
@@ -1090,17 +813,10 @@
     },
     {
       "id": "N2-S3",
-      "story": "Hindustan Times",
+      "publisher": "Hindustan Times",
       "title": "Cyclone Murasu weakens into deep depression; Andhra reports two deaths",
-      "published_at": "2026-11-04T12:12:01+05:30",
       "url": "https://www.hindustantimes.com/india-news/cyclone-murasu-weakens-into-deep-depression-to-become-low-pressure-area-in-12-hours-imd-forecasts-more-rain-in-andhra-101793772415920.html",
-      "supports": [
-        "IMD position at 5:30 am 4 Nov",
-        "two deaths",
-        "more than 52,000 ha crop loss",
-        "12,230 in shelters"
-      ],
-      "notes": "Includes PTI/official input; no newer verified damage total found.",
+      "published_at": "2026-11-04T12:12:01+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "IMD position at 5:30 am 4 Nov",
@@ -1109,43 +825,28 @@
         "12,230 in shelters"
       ],
       "source_type": "news",
-      "verification_notes": "Includes PTI/official input; no newer verified damage total found.",
-      "publisher": "Hindustan Times"
+      "verification_notes": "Includes PTI/official input; no newer verified damage total found."
     },
     {
       "id": "N2-S4",
-      "story": "India Meteorological Department",
+      "publisher": "India Meteorological Department",
       "title": "National weather press release — Murasu weakened to depression",
-      "published_at": "2026-11-04T13:00:00+05:30",
       "url": "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2004-11-2026_1793778009.pdf",
-      "supports": [
-        "Murasu weakened to depression over east Telangana and adjoining Coastal Andhra Pradesh by 05:30 IST on 4 Nov",
-        "likely to weaken further to a well-marked low pressure area"
-      ],
-      "notes": "Primary meteorological status; does not provide the damage figures.",
+      "published_at": "2026-11-04T13:00:00+05:30",
       "accessed_at": "2026-11-05T05:59:03+05:30",
       "claims_supported": [
         "Murasu weakened to depression over east Telangana and adjoining Coastal Andhra Pradesh by 05:30 IST on 4 Nov",
         "likely to weaken further to a well-marked low pressure area"
       ],
       "source_type": "official",
-      "verification_notes": "Primary meteorological status; does not provide the damage figures.",
-      "publisher": "India Meteorological Department"
+      "verification_notes": "Primary meteorological status; does not provide the damage figures."
     },
     {
       "id": "W1-S2",
-      "story": "W1",
       "publisher": "Amar Ujala",
       "title": "हाईवे पर रोडवेज बस में लगी आग, 55 यात्रियों ने कूदकर बचाई जान",
-      "published_at": "2026-11-05T00:57:00+05:30",
       "url": "https://www.amarujala.com/uttar-pradesh/moradabad/fire-breaks-out-in-a-state-transport-bus-on-the-highway-55-passengers-save-their-lives-by-jumping-out-moradabad-news-c-15-1-mbd1027-1032271-2026-11-05",
-      "supports": [
-        "bus fire near Dalpatpur flyover on 4 Nov night",
-        "all 55 passengers evacuated safely",
-        "two fire tenders attended",
-        "Chief Fire Officer attributed the fire to a rear tyre burst"
-      ],
-      "notes": "Second independent local report. Cause is attributed to the Chief Fire Officer's statement; no final engineering or forensic report was located.",
+      "published_at": "2026-11-05T00:57:00+05:30",
       "accessed_at": "2026-11-05T06:24:34+05:30",
       "claims_supported": [
         "bus fire near Dalpatpur flyover on 4 Nov night",
@@ -1158,19 +859,11 @@
     },
     {
       "id": "W5-S1",
-      "story": "W5",
       "publisher": "Amar Ujala",
       "title": "Moradabad: illegal firecracker factory in a house in densely populated Nagphani; two brothers arrested",
       "published_at": "2026-11-05T00:52:00+05:30",
       "url": "https://www.amarujala.com/uttar-pradesh/moradabad/illegal-firecracker-factory-operating-in-a-house-in-a-densely-populated-area-two-brothers-arrested-moradabad-news-c-15-1-mbd1027-1031849-2026-11-05",
-      "supports": [
-        "police raid at a house in Gudiya Bagh, Nagphani",
-        "two brothers arrested and FIR registered",
-        "83 kg 250 g gunpowder and 27 sacks of fireworks recovered",
-        "empty branded boxes and forged wrappers reportedly recovered"
-      ],
-      "notes": "Local report quotes police. Attribute all allegations and recoveries to police; no independent eyewitness or court finding located.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "police raid at a house in Gudiya Bagh, Nagphani",
         "two brothers arrested and FIR registered",
@@ -1178,23 +871,15 @@
         "empty branded boxes and forged wrappers reportedly recovered"
       ],
       "source_type": "news",
-      "verification_notes": "Local report quotes police. Attribute all allegations and recoveries to police; no independent eyewitness or court finding located."
+      "verification_notes": "Police-origin account repeated by local outlets; attribute to police and do not present as an independent investigation or court finding."
     },
     {
       "id": "W5-S2",
-      "story": "W5",
       "publisher": "NewsTrack",
       "title": "Moradabad illegal firecracker factory busted; 83 kg gunpowder seized, two arrested",
       "published_at": "2026-11-04T16:02:00+05:30",
       "url": "https://newstrack.com/uttar-pradesh/moradabad/moradabad-illegal-firecracker-factory-busted-83-kg-gunpowder-seized-two-arrested-645825",
-      "supports": [
-        "83 kg 250 g gunpowder",
-        "27 sacks of fireworks",
-        "two arrests",
-        "forged brand packaging"
-      ],
-      "notes": "Report appears based on the same Nagphani police briefing as other local outlets; corroborates reported police action, not an independent investigation.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "83 kg 250 g gunpowder",
         "27 sacks of fireworks",
@@ -1202,23 +887,15 @@
         "forged brand packaging"
       ],
       "source_type": "news",
-      "verification_notes": "Report appears based on the same Nagphani police briefing as other local outlets; corroborates reported police action, not an independent investigation."
+      "verification_notes": "Police-origin account repeated by local outlets; attribute to police and do not present as an independent investigation or court finding."
     },
     {
       "id": "W5-S3",
-      "story": "W5",
       "publisher": "Royal Bulletin",
       "title": "Illegal firecracker unit raided in Moradabad; 83 kg gunpowder and 27 sacks recovered",
       "published_at": "2026-11-04T19:30:00+05:30",
       "url": "https://royalbulletin.in/uttar-pradesh/moradabad/illegal-firecracker-factory-busted-in-moradabad-83-kg-gunpowder-seized/article-251782",
-      "supports": [
-        "Nagphani/Gudiya Bagh location",
-        "83 kg 250 g gunpowder",
-        "27 sacks of fireworks",
-        "two arrests and FIR"
-      ],
-      "notes": "Same police-origin account appears across local coverage; use only as a cross-check of the police-reported facts.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "Nagphani/Gudiya Bagh location",
         "83 kg 250 g gunpowder",
@@ -1226,60 +903,43 @@
         "two arrests and FIR"
       ],
       "source_type": "news",
-      "verification_notes": "Same police-origin account appears across local coverage; use only as a cross-check of the police-reported facts."
+      "verification_notes": "Police-origin account repeated by local outlets; attribute to police and do not present as an independent investigation or court finding."
     },
     {
       "id": "W6-S1",
-      "story": "W6",
       "publisher": "Amar Ujala",
       "title": "Bijnor food-safety department explains an iodine test for starch in paneer",
       "published_at": "2026-11-05T00:54:00+05:30",
       "url": "https://www.amarujala.com/uttar-pradesh/bijnor/blue-color-will-testify-to-the-black-business-of-adulteration-in-cheese-bijnor-news-c-27-1-bij1027-194755-2026-11-05",
-      "supports": [
-        "Bijnor assistant food commissioner describes iodine test for starch in paneer",
-        "blue colour after the prescribed boil-cool-iodine procedure indicates starch"
-      ],
-      "notes": "This is a consumer-awareness explanation, not a raid or finding that a named seller's paneer is adulterated. Iodine test detects starch only.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "Bijnor assistant food commissioner describes iodine test for starch in paneer",
         "blue colour after the prescribed boil-cool-iodine procedure indicates starch"
       ],
       "source_type": "news",
-      "verification_notes": "This is a consumer-awareness explanation, not a raid or finding that a named seller's paneer is adulterated. Iodine test detects starch only."
+      "verification_notes": "Consumer-awareness report quoting Bijnor assistant food commissioner; described test is limited to starch."
     },
     {
       "id": "W6-S2",
-      "story": "W6",
       "publisher": "FSSAI Eat Right India",
       "title": "DART: Detect Adulteration with Rapid Test — starch in milk and milk products",
       "published_at": null,
       "url": "https://www.eatrightindia.gov.in/dart/",
-      "supports": [
-        "official household screening procedure for starch in milk and milk products including paneer",
-        "sample is boiled, cooled and iodine is added; blue colour indicates starch"
-      ],
-      "notes": "Primary official consumer-awareness method. It does not detect all forms of paneer adulteration; suspicious samples require laboratory testing.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "official household screening procedure for starch in milk and milk products including paneer",
         "sample is boiled, cooled and iodine is added; blue colour indicates starch"
       ],
       "source_type": "official",
-      "verification_notes": "Primary official consumer-awareness method. It does not detect all forms of paneer adulteration; suspicious samples require laboratory testing."
+      "verification_notes": "FSSAI DART household test: boil 2–3 ml sample with water, cool, add 2–3 drops iodine; blue indicates starch only."
     },
     {
       "id": "W6-S3",
-      "story": "W6",
       "publisher": "FSSAI",
       "title": "Manual of Methods for Testing Adulterants in Milk and Milk Products",
       "published_at": "2019-10-18",
       "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Manual_Methods_Testing_Adulterants_18_10_2019.pdf",
-      "supports": [
-        "official analytical methods include detection of added starch in milk and milk products"
-      ],
-      "notes": "Technical reference; use FSSAI DART for the simpler household-facing procedure.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "official analytical methods include detection of added starch in milk and milk products"
       ],
@@ -1288,19 +948,11 @@
     },
     {
       "id": "N9-S1",
-      "story": "N9",
       "publisher": "Commission for Air Quality Management (CAQM)",
       "title": "Order dated 30 October 2026: precautionary measures for Delhi-NCR, 5–20 November",
       "published_at": "2026-10-30",
       "url": "https://caqm.nic.in/FileUploadDomain/WebsiteDocument/GRAP/GRAP%20Orders/22e7a559-e78f-49b0-b3f6-3f4e93cfa80f.pdf",
-      "supports": [
-        "dust-generating demolition and outdoor construction restricted across NCR from 5 to 20 November, subject to listed exceptions",
-        "up to 50% physical attendance in state government and private offices in Delhi NCT, Gurugram, Faridabad, Sonipat, Ghaziabad and Gautam Buddha Nagar",
-        "remaining covered office staff to work from home",
-        "industrial establishments and essential services excepted where WFH arrangement is not feasible"
-      ],
-      "notes": "Primary signed CAQM order. Do not say every type of construction or every office is shut; preserve listed exemptions and narrower office geography.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "dust-generating demolition and outdoor construction restricted across NCR from 5 to 20 November, subject to listed exceptions",
         "up to 50% physical attendance in state government and private offices in Delhi NCT, Gurugram, Faridabad, Sonipat, Ghaziabad and Gautam Buddha Nagar",
@@ -1308,21 +960,15 @@
         "industrial establishments and essential services excepted where WFH arrangement is not feasible"
       ],
       "source_type": "official",
-      "verification_notes": "Primary signed CAQM order. Do not say every type of construction or every office is shut; preserve listed exemptions and narrower office geography."
+      "verification_notes": "Signed primary CAQM order checked 07:24 IST; construction exceptions and narrower office geography stated precisely."
     },
     {
       "id": "N9-S2",
-      "story": "N9",
       "publisher": "Press Information Bureau / Ministry of Environment, Forest and Climate Change",
       "title": "Environment Minister reviews CAQM pollution-control operations; construction and demolition pause announced",
       "published_at": "2026-10-30T16:54:00+05:30",
       "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2330449&lang=1&reg=3",
-      "supports": [
-        "government announcement of construction and demolition halt 5–20 November in NCR",
-        "CAQM PAVAN-I3C pollution monitoring context"
-      ],
-      "notes": "Primary government release; signed CAQM order supplies exact scope and exceptions.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "government announcement of construction and demolition halt 5–20 November in NCR",
         "CAQM PAVAN-I3C pollution monitoring context"
@@ -1332,18 +978,11 @@
     },
     {
       "id": "N9-S3",
-      "story": "N9",
       "publisher": "SCC Times",
       "title": "Delhi-NCR air pollution: CAQM curbs construction and caps office attendance at 50% from 5 to 20 November",
       "published_at": "2026-11-04",
       "url": "https://www.scconline.com/blog/post/2026/11/04/caqm-construction-curbs-50-percent-work-from-home-delhi-ncr-november-2026/",
-      "supports": [
-        "plain-language explanation of CAQM order",
-        "office attendance applies only to Delhi and five named districts",
-        "construction restriction covers all NCR with exceptions"
-      ],
-      "notes": "Legal-news explainer cross-checked against the signed CAQM order.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "plain-language explanation of CAQM order",
         "office attendance applies only to Delhi and five named districts",
@@ -1354,16 +993,10 @@
     },
     {
       "id": "N9-S4",
-      "story": "N9",
       "publisher": "The Times of India",
       "title": "Gurugram AQI at 322; air remains very poor for second day",
       "published_at": "2026-11-05T01:04:00+05:30",
       "url": "https://timesofindia.indiatimes.com/city/gurgaon/gurgaon-aqi-at-322-air-remains-very-poor-for-second-day/articleshow/135550774.cms",
-      "supports": [
-        "Gurugram AQI rose to 322 on Wednesday 4 November",
-        "HSPCB sealed 10 construction sites for dust-control violations"
-      ],
-      "notes": "The 322 reading is for Wednesday 4 November, not a 5 November live reading. Attribute it to the reported station data.",
       "accessed_at": "2026-11-05T07:00:53+05:30",
       "claims_supported": [
         "Gurugram AQI rose to 322 on Wednesday 4 November",
@@ -1374,61 +1007,40 @@
     },
     {
       "id": "N10-S1",
-      "story": "N10",
       "publisher": "The Indian Express",
       "title": "Supreme Court refers two-child norm for local body elections to larger bench",
       "published_at": "2026-11-05T02:44:00+05:30",
       "url": "https://indianexpress.com/article/legal-news/supreme-court-two-child-norm-local-body-elections-10950267/",
-      "supports": [
-        "Supreme Court referred constitutional challenge to larger bench",
-        "case concerns former Maharashtra sarpanch and Maharashtra Village Panchayats Act",
-        "bench questioned contemporary relevance and cited falling fertility rate"
-      ],
-      "notes": "The Court has not delivered a final judgment striking down all such laws. State provisions vary; do not imply the rule has automatically ended in UP.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "Supreme Court referred constitutional challenge to larger bench",
         "case concerns former Maharashtra sarpanch and Maharashtra Village Panchayats Act",
         "bench questioned contemporary relevance and cited falling fertility rate"
       ],
       "source_type": "news",
-      "verification_notes": "The Court has not delivered a final judgment striking down all such laws. State provisions vary; do not imply the rule has automatically ended in UP."
+      "verification_notes": "Maharashtra local-body law case referred to larger bench; no final nationwide or UP rule change."
     },
     {
       "id": "N10-S2",
-      "story": "N10",
       "publisher": "The Economic Times",
       "title": "SC questions relevance of two-child norm for contesting elections, cites changing demographic trends",
       "published_at": "2026-11-05T00:26:00+05:30",
       "url": "https://economictimes.indiatimes.com/news/india/sc-questions-relevance-of-two-child-norm-for-contesting-elections-cites-changing-demographic-trends/articleshow/135550083.cms",
-      "supports": [
-        "Supreme Court observations on two-child disqualification",
-        "larger-bench reference and Maharashtra case"
-      ],
-      "notes": "Independent newsroom cross-check; distinguish judicial observations from final ratio/operative judgment.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "Supreme Court observations on two-child disqualification",
         "larger-bench reference and Maharashtra case"
       ],
       "source_type": "news",
-      "verification_notes": "Independent newsroom cross-check; distinguish judicial observations from final ratio/operative judgment."
+      "verification_notes": "Maharashtra local-body law case referred to larger bench; no final nationwide or UP rule change."
     },
     {
       "id": "N11-S1",
-      "story": "N11",
       "publisher": "Reuters",
       "title": "India says PepsiCo, Monster marketed with 'energy drink' label to dupe consumers",
       "published_at": "2026-11-04T11:40:00Z",
       "url": "https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/",
-      "supports": [
-        "FSSAI court filing says India has no established formal energy-drink category",
-        "PepsiCo and Monster challenge the label restriction",
-        "existing labelled stock may be sold but new stock cannot use the descriptor under the interim position",
-        "Delhi High Court hearing expected later in the week"
-      ],
-      "notes": "The 5 Nov hearing had not occurred by this research cut-off. This is a labelling dispute, not a finding that products are poisonous or a blanket product ban.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "FSSAI court filing says India has no established formal energy-drink category",
         "PepsiCo and Monster challenge the label restriction",
@@ -1436,43 +1048,28 @@
         "Delhi High Court hearing expected later in the week"
       ],
       "source_type": "news",
-      "verification_notes": "The 5 Nov hearing had not occurred by this research cut-off. This is a labelling dispute, not a finding that products are poisonous or a blanket product ban."
+      "verification_notes": "Rechecked 07:24 IST; 5 Nov hearing listed but no new order located by cutoff. Earlier interim arrangement only."
     },
     {
       "id": "N11-S2",
-      "story": "N11",
       "publisher": "The Economic Times",
       "title": "Delhi High Court grants interim relief in PepsiCo, Monster and Reliance energy-drink label cases; next hearing listed for 5 November",
       "published_at": "2026-10-07T00:31:00+05:30",
       "url": "https://economictimes.indiatimes.com/industry/cons-products/food/relief-for-monster-energy-pepsico-in-fssai-energy-drink-case/articleshow/134744705.cms",
-      "supports": [
-        "court listed further hearing for 5 November",
-        "interim order scope for existing stock and new manufacturing/labels"
-      ],
-      "notes": "Prior hearing report; check for a new order after the 5 Nov hearing before using later updates.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "court listed further hearing for 5 November",
         "interim order scope for existing stock and new manufacturing/labels"
       ],
       "source_type": "news",
-      "verification_notes": "Prior hearing report; check for a new order after the 5 Nov hearing before using later updates."
+      "verification_notes": "Rechecked 07:24 IST; 5 Nov hearing listed but no new order located by cutoff. Earlier interim arrangement only."
     },
     {
       "id": "N6-S4",
-      "story": "N6",
       "publisher": "CERT-In / CSIRT-Fin",
       "title": "Advisory CIAD-2026-0058: Escalation of AI-driven attacks on BFSI entities by threat actor CRAFTY FALCON",
       "published_at": "2026-11-04",
       "url": "https://www.cert-in.org.in/s2cMainServlet?CACODE=CICA-2026-3651&pageid=PUBADV01",
-      "supports": [
-        "CERT-In named CRAFTY FALCON as an active AI-assisted financial threat actor",
-        "attacks invoke payment and disbursement APIs and target BFSI entities",
-        "micro-value test transfers such as ₹1 may precede larger unauthorised transfers",
-        "UAT/staging/testing environments, cloud services and payment APIs are among described attack paths",
-        "CERT-In advises 24x7 monitoring and full remediation"
-      ],
-      "notes": "Primary official advisory. It targets banks, NBFCs, fintechs, payment aggregators/providers and crypto exchanges; do not imply every retail bank customer is directly compromised.",
       "accessed_at": "2026-11-05T07:00:53+05:30",
       "claims_supported": [
         "CERT-In named CRAFTY FALCON as an active AI-assisted financial threat actor",
@@ -1486,16 +1083,10 @@
     },
     {
       "id": "N6-S5",
-      "story": "N6",
       "publisher": "Reuters",
       "title": "India cybercrime agency warns financial firms of AI-driven cyberattacks",
       "published_at": "2026-11-04",
       "url": "https://www.reuters.com/legal/government/india-cybercrime-agency-warns-financial-firms-ai-attacks-2026-11-04/",
-      "supports": [
-        "I4C warning to banks, NBFCs and fintechs about AI-accelerated attacks",
-        "payment/disbursement APIs and financial infrastructure risk"
-      ],
-      "notes": "Reuters provides broader financial-sector context; the named CRAFTY FALCON detail comes from the CERT-In advisory.",
       "accessed_at": "2026-11-05T07:00:53+05:30",
       "claims_supported": [
         "I4C warning to banks, NBFCs and fintechs about AI-accelerated attacks",
@@ -1506,17 +1097,10 @@
     },
     {
       "id": "N6-S6",
-      "story": "N6",
       "publisher": "The Economic Times / PTI",
       "title": "AI-based cyber threat executing unauthorised fund transfers from banking firms: CERT-In",
       "published_at": "2026-11-04T23:02:59+05:30",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-based-cyber-threat-executing-unauthorised-fund-transfers-from-banking-firms-cert-in/articleshow/135547661.cms",
-      "supports": [
-        "CRAFTY FALCON named by CERT-In",
-        "active campaign and use of publicly available AI offensive tools",
-        "financial-sector entities are the target"
-      ],
-      "notes": "PTI report cross-checked against the primary CERT-In advisory.",
       "accessed_at": "2026-11-05T07:00:53+05:30",
       "claims_supported": [
         "CRAFTY FALCON named by CERT-In",
@@ -1528,15 +1112,10 @@
     },
     {
       "id": "N3-S4",
-      "story": "N3",
       "publisher": "The Economic Times",
       "title": "Dhanteras 2026 date and shopping/puja timings",
       "published_at": "2026-11-03",
       "url": "https://m.economictimes.com/news/new-updates/dhanteras-2026-date-shubh-muhurat-to-buy-gold-silver-utensils-and-other-valuables/articleshow/135467191.cms",
-      "supports": [
-        "Dhanteras falls on Friday 6 November 2026"
-      ],
-      "notes": "Calendar/date context only; avoid prescriptive religious claims or treating buying as obligatory.",
       "accessed_at": "2026-11-05T07:00:53+05:30",
       "claims_supported": [
         "Dhanteras falls on Friday 6 November 2026"
@@ -1546,15 +1125,10 @@
     },
     {
       "id": "N3-S5",
-      "story": "N3",
       "publisher": "The Times of India",
       "title": "Dhanteras 2026: date confusion clarified; festival falls on 6 November",
       "published_at": "2026-11-03",
       "url": "https://timesofindia.indiatimes.com/religion/festivals/dhanteras-2026-is-dhanteras-on-november-5-or-6-check-the-exact-date-trayodashi-tithi-and-puja-muhurat/articleshow/135466957.cms",
-      "supports": [
-        "Dhanteras date is 6 November 2026, not 5 November"
-      ],
-      "notes": "Independent date cross-check; date may be followed by local panchang convention.",
       "accessed_at": "2026-11-05T07:00:53+05:30",
       "claims_supported": [
         "Dhanteras date is 6 November 2026, not 5 November"
@@ -1564,16 +1138,10 @@
     },
     {
       "id": "N7-S4",
-      "story": "N7",
       "publisher": "New Zealand Cricket archive",
       "title": "New Zealand v India, first ODI — official archive scorecard",
       "published_at": "2026-11-04",
       "url": "https://archive.blackcaps.co.nz/Scorecards/1455/1455466.html",
-      "supports": [
-        "India won by five wickets under DLS",
-        "New Zealand 185 all out; India 143/5 in 22.4 overs"
-      ],
-      "notes": "Official host-board archive scorecard cross-check.",
       "accessed_at": "2026-11-05T07:00:53+05:30",
       "claims_supported": [
         "India won by five wickets under DLS",
@@ -1584,39 +1152,25 @@
     },
     {
       "id": "N12-S1",
-      "story": "N12",
       "publisher": "The Indian Express",
       "title": "Ramayana Part 1 releases 5 November; live updates on advance bookings and release",
       "published_at": "2026-11-05T06:30:00+05:30",
       "url": "https://indianexpress.com/article/entertainment/bollywood/ramayana-part-1-movie-review-live-updates-ranbir-kapoor-yash-box-office-10950310/",
-      "supports": [
-        "theatrical release on 5 November 2026",
-        "advance booking total reported at ₹110.06 crore across six show dates as of 18:15 on 4 Nov",
-        "second instalment postponed to 2028 per producer statement"
-      ],
-      "notes": "Trade advance-booking figure includes blocked seats; it is not realised box-office revenue. Do not repeat analyst opening-day projections as fact.",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "theatrical release on 5 November 2026",
         "advance booking total reported at ₹110.06 crore across six show dates as of 18:15 on 4 Nov",
         "second instalment postponed to 2028 per producer statement"
       ],
       "source_type": "news",
-      "verification_notes": "Trade advance-booking figure includes blocked seats; it is not realised box-office revenue. Do not repeat analyst opening-day projections as fact."
+      "verification_notes": "Indian Express live update at 06:30 IST; advance-booking estimate includes blocked seats and is not realised revenue."
     },
     {
       "id": "N12-S2",
-      "story": "N12",
       "publisher": "Business Standard",
       "title": "Ramayana: Part 1 advance booking nears ₹100 crore ahead of 5 November release",
       "published_at": "2026-11-04T11:20:00+05:30",
       "url": "https://www.business-standard.com/entertainment/ramayana-advance-booking-nitesh-tiwari-film-nears-100-crore-in-india-nc-126110400549_1.html",
-      "supports": [
-        "₹96.56 crore five-day pre-sales including blocked seats as of 4 Nov late morning",
-        "₹77.31 crore excluding blocked seats",
-        "release date 5 November"
-      ],
-      "notes": "Earlier timestamp than the ₹110.06 crore live update; figures differ because booking cut-off differs.",
       "accessed_at": "2026-11-05T07:00:53+05:30",
       "claims_supported": [
         "₹96.56 crore five-day pre-sales including blocked seats as of 4 Nov late morning",
@@ -1628,21 +1182,16 @@
     },
     {
       "id": "N12-S3",
-      "story": "N12",
       "publisher": "Sacnilk",
       "title": "Ramayana Part 1 overall advance booking live tracker",
       "published_at": "2026-11-04",
       "url": "https://www.sacnilk.com/livetracker/ramayana_part_1_2026_Advance-Booking-Live",
-      "supports": [
-        "trade-tracker basis for India advance sales and blocked-seat distinction"
-      ],
-      "notes": "Trade tracker, not audited box-office receipts; use only as a time-stamped booking estimate.",
       "accessed_at": "2026-11-05T07:00:53+05:30",
       "claims_supported": [
         "trade-tracker basis for India advance sales and blocked-seat distinction"
       ],
-      "source_type": "trade_tracker",
-      "verification_notes": "Trade tracker, not audited box-office receipts; use only as a time-stamped booking estimate."
+      "source_type": "other",
+      "verification_notes": "Trade-tracker estimate only, not audited receipts; normalised to allowed source_type 'other'."
     }
   ],
   "claim_to_source": {
@@ -1661,9 +1210,6 @@
       "W3-S1",
       "W3-S2"
     ],
-    "W4": [
-      "W4-S1"
-    ],
     "W5": [
       "W5-S1",
       "W5-S2",
@@ -1678,11 +1224,14 @@
       "N1-S1",
       "N1-S2"
     ],
-    "N2": [
-      "N2-S1",
-      "N2-S2",
-      "N2-S3",
-      "N2-S4"
+    "N9": [
+      "N9-S1",
+      "N9-S2",
+      "N9-S3"
+    ],
+    "N10": [
+      "N10-S1",
+      "N10-S2"
     ],
     "N3": [
       "N3-S1",
@@ -1691,16 +1240,14 @@
       "N3-S4",
       "N3-S5"
     ],
-    "N4": [
-      "N4-S1",
-      "N4-S2",
-      "N4-S3"
-    ],
-    "N5": [
-      "N5-S1",
-      "N5-S2"
+    "N11": [
+      "N11-S1",
+      "N11-S2"
     ],
     "N6": [
+      "N6-S1",
+      "N6-S2",
+      "N6-S3",
       "N6-S4",
       "N6-S5",
       "N6-S6"
@@ -1711,36 +1258,17 @@
       "N7-S3",
       "N7-S4"
     ],
-    "N8": [
-      "N8-S1",
-      "N8-S2",
-      "N8-S3"
-    ],
-    "N9": [
-      "N9-S1",
-      "N9-S2",
-      "N9-S3",
-      "N9-S4"
-    ],
-    "N10": [
-      "N10-S1",
-      "N10-S2"
-    ],
-    "N11": [
-      "N11-S1",
-      "N11-S2"
-    ],
     "N12": [
       "N12-S1",
       "N12-S2",
       "N12-S3"
     ],
-    "WX_WEST_UP": [
+    "WXW": [
       "WX-S1",
       "WX-S2",
       "WX-S3"
     ],
-    "WX_INDIA": [
+    "WXI": [
       "WX-S4",
       "WX-S5",
       "WX-S6",
@@ -1748,24 +1276,15 @@
     ]
   },
   "verification_notes": [
-    "Active lineup for 07:00 IST contains five Western UP items plus local weather, with exactly 210 of 600 seconds (35%).",
-    "No recruitment, government-job or exam/admit-card story is in the active lineup.",
-    "W1 bus-fire cause is attributed to the Chief Fire Officer in local reports; no final engineering or forensic report was located.",
-    "W2 FSDA inspections/seizures/licence suspensions are not equivalent to final laboratory proof of adulteration.",
-    "W3 Sambhal ₹99,000 cyber-fraud item is a complainant's reported experience; it does not establish a Flipkart platform breach or money recovery.",
-    "W5 illegal firecracker-unit reports appear based on the same police briefing; attribute the seizure and arrests to police, not independent eyewitness confirmation.",
-    "W6 iodine test only screens for starch in the prescribed sample procedure; it does not detect all adulterants and is not a complete authenticity or safety test.",
-    "N1 CPI figures refer to September 2026; weak soil moisture is an outlook risk, not a guaranteed local price increase.",
-    "N3 Q3 gold demand is WGC data; the full-year 625–675 tonne range is a forecast. Dhanteras is 6 November 2026.",
-    "N6 CRAFTY FALCON is an active CERT-In advisory about BFSI infrastructure and payment/disbursement APIs; do not imply all personal bank accounts are compromised.",
-    "N9 CAQM order is preventive and valid 5–20 November. Construction restrictions cover NCR with exceptions; the 50% office-attendance clause has a narrower list of five districts plus Delhi.",
-    "N9 Gurugram AQI 322 was reported for Wednesday 4 November, not as a live 5 November reading.",
-    "N10 Supreme Court referred the two-child norm issue to a larger bench; it did not finally strike down all such laws or automatically change UP law.",
-    "N11 Delhi High Court's 5 November energy-drink label hearing had no outcome by the 07:00 IST research cut-off; no claim of a ban or poisoning finding.",
-    "N12 Ramayana advance-booking gross includes cinema-blocked seats; it is not realised ticket revenue or an opening-day collection.",
-    "IMD West UP warning page issued 5 November shows no warning 5–11 November. Moradabad and Bareilly city pages are dated 4 November; Sambhal city temperature was not found.",
-    "IMD subdivision warning pages do not display exact issue time. Do not invent one.",
-    "Bijnor Ayurvedic-store fire, Bijnor woman death after tea (post-mortem inconclusive), and single-source sugarcane-cart accident remain reserve/HOLD, not in the active lineup."
+    "Moradabad bus-fire cause is attributed to the Chief Fire Officer, not treated as a final forensic finding.",
+    "UP food-safety seizures and samples are not described as lab-confirmed adulteration.",
+    "Sambhal cyber-fraud is a complainant's report; no company breach or involvement is alleged.",
+    "Moradabad firecracker recovery is attributed to police; local reports share the same police briefing.",
+    "Bijnor iodine method detects starch only; it is not a universal adulteration test.",
+    "CAQM scope and exemptions checked against the signed 30 Oct order.",
+    "Two-child court matter is Maharashtra-specific and referred to a larger bench; no final judgment.",
+    "No new 5 Nov energy-drink hearing order located by 07:24 IST.",
+    "Ramayana booking figures are trade estimates and include blocked seats."
   ],
   "running_order_seconds": {
     "opening": 15,
@@ -1792,7 +1311,7 @@
     "total": 600,
     "western_up_share_percent": 35
   },
-  "source_access_note": "Research refreshed at 2026-11-05T07:00:53+05:30 (IST). Newly added sources carry this access timestamp; previously verified records retain their original access timestamps. The active running order supersedes earlier plans.",
+  "source_access_note": "Final pre-render refresh checked at 2026-11-05T07:24:00+05:30. Official CAQM signed order and current IMD subdivision warnings were reopened; Moradabad firecracker and Bijnor paneer reports were rechecked. No new 5 Nov energy-drink hearing order was located by this cutoff. Earlier records retain their original access timestamps.",
   "sources": [
     {
       "id": "W1-S1",
@@ -2200,12 +1719,12 @@
       "title": "Subdivision warnings — West Uttar Pradesh",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=25",
       "published_at": "2026-11-05",
-      "accessed_at": "2026-11-05T06:24:34+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "No warning for West Uttar Pradesh 5–11 November 2026"
       ],
       "source_type": "official",
-      "verification_notes": "Official RMC New Delhi page issued 5 Nov; West UP shows no warning 5–11 Nov."
+      "verification_notes": "Official RMC New Delhi page issued 5 Nov; no West UP warning 5–11 Nov."
     },
     {
       "id": "WX-S2",
@@ -2254,12 +1773,12 @@
       "title": "Subdivision warnings — Coastal Andhra and Rayalaseema",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2",
       "published_at": "2026-11-05",
-      "accessed_at": "2026-11-05T06:24:34+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "Thunderstorm/lightning/squall and strong surface winds 5–8 November"
       ],
       "source_type": "official",
-      "verification_notes": "Official page shows issue date, not issue time."
+      "verification_notes": "Official IMD subdivision warning page issued 5 Nov; issue time not displayed."
     },
     {
       "id": "WX-S6",
@@ -2267,12 +1786,12 @@
       "title": "Subdivision warnings — Kerala",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=4",
       "published_at": "2026-11-05",
-      "accessed_at": "2026-11-05T06:24:34+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "Thunderstorm 5 November; heavy rain and thunderstorm 6–8 November"
       ],
       "source_type": "official",
-      "verification_notes": "Official page shows issue date, not issue time."
+      "verification_notes": "Official IMD subdivision warning page issued 5 Nov; issue time not displayed."
     },
     {
       "id": "WX-S7",
@@ -2280,12 +1799,12 @@
       "title": "Subdivision warnings — Karnataka",
       "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13",
       "published_at": "2026-11-05",
-      "accessed_at": "2026-11-05T06:24:34+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "South Interior Karnataka heavy rain and thunderstorm 5–6 November"
       ],
       "source_type": "official",
-      "verification_notes": "Official page shows issue date, not issue time."
+      "verification_notes": "Official IMD subdivision warning page issued 5 Nov; issue time not displayed."
     },
     {
       "id": "N2-S1",
@@ -2372,7 +1891,7 @@
       "title": "Moradabad: illegal firecracker factory in a house in densely populated Nagphani; two brothers arrested",
       "published_at": "2026-11-05T00:52:00+05:30",
       "url": "https://www.amarujala.com/uttar-pradesh/moradabad/illegal-firecracker-factory-operating-in-a-house-in-a-densely-populated-area-two-brothers-arrested-moradabad-news-c-15-1-mbd1027-1031849-2026-11-05",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "police raid at a house in Gudiya Bagh, Nagphani",
         "two brothers arrested and FIR registered",
@@ -2380,7 +1899,7 @@
         "empty branded boxes and forged wrappers reportedly recovered"
       ],
       "source_type": "news",
-      "verification_notes": "Local report quotes police. Attribute all allegations and recoveries to police; no independent eyewitness or court finding located."
+      "verification_notes": "Police-origin account repeated by local outlets; attribute to police and do not present as an independent investigation or court finding."
     },
     {
       "id": "W5-S2",
@@ -2388,7 +1907,7 @@
       "title": "Moradabad illegal firecracker factory busted; 83 kg gunpowder seized, two arrested",
       "published_at": "2026-11-04T16:02:00+05:30",
       "url": "https://newstrack.com/uttar-pradesh/moradabad/moradabad-illegal-firecracker-factory-busted-83-kg-gunpowder-seized-two-arrested-645825",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "83 kg 250 g gunpowder",
         "27 sacks of fireworks",
@@ -2396,7 +1915,7 @@
         "forged brand packaging"
       ],
       "source_type": "news",
-      "verification_notes": "Report appears based on the same Nagphani police briefing as other local outlets; corroborates reported police action, not an independent investigation."
+      "verification_notes": "Police-origin account repeated by local outlets; attribute to police and do not present as an independent investigation or court finding."
     },
     {
       "id": "W5-S3",
@@ -2404,7 +1923,7 @@
       "title": "Illegal firecracker unit raided in Moradabad; 83 kg gunpowder and 27 sacks recovered",
       "published_at": "2026-11-04T19:30:00+05:30",
       "url": "https://royalbulletin.in/uttar-pradesh/moradabad/illegal-firecracker-factory-busted-in-moradabad-83-kg-gunpowder-seized/article-251782",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "Nagphani/Gudiya Bagh location",
         "83 kg 250 g gunpowder",
@@ -2412,7 +1931,7 @@
         "two arrests and FIR"
       ],
       "source_type": "news",
-      "verification_notes": "Same police-origin account appears across local coverage; use only as a cross-check of the police-reported facts."
+      "verification_notes": "Police-origin account repeated by local outlets; attribute to police and do not present as an independent investigation or court finding."
     },
     {
       "id": "W6-S1",
@@ -2420,13 +1939,13 @@
       "title": "Bijnor food-safety department explains an iodine test for starch in paneer",
       "published_at": "2026-11-05T00:54:00+05:30",
       "url": "https://www.amarujala.com/uttar-pradesh/bijnor/blue-color-will-testify-to-the-black-business-of-adulteration-in-cheese-bijnor-news-c-27-1-bij1027-194755-2026-11-05",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "Bijnor assistant food commissioner describes iodine test for starch in paneer",
         "blue colour after the prescribed boil-cool-iodine procedure indicates starch"
       ],
       "source_type": "news",
-      "verification_notes": "This is a consumer-awareness explanation, not a raid or finding that a named seller's paneer is adulterated. Iodine test detects starch only."
+      "verification_notes": "Consumer-awareness report quoting Bijnor assistant food commissioner; described test is limited to starch."
     },
     {
       "id": "W6-S2",
@@ -2434,13 +1953,13 @@
       "title": "DART: Detect Adulteration with Rapid Test — starch in milk and milk products",
       "published_at": null,
       "url": "https://www.eatrightindia.gov.in/dart/",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "official household screening procedure for starch in milk and milk products including paneer",
         "sample is boiled, cooled and iodine is added; blue colour indicates starch"
       ],
       "source_type": "official",
-      "verification_notes": "Primary official consumer-awareness method. It does not detect all forms of paneer adulteration; suspicious samples require laboratory testing."
+      "verification_notes": "FSSAI DART household test: boil 2–3 ml sample with water, cool, add 2–3 drops iodine; blue indicates starch only."
     },
     {
       "id": "W6-S3",
@@ -2448,7 +1967,7 @@
       "title": "Manual of Methods for Testing Adulterants in Milk and Milk Products",
       "published_at": "2019-10-18",
       "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Manual_Methods_Testing_Adulterants_18_10_2019.pdf",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "official analytical methods include detection of added starch in milk and milk products"
       ],
@@ -2461,7 +1980,7 @@
       "title": "Order dated 30 October 2026: precautionary measures for Delhi-NCR, 5–20 November",
       "published_at": "2026-10-30",
       "url": "https://caqm.nic.in/FileUploadDomain/WebsiteDocument/GRAP/GRAP%20Orders/22e7a559-e78f-49b0-b3f6-3f4e93cfa80f.pdf",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "dust-generating demolition and outdoor construction restricted across NCR from 5 to 20 November, subject to listed exceptions",
         "up to 50% physical attendance in state government and private offices in Delhi NCT, Gurugram, Faridabad, Sonipat, Ghaziabad and Gautam Buddha Nagar",
@@ -2469,7 +1988,7 @@
         "industrial establishments and essential services excepted where WFH arrangement is not feasible"
       ],
       "source_type": "official",
-      "verification_notes": "Primary signed CAQM order. Do not say every type of construction or every office is shut; preserve listed exemptions and narrower office geography."
+      "verification_notes": "Signed primary CAQM order checked 07:24 IST; construction exceptions and narrower office geography stated precisely."
     },
     {
       "id": "N9-S2",
@@ -2477,7 +1996,7 @@
       "title": "Environment Minister reviews CAQM pollution-control operations; construction and demolition pause announced",
       "published_at": "2026-10-30T16:54:00+05:30",
       "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2330449&lang=1&reg=3",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "government announcement of construction and demolition halt 5–20 November in NCR",
         "CAQM PAVAN-I3C pollution monitoring context"
@@ -2491,7 +2010,7 @@
       "title": "Delhi-NCR air pollution: CAQM curbs construction and caps office attendance at 50% from 5 to 20 November",
       "published_at": "2026-11-04",
       "url": "https://www.scconline.com/blog/post/2026/11/04/caqm-construction-curbs-50-percent-work-from-home-delhi-ncr-november-2026/",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "plain-language explanation of CAQM order",
         "office attendance applies only to Delhi and five named districts",
@@ -2520,14 +2039,14 @@
       "title": "Supreme Court refers two-child norm for local body elections to larger bench",
       "published_at": "2026-11-05T02:44:00+05:30",
       "url": "https://indianexpress.com/article/legal-news/supreme-court-two-child-norm-local-body-elections-10950267/",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "Supreme Court referred constitutional challenge to larger bench",
         "case concerns former Maharashtra sarpanch and Maharashtra Village Panchayats Act",
         "bench questioned contemporary relevance and cited falling fertility rate"
       ],
       "source_type": "news",
-      "verification_notes": "The Court has not delivered a final judgment striking down all such laws. State provisions vary; do not imply the rule has automatically ended in UP."
+      "verification_notes": "Maharashtra local-body law case referred to larger bench; no final nationwide or UP rule change."
     },
     {
       "id": "N10-S2",
@@ -2535,13 +2054,13 @@
       "title": "SC questions relevance of two-child norm for contesting elections, cites changing demographic trends",
       "published_at": "2026-11-05T00:26:00+05:30",
       "url": "https://economictimes.indiatimes.com/news/india/sc-questions-relevance-of-two-child-norm-for-contesting-elections-cites-changing-demographic-trends/articleshow/135550083.cms",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "Supreme Court observations on two-child disqualification",
         "larger-bench reference and Maharashtra case"
       ],
       "source_type": "news",
-      "verification_notes": "Independent newsroom cross-check; distinguish judicial observations from final ratio/operative judgment."
+      "verification_notes": "Maharashtra local-body law case referred to larger bench; no final nationwide or UP rule change."
     },
     {
       "id": "N11-S1",
@@ -2549,7 +2068,7 @@
       "title": "India says PepsiCo, Monster marketed with 'energy drink' label to dupe consumers",
       "published_at": "2026-11-04T11:40:00Z",
       "url": "https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "FSSAI court filing says India has no established formal energy-drink category",
         "PepsiCo and Monster challenge the label restriction",
@@ -2557,7 +2076,7 @@
         "Delhi High Court hearing expected later in the week"
       ],
       "source_type": "news",
-      "verification_notes": "The 5 Nov hearing had not occurred by this research cut-off. This is a labelling dispute, not a finding that products are poisonous or a blanket product ban."
+      "verification_notes": "Rechecked 07:24 IST; 5 Nov hearing listed but no new order located by cutoff. Earlier interim arrangement only."
     },
     {
       "id": "N11-S2",
@@ -2565,13 +2084,13 @@
       "title": "Delhi High Court grants interim relief in PepsiCo, Monster and Reliance energy-drink label cases; next hearing listed for 5 November",
       "published_at": "2026-10-07T00:31:00+05:30",
       "url": "https://economictimes.indiatimes.com/industry/cons-products/food/relief-for-monster-energy-pepsico-in-fssai-energy-drink-case/articleshow/134744705.cms",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "court listed further hearing for 5 November",
         "interim order scope for existing stock and new manufacturing/labels"
       ],
       "source_type": "news",
-      "verification_notes": "Prior hearing report; check for a new order after the 5 Nov hearing before using later updates."
+      "verification_notes": "Rechecked 07:24 IST; 5 Nov hearing listed but no new order located by cutoff. Earlier interim arrangement only."
     },
     {
       "id": "N6-S4",
@@ -2665,14 +2184,14 @@
       "title": "Ramayana Part 1 releases 5 November; live updates on advance bookings and release",
       "published_at": "2026-11-05T06:30:00+05:30",
       "url": "https://indianexpress.com/article/entertainment/bollywood/ramayana-part-1-movie-review-live-updates-ranbir-kapoor-yash-box-office-10950310/",
-      "accessed_at": "2026-11-05T07:00:53+05:30",
+      "accessed_at": "2026-11-05T07:24:00+05:30",
       "claims_supported": [
         "theatrical release on 5 November 2026",
         "advance booking total reported at ₹110.06 crore across six show dates as of 18:15 on 4 Nov",
         "second instalment postponed to 2028 per producer statement"
       ],
       "source_type": "news",
-      "verification_notes": "Trade advance-booking figure includes blocked seats; it is not realised box-office revenue. Do not repeat analyst opening-day projections as fact."
+      "verification_notes": "Indian Express live update at 06:30 IST; advance-booking estimate includes blocked seats and is not realised revenue."
     },
     {
       "id": "N12-S2",
@@ -2699,8 +2218,73 @@
       "claims_supported": [
         "trade-tracker basis for India advance sales and blocked-seat distinction"
       ],
-      "source_type": "trade_tracker",
-      "verification_notes": "Trade tracker, not audited box-office receipts; use only as a time-stamped booking estimate."
+      "source_type": "other",
+      "verification_notes": "Trade-tracker estimate only, not audited receipts; normalised to allowed source_type 'other'."
     }
+  ],
+  "source_ids": [
+    "W1-S1",
+    "W2-S1",
+    "W2-S2",
+    "W2-S3",
+    "W2-S4",
+    "W2-S5",
+    "W3-S1",
+    "W3-S2",
+    "W4-S1",
+    "N1-S1",
+    "N1-S2",
+    "N3-S1",
+    "N3-S2",
+    "N3-S3",
+    "N4-S1",
+    "N4-S2",
+    "N4-S3",
+    "N5-S1",
+    "N5-S2",
+    "N6-S1",
+    "N6-S2",
+    "N6-S3",
+    "N7-S1",
+    "N7-S2",
+    "N7-S3",
+    "N8-S1",
+    "N8-S2",
+    "N8-S3",
+    "WX-S1",
+    "WX-S2",
+    "WX-S3",
+    "WX-S4",
+    "WX-S5",
+    "WX-S6",
+    "WX-S7",
+    "N2-S1",
+    "N2-S2",
+    "N2-S3",
+    "N2-S4",
+    "W1-S2",
+    "W5-S1",
+    "W5-S2",
+    "W5-S3",
+    "W6-S1",
+    "W6-S2",
+    "W6-S3",
+    "N9-S1",
+    "N9-S2",
+    "N9-S3",
+    "N9-S4",
+    "N10-S1",
+    "N10-S2",
+    "N11-S1",
+    "N11-S2",
+    "N6-S4",
+    "N6-S5",
+    "N6-S6",
+    "N3-S4",
+    "N3-S5",
+    "N7-S4",
+    "N12-S1",
+    "N12-S2",
+    "N12-S3"
   ]
 }
