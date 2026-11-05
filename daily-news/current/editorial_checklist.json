@@ -1,102 +1,107 @@
 {
   "edition_date": "2026-11-05",
-  "checked_at": "2026-11-05T06:42:19+05:30",
-  "render_status": "RENDERING",
+  "checked_at": "2026-11-05T07:24:00+05:30",
+  "render_status": "READY_TO_DISPATCH",
   "publication_status": "HOLD_FOR_HUMAN_REVIEW",
   "overall_status": "HOLD",
   "editorial": {
     "audience_mix": "PASS",
-    "spoken_word_count": 1288,
+    "spoken_word_count": 1292,
     "target_duration_seconds": 600,
-    "scene_count": 16,
+    "scene_count": 17,
     "western_up_seconds": 210,
     "western_up_percent": 35,
     "other_seconds": 390,
     "other_percent": 65,
-    "jobs_exams": "No routine recruitment, job or exam notices included",
-    "script_originality": "PASS — original Hindi narration written from sourced facts with fresh structure and explanatory context",
+    "jobs_exams": "No routine recruitment, job, exam or admit-card notices included",
+    "script_originality": "PASS — original Hindi narration from verified facts",
     "sensationalism": "PASS — no rumours, communal/caste bait, misleading claims or graphic detail",
-    "selected_story_count": 12,
-    "story_mix": "Four Western UP stories plus 15 seconds of West UP weather occupy 210 seconds; eight wider India/UP stories, all-India weather, opening and closing occupy 390 seconds."
+    "selected_story_count": 13,
+    "story_mix": "Five Western UP stories plus 15 seconds West UP weather = 210 seconds; eight wider India/UP stories, national weather, opening and closing = 390 seconds."
   },
   "research_verification": [
     {
       "story_id": "W1",
       "status": "PASS_WITH_ATTRIBUTION",
-      "note": "Two local reports corroborate all 55 passengers escaped; tyre-burst cause is attributed to the Chief Fire Officer and not stated as a final technical finding."
+      "note": "Two local reports corroborate safe evacuation of 55 passengers; tyre-burst cause attributed to CFO, not final forensic finding."
     },
     {
       "story_id": "W2",
       "status": "PASS_WITH_LAB_RESULT_CAVEAT",
-      "note": "Statewide figures and local reports cross-checked; seizures and samples are not described as final lab-confirmed adulteration."
+      "note": "FSDA statewide figures and local inspection reports cross-checked; seizures and samples are not all lab-confirmed adulteration."
     },
     {
       "story_id": "W3",
-      "status": "PASS_WITH_ATTRIBUTION",
-      "note": "One local complaint report plus official cybercrime portal; no platform breach, recovery or perpetrator identity claimed."
+      "status": "PASS_AS_REPORTED_COMPLAINT",
+      "note": "Victim complaint only; no platform breach or company involvement claimed."
     },
     {
-      "story_id": "W4",
-      "status": "PASS_AS_TRADER_FORECAST",
-      "note": "₹100 crore is explicitly a trader estimate, not actual audited or official turnover."
+      "story_id": "W5",
+      "status": "PASS_WITH_POLICE_ATTRIBUTION",
+      "note": "83.25 kg gunpowder and 27 sacks are police-reported; local reports repeat the same police briefing."
+    },
+    {
+      "story_id": "W6",
+      "status": "PASS_LIMITED_HOUSEHOLD_TEST",
+      "note": "FSSAI DART boil-cool-iodine test detects starch only; not a universal adulteration or safety test."
     },
     {
       "story_id": "N1",
-      "status": "PASS_WITH_SCOPE_LIMIT",
-      "note": "September CPI figures are from official MoSPI/PIB release; weak soil moisture is framed as a supply risk, not guaranteed local price rise."
+      "status": "PASS_WITH_TIME_SCOPE",
+      "note": "September CPI figures are official; weak soil moisture framed as supply risk, not current local retail prices."
     },
     {
-      "story_id": "N2",
-      "status": "PASS_PRELIMINARY",
-      "note": "Damage figures are preliminary APSDMA estimates reported on 3–4 Nov; IMD's 4 Nov release confirms the system had weakened to a depression."
+      "story_id": "N9",
+      "status": "PASS_PRIMARY_ORDER",
+      "note": "Signed CAQM order checked at 07:24 IST; scope and exceptions stated precisely."
+    },
+    {
+      "story_id": "N10",
+      "status": "PASS_WITH_JURISDICTION_CAVEAT",
+      "note": "Maharashtra local-body case referred to larger bench; no final nationwide or UP rule change."
     },
     {
       "story_id": "N3",
       "status": "PASS_WITH_FORECAST_CAVEAT",
-      "note": "World Gold Council Q3 data and full-year outlook corroborated; full-year demand is a forecast."
+      "note": "WGC Q3 data corroborated; full-year figure is forecast; Dhanteras is 6 Nov."
     },
     {
-      "story_id": "N4",
-      "status": "PASS",
-      "note": "₹14,500 crore/92 GWh scheme supported by PMO/Cabinet release and independent reports; no immediate household bill reduction claimed."
-    },
-    {
-      "story_id": "N5",
-      "status": "PASS",
-      "note": "₹2,814 crore lithium/nickel processing support supported by PMO/Cabinet release and Reuters; planned plants are not represented as operating."
+      "story_id": "N11",
+      "status": "PASS_WITH_HEARING_CUTOFF",
+      "note": "No new 5 Nov hearing order located by 07:24 IST; no outcome predicted."
     },
     {
       "story_id": "N6",
-      "status": "PASS_WITH_SCOPE_LIMIT",
-      "note": "Advisory is directed at financial institutions; script does not claim every customer account is compromised."
+      "status": "PASS_OFFICIAL_ADVISORY_SCOPE",
+      "note": "CERT-In primary advisory targets financial institutions and APIs, not all retail accounts."
     },
     {
       "story_id": "N7",
-      "status": "PASS",
-      "note": "DLS result and key score/performance facts corroborated by Reuters, Hindustan Times and Times of India."
+      "status": "PASS_OFFICIAL_SCORECARD",
+      "note": "Result cross-checked with New Zealand Cricket archive scorecard and independent reports."
     },
     {
-      "story_id": "N8",
-      "status": "PASS_WITH_SCOPE_LIMIT",
-      "note": "Cabinet scheme extension and outlay supported by PMO and independent reports; 850 is planned capacity, not 850 newly operating courts."
+      "story_id": "N12",
+      "status": "PASS_WITH_TRADE_ESTIMATE_CAVEAT",
+      "note": "Release date confirmed; advance-booking estimate includes blocked seats and is not realised revenue."
     },
     {
       "story_id": "WEATHER",
-      "status": "PASS_WITH_CURRENT_IMD_REFRESH",
-      "note": "IMD West UP page issued 5 Nov shows no warning 5–11 Nov; Moradabad/Bareilly city forecasts dated 4 Nov; current South India warning pages issued 5 Nov checked at 06:24 IST."
+      "status": "PASS_CURRENT_IMD_REFRESH",
+      "note": "West UP page issued 5 Nov shows no warning 5–11 Nov; southern subdivision warnings reopened 07:24 IST."
     }
   ],
   "script_originality_review": {
     "status": "PASS",
-    "details": "1288-word original Hindi narration written from the source dossier; no article or broadcaster copy/translation."
+    "details": "1292-word original Hindi narration; no copied article, headline package or broadcaster script."
   },
   "sensitive_content_review": {
     "status": "PASS_WITH_HUMAN_REVIEW",
-    "details": "Moradabad bus fire is described without panic footage or injury imagery. Sambhal cyber-fraud is a complaint, not an accusation against the platform. Disaster figures are labelled preliminary."
+    "details": "Bus-fire and fireworks stories use no actual incident imagery or graphic detail; police allegations attributed; cyber complaint not turned into an accusation against a platform."
   },
   "rights_review": {
     "visual_assets": "PASS_METADATA",
-    "visual_asset_count": 11,
+    "visual_asset_count": 9,
     "asset_ids": [
       "IMG-WHEAT-UP",
       "IMG-BIKE-HIGHWAY",
@@ -104,21 +109,19 @@
       "IMG-LAPTOP-KEYBOARD",
       "IMG-DIWALI-MARKET",
       "IMG-MONSOON-CLOUDS",
+      "IMG-BANGALORE-COURT",
       "IMG-GOLD-JEWELLERY",
-      "IMG-SOLAR-PANELS-INDIA",
-      "IMG-KWINANA-LITHIUM",
-      "IMG-CRICKET-HYDERABAD",
-      "IMG-BANGALORE-COURT"
+      "IMG-CRICKET-HYDERABAD"
     ],
     "license_types": [
       "CC0 1.0",
       "CC BY-SA 4.0",
-      "SIL OFL 1.1",
-      "Apache-2.0"
+      "Apache-2.0",
+      "SIL OFL 1.1"
     ],
     "commercial_use_allowed": true,
     "adaptation_allowed": true,
-    "project_license": "CC BY-SA 4.0; individual third-party asset licences remain separately applicable",
+    "project_license": "CC BY-SA 4.0; individual asset licences remain separately applicable",
     "music": "None",
     "sound_effects": "None",
     "third_party_news_footage": "None",
@@ -131,105 +134,94 @@
   },
   "visual_audio_clearance": {
     "status": "PASS_WITH_HUMAN_REVIEW_PENDING",
-    "details": "All 11 used still images have exact source pages, creator/rights holder, licence version, commercial/adaptation permissions, attribution and evidence URLs. Every scene maps to a matching asset_licenses record and includes the licence URL. Every still carries a visible illustrative label. Kokoro hm_omega is recorded as Apache-2.0; no music or sound effects. Noto Sans Devanagari font source and SIL OFL 1.1 terms are recorded; font is installed from fonts-noto-core and not bundled as a standalone file."
+    "details": "Every used still maps to a complete licence record and exact licence URL; every scene has matching asset_id and visible illustrative label. No music or sound effects; Kokoro hm_omega and Noto Sans Devanagari terms recorded."
   },
   "technical_checks": {
-    "status": "PROVENANCE_PASSED_RENDER_IN_PROGRESS",
-    "details": "At 06:42 IST, run 41945950007 is still in progress at the FFmpeg/Kokoro render step. Setup, dependency installation, unit tests, manifest creation, provenance copy and provenance/editorial gate passed. No artifact is attached yet; output duration, 1920x1080 resolution, audio stream, SRT and final credits are therefore not independently verified. The run is pinned to 4722d5d22ee24b19f358660aa424b15eb193c945, before workflow commit c8c19a9d3d03ba347eb9517430b075f43cba0382 added the 'Include complete verified credits' step. After this run completes, a single follow-up render from current main is required to ensure the full committed credits.txt (including Noto Sans Devanagari attribution) is packaged. Do not dispatch a duplicate while this run is active."
+    "status": "PENDING_RENDER",
+    "details": "Prior run 41945950007 succeeded with one artifact but used the earlier 16-scene manifest and predates the complete-credits-copy workflow step. This new 17-scene manifest is ready for a fresh render from current main; current edition output, duration, 1920x1080, audio, SRT and full credits are not yet verified."
   },
   "required_human_review": [
-    "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, natural pacing, clipping and abrupt cuts.",
-    "Check the on-screen 'प्रतीकात्मक तस्वीर' label is visible and legible in every scene.",
-    "Review Moradabad bus-fire segment for sensitivity; no actual incident or passenger imagery is used.",
-    "Confirm Diwali market image is from Rani Bagh, New Delhi, not Sambhal.",
-    "Confirm gold image is Nepali-style jewellery, not a specific Indian retailer or price.",
-    "Confirm solar panel image illustrates generation/grid infrastructure, not the storage plant.",
-    "Confirm Kwinana lithium plant is in Western Australia, not India.",
-    "Confirm cricket stadium is Hyderabad, not Auckland or match footage.",
-    "Confirm court building is Bangalore City Civil Court, not a Fast Track Special Court.",
-    "Refresh IMD warnings and any breaking news before public release.",
-    "Confirm SRT sidecar and credits are included in any later upload."
+    "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, pacing, clipping and abrupt cuts.",
+    "Check 'प्रतीकात्मक तस्वीर' label visibility and legibility in every scene.",
+    "Review bus-fire and fireworks narration for sensitivity; only generic images are used.",
+    "Check Bijnor iodine test is described as starch-only, not a complete purity test.",
+    "Confirm Diwali Market image is Rani Bagh, Delhi, not Sambhal, Moradabad or a film visual.",
+    "Confirm court image is Bangalore City Civil Court, not Supreme Court or Maharashtra court.",
+    "Confirm gold image is Nepali-style jewellery, not a named Indian retailer or price.",
+    "Confirm Ramayana scene contains no film still, poster, actor likeness or movie artwork.",
+    "Refresh the Delhi High Court energy-drink hearing outcome before public release.",
+    "Refresh IMD warnings and breaking news immediately before public release.",
+    "Confirm SRT and complete credits.txt are included in the new artifact.",
+    "Review all allegations and estimates for accurate attribution."
   ],
-  "final_gate": "HOLD — current render is active and has no artifact. Even after render, do not publish until a follow-up run includes complete verified credits and human listening, visual-label review, current IMD refresh and final editorial approval are complete.",
+  "final_gate": "HOLD — draft rendering is allowed; publication remains blocked pending human audio/visual/editorial review, current court-hearing and IMD refresh, and final artifact/SRT/credits confirmation.",
   "final_approval_status": "HOLD",
   "youtube_publish_authorized": false,
   "artifact_verified": false,
   "workflow_tracking": {
-    "active_run_id": 41945950007,
-    "active_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41945950007",
-    "active_run_status": "in_progress",
-    "active_run_head_sha": "4722d5d22ee24b19f358660aa424b15eb193c945",
-    "latest_sources_schema_fix_commit": "1cd1691fddacaeb8c8f56f5f8c992984ca34f9b0",
-    "next_render_required_after_active_run": true,
-    "duplicate_dispatch_prohibited_while_active": true,
-    "latest_font_provenance_commit_pending": false,
-    "latest_source_schema_fix_commit": "1cd1691fddacaeb8c8f56f5f8c992984ca34f9b0",
-    "latest_asset_license_commit": "fa0b4e320b4e10b699d903b142b9c5b9ef0823bb",
-    "latest_credits_commit": "ab4fa96a07ddd5cec298c5f5f6feb1f8e5064ff7",
-    "latest_project_commit": "54cb9111e420d76fd2641ac3d8bfa06d187cf20c",
-    "previous_run_id": 41945512618,
-    "previous_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41945512618",
+    "previous_run_id": 41945950007,
+    "previous_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41945950007",
     "previous_run_status": "completed",
-    "previous_run_conclusion": "failure",
-    "previous_run_failure": "BLOCKED: source N4-S2 missing ['publisher']; render and output verification were skipped.",
-    "latest_manifest_commit_at_dispatch": "4722d5d22ee24b19f358660aa424b15eb193c945",
-    "workflow_credits_copy_commit": "c8c19a9d3d03ba347eb9517430b075f43cba0382",
-    "next_render_reason": "The active run uses a workflow revision before the complete credits copy step. Once it finishes, dispatch one follow-up render from current main; do not dispatch while active.",
-    "active_run_last_observed_step": "Render hybrid video",
-    "active_run_validation": "passed",
-    "last_qc_checked_at": "2026-11-05T06:42:19+05:30",
-    "active_run_artifact_count": 0,
-    "current_main_commit": "3cd306721e8c12bf25a9e70260301fe306336227"
+    "previous_run_conclusion": "success",
+    "previous_run_artifact_id": 13378818575,
+    "previous_run_artifact_count": 1,
+    "previous_run_head_sha": "4722d5d22ee24b19f358660aa424b15eb193c945",
+    "previous_run_note": "Previous 16-scene manifest, not this edition; it predates the complete credits-copy step.",
+    "current_manifest_commit": null,
+    "current_main_commit_before_dispatch": null,
+    "dispatch_status": "pending",
+    "active_run_id": null,
+    "active_run_url": null,
+    "active_run_status": null,
+    "duplicate_dispatch_check": "Latest prior render is completed; no active run observed at pre-dispatch check."
   },
   "pre_publication_checklist": [
     {
       "item": "Every important claim is sourced and checked",
-      "status": "PASS_WITH_CAVEATS",
-      "notes": "See research_verification and sources.json."
+      "status": "PASS_WITH_CAVEATS"
     },
     {
-      "item": "Script is independently written, not copied or mechanically paraphrased",
+      "item": "Script independently written, not copied or mechanically paraphrased",
       "status": "PASS"
     },
     {
-      "item": "Allegations, uncertainty and corrections are handled responsibly",
+      "item": "Allegations and uncertainty handled responsibly",
       "status": "PASS_WITH_ATTRIBUTION"
     },
     {
-      "item": "Every external visual/audio/font asset has verified rights and complete provenance",
+      "item": "Every external asset has verified rights and provenance",
       "status": "PASS_METADATA"
     },
     {
-      "item": "Required credits and attribution are included",
+      "item": "Required credits and attribution included",
+      "status": "PASS_METADATA"
+    },
+    {
+      "item": "Narration, fonts, music and sound effects cleared",
       "status": "PASS"
     },
     {
-      "item": "Narration, fonts, music and sound effects are cleared",
-      "status": "PASS",
-      "notes": "Kokoro Apache-2.0, Noto Sans Devanagari SIL OFL 1.1; no music or sound effects."
-    },
-    {
-      "item": "Weather/data use complies with provider terms and has issue time/validity/geographic scope",
+      "item": "Weather/data issue date, validity and geography recorded",
       "status": "PASS_WITH_CURRENT_IMD_REFRESH"
     },
     {
-      "item": "Synthetic/reconstructed visuals are labelled and not presented as actual event footage",
+      "item": "Illustrative visuals labelled",
       "status": "PASS"
     },
     {
-      "item": "Privacy, defamation, safety and sensitive-content checks",
+      "item": "Privacy, defamation, safety and sensitive-content review",
       "status": "PASS_WITH_HUMAN_REVIEW"
     },
     {
-      "item": "sources.json, asset_licenses.json, credits.txt and editorial_checklist.json are present",
+      "item": "All four provenance files present",
       "status": "PASS"
     },
     {
-      "item": "Video/audio/subtitles pass technical quality checks",
+      "item": "Video/audio/subtitles technically verified",
       "status": "PENDING_RENDER"
     },
     {
-      "item": "Required human review is complete",
+      "item": "Required human review complete",
       "status": "HOLD"
     },
     {
