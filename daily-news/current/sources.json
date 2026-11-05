@@ -71,17 +71,15 @@
       ]
     },
     {
-      "id": "W5",
+      "id": "W4",
       "region": "Western UP",
-      "place": "Moradabad",
-      "headline": "Police raid alleged illegal firecracker unit in Nagphani",
-      "status": "police_reported_recovery_same_police_briefing_across_local_outlets",
+      "place": "Sambhal",
+      "headline": "Traders expect about ₹100 crore Dhanteras business",
+      "status": "trader_forecast_not_actual_sales",
       "time_seconds": 45,
-      "claim": "Police say 83 kg 250 g gunpowder and 27 sacks of fireworks were recovered from a house in Gudiya Bagh; two brothers arrested and FIR registered. Reports share the same police-origin account.",
+      "claim": "Local traders told Amar Ujala they expect about ₹100 crore in Dhanteras sales across jewellery, vehicles, clothing and electronics; this is a forecast, not audited turnover.",
       "source_ids": [
-        "W5-S1",
-        "W5-S2",
-        "W5-S3"
+        "W4-S1"
       ]
     },
     {
@@ -871,7 +869,7 @@
         "empty branded boxes and forged wrappers reportedly recovered"
       ],
       "source_type": "news",
-      "verification_notes": "Police-origin account repeated by local outlets; attribute to police and do not present as an independent investigation or court finding."
+      "verification_notes": "Reserve story only; same police-origin account repeated across local outlets. Not selected in current edition because the caution file requires an original generic safety graphic."
     },
     {
       "id": "W5-S2",
@@ -887,7 +885,7 @@
         "forged brand packaging"
       ],
       "source_type": "news",
-      "verification_notes": "Police-origin account repeated by local outlets; attribute to police and do not present as an independent investigation or court finding."
+      "verification_notes": "Reserve story only; same police-origin account repeated across local outlets. Not selected in current edition because the caution file requires an original generic safety graphic."
     },
     {
       "id": "W5-S3",
@@ -903,7 +901,7 @@
         "two arrests and FIR"
       ],
       "source_type": "news",
-      "verification_notes": "Police-origin account repeated by local outlets; attribute to police and do not present as an independent investigation or court finding."
+      "verification_notes": "Reserve story only; same police-origin account repeated across local outlets. Not selected in current edition because the caution file requires an original generic safety graphic."
     },
     {
       "id": "W6-S1",
@@ -1210,11 +1208,6 @@
       "W3-S1",
       "W3-S2"
     ],
-    "W5": [
-      "W5-S1",
-      "W5-S2",
-      "W5-S3"
-    ],
     "W6": [
       "W6-S1",
       "W6-S2",
@@ -1273,6 +1266,9 @@
       "WX-S5",
       "WX-S6",
       "WX-S7"
+    ],
+    "W4": [
+      "W4-S1"
     ]
   },
   "verification_notes": [
@@ -1284,7 +1280,8 @@
     "CAQM scope and exemptions checked against the signed 30 Oct order.",
     "Two-child court matter is Maharashtra-specific and referred to a larger bench; no final judgment.",
     "No new 5 Nov energy-drink hearing order located by 07:24 IST.",
-    "Ramayana booking figures are trade estimates and include blocked seats."
+    "Ramayana booking figures are trade estimates and include blocked seats.",
+    "Moradabad firecracker raid was held out of this edition because CAUTION_README calls for an original safety graphic; it remains in the research reserve until that graphic is prepared. Sambhal Dhanteras ₹100 crore figure is a trader forecast, not actual sales."
   ],
   "running_order_seconds": {
     "opening": 15,
@@ -1292,7 +1289,7 @@
       "bus_fire": 40,
       "food_safety": 40,
       "sambhal_cyber_fraud": 40,
-      "moradabad_illegal_firecracker_unit": 45,
+      "sambhal_dhanteras_market_outlook": 45,
       "bijnor_paneer_starch_advisory": 30,
       "weather": 15
     },
@@ -1899,7 +1896,7 @@
         "empty branded boxes and forged wrappers reportedly recovered"
       ],
       "source_type": "news",
-      "verification_notes": "Police-origin account repeated by local outlets; attribute to police and do not present as an independent investigation or court finding."
+      "verification_notes": "Reserve story only; same police-origin account repeated across local outlets. Not selected in current edition because the caution file requires an original generic safety graphic."
     },
     {
       "id": "W5-S2",
@@ -1915,7 +1912,7 @@
         "forged brand packaging"
       ],
       "source_type": "news",
-      "verification_notes": "Police-origin account repeated by local outlets; attribute to police and do not present as an independent investigation or court finding."
+      "verification_notes": "Reserve story only; same police-origin account repeated across local outlets. Not selected in current edition because the caution file requires an original generic safety graphic."
     },
     {
       "id": "W5-S3",
@@ -1931,7 +1928,7 @@
         "two arrests and FIR"
       ],
       "source_type": "news",
-      "verification_notes": "Police-origin account repeated by local outlets; attribute to police and do not present as an independent investigation or court finding."
+      "verification_notes": "Reserve story only; same police-origin account repeated across local outlets. Not selected in current edition because the caution file requires an original generic safety graphic."
     },
     {
       "id": "W6-S1",
