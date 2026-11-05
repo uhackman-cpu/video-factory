@@ -1,7 +1,7 @@
 {
   "edition_date": "2026-11-05",
   "checked_at": "2026-11-05T06:24:34+05:30",
-  "render_status": "READY_FOR_DRAFT_DISPATCH_AFTER_SCHEMA_FIX",
+  "render_status": "IN_PROGRESS",
   "publication_status": "HOLD_FOR_HUMAN_REVIEW",
   "overall_status": "HOLD",
   "editorial": {
@@ -134,8 +134,8 @@
     "details": "All 11 used still images have exact source pages, creator/rights holder, licence version, commercial/adaptation permissions, attribution and evidence URLs. Every scene maps to a matching asset_licenses record and includes the licence URL. Every still carries a visible illustrative label. Kokoro hm_omega is recorded as Apache-2.0; no music or sound effects. Noto Sans Devanagari font source and SIL OFL 1.1 terms are recorded; font is installed from fonts-noto-core and not bundled as a standalone file."
   },
   "technical_checks": {
-    "status": "READY_FOR_RENDER_RETRY",
-    "details": "Previous run 41945512618 completed with failure at provenance validation: source N4-S2 was missing the required publisher field in the run's pinned snapshot. The source register was corrected on main (40/40 records now contain all required fields), font provenance was added, and all 16 scene-to-asset mappings were revalidated. A fresh run may now be dispatched. The video remains HOLD for human review and must not be published."
+    "status": "PENDING_RENDER",
+    "details": "Corrected render run 41945950007 has started from main commit 4722d5d22ee24b19f358660aa424b15eb193c945. Dependency installation is in progress; provenance validation, Kokoro narration, FFmpeg render, MP4 checks and artifact upload remain pending. The earlier run 41945512618 failed because its pinned source snapshot lacked publisher on N4-S2; that field and all other source records are now corrected."
   },
   "required_human_review": [
     "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, natural pacing, clipping and abrupt cuts.",
@@ -155,10 +155,10 @@
   "youtube_publish_authorized": false,
   "artifact_verified": false,
   "workflow_tracking": {
-    "active_run_id": null,
-    "active_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41945512618",
-    "active_run_status": "none",
-    "active_run_head_sha": "f007c6fd6aa6c6de98f02c1963930438b4789f5c",
+    "active_run_id": 41945950007,
+    "active_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41945950007",
+    "active_run_status": "in_progress",
+    "active_run_head_sha": "4722d5d22ee24b19f358660aa424b15eb193c945",
     "latest_sources_schema_fix_commit": "1cd1691fddacaeb8c8f56f5f8c992984ca34f9b0",
     "next_render_required_after_active_run": false,
     "duplicate_dispatch_prohibited_while_active": true,
@@ -171,7 +171,8 @@
     "previous_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41945512618",
     "previous_run_status": "completed",
     "previous_run_conclusion": "failure",
-    "previous_run_failure": "BLOCKED: source N4-S2 missing publisher in the pinned run snapshot"
+    "previous_run_failure": "BLOCKED: source N4-S2 missing publisher in the pinned run snapshot",
+    "latest_manifest_commit_at_dispatch": "4722d5d22ee24b19f358660aa424b15eb193c945"
   },
   "pre_publication_checklist": [
     {
