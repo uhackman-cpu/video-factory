@@ -1,7 +1,7 @@
 {
   "edition_date": "2026-11-05",
   "checked_at": "2026-11-05T06:24:34+05:30",
-  "render_status": "READY_FOR_DRAFT_DISPATCH",
+  "render_status": "IN_PROGRESS_SNAPSHOT_REQUIRES_SCHEMA_RETRY",
   "publication_status": "HOLD_FOR_HUMAN_REVIEW",
   "overall_status": "HOLD",
   "editorial": {
@@ -129,7 +129,7 @@
   },
   "technical_checks": {
     "status": "PENDING_RENDER",
-    "details": "Workflow must verify MP4 exists, duration 540–660 seconds, resolution 1920x1080, audible Hindi audio stream, SRT, credits and provenance artifact. No technical success is claimed before checking the new run."
+    "details": "Run 41945512618 started from commit f007c6fd6aa6c6de98f02c1963930438b4789f5c before the sources.json publisher-field correction. Its pinned snapshot may fail provenance validation. The corrected 40-source schema is now committed on main at 1cd1691fddacaeb8c8f56f5f8c992984ca34f9b0. Do not dispatch a duplicate while run 41945512618 remains active; after it completes, dispatch from the latest main commit and verify MP4, 1920x1080, 540–660 seconds, audio and SRT."
   },
   "required_human_review": [
     "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, natural pacing, clipping and abrupt cuts.",
@@ -147,5 +147,14 @@
   "final_gate": "HOLD — draft rendering is permitted, but do not publish or schedule until human listening, visual-label review, current legal/weather updates and final editorial approval are complete.",
   "final_approval_status": "HOLD",
   "youtube_publish_authorized": false,
-  "artifact_verified": false
+  "artifact_verified": false,
+  "workflow_tracking": {
+    "active_run_id": 41945512618,
+    "active_run_url": "https://github.com/uhackman-cpu/video-factory/actions/runs/41945512618",
+    "active_run_status": "in_progress",
+    "active_run_head_sha": "f007c6fd6aa6c6de98f02c1963930438b4789f5c",
+    "latest_sources_schema_fix_commit": "1cd1691fddacaeb8c8f56f5f8c992984ca34f9b0",
+    "next_render_required_after_active_run": true,
+    "duplicate_dispatch_prohibited_while_active": true
+  }
 }
