@@ -1,7 +1,7 @@
 {
   "edition_date": "2026-11-05",
   "checked_at": "2026-11-05T06:24:34+05:30",
-  "render_status": "IN_PROGRESS",
+  "render_status": "IN_PROGRESS_FULL_CREDITS_RERENDER_REQUIRED",
   "publication_status": "HOLD_FOR_HUMAN_REVIEW",
   "overall_status": "HOLD",
   "editorial": {
@@ -135,7 +135,7 @@
   },
   "technical_checks": {
     "status": "PENDING_RENDER",
-    "details": "Corrected render run 41945950007 has started from main commit 4722d5d22ee24b19f358660aa424b15eb193c945. Dependency installation is in progress; provenance validation, Kokoro narration, FFmpeg render, MP4 checks and artifact upload remain pending. The earlier run 41945512618 failed because its pinned source snapshot lacked publisher on N4-S2; that field and all other source records are now corrected."
+    "details": "Run 41945950007 is in progress from main commit 4722d5d22ee24b19f358660aa424b15eb193c945. Its source schema and asset/font provenance are valid. This run uses the workflow revision before the new 'Include complete verified credits' step; its generated credits may omit the Noto font line. Workflow fix is committed at c8c19a9d3d03ba347eb9517430b075f43cba0382. After run 41945950007 completes, dispatch one new run from latest main so the artifact includes the full committed credits.txt. No duplicate while active."
   },
   "required_human_review": [
     "Listen to the complete Kokoro hm_omega Hindi narration for pronunciation, intelligibility, natural pacing, clipping and abrupt cuts.",
@@ -160,7 +160,7 @@
     "active_run_status": "in_progress",
     "active_run_head_sha": "4722d5d22ee24b19f358660aa424b15eb193c945",
     "latest_sources_schema_fix_commit": "1cd1691fddacaeb8c8f56f5f8c992984ca34f9b0",
-    "next_render_required_after_active_run": false,
+    "next_render_required_after_active_run": true,
     "duplicate_dispatch_prohibited_while_active": true,
     "latest_font_provenance_commit_pending": false,
     "latest_source_schema_fix_commit": "1cd1691fddacaeb8c8f56f5f8c992984ca34f9b0",
@@ -172,7 +172,9 @@
     "previous_run_status": "completed",
     "previous_run_conclusion": "failure",
     "previous_run_failure": "BLOCKED: source N4-S2 missing publisher in the pinned run snapshot",
-    "latest_manifest_commit_at_dispatch": "4722d5d22ee24b19f358660aa424b15eb193c945"
+    "latest_manifest_commit_at_dispatch": "4722d5d22ee24b19f358660aa424b15eb193c945",
+    "workflow_credits_copy_commit": "c8c19a9d3d03ba347eb9517430b075f43cba0382",
+    "next_render_reason": "Current run is pinned to the pre-credits-copy workflow; next run must include complete verified credits.txt in the artifact."
   },
   "pre_publication_checklist": [
     {
